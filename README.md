@@ -1,8 +1,8 @@
 #  About
-------------
 This script is suitable for **Twitter(X)** and **Youtube**. You must install Tampermonkey in your browser before installing the script. If you have good suggestions, please leave a message. If the script is abnormal, please send an issue.
 
 **github: **[https://github.com/pparker1930/TwitterYoutubeHelper](https://github.com/pparker1930/TwitterYoutubeHelper "https://github.com/pparker1930/TwitterYoutubeHelper")
+
 **Issues: **[https://github.com/pparker1930/TwitterYoutubeHelper/issues](https://github.com/pparker1930/TwitterYoutubeHelper/issues "https://github.com/pparker1930/TwitterYoutubeHelper/issues")
 
 [![https://pparker1930.github.io/wow-good.gif](https://pparker1930.github.io/wow-good.gif "https://pparker1930.github.io/wow-good.gif")](https://pparker1930.github.io/wow-good.gif "https://pparker1930.github.io/wow-good.gif")
