@@ -21,3 +21,10 @@ This script is suitable for **Twitter(X)** and **Youtube**. You must install Tam
 2. Remove ads at the beginning of the video
 
 [![https://pparker1930.github.io/3.png](https://pparker1930.github.io/3.png "https://pparker1930.github.io/3.png")](https://pparker1930.github.io/3.png "https://pparker1930.github.io/3.png")
+
+**Tiktok：**
+1、Download watermark-free videos
+
+[![https://pparker1930.github.io/tiktok-1.png](https://pparker1930.github.io/tiktok-1.png "https://pparker1930.github.io/tiktok-1.png")](https://pparker1930.github.io/tiktok-1.png "https://pparker1930.github.io/tiktok-1.png")
+
+[![https://pparker1930.github.io/tiktok-2.png](https://pparker1930.github.io/tiktok-2.png "https://pparker1930.github.io/tiktok-2.png")](https://pparker1930.github.io/tiktok-2.png "https://pparker1930.github.io/tiktok-2.png")
