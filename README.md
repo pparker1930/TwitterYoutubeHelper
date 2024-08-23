@@ -23,7 +23,7 @@ This script is suitable for **Twitter(X)** and **Youtube**. You must install Tam
 [![https://pparker1930.github.io/3.png](https://pparker1930.github.io/3.png "https://pparker1930.github.io/3.png")](https://pparker1930.github.io/3.png "https://pparker1930.github.io/3.png")
 
 **Tiktok：**
-1、Download watermark-free videos
+1. Download watermark-free videos
 
 [![https://pparker1930.github.io/tiktok-1.png](https://pparker1930.github.io/tiktok-1.png "https://pparker1930.github.io/tiktok-1.png")](https://pparker1930.github.io/tiktok-1.png "https://pparker1930.github.io/tiktok-1.png")
 
