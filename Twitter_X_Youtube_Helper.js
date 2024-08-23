@@ -1,13 +1,31 @@
 // ==UserScript==
-// @name              Twitter(X)ᴾˡᵘˢ usage is enhanced; Youtubeᴾˡᵘˢ usage is enhanced
-// @name:ja           Twitter(X)ᴾˡᵘˢ は使用のために拡張されています。Youtubeᴾˡᵘˢ は使用のために拡張されています。
-// @name:fr           Twitter(X)ᴾˡᵘˢ est amélioré pour l'utilisation ; Youtubeᴾˡᵘˢ est amélioré pour l'utilisation.
-// @name:de           Twitter(X)ᴾˡᵘˢ ist für die Nutzung optimiert; Youtubeᴾˡᵘˢ ist für die Nutzung optimiert
-// @name:it           Twitter(X)ᴾˡᵘˢ è ottimizzato per l'uso; Youtubeᴾˡᵘˢ è ottimizzato per l'uso
-// @name:ko           Twitter(X)ᴾˡᵘˢ는 사용이 향상되고 Youtubeᴾˡᵘˢ는 사용이 향상됩니다.
-// @name:ru           Twitter(X)ᴾˡᵘˢ улучшен для использования; Youtubeᴾˡᵘˢ улучшен для использования;
-// @name:pt           Twitter(X)ᴾˡᵘˢ é aprimorado para uso; Youtubeᴾˡᵘˢ é aprimorado para uso;
-// @name:es           Twitter(X)ᴾˡᵘˢ está mejorado para su uso; Youtubeᴾˡᵘˢ está mejorado para su uso;
+// @name              Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:ja           Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:fr           Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:de           Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:it           Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:ko           Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:ru           Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:pt           Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:es           Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:th           Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:tr			  Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:nl			  Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:pl			  Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:hr           Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:fi           Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:el			  Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:hu           Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:id           Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:nb           Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:sk			  Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:sr           Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:bg           Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:cs           Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:vi           Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:ro           Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:sv           Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:uk           Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
 // @description       The script will provide some enhancements to Twitter(X) and Youtube, such as: adding time formatting display, high-definition image display, image and video downloading, etc. to Twitter(X), adding video downloading, removing ads, etc. to Youtube. For more function introductions, please check the description~
 // @description:ja    このスクリプトは、Twitter (X) と Youtube にいくつかの拡張機能を提供します。たとえば、時刻の書式設定表示の追加、高解像度の画像表示、Twitter (X) の画像とビデオのダウンロード、Youtube のビデオダウンロードの追加、広告の削除などです。 。詳しい機能紹介については説明をご確認ください~
 // @description:fr    Le script fournira des fonctions améliorées pour Twitter (X) et Youtube, telles que : l'ajout de l'affichage du formatage de l'heure, l'affichage d'images haute définition, le téléchargement d'images et de vidéos pour Twitter (X), l'ajout de téléchargement de vidéos, la suppression de publicités, etc. pour Youtube . Veuillez vérifier la description pour plus d'introduction aux fonctions ~
@@ -17,16 +35,34 @@
 // @description:es    El script proporcionará algunas funciones mejoradas para Twitter (X) y Youtube, tales como: agregar visualización de formato de hora, visualización de imágenes de alta definición, descarga de imágenes y videos para Twitter (X), agregar descarga de videos, eliminar anuncios, etc. para Youtube. . Consulte la descripción para obtener más información sobre la función ~
 // @description:ru    Скрипт предоставит некоторые расширенные функции для Twitter (X) и Youtube, такие как: добавление отображения форматирования времени, отображение изображений высокой четкости, загрузка изображений и видео для Twitter (X), добавление загрузки видео, удаление рекламы и т. д. для Youtube. . Пожалуйста, проверьте описание для получения дополнительной информации о функциях ~
 // @description:pt    O script fornecerá algumas funções aprimoradas para Twitter (X) e Youtube, como: adição de exibição de formatação de hora, exibição de imagens em alta definição, download de imagens e vídeos para Twitter (X), adição de download de vídeos, remoção de anúncios, etc. . Por favor, verifique a descrição para mais introdução à função ~
+// @description:th    สคริปต์นี้จะมอบฟังก์ชันที่ได้รับการปรับปรุงบางอย่างสำหรับ Twitter (X) และ Youtube เช่น: การเพิ่มการแสดงการจัดรูปแบบเวลา การแสดงภาพความละเอียดสูง การดาวน์โหลดรูปภาพและวิดีโอสำหรับ Twitter (X) เพิ่มการดาวน์โหลดวิดีโอ การลบโฆษณา ฯลฯ สำหรับ Youtube . โปรดตรวจสอบคำอธิบายสำหรับการแนะนำฟังก์ชันเพิ่มเติม~
+// @description:tr    Komut dosyası, Twitter (X) ve Youtube için bazı gelişmiş işlevler sağlayacaktır; örneğin: zaman biçimlendirme ekranı ekleme, yüksek çözünürlüklü resim görüntüleme, Twitter (X) için resim ve video indirme, Youtube için video indirme ekleme, reklamları kaldırma vb. . Daha fazla fonksiyon tanıtımı için lütfen açıklamayı kontrol edin~
+// @description:nl    Het script biedt een aantal verbeterde functies voor Twitter (X) en YouTube, zoals: het toevoegen van tijdopmaakweergave, high-definition beeldweergave, het downloaden van foto's en video's voor Twitter (X), het toevoegen van videodownloads, het verwijderen van advertenties, enz. voor YouTube . Controleer de beschrijving voor meer functie-introductie~
+// @description:pl    Skrypt zapewni ulepszone funkcje dla Twittera (X) i YouTube, takie jak: dodanie wyświetlania formatowania czasu, wyświetlanie obrazu w wysokiej rozdzielczości, pobieranie zdjęć i wideo dla Twittera (X), dodawanie pobierania wideo, usuwanie reklam itp. dla Youtube . Proszę sprawdzić opis, aby uzyskać więcej informacji na temat funkcji~
+// @description:hr    Skripta će omogućiti neke poboljšane funkcije za Twitter (X) i Youtube, kao što su: dodavanje prikaza formatiranja vremena, prikaz slike visoke razlučivosti, preuzimanje slika i videa za Twitter (X), dodavanje preuzimanja videa, uklanjanje reklama itd. za Youtube . Molimo provjerite opis za više predstavljanja funkcija~
+// @description:fi    Käsikirjoitus tarjoaa joitain parannettuja toimintoja Twitterille (X) ja Youtubelle, kuten: aikamuotoilunäytön lisääminen, teräväpiirtokuvanäyttö, kuvien ja videoiden lataaminen Twitteriin (X), videolatauksen lisääminen, mainosten poistaminen jne. Youtubessa . Katso kuvauksesta lisätietoja toimintojen esittelystä~
+// @description:el    Το σενάριο θα παρέχει ορισμένες βελτιωμένες λειτουργίες για το Twitter (X) και το Youtube, όπως: προσθήκη οθόνης μορφοποίησης ώρας, προβολή εικόνων υψηλής ευκρίνειας, λήψη εικόνων και βίντεο για το Twitter (X), προσθήκη λήψης βίντεο, αφαίρεση διαφημίσεων κ.λπ. για το YouTube . Ελέγξτε την περιγραφή για περισσότερη εισαγωγή της λειτουργίας~
+// @description:hu    A szkript néhány továbbfejlesztett funkciót biztosít a Twitter (X) és a Youtube számára, mint például: időformátum-megjelenítés hozzáadása, nagy felbontású képmegjelenítés, kép- és videóletöltés a Twitterhez (X), videóletöltés hozzáadása, hirdetések eltávolítása stb. . Kérjük, tekintse meg a leírást a további funkciók bemutatásához~
+// @description:id    Script akan menyediakan beberapa fungsi yang ditingkatkan untuk Twitter (X) dan Youtube, seperti: menambahkan tampilan pemformatan waktu, tampilan gambar definisi tinggi, pengunduhan gambar dan video untuk Twitter (X), menambahkan pengunduhan video, menghapus iklan, dll. untuk Youtube . Silakan periksa deskripsi untuk pengenalan fungsi lebih lanjut~
+// @description:nb    Skriptet vil gi noen forbedrede funksjoner for Twitter (X) og Youtube, for eksempel: legge til tidsformateringsvisning, høyoppløselig bildevisning, bilde- og videonedlasting for Twitter (X), legge til videonedlasting, fjerne annonser osv. for Youtube . Vennligst sjekk beskrivelsen for mer funksjonsintroduksjon~
+// @description:ro    Scriptul va oferi câteva funcții îmbunătățite pentru Twitter (X) și Youtube, cum ar fi: adăugarea de afișare cu formatare a timpului, afișarea imaginilor de înaltă definiție, descărcarea de imagini și videoclipuri pentru Twitter (X), adăugarea de descărcare video, eliminarea reclamelor etc. pentru Youtube . Vă rugăm să verificați descrierea pentru mai multe introducere a funcției~
+// @description:sk    Skript poskytne niektoré vylepšené funkcie pre Twitter (X) a Youtube, ako napríklad: pridanie zobrazenia formátovania času, zobrazenie obrázkov vo vysokom rozlíšení, sťahovanie obrázkov a videí pre Twitter (X), pridanie sťahovania videa, odstránenie reklám atď. pre Youtube . Pozrite si popis pre ďalšie predstavenie funkcií~
+// @description:sr    Скрипта ће обезбедити неке побољшане функције за Твиттер (Кс) и Иоутубе, као што су: додавање приказа форматирања времена, приказ слике високе дефиниције, преузимање слика и видео записа за Твиттер (Кс), додавање преузимања видео записа, уклањање реклама, итд. за Иоутубе . Молимо погледајте опис за више упознавања са функцијама~
+// @description:sv    Skriptet kommer att tillhandahålla några förbättrade funktioner för Twitter (X) och Youtube, såsom: lägga till tidsformateringsvisning, högupplöst bildvisning, bild- och videonedladdning för Twitter (X), lägga till videonedladdning, ta bort annonser etc. för Youtube . Kontrollera beskrivningen för mer funktionsintroduktion~
+// @description:uk    Сценарій забезпечить деякі розширені функції для Twitter (X) і Youtube, такі як: додавання дисплея форматування часу, відображення зображення високої чіткості, завантаження зображень і відео для Twitter (X), додавання завантаження відео, видалення реклами тощо для Youtube . Будь ласка, перегляньте опис, щоб дізнатися більше про функції ~
+// @description:vi    Kịch bản sẽ cung cấp một số chức năng nâng cao cho Twitter (X) và Youtube như: thêm hiển thị định dạng thời gian, hiển thị hình ảnh độ phân giải cao, tải ảnh và video cho Twitter (X), thêm tải video, xóa quảng cáo, v.v. cho Youtube . Vui lòng kiểm tra mô tả để biết thêm giới thiệu chức năng ~
+// @description:bg    Скриптът ще предостави някои подобрени функции за Twitter (X) и Youtube, като например: добавяне на дисплей за форматиране на времето, показване на картина с висока разделителна способност, изтегляне на картина и видео за Twitter (X), добавяне на изтегляне на видео, премахване на реклами и др. за Youtube . Моля, проверете описанието за повече представяне на функцията ~
+// @description:cs    Skript poskytne některé vylepšené funkce pro Twitter (X) a Youtube, jako je: přidání zobrazení formátování času, zobrazení obrázků ve vysokém rozlišení, stahování obrázků a videí pro Twitter (X), přidání stahování videa, odstranění reklam atd. pro Youtube . Další informace o funkcích naleznete v popisu~
 // @icon              data:image/png;base64,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
 // @namespace         PeterParker_X_Y_NameScope
-// @version           1.0.2
+// @version           1.0.5
 // @author            PeterParker
-// @match             *://x.com/*
-// @match             *://twitter.com/*
-// @match             *://mobile.x.com/*
-// @match             *://www.aliexpress.com/*
-// @match             *://www.youtube.com/watch**
-// @match             *://www.youtube.com/shorts**
+// @include           *://x.com/*
+// @include           *://twitter.com/*
+// @include           *://mobile.x.com/*
+// @include           *://www.youtube.com/watch**
+// @include           *://www.youtube.com/shorts**
+// @include           *://www.tiktok.com/@*
 // @exclude           *://accounts.youtube.com/*
 // @exclude           *://www.youtube.com/live_chat_replay*
 // @exclude           *://www.youtube.com/persist_identity*
@@ -40,6 +76,7 @@
 // @grant             GM_xmlhttpRequest
 // @grant             GM_download
 // @connect           api.cobalt.tools
+// @connect           tikdownloader.io
 // @license           MIT
 // @charset		      UTF-8
 // @run-at            document-idle
@@ -72,7 +109,7 @@
 	
 	const host = window.location.host;
 	const lang = (navigator.language.indexOf("-")!=-1 ? navigator.language.split("-")[0] : navigator.language).toLocaleLowerCase();
-
+ 
 	const language={
 		"zh":{
 			"dateFormat":{
@@ -289,7 +326,7 @@
 				el.style.color=color;
 			}
 			el.setAttribute("class", "toast-style-kk998y");
-			el.innerHTML = params.message;
+			el.innerText = params.message;
 			el.style.zIndex=999999999;
 			if(position==="center-bottom"){
 				el.style.bottom = defaultMarginValue+"px"; 
@@ -418,16 +455,46 @@
 	}
 	
 	const Tools = {
-		waitForElement:function(selector){
-			return new Promise((resolve) => {
-				if (document.querySelector(selector)) return resolve(document.querySelector(selector));
-				const observer = new MutationObserver(() => {
-					if (document.querySelector(selector)) {
-						observer.disconnect();
-						resolve(document.querySelector(selector));
+		platform:function(){
+			const isX = /twitter|x\.com$/.test(host);
+			const isAliexpress = /([a-zA-Z0-9]+\.)?aliexpress\.[a-zA-Z]+/.test(host);
+			const isYoutube = /youtube\.com$/.test(host);
+			const isAmazon = /www\.amazon\.com$/.test(host);
+			const isEbay = /www\.ebay\.[a-zA-Z]+/.test(host);
+			const isTiktok = /www\.tiktok\.com/.test(host);
+
+			if(isX) return "x";
+			if(isAliexpress) return "aliexpress";
+			if(isYoutube) return "youtube";
+			if(isAmazon) return "amazon";
+			if(isEbay) return "ebay";
+			if(isTiktok) return "tiktok";
+			return "unknown";
+		},
+		waitForElementByInterval: function(selector, target=document.body, allowEmpty = true, delay=10, maxDelay=10 * 1000){
+			return new Promise((resolve,reject) =>{
+				let totalDelay = 0;
+				
+				let element = target.querySelector(selector);
+				let result = allowEmpty ? !!element : (!!element && !!element.innerHTML);
+				if(result){
+					resolve(element);
+				}
+				
+				const elementInterval = setInterval(()=>{
+					if(totalDelay >= maxDelay){
+						clearInterval(elementInterval);
+						resolve(null);
 					}
-				});
-				observer.observe(document.body, { childList: true, subtree: true });
+					element = target.querySelector(selector);
+					result = allowEmpty ? !!element : (!!element && !!element.innerHTML);
+					if(result){
+						clearInterval(elementInterval);
+						resolve(element);
+					}else{
+						totalDelay += delay;
+					}
+				}, delay);
 			});
 		},
 		randomNumber: function(){
@@ -435,6 +502,38 @@
 		},
 		elementInContainer:function(container, element) {
 		    return container.contains(element);
+		},
+		openInTab:function(url, options={"active":true, "insert":true, "setParent":true}){
+			if (typeof GM_openInTab === "function") {
+				GM_openInTab(url, options);
+			} else {
+				GM.openInTab(url, options);
+			}
+		},
+		request:function(mothed, url, param, headers={"Content-Type": "application/json;charset=UTF-8"}){
+			return new Promise(function(resolve, reject){
+				GM_xmlhttpRequest({
+					url: url,
+					method: mothed,
+					data:param,
+					headers:headers,
+					onload: function(response) {
+						const status = response.status;
+						if(status==200 || status=='200'){
+							var responseText = response.responseText;
+							resolve({"code":"success", "result":responseText});
+						}else{
+							resolve({"code":"error", "result":null});
+						}
+					},
+					onabort:function(){
+						resolve({"code":"error", "result":null});
+					},
+					onerror:function(){
+						resolve({"code":"error", "result":null});
+					}
+				});
+			})
 		}
 	}
 	
@@ -448,7 +547,7 @@
 	 * 
 	 * Author：@PeterParker & @AeamaN & @libraplanet
 	 */
-	const XDateFormat={
+	const XDateFormat = {
 		df:function(date, f){
 			const WEEK = selectLanguage().dateFormat.week;
 
@@ -710,12 +809,12 @@
 			return o.replace(/(YY(YY)?|MMM?|DD|hh|mm|ss|h2|ap)/g, n => ('0' + v[n]).substr(-n.length));
 		},
 		detect: function(node) {
-		    let article = node.tagName == 'ARTICLE' && node || node.tagName == 'DIV' && (node.querySelector('article') || node.closest('article'));
-		    if (article){
+			let article = node.tagName == 'ARTICLE' && node || node.tagName == 'DIV' && (node.querySelector('article') || node.closest('article'));
+			if (article){
 				this.addButtonTo(article);
 			}
-		    let listitems = node.tagName == 'LI' && node.getAttribute('role') == 'listitem' && [node] || node.tagName == 'DIV' && node.querySelectorAll('li[role="listitem"]');
-		    if (listitems){
+			let listitems = node.tagName == 'LI' && node.getAttribute('role') == 'listitem' && [node] || node.tagName == 'DIV' && node.querySelectorAll('li[role="listitem"]');
+			if (listitems){
 				this.addButtonToMedia(listitems);
 			}
 		},
@@ -739,11 +838,11 @@
 				let btn_down = btn_share.cloneNode(true);
 				btn_down.querySelector('button').removeAttribute('disabled');
 				if (this.is_tweetdeck) {
-				    btn_down.firstElementChild.innerHTML = '<svg viewBox="0 0 24 24" style="width: 18px; height: 18px;">' + this.svg + '</svg>';
-				    btn_down.firstElementChild.removeAttribute('rel');
-				    btn_down.classList.replace("pull-left", "pull-right");
+					btn_down.firstElementChild.innerHTML = '<svg viewBox="0 0 24 24" style="width: 18px; height: 18px;">' + this.svg + '</svg>';
+					btn_down.firstElementChild.removeAttribute('rel');
+					btn_down.classList.replace("pull-left", "pull-right");
 				} else {
-				    btn_down.querySelector('svg').innerHTML = this.svg;
+					btn_down.querySelector('svg').innerHTML = this.svg;
 				}
 				let is_exist = this.history.indexOf(status_id) >= 0;
 				this.status(btn_down, 'tmd-down');
@@ -753,8 +852,8 @@
 					this.click(btn_down, status_id, is_exist)
 				}
 				if(this.show_sensitive) {
-				    let btn_show = article.querySelector('div[aria-labelledby] div[role="button"][tabindex="0"]:not([data-testid]) > div[dir] > span > span');
-				    if (btn_show){
+					let btn_show = article.querySelector('div[aria-labelledby] div[role="button"][tabindex="0"]:not([data-testid]) > div[dir] > span > span');
+					if (btn_show){
 						btn_show.click();
 					}
 				}
@@ -766,32 +865,32 @@
 				let btn_group = article.querySelector('div[role="group"]:last-of-type');
 				let btn_share = Array.from(btn_group.querySelectorAll(':scope>div>div')).pop().parentNode;
 				imgs.forEach(img =>{
-				    let index = img.href.split('/status/').pop().split('/').pop();
-				    let is_exist = this.history.indexOf(status_id) >= 0;
-				    let btn_down = document.createElement('div');
-				    btn_down.innerHTML = '<div><div><svg viewBox="0 0 24 24" style="width: 18px; height: 18px;">' + this.svg + '</svg></div></div>';
-				    btn_down.classList.add('tmd-down', 'tmd-img');
-				    this.status(btn_down, 'download');
-				    img.parentNode.appendChild(btn_down);
-				    btn_down.onclick= (e) =>{
-				        e.preventDefault();
-				        this.click(btn_down, status_id, is_exist, index);
-				    }
+					let index = img.href.split('/status/').pop().split('/').pop();
+					let is_exist = this.history.indexOf(status_id) >= 0;
+					let btn_down = document.createElement('div');
+					btn_down.innerHTML = '<div><div><svg viewBox="0 0 24 24" style="width: 18px; height: 18px;">' + this.svg + '</svg></div></div>';
+					btn_down.classList.add('tmd-down', 'tmd-img');
+					this.status(btn_down, 'download');
+					img.parentNode.appendChild(btn_down);
+					btn_down.onclick= (e) =>{
+						e.preventDefault();
+						this.click(btn_down, status_id, is_exist, index);
+					}
 				});
 			}
 		},
 		addButtonToMedia: function(listitems) {
 			listitems.forEach(li =>{
-			    if (li.dataset.detected) return;
-			    li.dataset.detected = 'true';
-			    let status_id = li.querySelector('a[href*="/status/"]').href.split('/status/').pop().split('/').shift();
-			    let is_exist = this.history.indexOf(status_id) >= 0;
-			    let btn_down = document.createElement('div');
-			    btn_down.innerHTML = '<div><div><svg viewBox="0 0 24 24" style="width: 18px; height: 18px;">' + this.svg + '</svg></div></div>';
-			    btn_down.classList.add('tmd-down', 'tmd-media');
-			    this.status(btn_down, is_exist ? 'completed': 'download', is_exist ? selectLanguage().download.completed: selectLanguage().download.download);
-			    li.appendChild(btn_down);
-			    btn_down.onclick= () =>{
+				if (li.dataset.detected) return;
+				li.dataset.detected = 'true';
+				let status_id = li.querySelector('a[href*="/status/"]').href.split('/status/').pop().split('/').shift();
+				let is_exist = this.history.indexOf(status_id) >= 0;
+				let btn_down = document.createElement('div');
+				btn_down.innerHTML = '<div><div><svg viewBox="0 0 24 24" style="width: 18px; height: 18px;">' + this.svg + '</svg></div></div>';
+				btn_down.classList.add('tmd-down', 'tmd-media');
+				this.status(btn_down, is_exist ? 'completed': 'download', is_exist ? selectLanguage().download.completed: selectLanguage().download.download);
+				li.appendChild(btn_down);
+				btn_down.onclick= () =>{
 					this.click(btn_down, status_id, is_exist);
 				}
 			});
@@ -861,21 +960,21 @@
 			let tweet = json.legacy;
 			let user = json.core.user_results.result.legacy;
 			let invalid_chars = {
-			    '\\': '＼',
-			    '\/': '／',
-			    '\|': '｜',
-			    '<': '＜',
-			    '>': '＞',
-			    ':': '：',
-			    '*': '＊',
-			    '?': '？',
-			    '"': '＂',
-			    '\u200b': '',
-			    '\u200c': '',
-			    '\u200d': '',
-			    '\u2060': '',
-			    '\ufeff': '',
-			    '🔞': ''
+				'\\': '＼',
+				'\/': '／',
+				'\|': '｜',
+				'<': '＜',
+				'>': '＞',
+				':': '：',
+				'*': '＊',
+				'?': '？',
+				'"': '＂',
+				'\u200b': '',
+				'\u200c': '',
+				'\u200d': '',
+				'\u2060': '',
+				'\ufeff': '',
+				'🔞': ''
 			};
 			let datetime = this.filename.match(/{date-time(-local)?:[^{}]+}/) 
 				? this.filename.match(/{date-time(?:-local)?:([^{}]+)}/)[1].replace(/[\\/ | <>*?:"]/g, v => invalid_chars[v]) : 'YYYYMMDD-hhmmss';
@@ -889,8 +988,8 @@
 			
 			let medias = tweet.extended_entities && tweet.extended_entities.media;
 			if(medias == undefined){
-			    medias = JSON.parse(json.card.legacy.binding_values[0].value.string_value).media_entities;
-			    medias = Object.values(medias);
+				medias = JSON.parse(json.card.legacy.binding_values[0].value.string_value).media_entities;
+				medias = Object.values(medias);
 			}
 			if(index){
 				medias = [medias[index - 1]];
@@ -934,7 +1033,7 @@
 		downloader: (function () {
 		  let tasks = [], thread = 0, max_thread = 2, retry = 0, max_retry = 2, failed = 0, notifier, has_failed = false;
 		  return {
-		    add: function (task) {
+			add: function (task) {
 				tasks.push(task);
 				if (thread < max_thread) {
 					thread += 1;
@@ -942,8 +1041,8 @@
 				} else{
 					this.update();
 				}
-		    },
-		    next: async function () {
+			},
+			next: async function () {
 				let task = tasks.shift();
 				await this.start(task);
 				if (tasks.length > 0 && thread <= max_thread){
@@ -952,10 +1051,10 @@
 					thread -= 1;
 				}
 				this.update();
-		    },
-		    start: function (task) {
-		      this.update();
-		      return new Promise(resolve => {
+			},
+			start: function (task) {
+			  this.update();
+			  return new Promise(resolve => {
 				GM_download({
 					url: task.url,
 					name: task.name,
@@ -972,9 +1071,9 @@
 						resolve();
 					}
 				});
-		      });
-		    },
-		    retry: function (task, result) {
+			  });
+			},
+			retry: function (task, result) {
 				retry += 1;
 				if (retry == 3) max_thread = 1;
 				if (task.retry && task.retry >= max_retry || result.details && result.details.current == 'USER_CANCELED') {
@@ -984,8 +1083,8 @@
 					if (max_thread == 1) task.retry = (task.retry || 0) + 1;
 					this.add(task);
 				}
-		    },
-		    update: function() {
+			},
+			update: function() {
 				if (!notifier) {
 					notifier = document.createElement('div');
 					notifier.title = 'Twitter Media Downloader';
@@ -1015,7 +1114,7 @@
 				}else{
 					notifier.classList.remove('running');
 				}
-		    }
+			}
 		  };
 		})(),
 		init:function(){
@@ -1035,91 +1134,91 @@
 				Toast.show({"message":selectLanguage().download.preparing, "background":"#000"});
 				btn.classList.add("download-loadding");
 				
-				const downloadUl = await this.getDownloadUrl(window.location.href);
+				const downloadUl = await this.getDownloadUrl(window.location.href.replace('music.youtube.com', 'www.youtube.com') );
 				window.open(downloadUl,'_blank');
-			}catch(e){
-				console.log("download request error~~~~",e);
-			}finally{
+			}
+			catch(ex){
+				logger("error", ex);
+			}
+			finally{
 				btn.classList.remove("download-loadding");
 			}
 		},
 		getDownloadUrl:function(videoUrl, audioOnly = false) {
-		    return new Promise((resolve, reject) => {
-		        // https://github.com/imputnet/cobalt/blob/current/docs/api.md
-		        GM_xmlhttpRequest({
-		            method: 'POST',
-		            url: 'https://api.cobalt.tools/api/json',
-		            headers: {
-		                'Cache-Control': 'no-cache',
-		                Accept: 'application/json',
-		                'Content-Type': 'application/json',
-		            },
-		            data: JSON.stringify({
-		                url: encodeURI(videoUrl),
-		                vQuality:  'max',
-		                filenamePattern: 'basic', // file name = video title
-		                isAudioOnly: audioOnly,
-		                disableMetadata: true, // privacy
-		            }),
-		            onload: (response) => {
-		                const data = JSON.parse(response.responseText);
-		                if (data?.url) resolve(data.url);
-		                else reject(data);
-		            },
-		            onerror: (err) => reject(err),
-		        });
-		    });
+			return new Promise((resolve, reject) => {
+				// https://github.com/imputnet/cobalt/blob/current/docs/api.md
+				GM_xmlhttpRequest({
+					method: 'POST',
+					url: 'https://api.cobalt.tools/api/json',
+					headers: {
+						'Cache-Control': 'no-cache',
+						Accept: 'application/json',
+						'Content-Type': 'application/json',
+					},
+					data: JSON.stringify({
+						url: encodeURI(videoUrl),
+						vQuality:  'max',
+						filenamePattern: 'basic', // file name = video title
+						isAudioOnly: audioOnly,
+						disableMetadata: true, // privacy
+					}),
+					onload: (response) => {
+						const data = JSON.parse(response.responseText);
+						if (data?.url) resolve(data.url);
+						else reject(data);
+					},
+					onerror: (err) => reject(err),
+				});
+			});
 		},
 		elementInContainer:function(container, element) {
-		    return container.contains(element);
+			return container.contains(element);
 		},
 		detectYoutubeService:function() {
-		    if (window.location.hostname === 'www.youtube.com' && window.location.pathname.startsWith('/shorts'))
-		        return 'shorts';
-		    if (window.location.hostname === 'www.youtube.com' && window.location.pathname.startsWith('/watch'))
-		        return 'watch';
-		    else if (window.location.hostname === 'music.youtube.com') return 'music';
-		    else if (window.location.hostname === 'www.youtube.com') return 'youtube';
-		    else return null;
+			if (window.location.hostname === 'www.youtube.com' && window.location.pathname.startsWith('/shorts'))
+				return 'shorts';
+			if (window.location.hostname === 'www.youtube.com' && window.location.pathname.startsWith('/watch'))
+				return 'watch';
+			else if (window.location.hostname === 'music.youtube.com') return 'music';
+			else if (window.location.hostname === 'www.youtube.com') return 'youtube';
+			else return null;
 		},
 		hookNavigationEvents:async function() {
-		    ['yt-navigate', 'yt-navigate-finish', 'yt-navigate-finish', 'yt-page-data-updated'].forEach((evName) => {
-		        document.addEventListener(evName, (e) => {
-		            this.appendDownloadButton(e);
-		        });
-		    });
-		},
-		waitForElement:function(selector) {
-		    return new Promise((resolve) => {
-		        if (document.querySelector(selector)) return resolve(document.querySelector(selector));
-		        const observer = new MutationObserver(() => {
-		            if (document.querySelector(selector)) {
-		                observer.disconnect();
-		                resolve(document.querySelector(selector));
-		            }
-		        });
-		        observer.observe(document.body, { childList: true, subtree: true });
-		    });
+			['yt-navigate', 'yt-navigate-finish', 'yt-navigate-finish', 'yt-page-data-updated'].forEach((evName) => {
+				if(evName){
+					document.addEventListener(evName, (e) => {
+						this.appendDownloadButton(e);
+					});
+				}
+			});
 		},
 		appendDownloadButton:async function(e){
 			try{
 				this.isComplete = false;
 				const ytContainerSelector ='#movie_player > div.ytp-chrome-bottom > div.ytp-chrome-controls > div.ytp-right-controls';
-				const svg=`
-					<svg t="1721662525492" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1456" width="{{w}}" height="{{w}}"><path d="M512 243.47623678C364.2232964 243.47623678 243.47623678 364.21752733 243.47623678 512c0 149.57612748 120.74129057 268.52376322 268.52376322 268.52376322 149.57612748 0 268.5174697-120.74129057 268.5174697-268.52376322C782.32371158 364.21752733 661.57612748 243.47623678 512 243.47623678zM429.92088673 483.31620769c3.10690386-0.03776116 23.69512427-1.02269792 49.78283722-1.77477424V393.48242185c0-15.80723872 12.80103127-28.57627791 28.57680237-28.57627791h7.13580921c15.77577109 0 28.57680236 12.80103127 28.57680237 28.57627792v87.33997629c27.21215621 0.3408993 47.231337 0.49246838 49.54263431 0.58057773 11.55701103 0.43582666 17.75246263 10.17453321 13.17969174 15.87699197-3.6502449 4.54025435-78.39058274 87.75010438-84.74389693 95.4990079-7.16780132 11.26593547-21.68014712 3.17613263-21.68014712 3.17613263-4.74269607-5.49424792-76.06669838-91.16014639-81.3967902-97.64614908-3.89044779-4.75528313-4.16841185-14.82125303 11.02625703-14.99222713z m176.17623832 187.51192703h-185.05587862c-15.32683292 0-27.7549728-12.42813987-27.7549728-27.75549727 0-15.33312644 12.42813987-27.76179079 27.75549727-27.76179078h185.05535415c15.32683292 0 27.75549726 12.42866434 27.75549727 27.76179078 0.00629351 15.32735739-12.42237082 27.75549726-27.75549726 27.75549727z" fill="#03B48B" p-id="1457"></path></svg>
-				`;
+				const ytmContainerSelector = '#layout > ytmusic-player-bar > div.middle-controls.style-scope.ytmusic-player-bar > div.middle-controls-buttons.style-scope.ytmusic-player-bar'
+				
+				const img = document.createElement('img');
+				img.src = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAepJREFUaEPtmEFygzAMRQ3dsm2mx0kOkfO0OQ+HCL1Np91m29ARtgM0gPUluZ3MmE0miSH//S8Jk8o9+FE9uH5XAP47wZJASUDpQCkhpYHq00sCSxY27ct+/Py6d67u6P3l+DG8Wh5mCXjR369eXDUBuJN78jCfbxYgaoBR+KboJa0nCwgVgBd/PSudVIGIAZp2RyUQSkaJ4JwYQgRgLD7SiyCkAD3P8z5MHW5/1Ad0UsEAgPs3R5v2+ZyYTMGPvrscvw48c8K8QxYD4umyEwCkX7AUoAT+BgBLAQVg1v6QqzCB4SbH1sVeKJj5YgDn+GVkDEBTp3r3fVV3caIE+On2InH/yALAasTkLOf1URYA9rZhFYInft4/qSlpXELx5+4dBMRT+bFvaJkA5pMEHwAZAMhb/h2VVo/zvGl3yPjNM0ZxAA/B20LMKj05CKar2SXkAbYamcQ+DU9b6YMeM1e34vkAtlJA7p7+OotlBYmn60AJJFJg//jaREJNEAEE9yyfxmLFsQ0Q98D0RGyuJ7tCJF6cQJRjBCEWrwbQgfiphT5C/s4SbuK1Yghp0NcbO834jKwXHnWYAcz7I/61OP6tSN9r3V4yLwtAsmUNFxQAQzNFlyoJiGwzPKkkYGim6FIlAZFthic9fAI/mIfoMZ8JBO0AAAAASUVORK5CYII=";
+				img.style.width="44px";
+				img.style.height="44px";
+				
 				const markName = this.markName;
 				if(document.querySelector("."+markName)) return;
+				
+				const escapeHTMLPolicy = trustedTypes.createPolicy('conardEscapePolicy', {
+					createHTML: string => string.replace(/\</g, '&lt;')
+				});
 				
 				const downloadButton = document.createElement('button');
 				downloadButton.id = 'ytdl-download-button';
 				downloadButton.classList.add('ytp-button',markName);
 				downloadButton.title = selectLanguage().download.tip;
 				downloadButton.style.borderRadius="50%";
-				downloadButton.innerHTML=svg.replaceAll("{{w}}","100%");
+				downloadButton.appendChild(img);
 				switch (this.detectYoutubeService()) {
 					case 'watch':
-						const ytCont = await this.waitForElement(ytContainerSelector);
+						const ytCont = await Tools.waitForElementByInterval(ytContainerSelector);
 						if (this.elementInContainer(ytCont, ytCont.querySelector('#ytdl-download-button'))) {
 							break;
 						}
@@ -1134,26 +1233,41 @@
 						break;
 						 
 					case 'shorts':
-						if(!document.querySelector("#script-download-----iux998htt")){
-							const buttonDown = document.querySelector("#navigation-button-down");
-							const buttonDownload = buttonDown.cloneNode(false);
-							buttonDownload.id=markName;
-							buttonDownload.classList.add(markName);
-							buttonDownload.style.cursor="pointer";
-							buttonDownload.innerHTML=svg.replaceAll("{{w}}","50");
-							document.querySelector(".navigation-container").appendChild(buttonDownload);
-							buttonDownload.addEventListener("click",()=>{
-								this.download(buttonDownload);
+						if(!document.querySelector("#navigation-button-download-----iux998htt")){
+							const navigationButtonDown = document.querySelector("#navigation-button-down");
+							const navigationButtonDownload = navigationButtonDown.cloneNode(false);
+							navigationButtonDownload.id = "navigation-button-download-----iux998htt";
+							navigationButtonDownload.style.textAlign="center";
+							navigationButtonDownload.appendChild(img);
+							document.querySelector(".navigation-container").appendChild(navigationButtonDownload);
+							navigationButtonDownload.addEventListener("click",()=>{
+								this.download(img);
 							});
 						}
+						break;
+						
+					case 'music':
+						const ytmCont = await Tools.waitForElementByInterval(ytmContainerSelector);
+						if (this.elementInContainer(ytmCont, ytmCont.querySelector('#ytdl-download-button'))) {
+							break;
+						}
+		
+						const ytmDlBtnClone = downloadButton.cloneNode(true);
+						ytmDlBtnClone.classList.add('YTM');
+						ytmDlBtnClone.addEventListener('click', ()=>{
+							this.download(ytmDlBtnClone);
+						});
+						ytmCont.insertBefore(ytmDlBtnClone, ytmCont.firstChild);
 						break;
 						 
 					default:
 						return;
 				}
-			}catch(e){
-				console.log("~~~~~~~~~~~~",e)
-			}finally{
+			}
+			catch(error){
+				logger("error", "youtube download", error);
+			}
+			finally{
 				this.isComplete = true;
 			}			
 		},
@@ -1165,10 +1279,7 @@
 				}
 			`);
 		},
-		start:function(){
-			this.initStyle();
-			this.hookNavigationEvents();
-			
+		asyncAppendDownloadButton:function(){
 			let allDelay = 1000*30, delay=250;
 			const interval = setInterval(()=>{
 				if(document.querySelector("."+this.markName) || allDelay<=0) {
@@ -1178,29 +1289,108 @@
 				}
 				allDelay -= delay
 			}, delay);
+		},
+		start:function(){
+			this.initStyle();
+			let currentUrl = null;
+			setInterval(()=>{
+				const visitUrl = window.location.href;
+				if(currentUrl !== window.location.href){
+					currentUrl = window.location.href;
+					const watch = /www\.youtube\.com\/watch\?v=/.test(visitUrl);
+					const shorts = /www\.youtube\.com\/shorts\//.test(visitUrl);
+					const music = /music\.youtube\.com\/watch\?v=/.test(visitUrl);
+					if(watch || shorts || music){
+						this.hookNavigationEvents();
+						this.asyncAppendDownloadButton();
+					}
+				}
+			}, 500);
 		}
 	}
 	
 	/**
-	 * This feature is under development and will be available soon.
+	 * Tiktok download no watermark video
 	 */
-	const Aliexpress={
-		start:function(){
-			
+	const Tiktok = {
+		extractHref:function(html){
+			const regex = /<a\s+(?:[^>]*?\s+)?href=(['"])(.*?)\1/gi;
+			const hrefs = [];
+			let match;
+
+			while ((match = regex.exec(html)) !== null) {
+				hrefs.push(match[2]);
+			}
+			return hrefs.filter((href) => href.indexOf("snapcdn.app")!=-1);
+		},
+		download:async function(url, element){
+			Toast.show({"message":selectLanguage().download.preparing, "background":"#000"});
+			element.classList.add("download-loadding");
+			const data = await Tools.request("POST", "https://tikdownloader.io/api/ajaxSearch", 
+				"q="+url+"&lang=en", {"Content-Type": "application/x-www-form-urlencoded;charset=UTF-8"});
+			if(data.code==="success"){
+				const result = JSON.parse(data.result);
+				if(result.status=="ok" && result.hasOwnProperty("data")){
+					const data = result.data;
+					const downloadUrls = this.extractHref(data);
+					if(downloadUrls.length>=2){
+						Tools.openInTab(downloadUrls.at(-2));
+					}
+				}
+			}
+			element.classList.remove("download-loadding");
+		},
+		start:async function(){
+			if(!/www\.tiktok\.com/.test(window.location.host)){
+				return;
+			}
+			GM_addStyle(`
+				@keyframes scriptspin {0% {transform: rotate(0deg);} 100% {transform: rotate(360deg);}}
+				.download-loadding{
+					animation: scriptspin 1s linear infinite;
+				}
+			`);
+			setInterval(()=>{
+				if(!document.querySelector("#tiktok-download-990i")){
+					const container = document.querySelector('#main-content-video_detail') || document.body;
+					if(!container){
+						return;
+					}
+					
+					const divs = container.querySelectorAll("div");
+					const regex = /-DivRightControlsWrapper|-DivMiniPlayerContainer/;
+					const matchedDiv = Array.from(divs).find(div => {
+						return div.classList.value.split(' ').some(className => {
+							return regex.test(className);
+						});
+					});
+					if(matchedDiv){
+						let cloneNode =  null;
+						let isDetail = matchedDiv.children.length!=1;
+						if(isDetail){
+							cloneNode = matchedDiv.children[0].cloneNode(true);
+						}else{
+							cloneNode = matchedDiv.cloneNode(true);
+						}
+						cloneNode.id = "tiktok-download-990i";
+						cloneNode.querySelector("div").innerHTML=`<svg t="1724300009050" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5307" width="35" height="35"><path d="M298.666667 554.666667v85.333333H256v128h512v-128h-42.666667v-85.333333h128v213.333333a85.333333 85.333333 0 0 1-78.933333 85.077333L768 853.333333H256a85.333333 85.333333 0 0 1-85.12-78.933333L170.666667 768v-213.333333h128z" fill="#ffffff" p-id="5308"></path><path d="M512 627.498667l219.477333-219.477334h-120.704L512 506.88 413.141333 408.021333H292.522667L512 627.498667z" fill="#ffffff" p-id="5309"></path><path d="M554.666667 528V167.978667h-85.333334v360.021333h85.333334z" fill="#ffffff" p-id="5310"></path></svg>`;
+						if(isDetail){
+							matchedDiv.insertBefore(cloneNode, matchedDiv.children[0]);
+						}else{
+							cloneNode.style.right=(166)+"px";
+							matchedDiv.parentNode.insertBefore(cloneNode, matchedDiv);
+						}
+						cloneNode.title = selectLanguage().download.tip;
+						cloneNode.addEventListener("click",()=>{
+							Tiktok.download(window.location.href,cloneNode);
+						});
+					}
+				}
+			}, 2000);
 		}
 	}
 	
 	const Init = {
-		platform:function(){
-			const isX = ["x.com", "twitter.com"].some((item) => host.indexOf(item)!=-1);
-			const isAliexpress = ["aliexpress.com"].some((item) => host.indexOf(item)!=-1);
-			const isYoutube = ["youtube.com"].some((item) => host.indexOf(item)!=-1);
-
-			if(isX) return "x";
-			if(isAliexpress) return "aliexpress";
-			if(isYoutube) return "youtube";
-			return "unknown";
-		},
 		x:function(){
 			XDownload.init();
 			SettingsDialog.init();
@@ -1218,18 +1408,18 @@
 				subtree: true
 			});
 		},
-		aliexpress:function(){
-			Aliexpress.start();
-		},
 		youtube:function(){
 			YoutubeDownload.start();
+		},
+		tiktok:function(){
+			Tiktok.start();
 		},
 		unknown:function(){
 			console.log("Hoooo，This method was not found");
 		},
 		start:function(){
 			ScriptValue.init();
-			const platform = this.platform();
+			const platform = Tools.platform();
 			this[platform]();
 		}
 	}
