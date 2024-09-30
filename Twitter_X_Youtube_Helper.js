@@ -125,7 +125,7 @@
 		},
 		"en":{
 			"dateFormat":{
-				"week":['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa'] 
+				"week":['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'] 
 			},
 			"download":{
 				"download": 'Download', "completed": 'Download Completed', "tip":"Click to download video"
@@ -382,6 +382,12 @@
 			"70-12/31 23:59'59",
 			"70-12/31(Th) 23:59",
 			"70-12/31(Th) 23:59'59",
+			// Added US standard time formats
+			"12/31/70 23:59",
+			"12/31/70 23:59:59",
+			"Wed, 12/31/70 23:59",
+			"Wed, 12/31/70 23:59:59",
+			// End of addition
 			"M59-12-31 23:59",
 			"M59-12-31 23:59:59",
 			"M59-12-31(Th) 23:59",
@@ -573,13 +579,19 @@
 				YE+'-'+MO+'/'+DA+' '+HO+':'+MI+"'"+SE,
 				YE+'-'+MO+'/'+DA+'('+WE+') '+HO+':'+MI,
 				YE+'-'+MO+'/'+DA+'('+WE+') '+HO+':'+MI+"'"+SE,
+				// Added US standard time formats
+				MO+'/'+DA+'/'+YE+' '+HO+':'+MI,
+				MO+'/'+DA+'/'+YE+' '+HO+':'+MI+':'+SE,
+                WE+', '+MO+'/'+DA+'/'+YE+' '+HO+':'+MI,
+				WE+', '+MO+'/'+DA+'/'+YE+' '+HO+':'+MI+':'+SE,
+				// End of addition
 				'M'+YM+'-'+MO+'-'+DA+' '+HO+':'+MI,
 				'M'+YM+'-'+MO+'-'+DA+' '+HO+':'+MI+":"+SE,
 				'M'+YM+'-'+MO+'-'+DA+'('+WE+') '+HO+':'+MI,
 				'M'+YM+'-'+MO+'-'+DA+'('+WE+') '+HO+':'+MI+":"+SE,
 				YE+'/'+MO+'/'+DA+'('+WE+') '+HO+':'+MI+':'+SE
 			];
-			return F[f - 1] ?? F[16];
+			return F[f - 1] ?? F[20];	// Incremented last index
 		},
 		repldatetime:function(){
 			const MYNAME = "peter_parker_x1190";
