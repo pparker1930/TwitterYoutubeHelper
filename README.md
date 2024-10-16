@@ -4,7 +4,7 @@ This script is suitable for **Twitter(X)** 、 **Youtube** and **Toktok**. You m
 [![https://pparker1930.github.io/wow-good.gif](https://pparker1930.github.io/wow-good.gif "https://pparker1930.github.io/wow-good.gif")](https://pparker1930.github.io/wow-good.gif "https://pparker1930.github.io/wow-good.gif")
 
 # Install
-If your browser has Tampermonkey installed, you can click the button below to install this script.
+If you have tampermonkey installed on your browser, you can click the button below to install this script.
 
 <a href="https://static.staticj.top/script/update/github_union.user.js">
   <img height="25px" src="https://img.shields.io/badge/click_install_new_version-119c02" data-canonical-src="https://img.shields.io/badge/click_install_new_version-119c02" style="max-width: 100%;">
