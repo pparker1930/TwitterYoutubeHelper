@@ -28,3 +28,8 @@ This script is suitable for **Twitter(X)** 、 **Youtube** and **Toktok**. You m
 [![https://pparker1930.github.io/tiktok-1.png](https://pparker1930.github.io/tiktok-1.png "https://pparker1930.github.io/tiktok-1.png")](https://pparker1930.github.io/tiktok-1.png "https://pparker1930.github.io/tiktok-1.png")
 
 [![https://pparker1930.github.io/tiktok-2.png](https://pparker1930.github.io/tiktok-2.png "https://pparker1930.github.io/tiktok-2.png")](https://pparker1930.github.io/tiktok-2.png "https://pparker1930.github.io/tiktok-2.png")
+
+**🔥aliexpress, lazada, ebay：**
+
+The script adds optimization functions for aliexpress, lazada, ebay and so on. such as coupon query, history, etc.
+
