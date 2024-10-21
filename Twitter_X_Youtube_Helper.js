@@ -1,86 +1,98 @@
 // ==UserScript==
-// @name       Online shopping assistant & Automatically query coupons
-// @name:ar    مساعد التسوق عبر الإنترنت ، والاستعلام تلقائيا كوبونات
-// @name:bg    Онлайн асистент за пазаруване & автоматично заявява купони
-// @name:cs    Asistent online nakupování & automaticky dotazovací kupóny
-// @name:da    Online shoppingassistent & forespørg automatisk kuponer
-// @name:de    Online -Einkaufsassistent & automatisch Gutscheine abfragen
-// @name:el    Βοηθός αγορών ηλεκτρονικού ταχυδρομείου, αυτόματα αναζητούν κουπόνια
-// @name:en    Online shopping assistant & Automatically query coupons
-// @name:eo    Interreta Butikumada Asistanto & aŭtomate pridemandas kuponojn
-// @name:es    Asistente de compras en línea & consulta automáticamente cupones
-// @name:fi    Verkkokaupoissa avustaja & kysely automaattisesti kuponkeja
-// @name:fr    Assistant d'achat en ligne & requête automatiquement aux coupons
-// @name:fr-CA Assistant d'achat en ligne & requête automatiquement aux coupons
-// @name:he    עוזר קניות מקוון, שאילתות אוטומטית קופונים
-// @name:hr    Asistent za internetsku kupovinu & automatski upituju kupone
-// @name:hu    Online vásárlási asszisztens & automatikusan lekérdezi a kuponokat
-// @name:id    Asisten Belanja Online & Secara Otomatis Permintaan Kupon
-// @name:it    Assistente allo shopping online & coupon di query automaticamente
-// @name:ja    オンラインショッピングアシスタント、クーポンを自動的にクエリします
-// @name:ka    ონლაინ სავაჭრო ასისტენტი & ავტომატურად შეკითხეთ კუპონები
-// @name:ko    온라인 쇼핑 어시스턴트 & 자동으로 쿠폰
-// @name:nb    Online shoppingassistent & automatisk spørringskuponger
-// @name:nl    Online winkelassistent & vraag automatisch coupons in
-// @name:pl    Asystent na zakupy online & automatycznie zapytaj kupony
-// @name:pt-BR Assistente de compras on -line & cupons de consultas automaticamente
-// @name:ro    Asistent de cumpărături online & cupoane de interogare automată
-// @name:ru    Помощник по магазинам & автоматически запросить купоны
-// @name:sk    Online nakupovanie asistenta & automaticky dotazujte kupóny
-// @name:sr    Интернет помоћник за куповину & Аутоматски упитни купони
-// @name:sv    Online shoppingassistent & automatiskt frågar kuponger
-// @name:th    ผู้ช่วยช็อปปิ้งออนไลน์คูปองสอบถามโดยอัตโนมัติ
-// @name:tr    Çevrimiçi alışveriş asistanı & otomatik olarak kuponları sorgulayın
-// @name:uk    Інтернет -помічник покупок & автоматично запитувати купони
-// @name:ug    توردا مال سېتىۋېلىش ياردەمچىسى, تالونلارنى ئاپتوماتىك سوئال
-// @name:vi    Trợ lý mua sắm trực tuyến & tự động truy vấn phiếu giảm giá
-// @description       Automatically search for coupons on popular shopping platforms to help you find the best deals on the products you need, without overspending. Currently supports: Aliexpress, Lazada, eBay, Amazon, and more.
-// @description:ar    ابحث تلقائيًا عن كوبونات على منصات التسوق الشهيرة لمساعدتك في العثور على أفضل الصفقات على المنتجات التي تحتاجها ، دون زيادة الإنفاق.يدعم حاليًا: Aliexpress ، Lazada ، eBay ، Amazon ، وأكثر من ذلك.
-// @description:bg    Автоматично търсете купони на популярни платформи за пазаруване, за да ви помогне да намерите най -добрите оферти за продуктите, от които се нуждаете, без да преразходвате.В момента поддържа: Aliexpress, Lazada, Ebay, Amazon и други.
-// @description:cs    Automaticky vyhledávejte kupóny na populárních nákupních platformách, které vám pomohou najít nejlepší nabídky na produkty, které potřebujete, aniž byste překročili.V současné době podporuje: Aliexpress, Lazada, eBay, Amazon a další.
-// @description:da    Søg automatisk efter kuponer på populære shoppingplatforme for at hjælpe dig med at finde de bedste tilbud på de produkter, du har brug for, uden overforbrug.Støtter i øjeblikket: Aliexpress, Lazada, Ebay, Amazon og mere.
-// @description:de    Suchen Sie automatisch nach Gutscheinen auf beliebten Einkaufsplattformen, um die besten Angebote für die Produkte zu finden, die Sie benötigen, ohne zu über Ausgaben.Derzeit unterstützt: Aliexpress, Lazada, eBay, Amazon und mehr.
-// @description:el    Αναζητήστε αυτόματα κουπόνια σε δημοφιλείς πλατφόρμες αγορών για να σας βοηθήσουμε να βρείτε τις καλύτερες προσφορές σχετικά με τα προϊόντα που χρειάζεστε, χωρίς υπερπήδηση.Σήμερα υποστηρίζει: Aliexpress, Lazada, eBay, Amazon και πολλά άλλα.
-// @description:en    Automatically search for coupons on popular shopping platforms to help you find the best deals on the products you need, without overspending. Currently supports: Aliexpress, Lazada, eBay, Amazon, and more.
-// @description:eo    Aŭtomate serĉi kuponojn en popularaj aĉetaj platformoj por helpi vin trovi la plej bonajn ofertojn pri la produktoj, kiujn vi bezonas, sen elspezo.Nuntempe subtenas: Aliexpress, Lazada, Ebay, Amazon, kaj pli.
-// @description:es    Busque automáticamente cupones en plataformas de compras populares para ayudarlo a encontrar las mejores ofertas en los productos que necesita, sin gastar demasiado.Actualmente es compatible con: Aliexpress, Lazada, eBay, Amazon y más.
-// @description:fi    Etsi automaattisesti kuponkeja suosituilta ostosalustoilta, joiden avulla voit löytää parhaat tarjoukset tarvitsemastasi tuotteista ilman ylimääräisiä kuluja.Tällä hetkellä tukee: Aliexpress, Lazada, eBay, Amazon ja muut.
-// @description:fr    Recherchez automatiquement des coupons sur les plateformes de magasinage populaires pour vous aider à trouver les meilleures offres sur les produits dont vous avez besoin, sans dépenser trop.Prise en charge actuellement: AliExpress, Lazada, eBay, Amazon et plus encore.
-// @description:fr-CA Recherchez automatiquement des coupons sur les plateformes de magasinage populaires pour vous aider à trouver les meilleures offres sur les produits dont vous avez besoin, sans dépenser trop.Prise en charge actuellement: AliExpress, Lazada, eBay, Amazon et plus encore.
-// @description:he    חיפוש אוטומטית אחר קופונים בפלטפורמות קניות פופולריות כדי לעזור לך למצוא את המבצעים הטובים ביותר על המוצרים הדרושים לך, מבלי להוציא יתר על המידה.כרגע תומך: Aliexpress, Lazada, eBay, Amazon ועוד.
-// @description:hr    Automatski potražite kupone na popularnim platformama za kupovinu kako bi vam pomogli da pronađete najbolje ponude za proizvode koji su vam potrebni, bez pretjeranog trošenja.Trenutno podržava: Aliexpress, Lazada, eBay, Amazon i još mnogo toga.
-// @description:hu    Automatikusan keressen kuponokat a népszerű bevásárlóplatformokon, hogy segítsen megtalálni a szükséges termékeket a szükséges termékeken, túlköltségek nélkül.Jelenleg támogatja: Aliexpress, Lazada, Ebay, Amazon és még sok más.
-// @description:id    Secara otomatis mencari kupon di platform belanja populer untuk membantu Anda menemukan penawaran terbaik pada produk yang Anda butuhkan, tanpa pengeluaran berlebihan.Saat ini mendukung: AliExpress, Lazada, Ebay, Amazon, dan banyak lagi.
-// @description:it    Cerca automaticamente coupon su piattaforme di shopping popolari per aiutarti a trovare le migliori offerte sui prodotti di cui hai bisogno, senza spese eccessive.Attualmente supporta: Aliexpress, Lazada, eBay, Amazon e altro ancora.
-// @description:ja    人気のあるショッピングプラットフォームでクーポンを自動的に検索して、必要な製品で最高のお得な情報を見つけるのに役立ちます。現在、サポート:Aliexpress、Lazada、eBay、Amazonなど。
-// @description:ka    ავტომატურად მოძებნეთ კუპონები პოპულარულ სავაჭრო პლატფორმებზე, რათა დაგეხმაროთ იპოვოთ საუკეთესო გარიგებები თქვენთვის საჭირო პროდუქტებზე, გადაჭარბებული ხარჯების გარეშე.ამჟამად მხარს უჭერს: Aliexpress, Lazada, Ebay, Amazon და სხვა.
-// @description:ko    인기있는 쇼핑 플랫폼에서 쿠폰을 자동으로 검색하여 지출하지 않고 필요한 제품에 대한 최상의 거래를 찾을 수 있도록 도와줍니다.현재 지원 : Aliexpress, Lazada, Ebay, Amazon 등.
-// @description:nb    Søk automatisk etter kuponger på populære shoppingplattformer for å hjelpe deg med å finne de beste tilbudene på produktene du trenger, uten å bruke for mye.Støtter for tiden: Aliexpress, Lazada, Ebay, Amazon og mer.
-// @description:nl    Zoek automatisch naar kortingsbonnen op populaire winkelplatforms om u te helpen de beste deals te vinden voor de producten die u nodig hebt, zonder te veel uit te geven. Ondersteunt momenteel: Aliexpress, Lazada, eBay, Amazon en meer.
-// @description:pl    Automatycznie wyszukuj kupony na popularnych platformach zakupowych, aby pomóc Ci znaleźć najlepsze oferty na produkty, których potrzebujesz, bez przepłacania. Obecnie obsługuje: Aliexpress, Lazada, eBay, Amazon i inne.
-// @description:pt-BR Pesquise automaticamente cupons em plataformas de compras populares para ajudá -lo a encontrar as melhores ofertas dos produtos necessários, sem gastar excessivamente.Atualmente suporta: Aliexpress, Lazada, eBay, Amazon e muito mais.
-// @description:ro    Căutați automat cupoane pe platformele de cumpărături populare pentru a vă ajuta să găsiți cele mai bune oferte la produsele de care aveți nevoie, fără a cheltui prea mult. În prezent, acceptă: Aliexpress, Lazada, eBay, Amazon și multe altele.
-// @description:ru    Автоматически ищите купоны на популярных торговых платформах, чтобы помочь вам найти лучшие предложения по необходимым вам продуктам, не переигрывая.В настоящее время поддерживает: Aliexpress, Lazada, Ebay, Amazon и многое другое.
-// @description:sk    Automaticky vyhľadajte kupóny na populárnych nákupných platformách, ktoré vám pomôžu nájsť najlepšie ponuky na výrobky, ktoré potrebujete, bez nadmerných výdavkov.V súčasnosti podporuje: Aliexpress, Lazada, eBay, Amazon a ďalšie.
-// @description:sr    Аутоматски тражи купоне на популарним шопинг платформама које ће вам помоћи да пронађете најбоље понуде на производима који вам је потребан, без пренапошавање.Тренутно подржава: алиекпресс, лазада, еБаи, Амазон и још много тога.
-// @description:sv    Sök automatiskt efter kuponger på populära shoppingplattformar för att hjälpa dig hitta de bästa erbjudandena på de produkter du behöver, utan att spendera för mycket. Stöder för närvarande: Aliexpress, Lazada, eBay, Amazon och mer.
-// @description:th    ค้นหาคูปองโดยอัตโนมัติบนแพลตฟอร์มช้อปปิ้งยอดนิยมเพื่อช่วยให้คุณค้นหาข้อเสนอที่ดีที่สุดเกี่ยวกับผลิตภัณฑ์ที่คุณต้องการโดยไม่ต้องใช้จ่ายมากเกินไปปัจจุบันรองรับ: Aliexpress, Lazada, Ebay, Amazon และอีกมากมาย
-// @description:tr    Haksız ürünlerde en iyi fırsatları bulmanıza yardımcı olmak için popüler alışveriş platformlarında kuponları otomatik olarak arayın.Şu anda destekliyor: AliExpress, Lazada, eBay, Amazon ve daha fazlası.
-// @description:uk    Автоматично шукайте купони на популярних торгових платформах, щоб допомогти вам знайти найкращі пропозиції щодо необхідних вам продуктів, без витрат.В даний час підтримує: Aliexpress, Lazada, eBay, Amazon тощо.
-// @description:ug    ئاممىباب مال تالونلىرىدىكى تالوندىكى تالونلارنى ئاپتوماتىك ئىزدەشكە ياردەم بېرىدۇ, سىز ئېھتىياجلىق مەھسۇلاتلاردىكى ئەڭ ياخشى سودىلارنى تېپىشىڭىزغا ياردەم بېرىدۇ.ھازىر قوللايدۇ: AliExpress, alazade, ebay, ئامازون ۋە تېخىمۇ كۆپ.
-// @description:vi    Tự động tìm kiếm phiếu giảm giá trên các nền tảng mua sắm phổ biến để giúp bạn tìm thấy các giao dịch tốt nhất về các sản phẩm bạn cần, mà không bội chi.Hiện tại hỗ trợ: Aliexpress, Lazada, eBay, Amazon, v.v.
-// @namespace   Thaddeus_ecommerce_NameScope
-// @version     1.0.3
-// @author      Thaddeus310
-// @icon        data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAABAZJREFUWEetl1lME1EUhv+htbaISamoVTC0WrcgASOSlFCpuEfRmPigicaghgeXRI2JiTy4xVfikzExLvhkJGpiTYi4FUQeDMEG3CXp4FpQaEW0LKWjd2Camemdxep96EzSc+/5zn/PPecOg78Ypb7LXgbccdEU7/i7nzwZcI3k2VSx+4TeZRk9hst8F09wYMSONacx4E7qAVEFSMWxnEwLRBHA47v0CIAgMb+uPT0DoV8DmtEvnmLHs96Q2M7/uGLXctrEJADRPic5X5czF/Uf36lCEOd2Swae9YWS7Dgwy5srKvl8EUYSgMd3iVMKUUkBvcr8UTRJCQkATXYtvUnEZMgkV5smgUgApJpwJPoZRHLpnqtyixMzAaAmvZYKqfz/uGIX75v/oUVfVlMN49QpMGTZUllfMmfo1Tt0ucvBuleIkm+sTvAAtOgPtlVjQiSOaPck5M+0pAwxOO0reuNRXO3fKAEgCxIVGKW933bjGKZO5jASNiPPNillgLqOMIqLR1BnWJMEQI4lFcD6IYgt7bUozIsi0GTGHFPqCnSZf2B69ih8g0Vo82yRB+JnaEdvU9s5zI6+hyE+CoNRsSzoUmU0NpbnwR4LHhRXIjLLKamQVICq9lPYup7V5UCPEWNyIPjyMw73HKUC8CGKq9l/B8jwIhhooQGAKMAJzoWnHOD+DRvYThP2HJU0GMXgie1Q2IKJmVE4XMNgNAD4rqekAFmsoW4uvvT0Yee+Xn5BrVFfa0dsxIV5BR2Yv/Q75Fsg8kVPQrkC9dc9WLB6B5zWKi3f/P+NDxchO/8IjN+rxhQQ5YCz0C3uHfoAGm67YbS5UV5aowug9sISxAbN2H3gCW8v3gLz/PxE7yA9gRnv/2QbEkOuwJuADd04Bq7vCsrKn2tCBEP70Rn4hlVrryUBiI8hD0ArxbRTcPfOdpizbMjNOq+aB43NGxBPcyErfgv5pV2qAHwpJhbyckwD6GOdCHzcDAPeItfeQIUgzoncQ6HWRPTyLRAUEFoytR0r1YGO5lx8jnhgySkENzB+sxpmAZODT7TRmBE/2RcoKemEzRFMbBXtGErasVwFtUJElHjdOg0/M5xIM8aQlp6DWH8IsYEvKHD1I9MRhMUakeSJHIB6IRnPBb4m6KmEBISMwYgVZmsEFms4ybFAIQOgX8kEY9KcqtpPef9rLxBVQt/e05J7KPVaXj1w5tHKhZ2ax02vgVCIzrRsOHSl5uZZ8TzFD5MXTx3heSbWqteJmt3bYUckr5jNpNmofprdaynye9Nby/4Fwv+rqHFVSavkI0eXAmKjVEA+xaaz2YbuygmLIfkSkgej6+tYmERAyPtM47cC8hS2iEgs2HQMu05uLb0v2Wc1BX8DMGUKxDW5sRoAAAAASUVORK5CYII=
+// @name       Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:ar    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:bg    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:cs    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:da    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:de    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:el    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:en    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:eo    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:es    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:fi    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:fr    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:fr-CA Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:he    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:hr    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:hu    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:id    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:it    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:ja    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:ka    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:ko    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:nb    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:nl    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:pl    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:pt-BR Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:ro    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:ru    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:sk    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:sr    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:sv    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:th    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:tr    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:uk    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:ug    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:vi    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @description       This script will provide enhancements to some websites. 🔥Twitter(X): Add time formatting display, HD picture display, picture and video downloading, etc. 🔥Youtube: Add video downloading, ad removal, etc. 🔥Tiktok: Provide HD watermark-free video downloading, etc. For more features, please check the description~
+// @description:ar    سيوفر هذا البرنامج النصي تحسينات لبعض المواقع الإلكترونية. 🔥Twitter(X): إضافة عرض تنسيق الوقت، وعرض الصور عالية الدقة، وتنزيل الصور والفيديو، وما إلى ذلك. 🔥Youtube: إضافة تنزيل الفيديو، وإزالة الإعلانات، وما إلى ذلك. 🔥Tiktok: توفير تنزيل فيديو عالي الدقة بدون علامة مائية، وما إلى ذلك. لمزيد من الميزات، يرجى التحقق من الوصف~
+// @description:bg    Този скрипт ще предостави подобрения на някои уебсайтове. 🔥Twitter(X): Добавяне на дисплей за форматиране на време, показване на HD картина, изтегляне на снимки и видео и т.н. 🔥Youtube: Добавяне на изтегляне на видео, премахване на реклами и т.н. 🔥Tiktok: Предоставяне на изтегляне на HD видео без воден знак и т.н. За повече функции , моля, проверете описанието~
+// @description:cs    Tento skript poskytne vylepšení některých webových stránek. 🔥Twitter(X): Přidejte zobrazení formátování času, zobrazení obrázků HD, stahování obrázků a videí atd. 🔥Youtube: Přidejte stahování videa, odstraňování reklam atd. 🔥Tiktok: Poskytujte stahování videa HD bez vodoznaku atd. Další funkce , zkontrolujte prosím popis~
+// @description:da    Dette script vil give forbedringer til nogle websteder. 🔥Twitter(X): Tilføj tidsformateringsvisning, HD-billedvisning, billed- og videodownload osv. 🔥Youtube: Tilføj videodownload, annoncefjernelse osv. 🔥Tiktok: Giver HD vandmærkefri videodownload osv. For flere funktioner , tjek venligst beskrivelsen~
+// @description:de    Dieses Skript verbessert einige Websites. 🔥Twitter(X): Fügt Zeitformatanzeige, HD-Bildanzeige, Bild- und Video-Downloads usw. hinzu. 🔥Youtube: Fügt Video-Downloads, Anzeigenentfernung usw. hinzu. 🔥Tiktok: Bietet HD-Video-Downloads ohne Wasserzeichen usw. Weitere Funktionen finden Sie in der Beschreibung~
+// @description:el    Αυτό το σενάριο θα παρέχει βελτιώσεις σε ορισμένους ιστότοπους. 🔥Twitter(X): Προσθήκη εμφάνισης μορφοποίησης ώρας, προβολής εικόνων HD, λήψης εικόνων και βίντεο κ.λπ. 🔥Youtube: Προσθήκη λήψης βίντεο, αφαίρεση διαφημίσεων κ.λπ. 🔥Tiktok: Παρέχετε λήψη βίντεο HD χωρίς υδατογράφημα κ.λπ. Για περισσότερες δυνατότητες , ελέγξτε την περιγραφή~
+// @description:en    This script will provide enhancements to some websites. 🔥Twitter(X): Add time formatting display, HD picture display, picture and video downloading, etc. 🔥Youtube: Add video downloading, ad removal, etc. 🔥Tiktok: Provide HD watermark-free video downloading, etc. For more features, please check the description~
+// @description:eo    Ĉi tiu skripto provizos plibonigojn al iuj retejoj. 🔥Twitter(X): Aldonu horformatan ekranon, HD-bildon, elŝuton de bildoj kaj filmetojn ktp. 🔥Youtube: Aldonu video-elŝutadon, forigon de reklamoj ktp. 🔥Tiktok: Provizu HD-senpagan video-elŝutadon, ktp. Por pliaj funkcioj , bonvolu kontroli la priskribon~
+// @description:es    Este script proporcionará mejoras a algunos sitios web.🔥twitter (x): agregue la pantalla de formato de tiempo, visualización de imágenes HD, descarga de imágenes y videos, etc. 🔥Youtube: Agregue la descarga de video, eliminación de anuncios, etc. 🔥tiktok: proporcione descarga de video sin marca de agua HD, etc. para obtener más funciones, por favor verifique la descripción ~
+// @description:fi    Tämä komentosarja tarjoaa parannuksia joihinkin verkkosivustoihin. 🔥Twitter(X): Lisää ajan muotoilun näyttö, HD-kuvanäyttö, kuvien ja videoiden lataus jne. 🔥Youtube: Lisää videoiden lataus, mainosten poisto jne. 🔥Tiktok: Tarjoa HD-vesileimatonta videoiden latausta jne. Lisää ominaisuuksia , tarkista kuvaus~
+// @description:fr    Ce script apportera des améliorations à certains sites Web. 🔥Twitter(X) : Ajout de l'affichage du formatage de l'heure, de l'affichage d'images HD, du téléchargement d'images et de vidéos, etc. 🔥Youtube : Ajout du téléchargement de vidéos, de la suppression des publicités, etc. 🔥Tiktok : Fournit un téléchargement de vidéos HD sans filigrane, etc. Pour plus de fonctionnalités, veuillez consulter la description~
+// @description:fr-CA Ce script apportera des améliorations à certains sites Web. 🔥Twitter(X) : Ajout de l'affichage du formatage de l'heure, de l'affichage d'images HD, du téléchargement d'images et de vidéos, etc. 🔥Youtube : Ajout du téléchargement de vidéos, de la suppression des publicités, etc. 🔥Tiktok : Fournit un téléchargement de vidéos HD sans filigrane, etc. Pour plus de fonctionnalités, veuillez consulter la description~
+// @description:he    סקריפט זה יספק שיפורים לאתרים מסוימים. 🔥Twitter(X): הוסף תצוגת עיצוב זמן, תצוגת תמונות HD, הורדת תמונות ווידאו וכו'. 🔥YouTube: הוסף הורדת וידאו, הסרת מודעות וכו'. , אנא בדוק את התיאור~
+// @description:hr    Ova skripta će poboljšati neke web stranice. 🔥Twitter(X): Dodajte prikaz formatiranja vremena, HD prikaz slike, preuzimanje slika i videa itd. 🔥Youtube: Dodajte preuzimanje videa, uklanjanje oglasa itd. 🔥Tiktok: Omogućite preuzimanje HD videa bez vodenog žiga itd. Za više značajki , provjerite opis~
+// @description:hu    Ez a szkript fejlesztéseket biztosít bizonyos webhelyeken. 🔥Twitter(X): Időformázási megjelenítés hozzáadása, HD képmegjelenítés, kép- és videóletöltés stb. 🔥Youtube: Videó letöltése, hirdetések eltávolítása stb. , ellenőrizze a leírást~
+// @description:id    Skrip ini akan memberikan peningkatan pada beberapa situs web. 🔥Twitter(X): Menambahkan tampilan format waktu, tampilan gambar HD, pengunduhan gambar dan video, dll. 🔥Youtube: Menambahkan pengunduhan video, penghapusan iklan, dll. 🔥Tiktok: Menyediakan pengunduhan video HD tanpa tanda air, dll. Untuk fitur lainnya, silakan periksa deskripsi~
+// @description:it    Questo script migliorerà alcuni siti web. 🔥Twitter(X): aggiunge la visualizzazione della formattazione dell'ora, la visualizzazione delle immagini HD, il download di immagini e video, ecc. 🔥Youtube: aggiunge il download di video, la rimozione degli annunci, ecc. 🔥Tiktok: fornisce il download di video HD senza filigrana, ecc. Per altre funzionalità, controlla la descrizione~
+// @description:ja    このスクリプトは、いくつかのウェブサイトの機能強化を提供します。🔥Twitter(X): 時間フォーマット表示、HD画像表示、画像とビデオのダウンロードなどを追加します。🔥Youtube: ビデオのダウンロード、広告の削除などを追加します。🔥Tiktok: HDウォーターマークのないビデオのダウンロードなどを提供します。その他の機能については、説明を確認してください~
+// @description:ka    This script will provide enhancements to some websites. 🔥Twitter(X): Add time formatting display, HD picture display, picture and video downloading, etc. 🔥Youtube: Add video downloading, ad removal, etc. 🔥Tiktok: Provide HD watermark-free video downloading, etc. For more features, please check the description~
+// @description:ko    이 스크립트는 일부 웹사이트에 개선 사항을 제공합니다. 🔥Twitter(X): 시간 형식 표시, HD 사진 표시, 사진 및 비디오 다운로드 등을 추가합니다. 🔥Youtube: 비디오 다운로드, 광고 제거 등을 추가합니다. 🔥Tiktok: HD 워터마크 없는 비디오 다운로드 등을 제공합니다. 자세한 내용은 설명을 확인하세요~
+// @description:nb    Dette skriptet vil gi forbedringer til enkelte nettsteder. 🔥Twitter(X): Legg til tidsformateringsvisning, HD-bildevisning, bilde- og videonedlasting osv. 🔥Youtube: Legg til videonedlasting, annonsefjerning osv. 🔥Tiktok: Gi HD vannmerkefri videonedlasting osv. For flere funksjoner , sjekk beskrivelsen~
+// @description:nl    Dit script zal verbeteringen aan sommige websites bieden. 🔥Twitter(X): Voeg weergave van tijdsopmaak, HD-afbeeldingsweergave, downloaden van afbeeldingen en video's, enz. toe. 🔥Youtube: Voeg videodownloads, advertentieverwijdering, enz. toe. 🔥Tiktok: Biedt HD-watermerkvrije videodownloads, enz. Voor meer functies, bekijk de beschrijving~
+// @description:pl    Ten skrypt wprowadzi ulepszenia do niektórych witryn internetowych. 🔥Twitter(X): Dodaj wyświetlanie formatu czasu, wyświetlanie obrazów HD, pobieranie obrazów i filmów itp. 🔥Youtube: Dodaj pobieranie filmów, usuwanie reklam itp. 🔥Tiktok: Zapewnij pobieranie filmów HD bez znaku wodnego itp. Aby uzyskać więcej funkcji, sprawdź opis~
+// @description:pt-BR Este script fornecerá melhorias para alguns sites. 🔥Twitter(X): Adicione exibição de formatação de hora, exibição de imagem em HD, download de imagem e vídeo, etc. 🔥Youtube: Adicione download de vídeo, remoção de anúncios, etc. 🔥Tiktok: Forneça download de vídeo em HD sem marca d'água, etc. Para mais recursos, verifique a descrição~
+// @description:ro    Acest script va oferi îmbunătățiri unor site-uri web. 🔥Twitter(X): Adăugați afișaj de formatare a orei, afișare a imaginii HD, descărcare de imagini și videoclipuri etc. 🔥Youtube: Adăugați descărcare video, eliminare a reclamelor etc. 🔥Tiktok: Oferiți descărcare video HD fără filigran etc. Pentru mai multe funcții , vă rugăm să verificați descrierea~
+// @description:ru    Этот скрипт улучшит работу некоторых веб-сайтов. 🔥Twitter(X): Добавить отображение форматирования времени, отображение HD-изображений, загрузку изображений и видео и т. д. 🔥Youtube: Добавить загрузку видео, удалить рекламу и т. д. 🔥TikTok: Обеспечить загрузку HD-видео без водяных знаков и т. д. Для получения дополнительных функций, пожалуйста, проверьте описание~
+// @description:sk    Tento skript poskytne vylepšenia niektorých webových stránok. 🔥Twitter(X): Pridajte zobrazenie formátovania času, zobrazenie HD obrázkov, sťahovanie obrázkov a videí atď. 🔥Youtube: Pridajte sťahovanie videa, odstraňovanie reklám atď. 🔥Tiktok: Poskytnite sťahovanie videa HD bez vodoznaku atď. Ďalšie funkcie , prosím skontrolujte popis ~
+// @description:sr    Ова скрипта ће пружити побољшања неким веб локацијама. 🔥Твиттер(Кс): Додајте приказ форматирања времена, приказ ХД слике, преузимање слика и видео записа итд. 🔥Иоутубе: Додајте преузимање видео записа, уклањање огласа итд. 🔥Тикток: Омогућите преузимање видео записа у ХД-у без воденог жига итд. За више функција , молимо проверите опис~
+// @description:sv    Detta skript kommer att ge förbättringar till vissa webbplatser. 🔥Twitter(X): Lägg till tidsformateringsvisning, HD-bildvisning, bild- och videonedladdning, etc. 🔥Youtube: Lägg till videonedladdning, annonsborttagning etc. 🔥Tiktok: Tillhandahåller HD vattenstämpelfri videonedladdning, etc. För fler funktioner , kontrollera beskrivningen~
+// @description:th    สคริปต์นี้จะให้การปรับปรุงแก่บางเว็บไซต์🔥twitter (x): เพิ่มการจัดรูปแบบการจัดรูปแบบการจัดรูปแบบการแสดงภาพ HD รูปภาพและวิดีโอการดาวน์โหลด ฯลฯ 🔥youtube: เพิ่มการดาวน์โหลดวิดีโอการลบโฆษณา ฯลฯ 🔥tiktok: ให้การดาวน์โหลดวิดีโอที่ปราศจากลายน้ำ HD ฯลฯ สำหรับคุณสมบัติเพิ่มเติมโปรดตรวจสอบคำอธิบาย ~
+// @description:tr    Bu script bazı web sitelerine geliştirmeler sağlayacaktır. 🔥Twitter(X): Zaman biçimlendirme gösterimi, HD resim gösterimi, resim ve video indirme vb. ekleyin. 🔥Youtube: Video indirme, reklam kaldırma vb. ekleyin. 🔥Tiktok: HD filigransız video indirme vb. sağlayın. Daha fazla özellik için lütfen açıklamayı kontrol edin~
+// @description:uk    Цей сценарій покращить роботу деяких веб-сайтів. 🔥Twitter(X): додайте відображення форматування часу, відображення HD-зображення, завантаження зображень і відео тощо. 🔥Youtube: додайте завантаження відео, видалення реклами тощо. 🔥Tiktok: забезпечте завантаження відео HD без водяних знаків тощо. Для додаткових функцій , будь ласка, перевірте опис~
+// @description:ug    بۇ قوليازما بەزى تور بېكەتلەرنى ياخشىلاش بىلەن تەمىنلەيدۇ. 🔥Twitter (X): ۋاقىت فورماتلاش ئېكرانى ، HD رەسىم كۆرسىتىش ، رەسىم ۋە سىن چۈشۈرۈش قاتارلىقلارنى قوشۇڭ outYoutube: سىن چۈشۈرۈش ، ئېلان ئۆچۈرۈش قاتارلىقلارنى قوشۇڭ ikTiktok: HD سۇ ماركىسىسىز سىن چۈشۈرۈش قاتارلىقلار بىلەن تەمىنلەڭ. ، چۈشەندۈرۈشنى تەكشۈرۈپ بېقىڭ ~
+// @description:vi    Tập lệnh này sẽ cung cấp các cải tiến cho một số trang web. 🔥Twitter(X): Thêm hiển thị định dạng thời gian, hiển thị hình ảnh HD, tải xuống hình ảnh và video, v.v. 🔥Youtube: Thêm tải xuống video, xóa quảng cáo, v.v. 🔥Tiktok: Cung cấp tải xuống video HD không có hình mờ, v.v. Để biết thêm các tính năng, vui lòng kiểm tra phần mô tả~
+// @namespace   PeterParker_X_Y_NameScope
+// @version     1.1.3
+// @author      PeterParker
+// @icon        data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAABhxJREFUeF7lm09oHUUcx3/7nm0aWou2CtL2kFLbREXFRPBU+tJb8Gb1Yg8VhIhHb6U86HvwKKWCR8WAx3qRipfYW7rBk2Iq2EvTKkUspRhbJTRpm/p25TdvZ3d2dmb2N7vzNnnJQMhLdnZ2vp/5/dvdeR5s8eZtcf1QHYDmL40EdhB99o4BhPPpRaj50HnDr2ph+guAiQ7PRmIEAFR5YZv17Ey0qGfY9nMPIBEdCz56/xab19F70e/ob/zfD3sOxnM+d/i4Yf79geEOgCSciz5zcw74Z8rqIBD2s7f3O9vcgigPQCHcVrQOzLkXj4PeKtyAKAegudAC8JiP4yq7Ei4DyQVRIkYUB9C8egUAmJ+j+Ms/fkWx8FJ9pt76UOMW4ENnfLLI4PYAeiaP4lnDVT/z21yRaxc6x2wN3qRtCrUDIJj8eojnxFy6BB3ABhHvGgINgGT2Vfl8no8YYgIA0NyBCOBqKE7mweVm3twqO75rqqO/Vmc8V19uBxCi/Xr6vU4lFktoCZqWmx3MACS/x4tspNXnos2uELZN9xJ6AArxVac8FFifeBW6C9eMLpVjBcZ4YAXAZvV3fHk+nvSTmYtKEShu2/TJuN+jj07Hn/EYH+PJzNewNnPRCMFsBfpCSQ2g5OqLk8dZozDVKqJA7IsNj4sAxGN4fOXNt8sA0FpBJQB0k9/582wsygRAPqYike8GaivIAlCsvm3wM62sOHkRgGwl3D2ChWvQXfg1Nw7guMaUyC6crQ1IAGwLHwoAqpvYFBQ5cQCHyqRFBYB00VMk94srqwtg26dPwrbp92N9opvIwRGtIC8I4kDme4ToUlJxlAagMX+b9CevLAJAE5YbRn9dACxqHSQAkhv0HQDFhOUgJ1uHLovIYxMCYcYNJABZ88cz8GEH9bmenL4oAGQ3sU2B/Bp9A2DjAvLkdVUcN39VnWBKjyagNBdIZ4PEAqRbXvFCNgBcBMB0FZlfBfK5lgSQPOCUKVPTIDV4mdIkdQyVJWwKAEUDIDkNMnLJHaLgAnoLoFaC1OBlchPqGCoLyK8E+VkFAFAygYsKsGgAJGYATiCuCAULSJ7zq+hS4gBl8iYTVxVRlArQzvwLugDFDVAcb7obGBRZn3gt7icKLBMA6eZfAgDFDSiFj+s+9OhvjAHpNz66Sdo8FXItVDee3eprLYAGwKYoqgKA/eoXqARlIRvJFexXH3ecJO8L5Juh+I2vafUoGaGK1cdrrAsAvDAVQv1IgqJ+mI6lezPp272hP88eQPo9gWQBtDjAp8PjAYpEcTVBoCicLtvck4MIIjgIafiQ4dWYcjgTADyhqX4mgIcae3ubnBrP3YJj/HP025XIouO0b/Q2WPl/HwT/nmpvUTSy8ZFYD4AyDrRG5+Dskeo2QhQFgechjNaiasdZ9jUZc4Hwm7FGUOttd1lYHRmZXR4/JU+gse8u4M8gNP/OC4A/cnt5x+35d5/5iW3CrAXge+9d92MAYS3Z9qIS6e3eA7D72UHQD7D8D4TL941z9QJvMgaAPbuXxlpesqsze/LQMHjP79sUALh4FJPKAkYIAwQgXLoD8PihOgeA166fuB5vvc28GAkujaZ2g8SjbAYAHvi1dxZT2+kyADAgKuPBJgAgmj5fWOXbYaUrDBKA279nzF8lPhMD+Fk6K/AOHBqIIBgqANROLCoXW/nP4NvRKxD26gKxDTKAUAp+RhfQBUJbAGJJOh+Vp1iqqhqW13LDcpuX3zamp7IAVvworIAeBDFnalyAC21H5aexFrdRIvVFGByUtix//BBYGlQ0lRVk06DG/FnAwEJoaBi6q6vw5901+O6vV+CTpY9LSCp/6uzYZ/D68B+w/8DTvcHKANCmwGiej4KnYHnpX1hdWYOVB2vwRXgKPg8+KK+ixAgXhj6Fqf++h527trNRRl7ary2CVG6QsgAEQJ0L1tGg2VBBHcNNv94dHnXubN5Cy98qmzdLBoE5CP92WN4Zro77AF7b9vsB8sXLA+AjVgfCiXA+bXcA+g/CqfD+ARBtrJxVRL5a3sxNPufeAkxXY7tQ+Ndm4zUQvj5bSwJURV+frRaAq/DncJwtD+B/6XGfbp4XQ5oAAAAASUVORK5CYII=
+// @include     https://x.com/*
+// @include     https://twitter.com/*
+// @include     https://mobile.x.com/*
+// @include     https://www.youtube.com/**
+// @include     https://music.youtube.com/watch**
+// @include     https://www.tiktok.com/@*
 // @include     /^https:\/\/((ko|fr|es|ja|pt|it|th|ar|tr|de|he|nl|pl|www|best)+\.)?aliexpress\.(ru|us|com)\/*/
 // @include     /^https:\/\/www\.lazada.(com|sg|th|id|vn|my|ph)*/
 // @include     *://www.ebay.*/*
+// @exclude     *://accounts.youtube.com/*
+// @exclude     *://www.youtube.com/live_chat_replay*
+// @exclude     *://www.youtube.com/persist_identity*
+// @exclude     *://x.com/i/flow/*
+// @connect     tikdownloader.io
+// @connect     api.cobalt.tools
 // @license     MIT
 // @run-at      document-idle
 // @antifeature referral-link
-// @downloadURL https://static.staticj.top/script/update/github_only_ecommerce.user.js
-// @updateURL   https://static.staticj.top/script/update/github_only_ecommerce.user.js
+// @downloadURL https://static.staticj.top/script/update/github_union.user.js
+// @updateURL   https://static.staticj.top/script/update/github_union.user.js
 // @grant       GM_registerMenuCommand
 // @grant       GM_openInTab
 // @grant       GM.openInTab
@@ -589,7 +601,7 @@
 	  "storageKeys": storageKeys
 	};
 
-	var __async$5 = (__this, __arguments, generator) => {
+	var __async$8 = (__this, __arguments, generator) => {
 	  return new Promise((resolve, reject) => {
 	    var fulfilled = (value) => {
 	      try {
@@ -773,8 +785,8 @@
 	    return container.contains(element);
 	  },
 	  mustGetElement: function(handler) {
-	    return __async$5(this, null, function* () {
-	      const getElements = (handler2) => __async$5(this, null, function* () {
+	    return __async$8(this, null, function* () {
+	      const getElements = (handler2) => __async$8(this, null, function* () {
 	        const promiseArray = [];
 	        const handlers = handler2.split("@");
 	        for (let i = 0; i < handlers.length; i++) {
@@ -948,8 +960,787 @@
 	  }
 	};
 
+	var __async$7 = (__this, __arguments, generator) => {
+	  return new Promise((resolve, reject) => {
+	    var fulfilled = (value) => {
+	      try {
+	        step(generator.next(value));
+	      } catch (e) {
+	        reject(e);
+	      }
+	    };
+	    var rejected = (value) => {
+	      try {
+	        step(generator.throw(value));
+	      } catch (e) {
+	        reject(e);
+	      }
+	    };
+	    var step = (x) => x.done ? resolve(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
+	    step((generator = generator.apply(__this, __arguments)).next());
+	  });
+	};
 	const FMT = 7;
-	GM_getValue("fmt", FMT);
+	let fmt = GM_getValue("fmt", FMT);
+	const XSettingsDialog = {
+	  number: Math.ceil(Math.random() * 1e8),
+	  formats: [
+	    "Do nothing",
+	    "31.12.70 23:59",
+	    "31.12.70 23:59:59",
+	    "31.12.70(W) 23:59",
+	    "31.12.70(W) 23:59:59",
+	    "70/12/31 23:59",
+	    "70/12/31 23:59:59",
+	    "70/12/31(W) 23:59",
+	    "70/12/31(W) 23:59:59 [ye/mo/da(we) ho:mi:se]",
+	    "70-12/31 23:59",
+	    "70-12/31 23:59'59",
+	    "70-12/31(W) 23:59",
+	    "70-12/31(W) 23:59'59",
+	    "12/31/70 23:59",
+	    "12/31/70 23:59:59",
+	    "W, 12/31/70 23:59",
+	    "W, 12/31/70 23:59:59",
+	    "M59-12-31 23:59",
+	    "M59-12-31 23:59:59",
+	    "M59-12-31(W) 23:59",
+	    "M59-12-31(W) 23:59:59"
+	  ],
+	  make: function() {
+	    let dialog = document.createElement("div");
+	    dialog.className = "dialog_u_" + this.number;
+	    dialog.style.all = "initial";
+	    dialog.style.backgroundColor = "rgb(235, 235, 235)";
+	    dialog.style.borderRadius = "2px";
+	    dialog.style.display = "none";
+	    dialog.style.fontFamily = "monospace";
+	    dialog.style.fontSize = "12px";
+	    dialog.style.width = "480px";
+	    dialog.style.paddingLeft = "5px";
+	    dialog.style.paddingRight = "5px";
+	    dialog.style.paddingTop = "5px";
+	    dialog.style.paddingBottom = "5px";
+	    dialog.style.position = "fixed";
+	    dialog.style.right = "8px";
+	    dialog.style.top = "8px";
+	    dialog.style.zIndex = "2147483647";
+	    dialog.style.overflow = "auto";
+	    let formatsHtml = `<table border="0" style="width:100%;padding:5px;">`;
+	    for (var i = 1; i <= this.formats.length; i++) {
+	      if (i % 2 != 0) {
+	        formatsHtml += `<tr style="width:100%;">`;
+	      }
+	      formatsHtml += `<td width="50"><input type="radio" name="fmt" value="` + (i - 1) + `" class="top_r" />` + ("(" + i + ")、" + this.formats[i - 1]) + `</td>`;
+	      if (i % 2 == 0) {
+	        formatsHtml += `</tr>`;
+	      }
+	    }
+	    formatsHtml += `</table>`;
+	    let html = `
+        <div style="font-size:15px;font-weight:bold;margin-bottom:5px;">` + selectLanguage().menuCommand.titleDateFormat + `</div>
+        <div>` + formatsHtml + `</div>
+        <div style="margin-top:15px;text-align:center;">
+          <button name="closex">` + selectLanguage().menuCommand.buttonClose + `</button>
+        </div>
+      `;
+	    dialog.innerHTML = html;
+	    return dialog;
+	  },
+	  addEvent: function(dialog) {
+	    dialog.querySelector("button[name='closex']").addEventListener("click", function(event) {
+	      for (let e of dialog.querySelectorAll('input[name="fmt"]')) {
+	        if (e.checked) {
+	          fmt = +e.value;
+	          break;
+	        }
+	      }
+	      GM_setValue("fmt", fmt);
+	      dialog.style.display = "none";
+	    }, false);
+	  },
+	  init: function() {
+	    let dialog = this.make();
+	    this.addEvent(dialog);
+	    document.body.appendChild(dialog);
+	    GM_registerMenuCommand(selectLanguage().menuCommand.settings, function() {
+	      if (dialog.style.display == "none") {
+	        dialog.querySelector('input[name="fmt"][value="' + fmt + '"]').checked = true;
+	        dialog.style.display = "block";
+	      }
+	    });
+	  }
+	};
+	const XDateFormat = {
+	  df: function(date, f) {
+	    var _a;
+	    const WEEK = selectLanguage().dateFormat.week;
+	    const YE = date.getFullYear().toString().slice(-2);
+	    const YM = date.getFullYear() - 1911;
+	    const MO = ("0" + (date.getMonth() + 1)).slice(-2);
+	    const DA = ("0" + date.getDate()).slice(-2);
+	    const WE = WEEK[date.getDay()];
+	    const HO = ("0" + date.getHours()).slice(-2);
+	    const MI = ("0" + date.getMinutes()).slice(-2);
+	    const SE = ("0" + date.getSeconds()).slice(-2);
+	    const F = [
+	      DA + "." + MO + "." + YE + " " + HO + ":" + MI,
+	      DA + "." + MO + "." + YE + " " + HO + ":" + MI + ":" + SE,
+	      DA + "." + MO + "." + YE + "(" + WE + ") " + HO + ":" + MI,
+	      DA + "." + MO + "." + YE + "(" + WE + ") " + HO + ":" + MI + ":" + SE,
+	      YE + "/" + MO + "/" + DA + " " + HO + ":" + MI,
+	      YE + "/" + MO + "/" + DA + " " + HO + ":" + MI + ":" + SE,
+	      YE + "/" + MO + "/" + DA + "(" + WE + ") " + HO + ":" + MI,
+	      YE + "/" + MO + "/" + DA + "(" + WE + ") " + HO + ":" + MI + ":" + SE,
+	      YE + "-" + MO + "/" + DA + " " + HO + ":" + MI,
+	      YE + "-" + MO + "/" + DA + " " + HO + ":" + MI + "'" + SE,
+	      YE + "-" + MO + "/" + DA + "(" + WE + ") " + HO + ":" + MI,
+	      YE + "-" + MO + "/" + DA + "(" + WE + ") " + HO + ":" + MI + "'" + SE,
+	      MO + "/" + DA + "/" + YE + " " + HO + ":" + MI,
+	      MO + "/" + DA + "/" + YE + " " + HO + ":" + MI + ":" + SE,
+	      WE + ", " + MO + "/" + DA + "/" + YE + " " + HO + ":" + MI,
+	      WE + ", " + MO + "/" + DA + "/" + YE + " " + HO + ":" + MI + ":" + SE,
+	      "M" + YM + "-" + MO + "-" + DA + " " + HO + ":" + MI,
+	      "M" + YM + "-" + MO + "-" + DA + " " + HO + ":" + MI + ":" + SE,
+	      "M" + YM + "-" + MO + "-" + DA + "(" + WE + ") " + HO + ":" + MI,
+	      "M" + YM + "-" + MO + "-" + DA + "(" + WE + ") " + HO + ":" + MI + ":" + SE,
+	      YE + "/" + MO + "/" + DA + "(" + WE + ") " + HO + ":" + MI + ":" + SE
+	    ];
+	    return (_a = F[f - 1]) != null ? _a : F[20];
+	  },
+	  repldatetime: function() {
+	    const MYNAME = "peter_parker_x1190";
+	    const SEL = 'main div[data-testid="primaryColumn"] section article time[datetime*=":"]';
+	    const SEL_2 = 'div[aria-labelledby="modal-header"] div[data-testid^="User-Name"] time[datetime]';
+	    const SEL_3 = 'div[aria-labelledby="modal-header"] div[aria-label] time[datetime]';
+	    const SEL_4 = 'main section[aria-labelledby="detail-header"] article div[data-testid^="User-Name"] time[datetime]';
+	    const SEL_5 = 'main section div[data-testid="conversation"] div[aria-label] time[datetime]';
+	    document.querySelectorAll(SEL + ", " + SEL_2 + ", " + SEL_3 + ", " + SEL_4 + ", " + SEL_5).forEach((e) => {
+	      const SEL_ADD = "span.us-" + MYNAME;
+	      let d = e.getAttribute("datetime");
+	      let df = this.df(new Date(d), fmt);
+	      let pe = e.parentNode;
+	      let old = pe.querySelectorAll(SEL_ADD);
+	      if (!old.length) {
+	        let span = document.createElement("span");
+	        span.className = "us-" + MYNAME;
+	        span.setAttribute("datetime", d);
+	        span.setAttribute("local-datetime", df);
+	        span.textContent = df;
+	        span.style = e.style;
+	        e.style.setProperty("display", "none");
+	        pe.appendChild(span);
+	      } else if (old[0].getAttribute("local-datetime") != df) {
+	        old[0].setAttribute("local-datetime", df);
+	        old[0].textContent = df;
+	        old[0].style = e.style;
+	      }
+	    });
+	  }
+	};
+	const XOrigimg = () => {
+	  const SEL_D = 'div[style*="background-image:"]';
+	  const SEL_I = "img";
+	  let elms = document.querySelectorAll(SEL_D + ", " + SEL_I);
+	  for (let e of elms) {
+	    let regex = /^(.+pbs\.twimg\.com\/[^?]+\?format=\w+)(&|&amp;)(name=)(\w+)([")]*)$/;
+	    if (/div/i.test(e.tagName)) {
+	      let r2 = regex.exec(e.style.backgroundImage);
+	      if (r2 && r2[4] != "orig") {
+	        e.style.backgroundImage = r2[1] + r2[2] + r2[3] + "orig" + r2[5];
+	        continue;
+	      }
+	      continue;
+	    }
+	    let r = regex.exec(e.getAttribute("src"));
+	    if (r && r[4] != "orig") {
+	      e.setAttribute("src", r[1] + r[2] + r[3] + "orig" + r[5]);
+	      continue;
+	    }
+	  }
+	};
+	const XHidepromo = () => {
+	  var _a, _b;
+	  const SEL = 'path[d^="M19.498 3h-15c-1.381 0-2.5 1.12-2.5 2.5v13c0 1.38 1.119 2.5"]';
+	  const SEL_2 = 'main div[data-testid="sidebarColumn"] section div[data-testid="trend"] div.r-14gqq1x span.css-1qaijid.r-bcqeeo.r-qvutc0';
+	  const SEL_3 = 'main div[data-testid="primaryColumn"] section article span.css-1jxf684.r-bcqeeo.r-qvutc0.r-poiln3';
+	  const SEL_4 = 'main div[data-testid="primaryColumn"] section span.css-901oao.css-16my406.r-bcqeeo.r-qvutc0';
+	  let elms = document.querySelectorAll(SEL);
+	  let elms_2 = document.querySelectorAll(SEL_2);
+	  let elms_3 = document.querySelectorAll(SEL_3);
+	  let elms_4 = document.querySelectorAll(SEL_4);
+	  const PROMO = {
+	    "ja": "によるプロモーション$",
+	    "ko": " 님이 프로모션함$",
+	    "zh": "^由 .+ 推广$",
+	    "ru": "^Реклама от ",
+	    "de": "^Gesponsert von ",
+	    "it": "^Sponsorizzato da ",
+	    "fr": "^Sponsorisé par ",
+	    "pt": "^Promovido por ",
+	    "en": "^Promoted by "
+	  };
+	  const PROMO_L = (_a = PROMO[ScriptConst.lang]) != null ? _a : PROMO["en"];
+	  const PROMO_2 = {
+	    "ja": "プロモポスト",
+	    "ko": "Promoted Post",
+	    "zh": "推广帖",
+	    "ru": "Promoted Post",
+	    "de": "Gesponserter Post",
+	    "it": "Promoted Post",
+	    "fr": "Promoted Post",
+	    "pt": "Post promovido",
+	    "en": "Promoted Post"
+	  };
+	  const PROMO_L_2 = (_b = PROMO_2[ScriptConst.lang]) != null ? _b : PROMO_2["en"];
+	  for (let e of elms) {
+	    let xpe = e.closest('div[data-testid="cellInnerDiv"]');
+	    if (!xpe)
+	      xpe = e.closest("div.css-175oi2r.r-1adg3ll.r-1ny4l3l");
+	    if (!xpe)
+	      xpe = e.closest('div.css-175oi2r.r-1ny4l3l[data-testid="UserCell"]');
+	    if (xpe)
+	      xpe.style.setProperty("display", "none");
+	  }
+	  for (let e of elms_2) {
+	    const REGEX = new RegExp(PROMO_L, "i");
+	    if (!REGEX.test(e.textContent))
+	      continue;
+	    let xpe = e.closest("div.css-175oi2r.r-1adg3ll.r-1ny4l3l");
+	    xpe.style.setProperty("display", "none");
+	  }
+	  for (let e of elms_3) {
+	    if (e.textContent != "Ad")
+	      continue;
+	    let xpe = e.closest('div[data-testid="cellInnerDiv"]');
+	    xpe.style.setProperty("display", "none");
+	  }
+	  for (let e of elms_4) {
+	    if (e.textContent != PROMO_2["en"] && e.textContent != PROMO_L_2)
+	      continue;
+	    let xpe = e.closest('div[data-testid="cellInnerDiv"]');
+	    xpe.style.setProperty("display", "none");
+	  }
+	};
+	const XDownload = {
+	  history: [],
+	  show_sensitive: true,
+	  filename: "twitter_{user-name}(@{user-id})_{date-time}_{status-id}_{file-type}",
+	  css: `
+    .tmd-down {margin-left: 12px; order: 99;}
+    .tmd-down:hover > div > div > div > div {color: rgba(29, 161, 242, 1.0);}
+    .tmd-down:hover > div > div > div > div > div {background-color: rgba(29, 161, 242, 0.1);}
+    .tmd-down:active > div > div > div > div > div {background-color: rgba(29, 161, 242, 0.2);}
+    .tmd-down:hover svg {color: rgba(29, 161, 242, 1.0);}
+    .tmd-down:hover div:first-child:not(:last-child) {background-color: rgba(29, 161, 242, 0.1);}
+    .tmd-down:active div:first-child:not(:last-child) {background-color: rgba(29, 161, 242, 0.2);}
+    .tmd-down.tmd-media {position: absolute; right: 0;}
+    .tmd-down.tmd-media > div {display: flex; border-radius: 99px; margin: 2px;}
+    .tmd-down.tmd-media > div > div {display: flex; margin: 6px; color: #fff;}
+    .tmd-down.tmd-media:hover > div {background-color: rgba(255,255,255, 0.6);}
+    .tmd-down.tmd-media:hover > div > div {color: rgba(29, 161, 242, 1.0);}
+    .tmd-down.tmd-media:not(:hover) > div > div {filter: drop-shadow(0 0 1px #000);}
+    .tmd-down g {display: none;}
+    .tmd-down.download g.download, .tmd-down.completed g.completed, .tmd-down.loading g.loading,.tmd-down.failed g.failed {display: unset;}
+    .tmd-down.loading svg {animation: spin 1s linear infinite;}
+    @keyframes spin {0% {transform: rotate(0deg);} 100% {transform: rotate(360deg);}}
+    .tmd-btn {display: inline-block; background-color: #1DA1F2; color: #FFFFFF; padding: 0 20px; border-radius: 99px;}
+    .tmd-tag {display: inline-block; background-color: #FFFFFF; color: #1DA1F2; padding: 0 10px; border-radius: 10px; border: 1px solid #1DA1F2;  font-weight: bold; margin: 5px;}
+    .tmd-btn:hover {background-color: rgba(29, 161, 242, 0.9);}
+    .tmd-tag:hover {background-color: rgba(29, 161, 242, 0.1);}
+    .tmd-notifier {display: none; position: fixed; left: 16px; bottom: 16px; color: #000; background: #fff; border: 1px solid #ccc; border-radius: 8px; padding: 4px;}
+    .tmd-notifier.running {display: flex; align-items: center;}
+    .tmd-notifier label {display: inline-flex; align-items: center; margin: 0 8px;}
+    .tmd-notifier label:before {content: " "; width: 32px; height: 16px; background-position: center; background-repeat: no-repeat;}
+    .tmd-notifier label:nth-child(1):before {background-image:url("data:image/svg+xml;charset=utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%2216%22 height=%2216%22 viewBox=%220 0 24 24%22><path d=%22M3,14 v5 q0,2 2,2 h14 q2,0 2,-2 v-5 M7,10 l4,4 q1,1 2,0 l4,-4 M12,3 v11%22 fill=%22none%22 stroke=%22%23666%22 stroke-width=%222%22 stroke-linecap=%22round%22 /></svg>");}
+    .tmd-notifier label:nth-child(2):before {background-image:url("data:image/svg+xml;charset=utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%2216%22 height=%2216%22 viewBox=%220 0 24 24%22><path d=%22M12,2 a1,1 0 0 1 0,20 a1,1 0 0 1 0,-20 M12,5 v7 h6%22 fill=%22none%22 stroke=%22%23999%22 stroke-width=%222%22 stroke-linejoin=%22round%22 stroke-linecap=%22round%22 /></svg>");}
+    .tmd-notifier label:nth-child(3):before {background-image:url("data:image/svg+xml;charset=utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%2216%22 height=%2216%22 viewBox=%220 0 24 24%22><path d=%22M12,0 a2,2 0 0 0 0,24 a2,2 0 0 0 0,-24%22 fill=%22%23f66%22 stroke=%22none%22 /><path d=%22M14.5,5 a1,1 0 0 0 -5,0 l0.5,9 a1,1 0 0 0 4,0 z M12,17 a2,2 0 0 0 0,5 a2,2 0 0 0 0,-5%22 fill=%22%23fff%22 stroke=%22none%22 /></svg>");}
+    .tmd-down.tmd-img {position: absolute; right: 0; bottom: 0; display: none !important;}
+    .tmd-down.tmd-img > div {display: flex; border-radius: 99px; margin: 2px; background-color: rgba(255,255,255, 0.6);}
+    .tmd-down.tmd-img > div > div {display: flex; margin: 6px; color: #fff !important;}
+    .tmd-down.tmd-img:not(:hover) > div > div {filter: drop-shadow(0 0 1px #000);}
+    .tmd-down.tmd-img:hover > div > div {color: rgba(29, 161, 242, 1.0);}
+    :hover > .tmd-down.tmd-img, .tmd-img.loading, .tmd-img.completed, .tmd-img.failed {display: block !important;}
+    .tweet-detail-action-item {width: 20% !important;}
+    `,
+	  css_ss: `
+    /* show sensitive in media tab */
+    li[role="listitem"]>div>div>div>div:not(:last-child) {filter: none;}
+    li[role="listitem"]>div>div>div>div+div:last-child {display: none;}
+    `,
+	  svg: `
+    <g class="download"><path d="M3,14 v5 q0,2 2,2 h14 q2,0 2,-2 v-5 M7,10 l4,4 q1,1 2,0 l4,-4 M12,3 v11" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" /></g>
+    <g class="completed"><path d="M3,14 v5 q0,2 2,2 h14 q2,0 2,-2 v-5 M7,10 l3,4 q1,1 2,0 l8,-11" fill="none" stroke="#1DA1F2" stroke-width="2" stroke-linecap="round" /></g>
+    <g class="loading"><circle cx="12" cy="12" r="10" fill="none" stroke="#1DA1F2" stroke-width="4" opacity="0.4" /><path d="M12,2 a10,10 0 0 1 10,10" fill="none" stroke="#1DA1F2" stroke-width="4" stroke-linecap="round" /></g>
+    <g class="failed"><circle cx="12" cy="12" r="11" fill="#f33" stroke="currentColor" stroke-width="2" opacity="0.8" /><path d="M14,5 a1,1 0 0 0 -4,0 l0.5,9.5 a1.5,1.5 0 0 0 3,0 z M12,17 a2,2 0 0 0 0,4 a2,2 0 0 0 0,-4" fill="#fff" stroke="none" /></g>
+    `,
+	  isTweetdeck: function() {
+	    return ScriptConst.currentHost.indexOf("tweetdeck") >= 0;
+	  },
+	  getCookie: function() {
+	    const cookieString = document.cookie;
+	    const cookiePairs = cookieString.split(";");
+	    const cookiesObject = {};
+	    for (const pair of cookiePairs) {
+	      const [key, value] = pair.split("=");
+	      cookiesObject[key.trim()] = value.trim();
+	    }
+	    return cookiesObject;
+	  },
+	  formatDate: function(i, o, tz) {
+	    let d = new Date(i);
+	    if (tz) {
+	      d.setMinutes(d.getMinutes() - d.getTimezoneOffset());
+	    }
+	    let m = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"];
+	    let v = {
+	      YYYY: d.getUTCFullYear().toString(),
+	      YY: d.getUTCFullYear().toString(),
+	      MM: d.getUTCMonth() + 1,
+	      MMM: m[d.getUTCMonth()],
+	      DD: d.getUTCDate(),
+	      hh: d.getUTCHours(),
+	      mm: d.getUTCMinutes(),
+	      ss: d.getUTCSeconds(),
+	      h2: d.getUTCHours() % 12,
+	      ap: d.getUTCHours() < 12 ? "AM" : "PM"
+	    };
+	    return o.replace(/(YY(YY)?|MMM?|DD|hh|mm|ss|h2|ap)/g, (n) => ("0" + v[n]).substr(-n.length));
+	  },
+	  detect: function(node) {
+	    let article = node.tagName == "ARTICLE" && node || node.tagName == "DIV" && (node.querySelector("article") || node.closest("article"));
+	    if (article) {
+	      this.addButtonTo(article);
+	    }
+	    let listitems = node.tagName == "LI" && node.getAttribute("role") == "listitem" && [node] || node.tagName == "DIV" && node.querySelectorAll('li[role="listitem"]');
+	    if (listitems) {
+	      this.addButtonToMedia(listitems);
+	    }
+	  },
+	  addButtonTo: function(article) {
+	    if (article.dataset.detected) {
+	      return;
+	    }
+	    article.dataset.detected = "true";
+	    const media_selector = [
+	      'a[href*="/photo/1"]',
+	      'div[role="progressbar"]',
+	      'button[data-testid="playButton"]',
+	      'a[href="/settings/content_you_see"]',
+	      "div.media-image-container",
+	      "div.media-preview-container",
+	      'div[aria-labelledby]>div:first-child>div[role="button"][tabindex="0"]'
+	    ];
+	    const media = article.querySelector(media_selector.join(","));
+	    if (media) {
+	      let status_id = article.querySelector('a[href*="/status/"]').href.split("/status/").pop().split("/").shift();
+	      let btn_group = article.querySelector('div[role="group"]:last-of-type, ul.tweet-actions, ul.tweet-detail-actions');
+	      let btn_share = Array.from(btn_group.querySelectorAll(":scope>div>div, li.tweet-action-item>a, li.tweet-detail-action-item>a")).pop().parentNode;
+	      let btn_down = btn_share.cloneNode(true);
+	      btn_down.querySelector("button").removeAttribute("disabled");
+	      if (this.isTweetdeck()) {
+	        btn_down.firstElementChild.innerHTML = '<svg viewBox="0 0 24 24" style="width: 18px; height: 18px;">' + this.svg + "</svg>";
+	        btn_down.firstElementChild.removeAttribute("rel");
+	        btn_down.classList.replace("pull-left", "pull-right");
+	      } else {
+	        btn_down.querySelector("svg").innerHTML = this.svg;
+	      }
+	      let is_exist = this.history.indexOf(status_id) >= 0;
+	      this.status(btn_down, "tmd-down");
+	      this.status(btn_down, is_exist ? "completed" : "download", is_exist ? selectLanguage().download.completed : selectLanguage().download.download);
+	      btn_group.insertBefore(btn_down, btn_share.nextSibling);
+	      btn_down.onclick = () => {
+	        this.click(btn_down, status_id, is_exist);
+	      };
+	      if (this.show_sensitive) {
+	        let btn_show = article.querySelector('div[aria-labelledby] div[role="button"][tabindex="0"]:not([data-testid]) > div[dir] > span > span');
+	        if (btn_show) {
+	          btn_show.click();
+	        }
+	      }
+	    }
+	    const imgs = article.querySelectorAll('a[href*="/photo/"]');
+	    if (imgs.length > 1) {
+	      let status_id = article.querySelector('a[href*="/status/"]').href.split("/status/").pop().split("/").shift();
+	      let btn_group = article.querySelector('div[role="group"]:last-of-type');
+	      Array.from(btn_group.querySelectorAll(":scope>div>div")).pop().parentNode;
+	      imgs.forEach((img) => {
+	        let index = img.href.split("/status/").pop().split("/").pop();
+	        let is_exist = this.history.indexOf(status_id) >= 0;
+	        let btn_down = document.createElement("div");
+	        btn_down.innerHTML = '<div><div><svg viewBox="0 0 24 24" style="width: 18px; height: 18px;">' + this.svg + "</svg></div></div>";
+	        btn_down.classList.add("tmd-down", "tmd-img");
+	        this.status(btn_down, "download");
+	        img.parentNode.appendChild(btn_down);
+	        btn_down.onclick = (e) => {
+	          e.preventDefault();
+	          this.click(btn_down, status_id, is_exist, index);
+	        };
+	      });
+	    }
+	  },
+	  addButtonToMedia: function(listitems) {
+	    listitems.forEach((li) => {
+	      if (li.dataset.detected)
+	        return;
+	      li.dataset.detected = "true";
+	      let status_id = li.querySelector('a[href*="/status/"]').href.split("/status/").pop().split("/").shift();
+	      let is_exist = this.history.indexOf(status_id) >= 0;
+	      let btn_down = document.createElement("div");
+	      btn_down.innerHTML = '<div><div><svg viewBox="0 0 24 24" style="width: 18px; height: 18px;">' + this.svg + "</svg></div></div>";
+	      btn_down.classList.add("tmd-down", "tmd-media");
+	      this.status(btn_down, is_exist ? "completed" : "download", is_exist ? selectLanguage().download.completed : selectLanguage().download.download);
+	      li.appendChild(btn_down);
+	      btn_down.onclick = () => {
+	        this.click(btn_down, status_id, is_exist);
+	      };
+	    });
+	  },
+	  status: function(btn, css, title, style) {
+	    if (css) {
+	      btn.classList.remove("download", "completed", "loading", "failed");
+	      btn.classList.add(css);
+	    }
+	    if (title)
+	      btn.title = title;
+	    if (style)
+	      btn.style.cssText = style;
+	  },
+	  fetchJson: function(status_id) {
+	    return __async$7(this, null, function* () {
+	      const base_url = `https://${ScriptConst.currentHost}/i/api/graphql/NmCeCgkVlsRGS1cAwqtgmw/TweetDetail`;
+	      const variables = {
+	        "focalTweetId": status_id,
+	        "with_rux_injections": false,
+	        "includePromotedContent": true,
+	        "withCommunity": true,
+	        "withQuickPromoteEligibilityTweetFields": true,
+	        "withBirdwatchNotes": true,
+	        "withVoice": true,
+	        "withV2Timeline": true
+	      };
+	      const features = {
+	        "rweb_lists_timeline_redesign_enabled": true,
+	        "responsive_web_graphql_exclude_directive_enabled": true,
+	        "verified_phone_label_enabled": false,
+	        "creator_subscriptions_tweet_preview_api_enabled": true,
+	        "responsive_web_graphql_timeline_navigation_enabled": true,
+	        "responsive_web_graphql_skip_user_profile_image_extensions_enabled": false,
+	        "tweetypie_unmention_optimization_enabled": true,
+	        "responsive_web_edit_tweet_api_enabled": true,
+	        "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
+	        "view_counts_everywhere_api_enabled": true,
+	        "longform_notetweets_consumption_enabled": true,
+	        "responsive_web_twitter_article_tweet_consumption_enabled": false,
+	        "tweet_awards_web_tipping_enabled": false,
+	        "freedom_of_speech_not_reach_fetch_enabled": true,
+	        "standardized_nudges_misinfo": true,
+	        "tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled": true,
+	        "longform_notetweets_rich_text_read_enabled": true,
+	        "longform_notetweets_inline_media_enabled": true,
+	        "responsive_web_media_download_video_enabled": false,
+	        "responsive_web_enhance_cards_enabled": false
+	      };
+	      const url = encodeURI(`${base_url}?variables=${JSON.stringify(variables)}&features=${JSON.stringify(features)}`);
+	      const cookies = this.getCookie();
+	      const headers = {
+	        "authorization": "Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA",
+	        "x-twitter-active-user": "yes",
+	        "x-twitter-client-language": cookies.lang,
+	        "x-csrf-token": cookies.ct0
+	      };
+	      if (cookies.ct0.length == 32)
+	        headers["x-guest-token"] = cookies.gt;
+	      let tweet_detail = yield fetch(url, { headers }).then((result) => result.json());
+	      let tweet_entrie = tweet_detail.data.threaded_conversation_with_injections_v2.instructions[0].entries.find((n) => n.entryId == `tweet-${status_id}`);
+	      let tweet_result = tweet_entrie.content.itemContent.tweet_results.result;
+	      return tweet_result.tweet || tweet_result;
+	    });
+	  },
+	  click: function(btn, status_id, is_exist, index) {
+	    return __async$7(this, null, function* () {
+	      if (btn.classList.contains("loading"))
+	        return;
+	      this.status(btn, "loading");
+	      let save_history = yield GM_getValue("save_history", true);
+	      let json = yield this.fetchJson(status_id);
+	      let tweet = json.legacy;
+	      let user = json.core.user_results.result.legacy;
+	      let invalid_chars = {
+	        "\\": "＼",
+	        "/": "／",
+	        "|": "｜",
+	        "<": "＜",
+	        ">": "＞",
+	        ":": "：",
+	        "*": "＊",
+	        "?": "？",
+	        '"': "＂",
+	        "​": "",
+	        "‌": "",
+	        "‍": "",
+	        "⁠": "",
+	        "\uFEFF": "",
+	        "🔞": ""
+	      };
+	      let datetime = this.filename.match(/{date-time(-local)?:[^{}]+}/) ? this.filename.match(/{date-time(?:-local)?:([^{}]+)}/)[1].replace(/[\\/ | <>*?:"]/g, (v) => invalid_chars[v]) : "YYYYMMDD-hhmmss";
+	      let info = {};
+	      info["status-id"] = status_id;
+	      info["user-name"] = user.name.replace(/([\\/|*?:"] | [\u200b - \u200d\u2060\ufeff] | 🔞) /g, (v) => invalid_chars[v]);
+	      info["user-id"] = user.screen_name;
+	      info["date-time"] = this.formatDate(tweet.created_at, datetime);
+	      info["date-time-local"] = this.formatDate(tweet.created_at, datetime, true);
+	      info["full-text"] = tweet.full_text.split("\n").join(" ").replace(/\s*https:\/\/t\.co\/\w+/g, "").replace(/[\\/ | <>*?:"]|[\u200b-\u200d\u2060\ufeff]/g, (v) => invalid_chars[v]);
+	      let medias = tweet.extended_entities && tweet.extended_entities.media;
+	      if (medias == void 0) {
+	        medias = JSON.parse(json.card.legacy.binding_values[0].value.string_value).media_entities;
+	        medias = Object.values(medias);
+	      }
+	      if (index) {
+	        medias = [medias[index - 1]];
+	      }
+	      if (medias.length > 0) {
+	        let tasks = medias.length;
+	        let tasks_result = [];
+	        medias.forEach((media, i) => {
+	          info.url = media.type == "photo" ? media.media_url_https + ":orig" : media.video_info.variants.filter((n) => n.content_type == "video/mp4").sort((a, b) => b.bitrate - a.bitrate)[0].url;
+	          info.file = info.url.split("/").pop().split(/[:?]/).shift();
+	          info["file-name"] = info.file.split(".").shift();
+	          info["file-ext"] = info.file.split(".").pop();
+	          info["file-type"] = media.type.replace("animated_", "");
+	          info.out = (this.filename.replace(/\.?{file-ext}/, "") + ((medias.length > 1 || index) && !this.filename.match("{file-name}") ? "-" + (index ? index - 1 : i) : "") + ".{file-ext}").replace(/{([^{}:]+)(:[^{}]+)?}/g, (match, name) => info[name]);
+	          this.downloader.add({
+	            url: info.url,
+	            name: info.out,
+	            onload: () => {
+	              tasks -= 1;
+	              tasks_result.push((medias.length > 1 || index ? (index ? index : i + 1) + ": " : "") + selectLanguage().download.completed);
+	              this.status(btn, null, tasks_result.sort().join("\n"));
+	              if (tasks === 0) {
+	                this.status(btn, "completed", selectLanguage().download.completed);
+	                if (save_history && !is_exist) {
+	                  this.history.push(status_id);
+	                }
+	              }
+	            },
+	            onerror: (result) => {
+	              tasks = -1;
+	              tasks_result.push((medias.length > 1 ? i + 1 + ": " : "") + result.details.current);
+	              this.status(btn, "failed", tasks_result.sort().join("\n"));
+	            }
+	          });
+	        });
+	      } else {
+	        this.status(btn, "failed", "MEDIA_NOT_FOUND");
+	      }
+	    });
+	  },
+	  downloader: function() {
+	    let tasks = [], thread = 0, max_thread = 2, retry = 0, max_retry = 2, failed = 0, notifier, has_failed = false;
+	    return {
+	      add: function(task) {
+	        tasks.push(task);
+	        if (thread < max_thread) {
+	          thread += 1;
+	          this.next();
+	        } else {
+	          this.update();
+	        }
+	      },
+	      next: function() {
+	        return __async$7(this, null, function* () {
+	          let task = tasks.shift();
+	          yield this.start(task);
+	          if (tasks.length > 0 && thread <= max_thread) {
+	            this.next();
+	          } else {
+	            thread -= 1;
+	          }
+	          this.update();
+	        });
+	      },
+	      start: function(task) {
+	        this.update();
+	        return new Promise((resolve) => {
+	          GM_download({
+	            url: task.url,
+	            name: task.name,
+	            onload: (result) => {
+	              task.onload();
+	              resolve();
+	            },
+	            onerror: (result) => {
+	              this.retry(task, result);
+	              resolve();
+	            },
+	            ontimeout: (result) => {
+	              this.retry(task, result);
+	              resolve();
+	            }
+	          });
+	        });
+	      },
+	      retry: function(task, result) {
+	        retry += 1;
+	        if (retry == 3)
+	          max_thread = 1;
+	        if (task.retry && task.retry >= max_retry || result.details && result.details.current == "USER_CANCELED") {
+	          task.onerror(result);
+	          failed += 1;
+	        } else {
+	          if (max_thread == 1)
+	            task.retry = (task.retry || 0) + 1;
+	          this.add(task);
+	        }
+	      },
+	      update: function() {
+	        if (!notifier) {
+	          notifier = document.createElement("div");
+	          notifier.title = "Twitter Media Downloader";
+	          notifier.classList.add("tmd-notifier");
+	          notifier.innerHTML = "<label>0</label>|<label>0</label>";
+	          document.body.appendChild(notifier);
+	        }
+	        if (failed > 0 && !has_failed) {
+	          has_failed = true;
+	          notifier.innerHTML += "|";
+	          let clear = document.createElement("label");
+	          notifier.appendChild(clear);
+	          clear.onclick = () => {
+	            notifier.innerHTML = "<label>0</label>|<label>0</label>";
+	            failed = 0;
+	            has_failed = false;
+	            this.update();
+	          };
+	        }
+	        notifier.firstChild.innerText = thread;
+	        notifier.firstChild.nextElementSibling.innerText = tasks.length;
+	        if (failed > 0) {
+	          notifier.lastChild.innerText = failed;
+	        }
+	        if (thread > 0 || tasks.length > 0 || failed > 0) {
+	          notifier.classList.add("running");
+	        } else {
+	          notifier.classList.remove("running");
+	        }
+	      }
+	    };
+	  }(),
+	  init: function() {
+	    document.head.insertAdjacentHTML("beforeend", "<style>" + this.css + (this.show_sensitive ? this.css_ss : "") + "</style>");
+	  }
+	};
+	const X = {
+	  XSettingsDialog,
+	  XDateFormat,
+	  XOrigimg,
+	  XHidepromo,
+	  XDownload
+	};
+
+	var __async$6 = (__this, __arguments, generator) => {
+	  return new Promise((resolve, reject) => {
+	    var fulfilled = (value) => {
+	      try {
+	        step(generator.next(value));
+	      } catch (e) {
+	        reject(e);
+	      }
+	    };
+	    var rejected = (value) => {
+	      try {
+	        step(generator.throw(value));
+	      } catch (e) {
+	        reject(e);
+	      }
+	    };
+	    var step = (x) => x.done ? resolve(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
+	    step((generator = generator.apply(__this, __arguments)).next());
+	  });
+	};
+	const Tiktok = {
+	  extractHref: function(html) {
+	    const regex = /<a\s+(?:[^>]*?\s+)?href=(['"])(.*?)\1/gi;
+	    const hrefs = [];
+	    let match;
+	    while ((match = regex.exec(html)) !== null) {
+	      hrefs.push(match[2]);
+	    }
+	    return hrefs.filter((href) => href.indexOf("snapcdn.app") != -1);
+	  },
+	  download: function(url, element) {
+	    return __async$6(this, null, function* () {
+	      Toast.show({ "message": selectLanguage().download.preparing, "background": "#000" });
+	      element.classList.add("download-loadding");
+	      const data = yield Tools.request(
+	        "POST",
+	        "https://tikdownloader.io/api/ajaxSearch",
+	        "q=" + url + "&lang=en",
+	        { "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8" }
+	      );
+	      if (data.code === "success") {
+	        const result = JSON.parse(data.result);
+	        if (result.status == "ok" && result.hasOwnProperty("data")) {
+	          const data2 = result.data;
+	          const downloadUrls = this.extractHref(data2);
+	          if (downloadUrls.length >= 2) {
+	            Tools.openInTab(downloadUrls.at(-2));
+	          }
+	        }
+	      }
+	      element.classList.remove("download-loadding");
+	    });
+	  },
+	  start: function() {
+	    return __async$6(this, null, function* () {
+	      if (!/www\.tiktok\.com/.test(window.location.host)) {
+	        return;
+	      }
+	      GM_addStyle(`
+      @keyframes scriptspin {0% {transform: rotate(0deg);} 100% {transform: rotate(360deg);}}
+      .download-loadding{
+        animation: scriptspin 1s linear infinite;
+      }
+    `);
+	      setInterval(() => {
+	        if (!document.querySelector("#tiktok-download-990i")) {
+	          const container = document.querySelector("#main-content-video_detail") || document.body;
+	          if (!container) {
+	            return;
+	          }
+	          const divs = container.querySelectorAll("div");
+	          const regex = /-DivRightControlsWrapper|-DivMiniPlayerContainer/;
+	          const matchedDiv = Array.from(divs).find((div) => {
+	            return div.classList.value.split(" ").some((className) => {
+	              return regex.test(className);
+	            });
+	          });
+	          if (matchedDiv) {
+	            let cloneNode = null;
+	            let isDetail = matchedDiv.children.length != 1;
+	            if (isDetail) {
+	              cloneNode = matchedDiv.children[0].cloneNode(true);
+	            } else {
+	              cloneNode = matchedDiv.cloneNode(true);
+	            }
+	            cloneNode.id = "tiktok-download-990i";
+	            cloneNode.querySelector("div").innerHTML = `<svg t="1724300009050" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5307" width="35" height="35"><path d="M298.666667 554.666667v85.333333H256v128h512v-128h-42.666667v-85.333333h128v213.333333a85.333333 85.333333 0 0 1-78.933333 85.077333L768 853.333333H256a85.333333 85.333333 0 0 1-85.12-78.933333L170.666667 768v-213.333333h128z" fill="#ffffff" p-id="5308"></path><path d="M512 627.498667l219.477333-219.477334h-120.704L512 506.88 413.141333 408.021333H292.522667L512 627.498667z" fill="#ffffff" p-id="5309"></path><path d="M554.666667 528V167.978667h-85.333334v360.021333h85.333334z" fill="#ffffff" p-id="5310"></path></svg>`;
+	            if (isDetail) {
+	              matchedDiv.insertBefore(cloneNode, matchedDiv.children[0]);
+	            } else {
+	              cloneNode.style.right = 166 + "px";
+	              matchedDiv.parentNode.insertBefore(cloneNode, matchedDiv);
+	            }
+	            cloneNode.title = selectLanguage().download.tip;
+	            cloneNode.addEventListener("click", () => {
+	              Tiktok.download(window.location.href, cloneNode);
+	            });
+	          }
+	        }
+	      }, 1500);
+	    });
+	  }
+	};
 
 	const dialog = function() {
 	  class Dialog {
@@ -1720,7 +2511,7 @@
 	  }
 	};
 
-	var __async$4 = (__this, __arguments, generator) => {
+	var __async$5 = (__this, __arguments, generator) => {
 	  return new Promise((resolve, reject) => {
 	    var fulfilled = (value) => {
 	      try {
@@ -1781,7 +2572,7 @@
 	    });
 	  },
 	  detail: function() {
-	    return __async$4(this, null, function* () {
+	    return __async$5(this, null, function* () {
 	      const visitUrl = window.location.href;
 	      const validate = [/\/item\/[^\/]*?\.html\?/, /\/item\/[^\/]*?\.html$/].map((reg) => reg.test(visitUrl)).some((rs) => rs == true);
 	      if (!validate)
@@ -1789,7 +2580,7 @@
 	      const language = this.getLang();
 	      const currency = yield this.getCurrency();
 	      const id = Tools.getParamterBySuffix(visitUrl, "html");
-	      const url = this.baseUrl + "/api/coupon/query?ids=" + id + "&qu=&p=aliexpress&no=10&v=1.0.1&lang=" + language + "&mul=false&currency=" + currency;
+	      const url = this.baseUrl + "/api/coupon/query?ids=" + id + "&qu=&p=aliexpress&no=9&v=1.0.1&lang=" + language + "&mul=false&currency=" + currency;
 	      const data = yield Tools.crossRequest("GET", url, null);
 	      if (data.code == "success" && !!data.result) {
 	        const json = JSON.parse(data.result);
@@ -1810,7 +2601,7 @@
 	    });
 	  },
 	  detailAnalyze: function(json, language, currency) {
-	    return __async$4(this, null, function* () {
+	    return __async$5(this, null, function* () {
 	      this.checkDomInsertRs = false;
 	      try {
 	        if (!json)
@@ -1902,7 +2693,7 @@
 	    }
 	  },
 	  trade: function() {
-	    return __async$4(this, null, function* () {
+	    return __async$5(this, null, function* () {
 	      const visitUrl = window.location.href;
 	      const validate = [
 	        /\/trade\/confirm\.html/,
@@ -1913,7 +2704,7 @@
 	      const language = yield GM_getValue(this.languageStoageKey, navigator.language);
 	      const currency = yield GM_getValue(this.currencyStoageKey, "USD");
 	      const ids = Tools.getParamterBySearch(window.location.search, "objectId") || Tools.getParamterBySearch(window.location.search, "availableProductShopcartIds") || Tools.getParamterBySearch(window.location.search, "itemId");
-	      const confirmUrl = this.baseUrl + "/api/coupon/query?ids=" + ids + "&qu=&p=aliexpress&no=10&v=1.0.1&lang=" + language + "&mul=true&currency=" + currency;
+	      const confirmUrl = this.baseUrl + "/api/coupon/query?ids=" + ids + "&qu=&p=aliexpress&no=9&v=1.0.1&lang=" + language + "&mul=true&currency=" + currency;
 	      const res = yield Tools.crossRequest("GET", confirmUrl, null);
 	      if (res.code == "success" && !!res.result) {
 	        const json = JSON.parse(res.result);
@@ -1922,7 +2713,7 @@
 	    });
 	  },
 	  tradeAnalyze: function(json, language) {
-	    return __async$4(this, null, function* () {
+	    return __async$5(this, null, function* () {
 	      if (!json || !json.handler || !json.css || !json.templateId) {
 	        return;
 	      }
@@ -1962,7 +2753,7 @@
 	    }, 2500);
 	  },
 	  start: function() {
-	    return __async$4(this, null, function* () {
+	    return __async$5(this, null, function* () {
 	      if (this.isRun()) {
 	        this.detail();
 	        this.trade();
@@ -2089,7 +2880,7 @@
 	  }
 	};
 
-	var __async$3 = (__this, __arguments, generator) => {
+	var __async$4 = (__this, __arguments, generator) => {
 	  return new Promise((resolve, reject) => {
 	    var fulfilled = (value) => {
 	      try {
@@ -2119,7 +2910,7 @@
 	    return /aliexpress/.test(url) && /\/item\/[^\/]*?\.html/.test(url);
 	  },
 	  pickUpWholesale: function(selectors, language, currency) {
-	    return __async$3(this, null, function* () {
+	    return __async$4(this, null, function* () {
 	      const items = [];
 	      try {
 	        selectors.forEach((elementObj) => {
@@ -2155,7 +2946,7 @@
 	    });
 	  },
 	  pickUpInbusiness: function(language, currency) {
-	    return __async$3(this, null, function* () {
+	    return __async$4(this, null, function* () {
 	      const validate = this.isInbusinessPage();
 	      if (!validate)
 	        return;
@@ -2223,7 +3014,7 @@
 	          reqId = reqId.slice(0, -1);
 	        }
 	        logger("info", "request start >>>>>>>>>>>>>", group);
-	        const searchUrl = ItemSearchBaseObj.baseUrl + "/api/coupon/exist?platform=" + platform + "&ids=" + reqId + "&lang=" + language + "&no=10&v=1.0.1&currency=" + currency;
+	        const searchUrl = ItemSearchBaseObj.baseUrl + "/api/coupon/exist?platform=" + platform + "&ids=" + reqId + "&lang=" + language + "&no=9&v=1.0.1&currency=" + currency;
 	        logger("info", "request searchUrl >>>>>>>>>>>>>:", searchUrl);
 	        ItemSearchBaseObj.requestAndSaveSate("GET", searchUrl, null).then((data) => {
 	          logger("info", "request finish >>>>>>>>>>>>>");
@@ -2332,7 +3123,7 @@
 	    return run;
 	  },
 	  start: function() {
-	    return __async$3(this, null, function* () {
+	    return __async$4(this, null, function* () {
 	      if (!this.isRun())
 	        return;
 	      let removeTagIsComplete = true;
@@ -2343,7 +3134,7 @@
 	        return;
 	      }
 	      const selectors = ItemSearchBaseObj.pickupGoodsItem(this.currentPlatform, confString);
-	      setInterval(() => __async$3(this, null, function* () {
+	      setInterval(() => __async$4(this, null, function* () {
 	        if (removeTagIsComplete && this.loopIsComplete) {
 	          this.loopIsComplete = false;
 	          yield this.pickUpInbusiness(language, currency);
@@ -2401,7 +3192,7 @@
 	  }
 	};
 
-	var __async$2 = (__this, __arguments, generator) => {
+	var __async$3 = (__this, __arguments, generator) => {
 	  return new Promise((resolve, reject) => {
 	    var fulfilled = (value) => {
 	      try {
@@ -2443,7 +3234,7 @@
 	    return null;
 	  },
 	  detail: function() {
-	    return __async$2(this, null, function* () {
+	    return __async$3(this, null, function* () {
 	      const validate = this.isDetail();
 	      if (!validate)
 	        return;
@@ -2463,7 +3254,7 @@
 	        GoodsHistroy.push("ebay", goods);
 	      }
 	      const marketplace = this.getMarketplace(visitUrl);
-	      const url = this.baseUrl + "/api/coupon/query?ids=" + id + "&qu=&p=ebay&no=10&v=1.0.1&marketplace=" + marketplace + "&mul=false";
+	      const url = this.baseUrl + "/api/coupon/query?ids=" + id + "&qu=&p=ebay&no=9&v=1.0.1&marketplace=" + marketplace + "&mul=false";
 	      const data = yield Tools.crossRequest("GET", url, null);
 	      if (data.code == "success" && !!data.result) {
 	        const json = JSON.parse(data.result);
@@ -2472,7 +3263,7 @@
 	    });
 	  },
 	  detailAnalyze: function(json, marketplace) {
-	    return __async$2(this, null, function* () {
+	    return __async$3(this, null, function* () {
 	      let couponResult = null;
 	      let qrcodeResult = null;
 	      if (!!json.data && !!json.data.css && !!json.data.html && !!json.data.handler) {
@@ -2553,13 +3344,13 @@
 	    }
 	  },
 	  start: function() {
-	    return __async$2(this, null, function* () {
+	    return __async$3(this, null, function* () {
 	      this.detail();
 	    });
 	  }
 	};
 
-	var __async$1 = (__this, __arguments, generator) => {
+	var __async$2 = (__this, __arguments, generator) => {
 	  return new Promise((resolve, reject) => {
 	    var fulfilled = (value) => {
 	      try {
@@ -2593,7 +3384,7 @@
 	    return /ebay/.test(url) && /\/itm\/[^\/]*?/.test(url);
 	  },
 	  pickUpItems: function(selectors, marketplace) {
-	    return __async$1(this, null, function* () {
+	    return __async$2(this, null, function* () {
 	      const items = [];
 	      try {
 	        selectors.forEach((elementObj) => {
@@ -2629,7 +3420,7 @@
 	    });
 	  },
 	  search: function(array, marketplace) {
-	    return __async$1(this, null, function* () {
+	    return __async$2(this, null, function* () {
 	      const groups = ItemSearchBaseObj.calcRequestGroup(array);
 	      const len = groups.length;
 	      return new Promise((resolve, reject) => {
@@ -2666,7 +3457,7 @@
 	          reqId = reqId.slice(0, -1);
 	        }
 	        logger("info", "request start >>>>>>>>>>>>>", group);
-	        const searchUrl = ItemSearchBaseObj.baseUrl + "/api/coupon/exist?platform=" + platform + "&ids=" + reqId + "&marketplace=" + marketplace + "&no=10&v=1.0.1";
+	        const searchUrl = ItemSearchBaseObj.baseUrl + "/api/coupon/exist?platform=" + platform + "&ids=" + reqId + "&marketplace=" + marketplace + "&no=9&v=1.0.1";
 	        logger("info", "request searchUrl >>>>>>>>>>>>>:", searchUrl);
 	        ItemSearchBaseObj.requestAndSaveSate("GET", searchUrl, null).then((data) => {
 	          logger("info", "request finish >>>>>>>>>>>>>", data);
@@ -2751,7 +3542,7 @@
 	    });
 	  },
 	  start: function() {
-	    return __async$1(this, null, function* () {
+	    return __async$2(this, null, function* () {
 	      if (!this.isRun())
 	        return;
 	      const marketplace = Ebay.getMarketplace(window.location.href);
@@ -2760,7 +3551,7 @@
 	        return;
 	      }
 	      const selectors = ItemSearchBaseObj.pickupGoodsItem(this.currentPlatform, confString);
-	      setInterval(() => __async$1(this, null, function* () {
+	      setInterval(() => __async$2(this, null, function* () {
 	        if (this.loopIsComplete) {
 	          this.loopIsComplete = false;
 	          yield this.pickUpItems(selectors, marketplace);
@@ -2771,7 +3562,7 @@
 	  }
 	};
 
-	var __async = (__this, __arguments, generator) => {
+	var __async$1 = (__this, __arguments, generator) => {
 	  return new Promise((resolve, reject) => {
 	    var fulfilled = (value) => {
 	      try {
@@ -2805,7 +3596,7 @@
 	    return null;
 	  },
 	  detailMyMscanAnalyze: function(result) {
-	    return __async(this, null, function* () {
+	    return __async$1(this, null, function* () {
 	      const { id, iden, marketplace, platform, mount, html, cmd } = result;
 	      if (!mount || !html) {
 	        return;
@@ -2842,7 +3633,7 @@
 	    });
 	  },
 	  detailMy: function() {
-	    return __async(this, null, function* () {
+	    return __async$1(this, null, function* () {
 	      if (!this.isMy()) {
 	        return;
 	      }
@@ -2851,7 +3642,7 @@
 	      if (!ids) {
 	        return;
 	      }
-	      const reqUrl = this.baseUrl + "/api/coupon/query?ids=" + ids + "&qu=&p=" + platform + "&no=10&v=1.0.1&marketplace=" + marketplace + "&mul=false";
+	      const reqUrl = this.baseUrl + "/api/coupon/query?ids=" + ids + "&qu=&p=" + platform + "&no=9&v=1.0.1&marketplace=" + marketplace + "&mul=false";
 	      const data = yield Tools.crossRequest("GET", reqUrl, null);
 	      if (!!data && data.code === "success" && !!data.result) {
 	        const json = JSON.parse(data.result);
@@ -2889,13 +3680,216 @@
 	    return /https:\/\/www\.lazada\.com\.my\/products\/[a-zA-Z0-9\-]+-i\d+-s\d+\.html.*/.test(this.visitUrl);
 	  },
 	  start: function() {
-	    return __async(this, null, function* () {
+	    return __async$1(this, null, function* () {
 	      this.detailMy();
 	    });
 	  }
 	};
 
-	const EcommerceModules = {
+	var __async = (__this, __arguments, generator) => {
+	  return new Promise((resolve, reject) => {
+	    var fulfilled = (value) => {
+	      try {
+	        step(generator.next(value));
+	      } catch (e) {
+	        reject(e);
+	      }
+	    };
+	    var rejected = (value) => {
+	      try {
+	        step(generator.throw(value));
+	      } catch (e) {
+	        reject(e);
+	      }
+	    };
+	    var step = (x) => x.done ? resolve(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
+	    step((generator = generator.apply(__this, __arguments)).next());
+	  });
+	};
+	const YoutubeDownload = {
+	  markName: `script-download-----iux998htt`,
+	  isComplete: true,
+	  download: function(btn) {
+	    return __async(this, null, function* () {
+	      try {
+	        Toast.show({ "message": selectLanguage().download.preparing, "background": "#000" });
+	        btn.classList.add("download-loadding");
+	        const downloadUl = yield this.getDownloadUrl(window.location.href.replace("music.youtube.com", "www.youtube.com"));
+	        window.open(downloadUl, "_blank");
+	      } catch (ex) {
+	      } finally {
+	        btn.classList.remove("download-loadding");
+	      }
+	    });
+	  },
+	  getDownloadUrl: function(videoUrl, audioOnly = false) {
+	    return new Promise((resolve, reject) => {
+	      GM_xmlhttpRequest({
+	        method: "POST",
+	        url: "https://api.cobalt.tools/api/json",
+	        headers: {
+	          "Cache-Control": "no-cache",
+	          Accept: "application/json",
+	          "Content-Type": "application/json"
+	        },
+	        data: JSON.stringify({
+	          url: encodeURI(videoUrl),
+	          vQuality: "max",
+	          filenamePattern: "basic",
+	          isAudioOnly: audioOnly,
+	          disableMetadata: true
+	        }),
+	        onload: (response) => {
+	          const data = JSON.parse(response.responseText);
+	          if (data == null ? void 0 : data.url)
+	            resolve(data.url);
+	          else
+	            reject(data);
+	        },
+	        onerror: (err) => reject(err)
+	      });
+	    });
+	  },
+	  elementInContainer: function(container, element) {
+	    return container.contains(element);
+	  },
+	  detectYoutubeService: function() {
+	    if (window.location.hostname === "www.youtube.com" && window.location.pathname.startsWith("/shorts"))
+	      return "shorts";
+	    if (window.location.hostname === "www.youtube.com" && window.location.pathname.startsWith("/watch"))
+	      return "watch";
+	    else if (window.location.hostname === "music.youtube.com")
+	      return "music";
+	    else if (window.location.hostname === "www.youtube.com")
+	      return "youtube";
+	    else
+	      return null;
+	  },
+	  hookNavigationEvents: function() {
+	    return __async(this, null, function* () {
+	      ["yt-navigate", "yt-navigate-finish", "yt-navigate-finish", "yt-page-data-updated"].forEach((evName) => {
+	        if (evName) {
+	          document.addEventListener(evName, (e) => {
+	            this.appendDownloadButton(e);
+	          });
+	        }
+	      });
+	    });
+	  },
+	  appendDownloadButton: function(e) {
+	    return __async(this, null, function* () {
+	      try {
+	        this.isComplete = false;
+	        const ytContainerSelector = "#movie_player > div.ytp-chrome-bottom > div.ytp-chrome-controls > div.ytp-right-controls";
+	        const ytmContainerSelector = "#layout > ytmusic-player-bar > div.middle-controls.style-scope.ytmusic-player-bar > div.middle-controls-buttons.style-scope.ytmusic-player-bar";
+	        const img = document.createElement("img");
+	        img.src = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAepJREFUaEPtmEFygzAMRQ3dsm2mx0kOkfO0OQ+HCL1Np91m29ARtgM0gPUluZ3MmE0miSH//S8Jk8o9+FE9uH5XAP47wZJASUDpQCkhpYHq00sCSxY27ct+/Py6d67u6P3l+DG8Wh5mCXjR369eXDUBuJN78jCfbxYgaoBR+KboJa0nCwgVgBd/PSudVIGIAZp2RyUQSkaJ4JwYQgRgLD7SiyCkAD3P8z5MHW5/1Ad0UsEAgPs3R5v2+ZyYTMGPvrscvw48c8K8QxYD4umyEwCkX7AUoAT+BgBLAQVg1v6QqzCB4SbH1sVeKJj5YgDn+GVkDEBTp3r3fVV3caIE+On2InH/yALAasTkLOf1URYA9rZhFYInft4/qSlpXELx5+4dBMRT+bFvaJkA5pMEHwAZAMhb/h2VVo/zvGl3yPjNM0ZxAA/B20LMKj05CKar2SXkAbYamcQ+DU9b6YMeM1e34vkAtlJA7p7+OotlBYmn60AJJFJg//jaREJNEAEE9yyfxmLFsQ0Q98D0RGyuJ7tCJF6cQJRjBCEWrwbQgfiphT5C/s4SbuK1Yghp0NcbO834jKwXHnWYAcz7I/61OP6tSN9r3V4yLwtAsmUNFxQAQzNFlyoJiGwzPKkkYGim6FIlAZFthic9fAI/mIfoMZ8JBO0AAAAASUVORK5CYII=";
+	        img.style.width = "44px";
+	        img.style.height = "44px";
+	        const markName = this.markName;
+	        if (document.querySelector("." + markName))
+	          return;
+	        const escapeHTMLPolicy = trustedTypes.createPolicy("conardEscapePolicy", {
+	          createHTML: (string) => string.replace(/\</g, "&lt;")
+	        });
+	        const downloadButton = document.createElement("button");
+	        downloadButton.id = "ytdl-download-button";
+	        downloadButton.classList.add("ytp-button", markName);
+	        downloadButton.title = selectLanguage().download.tip;
+	        downloadButton.style.borderRadius = "50%";
+	        downloadButton.appendChild(img);
+	        switch (this.detectYoutubeService()) {
+	          case "watch":
+	            const ytCont = yield Tools.waitForElementByInterval(ytContainerSelector);
+	            if (this.elementInContainer(ytCont, ytCont.querySelector("#ytdl-download-button"))) {
+	              break;
+	            }
+	            const ytDlBtnClone = downloadButton.cloneNode(true);
+	            ytDlBtnClone.classList.add("YT");
+	            ytDlBtnClone.addEventListener("click", () => {
+	              this.download(ytDlBtnClone);
+	            });
+	            ytCont.insertBefore(ytDlBtnClone, ytCont.firstChild);
+	            break;
+	          case "shorts":
+	            if (!document.querySelector("#navigation-button-download-----iux998htt")) {
+	              const navigationButtonDown = document.querySelector("#navigation-button-down");
+	              const navigationButtonDownload = navigationButtonDown.cloneNode(false);
+	              navigationButtonDownload.id = "navigation-button-download-----iux998htt";
+	              navigationButtonDownload.style.textAlign = "center";
+	              navigationButtonDownload.appendChild(img);
+	              document.querySelector(".navigation-container").appendChild(navigationButtonDownload);
+	              navigationButtonDownload.addEventListener("click", () => {
+	                this.download(img);
+	              });
+	            }
+	            break;
+	          case "music":
+	            const ytmCont = yield Tools.waitForElementByInterval(ytmContainerSelector);
+	            if (this.elementInContainer(ytmCont, ytmCont.querySelector("#ytdl-download-button"))) {
+	              break;
+	            }
+	            const ytmDlBtnClone = downloadButton.cloneNode(true);
+	            ytmDlBtnClone.classList.add("YTM");
+	            ytmDlBtnClone.addEventListener("click", () => {
+	              this.download(ytmDlBtnClone);
+	            });
+	            ytmCont.insertBefore(ytmDlBtnClone, ytmCont.firstChild);
+	            break;
+	          default:
+	            return;
+	        }
+	      } catch (error) {
+	      } finally {
+	        this.isComplete = true;
+	      }
+	    });
+	  },
+	  initStyle: function() {
+	    GM_addStyle(`
+      @keyframes scriptspin {0% {transform: rotate(0deg);} 100% {transform: rotate(360deg);}}
+      .download-loadding{
+        animation: scriptspin 1s linear infinite;
+      }
+    `);
+	  },
+	  asyncAppendDownloadButton: function() {
+	    let allDelay = 1e3 * 30, delay = 250;
+	    const interval = setInterval(() => {
+	      if (document.querySelector("." + this.markName) || allDelay <= 0) {
+	        clearInterval(interval);
+	      } else {
+	        if (this.isComplete)
+	          this.appendDownloadButton();
+	      }
+	      allDelay -= delay;
+	    }, delay);
+	  },
+	  start: function() {
+	    this.initStyle();
+	    let currentUrl = null;
+	    setInterval(() => {
+	      const visitUrl = window.location.href;
+	      if (currentUrl !== window.location.href) {
+	        currentUrl = window.location.href;
+	        const watch = /www\.youtube\.com\/watch\?v=/.test(visitUrl);
+	        const shorts = /www\.youtube\.com\/shorts\//.test(visitUrl);
+	        const music = /music\.youtube\.com\/watch\?v=/.test(visitUrl);
+	        if (watch || shorts || music) {
+	          this.hookNavigationEvents();
+	          this.asyncAppendDownloadButton();
+	        }
+	      }
+	    }, 500);
+	  }
+	};
+
+	const AllModules = {
+	  X,
+	  Youtube: {
+	    YoutubeDownload
+	  },
+	  Tiktok,
 	  GoodsHistroy,
 	  Aliexpress: {
 	    Aliexpress,
@@ -2909,19 +3903,41 @@
 	};
 
 	const Init = {
+	  x: function() {
+	    AllModules.X.XDownload.init();
+	    AllModules.X.XSettingsDialog.init();
+	    const observer = new MutationObserver((ms) => ms.forEach((m) => {
+	      m.addedNodes.forEach((node) => {
+	        AllModules.X.XDownload.detect(node);
+	        AllModules.X.XDateFormat.repldatetime();
+	        AllModules.X.XOrigimg();
+	        AllModules.X.XHidepromo();
+	      });
+	    }));
+	    observer.observe(document.body, {
+	      childList: true,
+	      subtree: true
+	    });
+	  },
 	  aliexpress: function() {
-	    EcommerceModules.Aliexpress.Aliexpress.start();
-	    EcommerceModules.Aliexpress.AliexpressSearch.start();
-	    EcommerceModules.GoodsHistroy.start("aliexpress");
+	    AllModules.Aliexpress.Aliexpress.start();
+	    AllModules.Aliexpress.AliexpressSearch.start();
+	    AllModules.GoodsHistroy.start("aliexpress");
+	  },
+	  youtube: function() {
+	    AllModules.Youtube.YoutubeDownload.start();
 	  },
 	  ebay: function() {
-	    EcommerceModules.Ebay.Ebay.start();
-	    EcommerceModules.Ebay.EbaySearch.start();
-	    EcommerceModules.GoodsHistroy.start("ebay");
+	    AllModules.Ebay.Ebay.start();
+	    AllModules.Ebay.EbaySearch.start();
+	    AllModules.GoodsHistroy.start("ebay");
 	  },
 	  lazada: function() {
-	    EcommerceModules.GoodsHistroy.start("lazada");
-	    EcommerceModules.Lazada.start();
+	    AllModules.GoodsHistroy.start("lazada");
+	    AllModules.Lazada.start();
+	  },
+	  tiktok: function() {
+	    AllModules.Tiktok.start();
 	  },
 	  unknown: function() {
 	  },
