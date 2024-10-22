@@ -70,7 +70,7 @@
 // @description:ug    بۇ قوليازما بەزى تور بېكەتلەرنى ياخشىلاش بىلەن تەمىنلەيدۇ. 🔥Twitter (X): ۋاقىت فورماتلاش ئېكرانى ، HD رەسىم كۆرسىتىش ، رەسىم ۋە سىن چۈشۈرۈش قاتارلىقلارنى قوشۇڭ outYoutube: سىن چۈشۈرۈش ، ئېلان ئۆچۈرۈش قاتارلىقلارنى قوشۇڭ ikTiktok: HD سۇ ماركىسىسىز سىن چۈشۈرۈش قاتارلىقلار بىلەن تەمىنلەڭ. ، چۈشەندۈرۈشنى تەكشۈرۈپ بېقىڭ ~
 // @description:vi    Tập lệnh này sẽ cung cấp các cải tiến cho một số trang web. 🔥Twitter(X): Thêm hiển thị định dạng thời gian, hiển thị hình ảnh HD, tải xuống hình ảnh và video, v.v. 🔥Youtube: Thêm tải xuống video, xóa quảng cáo, v.v. 🔥Tiktok: Cung cấp tải xuống video HD không có hình mờ, v.v. Để biết thêm các tính năng, vui lòng kiểm tra phần mô tả~
 // @namespace   PeterParker_X_Y_NameScope
-// @version     1.1.3
+// @version     1.1.4
 // @author      PeterParker
 // @icon        data:image/png;base64,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
 // @include     https://x.com/*
@@ -985,33 +985,34 @@
 	const XSettingsDialog = {
 	  number: Math.ceil(Math.random() * 1e8),
 	  formats: [
-	    "Do nothing",
-	    "31.12.70 23:59",
-	    "31.12.70 23:59:59",
-	    "31.12.70(W) 23:59",
-	    "31.12.70(W) 23:59:59",
-	    "70/12/31 23:59",
-	    "70/12/31 23:59:59",
-	    "70/12/31(W) 23:59",
-	    "70/12/31(W) 23:59:59 [ye/mo/da(we) ho:mi:se]",
-	    "70-12/31 23:59",
-	    "70-12/31 23:59'59",
-	    "70-12/31(W) 23:59",
-	    "70-12/31(W) 23:59'59",
-	    "12/31/70 23:59",
-	    "12/31/70 23:59:59",
-	    "W, 12/31/70 23:59",
-	    "W, 12/31/70 23:59:59",
-	    "M59-12-31 23:59",
-	    "M59-12-31 23:59:59",
-	    "M59-12-31(W) 23:59",
-	    "M59-12-31(W) 23:59:59"
+	    { "format": "Do nothing", "example": "N/A" },
+	    { "format": "dd.MM.yy HH:mm", "example": "22.10.24 03:12" },
+	    { "format": "dd.MM.yy HH:mm:ss", "example": "22.10.24 03:12:56" },
+	    { "format": "dd.MM.yy(W) HH:mm", "example": "22.10.24(Mon) 03:12" },
+	    { "format": "dd.MM.yy(W) HH:mm:ss", "example": "22.10.24(Mon) 03:12:56" },
+	    { "format": "yy/MM/dd HH:mm", "example": "24/10/22 03:12" },
+	    { "format": "yy/MM/dd HH:mm:ss", "example": "24/10/22 03:12:56" },
+	    { "format": "yy/MM/dd(W) HH:mm", "example": "24/10/22(Mon) 03:12" },
+	    { "format": "yy/MM/dd(W) HH:mm:ss [ye/mo/da(we) ho:mi:se]", "example": "24/10/22(Mon) 03:12:56 [ye/mo/da(we) ho:mi:se]" },
+	    { "format": "yy-MM/dd HH:mm", "example": "24-10/22 03:12" },
+	    { "format": "yy-MM/dd HH:mm'ss", "example": "24-10/22 03:12'56" },
+	    { "format": "yy-MM/dd(W) HH:mm", "example": "24-10/22(Mon) 03:12" },
+	    { "format": "yy-MM/dd(W) HH:mm'ss", "example": "24-10/22(Mon) 03:12'56" },
+	    { "format": "MM/dd/yy HH:mm", "example": "10/22/24 03:12" },
+	    { "format": "MM/dd/yy HH:mm:ss", "example": "10/22/24 03:12:56" },
+	    { "format": "W, MM/dd/yy HH:mm", "example": "Mon, 10/22/24 03:12" },
+	    { "format": "W, MM/dd/yy HH:mm:ss", "example": "Mon, 10/22/24 03:12:56" },
+	    { "format": "M59-MM-dd HH:mm", "example": "M59-10-22 03:12" },
+	    { "format": "M59-MM-dd HH:mm:ss", "example": "M59-10-22 03:12:56" },
+	    { "format": "M59-MM-dd(W) HH:mm", "example": "M59-10-22(Mon) 03:12" },
+	    { "format": "M59-MM-dd(W) HH:mm:ss", "example": "M59-10-22(Mon) 03:12:56" }
 	  ],
 	  make: function() {
 	    let dialog = document.createElement("div");
 	    dialog.className = "dialog_u_" + this.number;
 	    dialog.style.all = "initial";
-	    dialog.style.backgroundColor = "rgb(235, 235, 235)";
+	    dialog.style.backgroundColor = "rgb(255, 255, 255)";
+	    dialog.style.border = "1px solid #ccc";
 	    dialog.style.borderRadius = "2px";
 	    dialog.style.display = "none";
 	    dialog.style.fontFamily = "monospace";
@@ -1026,12 +1027,12 @@
 	    dialog.style.top = "8px";
 	    dialog.style.zIndex = "2147483647";
 	    dialog.style.overflow = "auto";
-	    let formatsHtml = `<table border="0" style="width:100%;padding:5px;">`;
+	    let formatsHtml = `<table style="width:100%;border: 1px solid #c0bfbf;border-collapse: collapse;">`;
 	    for (var i = 1; i <= this.formats.length; i++) {
 	      if (i % 2 != 0) {
-	        formatsHtml += `<tr style="width:100%;">`;
+	        formatsHtml += `<tr style="width:100%;border: 1px solid #c0bfbf;">`;
 	      }
-	      formatsHtml += `<td width="50"><input type="radio" name="fmt" value="` + (i - 1) + `" class="top_r" />` + ("(" + i + ")、" + this.formats[i - 1]) + `</td>`;
+	      formatsHtml += `<td width="50" style="border: 1px solid #c0bfbf;padding: 5px 0px;" title="` + this.formats[i - 1].example + `"><input type="radio" name="fmt" value="` + (i - 1) + `" class="top_r" />` + ("【" + i + "】" + this.formats[i - 1].format) + `</td>`;
 	      if (i % 2 == 0) {
 	        formatsHtml += `</tr>`;
 	      }
@@ -1051,7 +1052,7 @@
 	    dialog.querySelector("button[name='closex']").addEventListener("click", function(event) {
 	      for (let e of dialog.querySelectorAll('input[name="fmt"]')) {
 	        if (e.checked) {
-	          fmt = +e.value;
+	          fmt = e.value;
 	          break;
 	        }
 	      }
@@ -1106,7 +1107,7 @@
 	      "M" + YM + "-" + MO + "-" + DA + "(" + WE + ") " + HO + ":" + MI + ":" + SE,
 	      YE + "/" + MO + "/" + DA + "(" + WE + ") " + HO + ":" + MI + ":" + SE
 	    ];
-	    return (_a = F[f - 1]) != null ? _a : F[20];
+	    return (_a = F[f]) != null ? _a : F.at(-1);
 	  },
 	  repldatetime: function() {
 	    const MYNAME = "peter_parker_x1190";
@@ -1116,24 +1117,26 @@
 	    const SEL_4 = 'main section[aria-labelledby="detail-header"] article div[data-testid^="User-Name"] time[datetime]';
 	    const SEL_5 = 'main section div[data-testid="conversation"] div[aria-label] time[datetime]';
 	    document.querySelectorAll(SEL + ", " + SEL_2 + ", " + SEL_3 + ", " + SEL_4 + ", " + SEL_5).forEach((e) => {
-	      const SEL_ADD = "span.us-" + MYNAME;
-	      let d = e.getAttribute("datetime");
-	      let df = this.df(new Date(d), fmt);
-	      let pe = e.parentNode;
-	      let old = pe.querySelectorAll(SEL_ADD);
-	      if (!old.length) {
-	        let span = document.createElement("span");
-	        span.className = "us-" + MYNAME;
-	        span.setAttribute("datetime", d);
-	        span.setAttribute("local-datetime", df);
-	        span.textContent = df;
-	        span.style = e.style;
-	        e.style.setProperty("display", "none");
-	        pe.appendChild(span);
-	      } else if (old[0].getAttribute("local-datetime") != df) {
-	        old[0].setAttribute("local-datetime", df);
-	        old[0].textContent = df;
-	        old[0].style = e.style;
+	      if (fmt != 0) {
+	        const SEL_ADD = "span.us-" + MYNAME;
+	        let d = e.getAttribute("datetime");
+	        let df = this.df(new Date(d), fmt);
+	        let pe = e.parentNode;
+	        let old = pe.querySelectorAll(SEL_ADD);
+	        if (!old.length) {
+	          let span = document.createElement("span");
+	          span.className = "us-" + MYNAME;
+	          span.setAttribute("datetime", d);
+	          span.setAttribute("local-datetime", df);
+	          span.textContent = df;
+	          span.style = e.style;
+	          e.style.setProperty("display", "none");
+	          pe.appendChild(span);
+	        } else if (old[0].getAttribute("local-datetime") != df) {
+	          old[0].setAttribute("local-datetime", df);
+	          old[0].textContent = df;
+	          old[0].style = e.style;
+	        }
 	      }
 	    });
 	  }
@@ -1492,9 +1495,16 @@
 	      info["date-time-local"] = this.formatDate(tweet.created_at, datetime, true);
 	      info["full-text"] = tweet.full_text.split("\n").join(" ").replace(/\s*https:\/\/t\.co\/\w+/g, "").replace(/[\\/ | <>*?:"]|[\u200b-\u200d\u2060\ufeff]/g, (v) => invalid_chars[v]);
 	      let medias = tweet.extended_entities && tweet.extended_entities.media;
-	      if (medias == void 0) {
-	        medias = JSON.parse(json.card.legacy.binding_values[0].value.string_value).media_entities;
-	        medias = Object.values(medias);
+	      if (!medias || medias.length == 0) {
+	        try {
+	          medias = JSON.parse(json.card.legacy.binding_values[0].value.string_value).media_entities;
+	          medias = Object.values(medias);
+	        } catch (e) {
+	        }
+	      }
+	      if (!medias || medias.length == 0) {
+	        this.status(btn, "failed", "MEDIA_NOT_FOUND");
+	        return;
 	      }
 	      if (index) {
 	        medias = [medias[index - 1]];
