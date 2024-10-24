@@ -70,7 +70,7 @@
 // @description:ug    بۇ قوليازما بەزى تور بېكەتلەرنى ياخشىلاش بىلەن تەمىنلەيدۇ. 🔥Twitter (X): ۋاقىت فورماتلاش ئېكرانى ، HD رەسىم كۆرسىتىش ، رەسىم ۋە سىن چۈشۈرۈش قاتارلىقلارنى قوشۇڭ outYoutube: سىن چۈشۈرۈش ، ئېلان ئۆچۈرۈش قاتارلىقلارنى قوشۇڭ ikTiktok: HD سۇ ماركىسىسىز سىن چۈشۈرۈش قاتارلىقلار بىلەن تەمىنلەڭ. ، چۈشەندۈرۈشنى تەكشۈرۈپ بېقىڭ ~
 // @description:vi    Tập lệnh này sẽ cung cấp các cải tiến cho một số trang web. 🔥Twitter(X): Thêm hiển thị định dạng thời gian, hiển thị hình ảnh HD, tải xuống hình ảnh và video, v.v. 🔥Youtube: Thêm tải xuống video, xóa quảng cáo, v.v. 🔥Tiktok: Cung cấp tải xuống video HD không có hình mờ, v.v. Để biết thêm các tính năng, vui lòng kiểm tra phần mô tả~
 // @namespace   PeterParker_X_Y_NameScope
-// @version     1.1.4
+// @version     1.1.5
 // @author      PeterParker
 // @icon        data:image/png;base64,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
 // @include     https://x.com/*
@@ -82,12 +82,12 @@
 // @include     /^https:\/\/((ko|fr|es|ja|pt|it|th|ar|tr|de|he|nl|pl|www|best)+\.)?aliexpress\.(ru|us|com)\/*/
 // @include     /^https:\/\/www\.lazada.(com|sg|th|id|vn|my|ph)*/
 // @include     *://www.ebay.*/*
+// @include     https://cobalt.tools/**
 // @exclude     *://accounts.youtube.com/*
 // @exclude     *://www.youtube.com/live_chat_replay*
 // @exclude     *://www.youtube.com/persist_identity*
 // @exclude     *://x.com/i/flow/*
 // @connect     tikdownloader.io
-// @connect     api.cobalt.tools
 // @license     MIT
 // @run-at      document-idle
 // @antifeature referral-link
@@ -137,7 +137,7 @@
 	      "download": "下载",
 	      "completed": "下载完成",
 	      "tip": "点击下载视频",
-	      "preparing": "正在准备下载，请稍后..."
+	      "preparing": "正在准备下载（如果失败，请手动操作）"
 	    },
 	    "menuCommand": {
 	      "settings": "设置",
@@ -172,7 +172,7 @@
 	      "download": "Download",
 	      "completed": "Download Completed",
 	      "tip": "Click to download video",
-	      "preparing": "Preparing to download, please wait..."
+	      "preparing": "Preparing to download (if failed, please do it manually)"
 	    },
 	    "menuCommand": {
 	      "settings": "Settings",
@@ -207,7 +207,7 @@
 	      "download": "ダウンロード",
 	      "completed": "ダウンロード完了",
 	      "tip": "クリックしてビデオをダウンロード",
-	      "preparing": "ダウンロードの準備をしています。お待ちください..."
+	      "preparing": "ダウンロードの準備中（失敗する場合は手動で行ってください）"
 	    },
 	    "menuCommand": {
 	      "settings": "設定",
@@ -242,7 +242,7 @@
 	      "download": "télécharger",
 	      "completed": "éléchargement terminé",
 	      "tip": "Cliquez pour télécharger la vidéo",
-	      "preparing": "Vous êtes en train de télécharger, veuillez patienter..."
+	      "preparing": "Préparation du téléchargement (en cas d'échec, veuillez le faire manuellement)"
 	    },
 	    "menuCommand": {
 	      "settings": "installation",
@@ -277,7 +277,7 @@
 	      "download": "herunterladen",
 	      "completed": "Download abgeschlossen",
 	      "tip": "Klicken Sie hier, um das Video herunterzuladen",
-	      "preparing": "Der Download wird vorbereitet, bitte warten..."
+	      "preparing": "Vorbereitung für den Download (falls der Download fehlschlägt, führen Sie ihn bitte manuell durch)"
 	    },
 	    "menuCommand": {
 	      "settings": "aufstellen",
@@ -312,7 +312,7 @@
 	      "download": "scaricamento",
 	      "completed": "Download completato",
 	      "tip": "Fare clic per scaricare il video",
-	      "preparing": "Preparazione al download, attendere..."
+	      "preparing": "Preparazione per il download (se fallisce, eseguilo manualmente)"
 	    },
 	    "menuCommand": {
 	      "settings": "impostare",
@@ -347,7 +347,7 @@
 	      "download": "다운로드",
 	      "completed": "다운로드 완료",
 	      "tip": "비디오를 다운로드하려면 클릭하세요",
-	      "preparing": "다운로드 준비 중입니다. 잠시 기다려 주세요..."
+	      "preparing": "다운로드 준비 중 (실패할 경우 수동으로 진행해주세요)"
 	    },
 	    "menuCommand": {
 	      "settings": "설정",
@@ -382,7 +382,7 @@
 	      "download": "скачать",
 	      "completed": "Загрузка завершена",
 	      "tip": "Нажмите, чтобы скачать видео",
-	      "preparing": "Подготовка к загрузке, пожалуйста, подождите..."
+	      "preparing": "Подготовка к загрузке (если не получается, сделайте это вручную)"
 	    },
 	    "menuCommand": {
 	      "settings": "настраивать",
@@ -417,7 +417,7 @@
 	      "download": "descargar",
 	      "completed": "Descarga completa",
 	      "tip": "Clique para baixar o vídeo",
-	      "preparing": "Preparando o download, aguarde..."
+	      "preparing": "Preparação para download (se falhar, faça-o manualmente)"
 	    },
 	    "menuCommand": {
 	      "settings": "configuración",
@@ -452,7 +452,7 @@
 	      "download": "descargar",
 	      "completed": "Descarga completa",
 	      "tip": "Haga clic para descargar el vídeo",
-	      "preparing": "Preparándose para descargar, espere..."
+	      "preparing": "Preparándose para la descarga (si falla, hágalo manualmente)"
 	    },
 	    "menuCommand": {
 	      "settings": "configuración",
@@ -487,7 +487,7 @@
 	      "download": "ดาวน์โหลด",
 	      "completed": "ดาวน์โหลดเสร็จสมบูรณ์",
 	      "tip": "คลิกเพื่อดาวน์โหลดวิดีโอ",
-	      "preparing": "กำลังเตรียมดาวน์โหลด กรุณารอสักครู่..."
+	      "preparing": "กำลังเตรียมการดาวน์โหลด (หากล้มเหลว กรุณาดำเนินการด้วยตนเอง)"
 	    },
 	    "menuCommand": {
 	      "settings": "ตั้งค่า",
@@ -522,7 +522,7 @@
 	      "download": "indirmek",
 	      "completed": "İndirme tamamlandı",
 	      "tip": "Videoyu indirmek için tıklayın",
-	      "preparing": "İndirmeye hazırlanıyor, lütfen bekleyin..."
+	      "preparing": "İndirmeye hazırlanıyor (başarısız olursa lütfen manuel olarak yapın)"
 	    },
 	    "menuCommand": {
 	      "settings": "kurmak",
@@ -557,7 +557,7 @@
 	      "download": "downloaden",
 	      "completed": "Downloaden voltooid",
 	      "tip": "Klik om video te downloaden",
-	      "preparing": "Bezig met downloaden, even geduld a.u.b...."
+	      "preparing": "Voorbereiden voor downloaden (als dit mislukt, doe dit dan handmatig)"
 	    },
 	    "menuCommand": {
 	      "settings": "opgezet",
@@ -656,6 +656,8 @@
 	      platform = "lazada";
 	    } else if (/www\.tiktok\.com/.test(currentHost)) {
 	      platform = "tiktok";
+	    } else if (/cobalt\.tools/.test(currentHost)) {
+	      platform = "cobalt";
 	    }
 	    return platform;
 	  },
@@ -1104,10 +1106,9 @@
 	      "M" + YM + "-" + MO + "-" + DA + " " + HO + ":" + MI,
 	      "M" + YM + "-" + MO + "-" + DA + " " + HO + ":" + MI + ":" + SE,
 	      "M" + YM + "-" + MO + "-" + DA + "(" + WE + ") " + HO + ":" + MI,
-	      "M" + YM + "-" + MO + "-" + DA + "(" + WE + ") " + HO + ":" + MI + ":" + SE,
-	      YE + "/" + MO + "/" + DA + "(" + WE + ") " + HO + ":" + MI + ":" + SE
+	      "M" + YM + "-" + MO + "-" + DA + "(" + WE + ") " + HO + ":" + MI + ":" + SE
 	    ];
-	    return (_a = F[f]) != null ? _a : F.at(-1);
+	    return (_a = F[f]) != null ? _a : F[0];
 	  },
 	  repldatetime: function() {
 	    const MYNAME = "peter_parker_x1190";
@@ -1120,7 +1121,7 @@
 	      if (fmt != 0) {
 	        const SEL_ADD = "span.us-" + MYNAME;
 	        let d = e.getAttribute("datetime");
-	        let df = this.df(new Date(d), fmt);
+	        let df = this.df(new Date(d), fmt - 1);
 	        let pe = e.parentNode;
 	        let old = pe.querySelectorAll(SEL_ADD);
 	        if (!old.length) {
@@ -1336,7 +1337,7 @@
 	    ];
 	    const media = article.querySelector(media_selector.join(","));
 	    if (media) {
-	      let status_id = article.querySelector('a[href*="/status/"]').href.split("/status/").pop().split("/").shift();
+	      let status_id2 = article.querySelector('a[href*="/status/"]').href.split("/status/").pop().split("/").shift();
 	      let btn_group = article.querySelector('div[role="group"]:last-of-type, ul.tweet-actions, ul.tweet-detail-actions');
 	      let btn_share = Array.from(btn_group.querySelectorAll(":scope>div>div, li.tweet-action-item>a, li.tweet-detail-action-item>a")).pop().parentNode;
 	      let btn_down = btn_share.cloneNode(true);
@@ -1348,12 +1349,12 @@
 	      } else {
 	        btn_down.querySelector("svg").innerHTML = this.svg;
 	      }
-	      let is_exist = this.history.indexOf(status_id) >= 0;
+	      let is_exist = this.history.indexOf(status_id2) >= 0;
 	      this.status(btn_down, "tmd-down");
 	      this.status(btn_down, is_exist ? "completed" : "download", is_exist ? selectLanguage().download.completed : selectLanguage().download.download);
 	      btn_group.insertBefore(btn_down, btn_share.nextSibling);
 	      btn_down.onclick = () => {
-	        this.click(btn_down, status_id, is_exist);
+	        this.click(btn_down, status_id2, is_exist);
 	      };
 	      if (this.show_sensitive) {
 	        let btn_show = article.querySelector('div[aria-labelledby] div[role="button"][tabindex="0"]:not([data-testid]) > div[dir] > span > span');
@@ -1364,12 +1365,12 @@
 	    }
 	    const imgs = article.querySelectorAll('a[href*="/photo/"]');
 	    if (imgs.length > 1) {
-	      let status_id = article.querySelector('a[href*="/status/"]').href.split("/status/").pop().split("/").shift();
+	      let status_id2 = article.querySelector('a[href*="/status/"]').href.split("/status/").pop().split("/").shift();
 	      let btn_group = article.querySelector('div[role="group"]:last-of-type');
 	      Array.from(btn_group.querySelectorAll(":scope>div>div")).pop().parentNode;
 	      imgs.forEach((img) => {
 	        let index = img.href.split("/status/").pop().split("/").pop();
-	        let is_exist = this.history.indexOf(status_id) >= 0;
+	        let is_exist = this.history.indexOf(status_id2) >= 0;
 	        let btn_down = document.createElement("div");
 	        btn_down.innerHTML = '<div><div><svg viewBox="0 0 24 24" style="width: 18px; height: 18px;">' + this.svg + "</svg></div></div>";
 	        btn_down.classList.add("tmd-down", "tmd-img");
@@ -1377,7 +1378,7 @@
 	        img.parentNode.appendChild(btn_down);
 	        btn_down.onclick = (e) => {
 	          e.preventDefault();
-	          this.click(btn_down, status_id, is_exist, index);
+	          this.click(btn_down, status_id2, is_exist, index);
 	        };
 	      });
 	    }
@@ -1387,8 +1388,12 @@
 	      if (li.dataset.detected)
 	        return;
 	      li.dataset.detected = "true";
-	      let status_id = li.querySelector('a[href*="/status/"]').href.split("/status/").pop().split("/").shift();
-	      let is_exist = this.history.indexOf(status_id) >= 0;
+	      let is_exist = false;
+	      try {
+	        let status_id2 = li.querySelector('a[href*="/status/"]').href.split("/status/").pop().split("/").shift();
+	        is_exist = this.history.indexOf(status_id2) >= 0;
+	      } catch (e) {
+	      }
 	      let btn_down = document.createElement("div");
 	      btn_down.innerHTML = '<div><div><svg viewBox="0 0 24 24" style="width: 18px; height: 18px;">' + this.svg + "</svg></div></div>";
 	      btn_down.classList.add("tmd-down", "tmd-media");
@@ -1409,11 +1414,11 @@
 	    if (style)
 	      btn.style.cssText = style;
 	  },
-	  fetchJson: function(status_id) {
+	  fetchJson: function(status_id2) {
 	    return __async$7(this, null, function* () {
 	      const base_url = `https://${ScriptConst.currentHost}/i/api/graphql/NmCeCgkVlsRGS1cAwqtgmw/TweetDetail`;
 	      const variables = {
-	        "focalTweetId": status_id,
+	        "focalTweetId": status_id2,
 	        "with_rux_injections": false,
 	        "includePromotedContent": true,
 	        "withCommunity": true,
@@ -1455,18 +1460,18 @@
 	      if (cookies.ct0.length == 32)
 	        headers["x-guest-token"] = cookies.gt;
 	      let tweet_detail = yield fetch(url, { headers }).then((result) => result.json());
-	      let tweet_entrie = tweet_detail.data.threaded_conversation_with_injections_v2.instructions[0].entries.find((n) => n.entryId == `tweet-${status_id}`);
+	      let tweet_entrie = tweet_detail.data.threaded_conversation_with_injections_v2.instructions[0].entries.find((n) => n.entryId == `tweet-${status_id2}`);
 	      let tweet_result = tweet_entrie.content.itemContent.tweet_results.result;
 	      return tweet_result.tweet || tweet_result;
 	    });
 	  },
-	  click: function(btn, status_id, is_exist, index) {
+	  click: function(btn, status_id2, is_exist, index) {
 	    return __async$7(this, null, function* () {
 	      if (btn.classList.contains("loading"))
 	        return;
 	      this.status(btn, "loading");
 	      let save_history = yield GM_getValue("save_history", true);
-	      let json = yield this.fetchJson(status_id);
+	      let json = yield this.fetchJson(status_id2);
 	      let tweet = json.legacy;
 	      let user = json.core.user_results.result.legacy;
 	      let invalid_chars = {
@@ -1488,7 +1493,7 @@
 	      };
 	      let datetime = this.filename.match(/{date-time(-local)?:[^{}]+}/) ? this.filename.match(/{date-time(?:-local)?:([^{}]+)}/)[1].replace(/[\\/ | <>*?:"]/g, (v) => invalid_chars[v]) : "YYYYMMDD-hhmmss";
 	      let info = {};
-	      info["status-id"] = status_id;
+	      info["status-id"] = status_id2;
 	      info["user-name"] = user.name.replace(/([\\/|*?:"] | [\u200b - \u200d\u2060\ufeff] | 🔞) /g, (v) => invalid_chars[v]);
 	      info["user-id"] = user.screen_name;
 	      info["date-time"] = this.formatDate(tweet.created_at, datetime);
@@ -1529,7 +1534,7 @@
 	              if (tasks === 0) {
 	                this.status(btn, "completed", selectLanguage().download.completed);
 	                if (save_history && !is_exist) {
-	                  this.history.push(status_id);
+	                  this.history.push(status_id2);
 	                }
 	              }
 	            },
@@ -3722,7 +3727,6 @@
 	  download: function(btn) {
 	    return __async(this, null, function* () {
 	      try {
-	        Toast.show({ "message": selectLanguage().download.preparing, "background": "#000" });
 	        btn.classList.add("download-loadding");
 	        const downloadUl = yield this.getDownloadUrl(window.location.href.replace("music.youtube.com", "www.youtube.com"));
 	        window.open(downloadUl, "_blank");
@@ -3734,30 +3738,7 @@
 	  },
 	  getDownloadUrl: function(videoUrl, audioOnly = false) {
 	    return new Promise((resolve, reject) => {
-	      GM_xmlhttpRequest({
-	        method: "POST",
-	        url: "https://api.cobalt.tools/api/json",
-	        headers: {
-	          "Cache-Control": "no-cache",
-	          Accept: "application/json",
-	          "Content-Type": "application/json"
-	        },
-	        data: JSON.stringify({
-	          url: encodeURI(videoUrl),
-	          vQuality: "max",
-	          filenamePattern: "basic",
-	          isAudioOnly: audioOnly,
-	          disableMetadata: true
-	        }),
-	        onload: (response) => {
-	          const data = JSON.parse(response.responseText);
-	          if (data == null ? void 0 : data.url)
-	            resolve(data.url);
-	          else
-	            reject(data);
-	        },
-	        onerror: (err) => reject(err)
-	      });
+	      resolve("https://cobalt.tools/?url=" + videoUrl);
 	    });
 	  },
 	  elementInContainer: function(container, element) {
@@ -3894,7 +3875,33 @@
 	  }
 	};
 
+	const CobaltDownloader = {
+	  start: function() {
+	    const params = new URLSearchParams(window.location.search);
+	    const url = params.get("url");
+	    if (url) {
+	      GM_setClipboard(url, "txt", () => {
+	        Toast.show({ "message": selectLanguage().download.preparing, "background": "#000", "time": 3e3 });
+	        setTimeout(() => {
+	          const buttonPaste = document.querySelector("#button-paste");
+	          if (buttonPaste) {
+	            buttonPaste.click();
+	            document.querySelector("#link-area").value = url;
+	            const downloadButton = document.querySelector("#download-button");
+	            if (downloadButton) {
+	              setTimeout(() => {
+	                downloadButton.click();
+	              }, 2e3);
+	            }
+	          }
+	        }, 2e3);
+	      });
+	    }
+	  }
+	};
+
 	const AllModules = {
+	  CobaltDownloader,
 	  X,
 	  Youtube: {
 	    YoutubeDownload
@@ -3934,9 +3941,6 @@
 	    AllModules.Aliexpress.AliexpressSearch.start();
 	    AllModules.GoodsHistroy.start("aliexpress");
 	  },
-	  youtube: function() {
-	    AllModules.Youtube.YoutubeDownload.start();
-	  },
 	  ebay: function() {
 	    AllModules.Ebay.Ebay.start();
 	    AllModules.Ebay.EbaySearch.start();
@@ -3946,8 +3950,14 @@
 	    AllModules.GoodsHistroy.start("lazada");
 	    AllModules.Lazada.start();
 	  },
+	  youtube: function() {
+	    AllModules.Youtube.YoutubeDownload.start();
+	  },
 	  tiktok: function() {
 	    AllModules.Tiktok.start();
+	  },
+	  cobalt: function() {
+	    AllModules.CobaltDownloader.start();
 	  },
 	  unknown: function() {
 	  },
