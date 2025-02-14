@@ -82,24 +82,34 @@
 // @include     https://cobalt.tools/**
 // @include     /^https:\/\/((ko|fr|es|ja|pt|it|th|ar|tr|de|he|nl|pl|www|best)+\.)?aliexpress\.(ru|us|com)\/*/
 // @include     /^https:\/\/(www\.)?lazada\.(co\.id|vn|com\.my|co\.th|sg|com\.ph)/.*/
+// @include     /^https:\/\/(.*\.)?shopee\..*/?.*/
 // @include     /^https:\/\/([a-z]{2,3})\.banggood\.com/*/
-// @include     *://*.ebay.*/*
-// @include     *://*.amazon.**
-// @include     *://*.bestbuy.**
-// @include     *://*.airbaltic.**
-// @include     *://*.edureka.**
-// @include     *://*.ranavat.**
-// @include     *://*.alibaba.**
-// @include     *://*.wish.**
-// @include     *://*.alibaba.**
-// @include     *://*.ticketmaster.**
-// @include     *://*.wilson.com/**
-// @include     *://*.wilsonsleather.com/**
-// @include     *://*.pictarine.**
-// @include     *://*.suiteness.**
-// @include     *://*.treatwell.**
-// @include     *://*.trip.**
-// @include     *://*.samsung.**
+// @include     /^https:\/\/(.*\.)?amazon\..*/?.*/
+// @include     /^https:\/\/(.*\.)?ebay\..*/?.*/
+// @include     /^https:\/\/(.*\.)?bestbuy\..*/?.*/
+// @include     /^https:\/\/(.*\.)?airbaltic\..*/?.*/
+// @include     /^https:\/\/(.*\.)?edureka\..*/?.*/
+// @include     /^https:\/\/(.*\.)?ranavat\..*/?.*/
+// @include     /^https:\/\/(.*\.)?alibaba\..*/?.*/
+// @include     /^https:\/\/(.*\.)?wish\..*/?.*/
+// @include     /^https:\/\/(.*\.)?ticketmaster\..*/?.*/
+// @include     /^https:\/\/(.*\.)?wilson\..*/?.*/
+// @include     /^https:\/\/(.*\.)?wilsonsleather\..*/?.*/
+// @include     /^https:\/\/(.*\.)?pictarine\..*/?.*/
+// @include     /^https:\/\/(.*\.)?suiteness\..*/?.*/
+// @include     /^https:\/\/(.*\.)?treatwell\..*/?.*/
+// @include     /^https:\/\/(.*\.)?trip\..*/?.*/
+// @include     /^https:\/\/(.*\.)?samsung\..*/?.*/
+// @include     /^https:\/\/(.*\.)?daraz\..*/?.*/
+// @include     /^https:\/\/(.*\.)?wildberries\..*/?.*/
+// @include     /^https:\/\/(.*\.)?whopee\..*/?.*/
+// @include     /^https:\/\/(.*\.)?walmart\..*/?.*/
+// @include     /^https:\/\/(.*\.)?temu\..*/?.*/
+// @include     /^https:\/\/(.*\.)?noon\..*/?.*/
+// @include     /^https:\/\/(.*\.)?ozon\..*/?.*/
+// @include     /^https:\/\/(.*\.)?allegro\..*/?.*/
+// @include     /^https:\/\/(.*\.)?rakuten\..*/?.*/
+// @include     /^https:\/\/(.*\.)?zalando\..*/?.*/
 // @include     *://www.jtm.pub/mid/merge**
 // @exclude     *://accounts.youtube.com/*
 // @exclude     *://www.youtube.com/live_chat_replay*
@@ -182,7 +192,16 @@
     "x": "x",
     "youtube": "youtube",
     "tiktok": "tiktok",
-    "cobalt": "cobalt"
+    "cobalt": "cobalt",
+    "temu": "temu",
+    "walmart": "walmart",
+    "wildberries": "wildberries",
+    "zalando": "zalando",
+    "noon": "noon",
+    "daraz": "daraz",
+    "ozon": "ozon",
+    "allegro": "allegro",
+    "rakuten": "rakuten"
   };
 
   var __async$l = (__this, __arguments, generator) => {
@@ -263,6 +282,26 @@
         platform = PlatformConst.treatwell;
       } else if (/samsung\./.test(currentHost)) {
         platform = PlatformConst.samsung;
+      } else if (/temu\./.test(currentHost)) {
+        platform = PlatformConst.temu;
+      } else if (/walmart\./.test(currentHost)) {
+        platform = PlatformConst.walmart;
+      } else if (/shopee\./.test(currentHost)) {
+        platform = PlatformConst.shopee;
+      } else if (/wildberries\./.test(currentHost)) {
+        platform = PlatformConst.wildberries;
+      } else if (/zalando\./.test(currentHost)) {
+        platform = PlatformConst.zalando;
+      } else if (/noon\./.test(currentHost)) {
+        platform = PlatformConst.noon;
+      } else if (/daraz\./.test(currentHost)) {
+        platform = PlatformConst.daraz;
+      } else if (/ozon\./.test(currentHost)) {
+        platform = PlatformConst.ozon;
+      } else if (/allegro\./.test(currentHost)) {
+        platform = PlatformConst.allegro;
+      } else if (/rakuten\./.test(currentHost)) {
+        platform = PlatformConst.rakuten;
       }
       return platform;
     },
@@ -494,6 +533,16 @@
         console.error("Invalid URL:", error);
         return null;
       }
+    },
+    getCommonMarketplace: function(url = window.location.href) {
+      try {
+        const domainParts = new URL(url).hostname.split(".");
+        const countryCode = domainParts[domainParts.length - 1];
+        return countryCode;
+      } catch (error) {
+        console.log(error);
+      }
+      return null;
     }
   };
 
@@ -1994,28 +2043,59 @@
   };
   const LangueUtil = {
     updateDelay: 15 * 60 * 1e3,
-    languages: [
-      { code: "en", name: "English", dir: "ltr" },
-      { code: "es", name: "Español", dir: "ltr" },
-      { code: "ar", name: "العربية", dir: "rtl" },
-      { code: "fr", name: "Français", dir: "ltr" },
-      { code: "pt", name: "Português", dir: "ltr" },
-      { code: "ru", name: "Русский", dir: "ltr" },
-      { code: "ja", name: "日本語", dir: "ltr" },
-      { code: "de", name: "Deutsch", dir: "ltr" },
-      { code: "ko", name: "한국어", dir: "ltr" },
-      { code: "it", name: "Italiano", dir: "ltr" },
-      { code: "id", name: "Bahasa Indonesia", dir: "ltr" },
-      { code: "tr", name: "Türkçe", dir: "ltr" },
-      { code: "pl", name: "Polski", dir: "ltr" },
-      { code: "uk", name: "Українська", dir: "ltr" },
-      { code: "nl", name: "Nederlands", dir: "ltr" },
-      { code: "vi", name: "Tiếng Việt", dir: "ltr" },
-      { code: "ms", name: "Bahasa Melayu", dir: "ltr" },
-      { code: "th", name: "ไทย", dir: "ltr" },
-      { code: "mx", name: "Mexican Spanish", dir: "ltr" },
-      { code: "cl", name: "Chilean Spanish", dir: "ltr" }
-    ],
+    _locations: {
+      "en": { languageDefault: "Default" },
+      "es": { languageDefault: "Predeterminado" },
+      "ar": { languageDefault: "افتراضي" },
+      "fr": { languageDefault: "Par défaut" },
+      "pt": { languageDefault: "Padrão" },
+      "ru": { languageDefault: "По умолчанию" },
+      "ja": { languageDefault: "デフォルト" },
+      "de": { languageDefault: "Standard" },
+      "ko": { languageDefault: "기본" },
+      "it": { languageDefault: "Predefinito" },
+      "id": { languageDefault: "Default" },
+      "tr": { languageDefault: "Varsayılan" },
+      "pl": { languageDefault: "Domyślnie" },
+      "uk": { languageDefault: "Типово" },
+      "nl": { languageDefault: "Standaard" },
+      "vi": { languageDefault: "Mặc định" },
+      "ms": { languageDefault: "Lalai" },
+      "th": { languageDefault: "ค่าเริ่มต้น" },
+      "mx": { languageDefault: "Predeterminado" },
+      "cl": { languageDefault: "Predeterminado" }
+    },
+    getLanguages: function() {
+      var _a, _b;
+      const languages = [
+        { code: "en", name: "English", dir: "ltr" },
+        { code: "es", name: "Español", dir: "ltr" },
+        { code: "ar", name: "العربية", dir: "rtl" },
+        { code: "fr", name: "Français", dir: "ltr" },
+        { code: "pt", name: "Português", dir: "ltr" },
+        { code: "ru", name: "Русский", dir: "ltr" },
+        { code: "ja", name: "日本語", dir: "ltr" },
+        { code: "de", name: "Deutsch", dir: "ltr" },
+        { code: "ko", name: "한국어", dir: "ltr" },
+        { code: "it", name: "Italiano", dir: "ltr" },
+        { code: "id", name: "Bahasa Indonesia", dir: "ltr" },
+        { code: "tr", name: "Türkçe", dir: "ltr" },
+        { code: "pl", name: "Polski", dir: "ltr" },
+        { code: "uk", name: "Українська", dir: "ltr" },
+        { code: "nl", name: "Nederlands", dir: "ltr" },
+        { code: "vi", name: "Tiếng Việt", dir: "ltr" },
+        { code: "ms", name: "Bahasa Melayu", dir: "ltr" },
+        { code: "th", name: "ไทย", dir: "ltr" },
+        { code: "mx", name: "Mexican Spanish", dir: "ltr" },
+        { code: "cl", name: "Chilean Spanish", dir: "ltr" }
+      ];
+      const language = (_a = languages.find((lang) => lang.code === DefaultVaule.lang)) != null ? _a : languages[0];
+      const defaultLanguage = Object.assign({}, language);
+      defaultLanguage.code = "default";
+      defaultLanguage.name = (_b = this._locations[DefaultVaule.lang]["languageDefault"]) != null ? _b : "Default";
+      languages.unshift(defaultLanguage);
+      return languages;
+    },
     defaultLangueObjects: {
       "extension.structure.setting_modal_title": "Settings",
       "extension.structure.setting_modal_langue_title": "Language",
@@ -2039,19 +2119,23 @@
       "extension.structure.auto_detect_alert_success": "Congratulations! The code has been applied automatically!"
     },
     langueObjects: null,
-    getLang: function() {
-      return StorageUtil.getValue(StorageKeys.langue.custom, DefaultVaule.lang);
+    getLang: function(isTransform = false) {
+      const lang = StorageUtil.getValue(StorageKeys.langue.custom, "default");
+      if (isTransform) {
+        return lang === "default" ? DefaultVaule.lang : lang;
+      }
+      return lang;
     },
     setLang: function(lang) {
       StorageUtil.setValue(StorageKeys.langue.custom, lang);
     },
     getSelectedLanguage: function(selectedLang) {
       if (!selectedLang) {
-        selectedLang = this.getLang();
+        selectedLang = this.getLang(true);
       }
-      let selectedLanguage = this.languages.find((lang) => lang.code === selectedLang);
+      let selectedLanguage = this.getLanguages().find((lang) => lang.code === selectedLang);
       if (!selectedLanguage) {
-        selectedLanguage = this.languages[0];
+        selectedLanguage = this.getLanguages()[0];
       }
       return selectedLanguage;
     },
@@ -2066,20 +2150,20 @@
     },
     initLangueDataMap: function(force = false) {
       return new Promise((resolve, reject) => {
+        const lang = this.getLang(true);
         const now = new Date().getTime();
-        const langueObjects = StorageUtil.getValue(StorageKeys.langue.objects, { "data": this.defaultLangueObjects, "time": now });
-        if (now - langueObjects.time >= this.updateDelay || now === langueObjects.time || force) {
+        const langueObjects = StorageUtil.getValue(StorageKeys.langue.objects, { "data": this.defaultLangueObjects, "time": now, "lang": "default" });
+        if (now - langueObjects.time >= this.updateDelay || now === langueObjects.time || langueObjects.lang != lang || force) {
           try {
-            const lang = this.getLang();
             const requestsBase = getRequestUrl()["getLangue"];
             Tools.request(requestsBase.method, requestsBase.url, { "lang": lang }, { "Content-Type": "application/json;charset=UTF-8" }, 5 * 1e3).then((serverLangueJson) => {
               if (serverLangueJson.code === "success") {
                 const serverLangueObjects = JSON.parse(serverLangueJson.result);
-                StorageUtil.setValue(StorageKeys.langue.objects, { "data": serverLangueObjects, "time": new Date().getTime() });
+                StorageUtil.setValue(StorageKeys.langue.objects, { "data": serverLangueObjects, "time": new Date().getTime(), "lang": lang });
                 this.langueObjects = serverLangueObjects;
-                Logger.log("info", "get server langue success=======>");
+                Logger.log("info", "get server langue success=======>", this.langueObjects);
               } else {
-                Logger.log("info", "get server langue error=======>");
+                Logger.log("info", "get server langue error=======>", this.langueObjects);
                 this.langueObjects = this.defaultLangueObjects;
               }
             }).catch((error) => {
@@ -2294,7 +2378,7 @@
     },
     languageSwitcher: function($content, selectedLanguage) {
       const languageOptions = $content.querySelector("#language-options");
-      LangueUtil.languages.forEach((lang) => {
+      LangueUtil.getLanguages().forEach((lang) => {
         const li = document.createElement("li");
         li.classList.add("switcher-item-li");
         li.textContent = lang.name;
@@ -3560,15 +3644,7 @@
       return [/https?:\/\/www\.ebay\.[a-z.]+\/itm\/\d+/].map((rs) => rs.test(visitUrl)).some((rs) => rs);
     },
     getMarketplace: function(url = window.location.href) {
-      try {
-        const urlObj = new URL(url);
-        const hostname = urlObj.hostname;
-        if (hostname) {
-          return hostname.split(".").slice(-1)[0];
-        }
-      } catch (error) {
-      }
-      return null;
+      return Tools.getCommonMarketplace(url);
     },
     detail: function() {
       return __async$e(this, null, function* () {
@@ -3968,14 +4044,7 @@
     visitUrl: window.location.href,
     currentPlatform: PlatformConst.lazada,
     getMarketplace: function(url = window.location.href) {
-      try {
-        const domainParts = new URL(url).hostname.split(".");
-        const countryCode = domainParts[domainParts.length - 1];
-        return countryCode;
-      } catch (error) {
-        console.log(error);
-      }
-      return null;
+      return Tools.getCommonMarketplace(url);
     },
     isRun: function() {
       return /.*\.lazada\..*\/products\/.*-i\d+.*\.html/.test(this.visitUrl);
@@ -4282,15 +4351,7 @@
       return [/www\.bestbuy\.com\/site\/.*\/\d+\.p/].map((rs) => rs.test(visitUrl)).some((rs) => rs);
     },
     getMarketplace: function(url = window.location.href) {
-      try {
-        const urlObj = new URL(url);
-        const hostname = urlObj.hostname;
-        if (hostname) {
-          return hostname.split(".").slice(-1)[0];
-        }
-      } catch (error) {
-      }
-      return null;
+      return Tools.getCommonMarketplace(url);
     },
     detail: function() {
       return __async$a(this, null, function* () {
@@ -5044,53 +5105,43 @@
 
   const Wish = {
     getMarketplace: function(url = window.location.href) {
-      try {
-        const domainParts = new URL(url).hostname.split(".");
-        const countryCode = domainParts[domainParts.length - 1];
-        return countryCode;
-      } catch (error) {
-        console.log(error);
-      }
-      return null;
+      return Tools.getCommonMarketplace(url);
     }
   };
 
   const Airbaltic = {
     getMarketplace: function(url = window.location.href) {
-      try {
-        const domainParts = new URL(url).hostname.split(".");
-        const countryCode = domainParts[domainParts.length - 1];
-        return countryCode;
-      } catch (error) {
-        console.log(error);
-      }
-      return null;
+      return Tools.getCommonMarketplace(url);
     }
   };
 
   const Edureka = {
     getMarketplace: function(url = window.location.href) {
-      try {
-        const domainParts = new URL(url).hostname.split(".");
-        const countryCode = domainParts[domainParts.length - 1];
-        return countryCode;
-      } catch (error) {
-        console.log(error);
-      }
-      return null;
+      return Tools.getCommonMarketplace(url);
     }
   };
 
   const Ranavat = {
     getMarketplace: function(url = window.location.href) {
-      try {
-        const domainParts = new URL(url).hostname.split(".");
-        const countryCode = domainParts[domainParts.length - 1];
-        return countryCode;
-      } catch (error) {
-        console.log(error);
-      }
-      return null;
+      return Tools.getCommonMarketplace(url);
+    }
+  };
+
+  const Temu = {
+    getMarketplace: function(url = window.location.href) {
+      return Tools.getCommonMarketplace(url);
+    }
+  };
+
+  const Amazon = {
+    getMarketplace: function(url = window.location.href) {
+      return Tools.getCommonMarketplace(url);
+    }
+  };
+
+  const Shopee = {
+    getMarketplace: function(url = window.location.href) {
+      return Tools.getCommonMarketplace(url);
     }
   };
 
@@ -5127,6 +5178,15 @@
     },
     Ranavat: {
       Ranavat
+    },
+    Amazon: {
+      Amazon
+    },
+    Temu: {
+      Temu
+    },
+    Shopee: {
+      Shopee
     }
   };
 
@@ -5157,38 +5217,63 @@
   const RequestUtil = {
     getDetectCouponParams: function() {
       return __async$6(this, null, function* () {
-        const { Aliexpress, Ebay, Lazada, Bestbuy, Banggood, Airbaltic, Edureka, Ranavat, Wish } = PlatformModules;
+        const {
+          Aliexpress,
+          Ebay,
+          Lazada,
+          Bestbuy,
+          Banggood,
+          Airbaltic,
+          Edureka,
+          Ranavat,
+          Wish,
+          Temu,
+          Amazon,
+          Shopee
+        } = PlatformModules;
         let platform = InspectUtil.getPlatform(), marketplace = "", currency = "";
-        const lang = StorageUtil.getValue(StorageKeys.langue.custom, DefaultVaule.lang);
+        let lang = StorageUtil.getValue(StorageKeys.langue.custom, "default");
+        if (lang === "default") {
+          lang = DefaultVaule.lang;
+        }
         switch (platform) {
-          case "aliexpress":
+          case PlatformConst.aliexpress:
             marketplace = Aliexpress.Aliexpress.getMarketplace();
             currency = yield Aliexpress.Aliexpress.getCurrency();
             break;
-          case "ebay":
+          case PlatformConst.ebay:
             marketplace = Ebay.Ebay.getMarketplace();
             break;
-          case "lazada":
+          case PlatformConst.lazada:
             marketplace = Lazada.Lazada.getMarketplace();
             break;
-          case "bestbuy":
+          case PlatformConst.bestbuy:
             marketplace = Bestbuy.Bestbuy.getMarketplace();
             break;
-          case "banggood":
+          case PlatformConst.banggood:
             marketplace = Banggood.Banggood.getMarketplace();
             currency = Banggood.Banggood.getCurrency();
             break;
-          case "airbaltic":
+          case PlatformConst.airbaltic:
             marketplace = Airbaltic.Airbaltic.getMarketplace();
             break;
-          case "edureka":
+          case PlatformConst.edureka:
             marketplace = Edureka.Edureka.getMarketplace();
             break;
-          case "ranavat":
+          case PlatformConst.ranavat:
             marketplace = Ranavat.Ranavat.getMarketplace();
             break;
-          case "wish":
+          case PlatformConst.wish:
             marketplace = Wish.Wish.getMarketplace();
+            break;
+          case PlatformConst.amazon:
+            marketplace = Amazon.Amazon.getMarketplace();
+            break;
+          case PlatformConst.temu:
+            marketplace = Temu.Temu.getMarketplace();
+            break;
+          case PlatformConst.shopee:
+            marketplace = Shopee.Shopee.getMarketplace();
             break;
         }
         const params = {
@@ -6106,7 +6191,6 @@
         if (!infoJson["show"]) {
           return;
         }
-        const modalTitle = InspectUtil.getModalTitle();
         const couponTotal = infoJson["coupon_total"];
         const modalPosition = infoJson["modal"];
         const iconJson = infoJson["icon"];
@@ -6115,6 +6199,7 @@
         const interfaceData = iconJson["interface"];
         const cggJson = infoJson["cgg"];
         const autoOpen = cggJson["auto_open"];
+        const modalTitle = cggJson["current_platform"];
         const selectedLanguage = LangueUtil.getSelectedLanguage();
         this.addStyle();
         const outerDIV = InspectUtil.generateOuterContainer(selectedLanguage.dir);
