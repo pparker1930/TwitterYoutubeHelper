@@ -1,39 +1,39 @@
 // ==UserScript==
-// @name       Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++，etc.
-// @name:ar    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++，etc.
-// @name:bg    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++，etc.
-// @name:cs    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++，etc.
-// @name:da    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++，etc.
-// @name:de    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++，etc.
-// @name:el    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++，etc.
-// @name:en    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++，etc.
-// @name:eo    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++，etc.
-// @name:es    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++，etc.
-// @name:fi    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++，etc.
-// @name:fr    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++，etc.
-// @name:fr-CA Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++，etc.
-// @name:he    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++，etc.
-// @name:hr    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++，etc.
-// @name:hu    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++，etc.
-// @name:id    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++，etc.
-// @name:it    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++，etc.
-// @name:ja    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++，etc.
-// @name:ka    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++，etc.
-// @name:ko    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++，etc.
-// @name:nb    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++，etc.
-// @name:nl    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++，etc.
-// @name:pl    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++，etc.
-// @name:pt-BR Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++，etc.
-// @name:ro    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++，etc.
-// @name:ru    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++，etc.
-// @name:sk    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++，etc.
-// @name:sr    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++，etc.
-// @name:sv    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++，etc.
-// @name:th    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++，etc.
-// @name:tr    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++，etc.
-// @name:uk    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++，etc.
-// @name:ug    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++，etc.
-// @name:vi    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++，etc.
+// @name       Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:ar    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:bg    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:cs    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:da    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:de    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:el    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:en    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:eo    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:es    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:fi    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:fr    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:fr-CA Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:he    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:hr    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:hu    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:id    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:it    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:ja    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:ka    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:ko    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:nb    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:nl    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:pl    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:pt-BR Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:ro    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:ru    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:sk    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:sr    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:sv    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:th    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:tr    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:uk    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:ug    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
+// @name:vi    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
 // @description       This script will provide enhancements to some websites. 🔥Twitter(X): Add time formatting display, HD picture display, picture and video downloading, etc. 🔥Youtube: Add video downloading, ad removal, etc. 🔥Tiktok: Provide HD watermark-free video downloading, etc. For more features, please check the description~
 // @description:ar    سيوفر هذا البرنامج النصي تحسينات لبعض المواقع الإلكترونية. 🔥Twitter(X): إضافة عرض تنسيق الوقت، وعرض الصور عالية الدقة، وتنزيل الصور والفيديو، وما إلى ذلك. 🔥Youtube: إضافة تنزيل الفيديو، وإزالة الإعلانات، وما إلى ذلك. 🔥Tiktok: توفير تنزيل فيديو عالي الدقة بدون علامة مائية، وما إلى ذلك. لمزيد من الميزات، يرجى التحقق من الوصف~
 // @description:bg    Този скрипт ще предостави подобрения на някои уебсайтове. 🔥Twitter(X): Добавяне на дисплей за форматиране на време, показване на HD картина, изтегляне на снимки и видео и т.н. 🔥Youtube: Добавяне на изтегляне на видео, премахване на реклами и т.н. 🔥Tiktok: Предоставяне на изтегляне на HD видео без воден знак и т.н. За повече функции , моля, проверете описанието~
@@ -70,7 +70,7 @@
 // @description:ug    بۇ قوليازما بەزى تور بېكەتلەرنى ياخشىلاش بىلەن تەمىنلەيدۇ. 🔥Twitter (X): ۋاقىت فورماتلاش ئېكرانى ، HD رەسىم كۆرسىتىش ، رەسىم ۋە سىن چۈشۈرۈش قاتارلىقلارنى قوشۇڭ outYoutube: سىن چۈشۈرۈش ، ئېلان ئۆچۈرۈش قاتارلىقلارنى قوشۇڭ ikTiktok: HD سۇ ماركىسىسىز سىن چۈشۈرۈش قاتارلىقلار بىلەن تەمىنلەڭ. ، چۈشەندۈرۈشنى تەكشۈرۈپ بېقىڭ ~
 // @description:vi    Tập lệnh này sẽ cung cấp các cải tiến cho một số trang web. 🔥Twitter(X): Thêm hiển thị định dạng thời gian, hiển thị hình ảnh HD, tải xuống hình ảnh và video, v.v. 🔥Youtube: Thêm tải xuống video, xóa quảng cáo, v.v. 🔥Tiktok: Cung cấp tải xuống video HD không có hình mờ, v.v. Để biết thêm các tính năng, vui lòng kiểm tra phần mô tả~
 // @namespace   PeterParker_X_Y_NameScope
-// @version     2.0.2
+// @version     2.1.2
 // @author      PeterParker
 // @icon        data:image/png;base64,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
 // @include     https://x.com/*
@@ -81,40 +81,68 @@
 // @include     https://www.tiktok.com/@*
 // @include     https://cobalt.tools/**
 // @include     /^https:\/\/((ko|fr|es|ja|pt|it|th|ar|tr|de|he|nl|pl|www|best)+\.)?aliexpress\.(ru|us|com)\/*/
-// @include     /^https:\/\/(www\.)?lazada\.(co\.id|vn|com\.my|co\.th|sg|com\.ph)/.*/
-// @include     /^https:\/\/(.*\.)?shopee\..*/?.*/
-// @include     /^https:\/\/([a-z]{2,3})\.banggood\.com/*/
-// @include     /^https:\/\/(.*\.)?amazon\..*/?.*/
-// @include     /^https:\/\/(.*\.)?ebay\..*/?.*/
-// @include     /^https:\/\/(.*\.)?bestbuy\..*/?.*/
-// @include     /^https:\/\/(.*\.)?airbaltic\..*/?.*/
-// @include     /^https:\/\/(.*\.)?edureka\..*/?.*/
-// @include     /^https:\/\/(.*\.)?ranavat\..*/?.*/
-// @include     /^https:\/\/(.*\.)?alibaba\..*/?.*/
-// @include     /^https:\/\/(.*\.)?wish\..*/?.*/
-// @include     /^https:\/\/(.*\.)?ticketmaster\..*/?.*/
-// @include     /^https:\/\/(.*\.)?wilson\..*/?.*/
-// @include     /^https:\/\/(.*\.)?wilsonsleather\..*/?.*/
-// @include     /^https:\/\/(.*\.)?pictarine\..*/?.*/
-// @include     /^https:\/\/(.*\.)?suiteness\..*/?.*/
-// @include     /^https:\/\/(.*\.)?treatwell\..*/?.*/
-// @include     /^https:\/\/(.*\.)?trip\..*/?.*/
-// @include     /^https:\/\/(.*\.)?samsung\..*/?.*/
-// @include     /^https:\/\/(.*\.)?daraz\..*/?.*/
-// @include     /^https:\/\/(.*\.)?wildberries\..*/?.*/
-// @include     /^https:\/\/(.*\.)?whopee\..*/?.*/
-// @include     /^https:\/\/(.*\.)?walmart\..*/?.*/
-// @include     /^https:\/\/(.*\.)?temu\..*/?.*/
-// @include     /^https:\/\/(.*\.)?noon\..*/?.*/
-// @include     /^https:\/\/(.*\.)?ozon\..*/?.*/
-// @include     /^https:\/\/(.*\.)?allegro\..*/?.*/
-// @include     /^https:\/\/(.*\.)?rakuten\..*/?.*/
-// @include     /^https:\/\/(.*\.)?zalando\..*/?.*/
+// @include     /^https:\/\/([\w-]+\.)?lazada\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?shopee\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?banggood\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?amazon\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?ebay\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?bestbuy\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?airbaltic\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?edureka\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?ranavat\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?alibaba\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?wish\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?ticketmaster\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?wilson\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?wilsonsleather\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?pictarine\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?suiteness\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?treatwell\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?trip\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?samsung\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?daraz\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?wildberries\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?shopee\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?walmart\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?temu\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?noon\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?ozon\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?allegro\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?rakuten\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?zalando\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?shein\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?expedia\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?booking\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?agoda\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?hotels\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?tripadvisor\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?skyscanner\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?target\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?etsy\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?nike\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?adidas\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?meesho\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?abritel\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?bookabach\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?fewo-direkt\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?stayz\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?mercadolibre\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?magazineluiza\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?wildberries\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?zalando\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?daraz\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?advertiser\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?namshi\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?sivvi\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?vrbo\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?wotif\.[\w.-]+([/?#].*)?$/
 // @include     *://www.jtm.pub/mid/merge**
 // @exclude     *://accounts.youtube.com/*
 // @exclude     *://www.youtube.com/live_chat_replay*
 // @exclude     *://www.youtube.com/persist_identity*
 // @exclude     *://x.com/i/flow/*
+// @exclude     *://www.lazada.com/*
+// @exclude     *://shopee.com/*
 // @connect     tikdownloader.io
 // @connect     oversea.mimixiaoke.com
 // @license     MIT
@@ -169,39 +197,63 @@
     "currentUrl": window.location.href
   };
   const PlatformConst = {
-    "aliexpress": "aliexpress",
-    "amazon": "amazon",
-    "shopee": "shopee",
-    "lazada": "lazada",
-    "ebay": "ebay",
-    "bestbuy": "bestbuy",
-    "banggood": "banggood",
-    "wish": "wish",
-    "airbaltic": "airbaltic",
-    "edureka": "edureka",
-    "ranavat": "ranavat",
-    "alibaba": "alibaba",
-    "ticketmaster": "ticketmaster",
-    "wilson": "wilson",
-    "wilsonsleather": "wilsonsleather",
-    "pictarine": "pictarine",
-    "suiteness": "suiteness",
-    "trip": "trip",
-    "treatwell": "treatwell",
-    "samsung": "samsung",
-    "x": "x",
-    "youtube": "youtube",
-    "tiktok": "tiktok",
-    "cobalt": "cobalt",
-    "temu": "temu",
-    "walmart": "walmart",
-    "wildberries": "wildberries",
-    "zalando": "zalando",
-    "noon": "noon",
-    "daraz": "daraz",
-    "ozon": "ozon",
-    "allegro": "allegro",
-    "rakuten": "rakuten"
+    "x": { "p": "x", "match": /twitter|x\.com$/ },
+    "youtube": { "p": "youtube", "match": /youtube\.com$/ },
+    "tiktok": { "p": "tiktok", "match": /www\.tiktok\.com/ },
+    "cobalt": { "p": "cobalt", "match": /cobalt\.tools/ },
+    "aliexpress": { "p": "aliexpress", "match": /aliexpress\./ },
+    "amazon": { "p": "amazon", "match": /amazon\./ },
+    "shopee": { "p": "shopee", "match": /shopee\./ },
+    "lazada": { "p": "lazada", "match": /lazada\./ },
+    "ebay": { "p": "ebay", "match": /ebay\./ },
+    "bestbuy": { "p": "bestbuy", "match": /bestbuy\./ },
+    "banggood": { "p": "banggood", "match": /banggood\./ },
+    "wish": { "p": "wish", "match": /wish\./ },
+    "airbaltic": { "p": "airbaltic", "match": /airbaltic\./ },
+    "edureka": { "p": "edureka", "match": /edureka\./ },
+    "ranavat": { "p": "ranavat", "match": /ranavat\./ },
+    "alibaba": { "p": "alibaba", "match": /alibaba\./ },
+    "ticketmaster": { "p": "ticketmaster", "match": /ticketmaster\./ },
+    "wilson": { "p": "wilson", "match": /wilson\./ },
+    "wilsonsleather": { "p": "wilsonsleather", "match": /wilsonsleather\./ },
+    "pictarine": { "p": "pictarine", "match": /pictarine\./ },
+    "suiteness": { "p": "suiteness", "match": /suiteness\./ },
+    "trip": { "p": "trip", "match": /\.trip\./ },
+    "treatwell": { "p": "treatwell", "match": /treatwell\./ },
+    "samsung": { "p": "samsung", "match": /samsung\./ },
+    "temu": { "p": "temu", "match": /temu\./ },
+    "walmart": { "p": "walmart", "match": /walmart\./ },
+    "wildberries": { "p": "wildberries", "match": /wildberries\./ },
+    "zalando": { "p": "zalando", "match": /zalando\./ },
+    "noon": { "p": "noon", "match": /noon\./ },
+    "daraz": { "p": "daraz", "match": /daraz\./ },
+    "ozon": { "p": "ozon", "match": /ozon\./ },
+    "allegro": { "p": "allegro", "match": /allegro\./ },
+    "rakuten": { "p": "rakuten", "match": /rakuten\./ },
+    "shein": { "p": "shein", "match": /shein\./ },
+    "expedia": { "p": "expedia", "match": /expedia\./ },
+    "booking": { "p": "booking", "match": /\.booking\./ },
+    "agoda": { "p": "agoda", "match": /agoda\./ },
+    "hotels": { "p": "hotels", "match": /\.hotels\./ },
+    "tripadvisor": { "p": "tripadvisor", "match": /\.tripadvisor\./ },
+    "skyscanner": { "p": "skyscanner", "match": /skyscanner\./ },
+    "target": { "p": "target", "match": /target\./ },
+    "etsy": { "p": "etsy", "match": /etsy\./ },
+    "nike": { "p": "nike", "match": /nike\./ },
+    "adidas": { "p": "adidas", "match": /adidas\./ },
+    "meesho": { "p": "meesho", "match": /meesho\./ },
+    "abritel": { "p": "abritel", "match": /abritel\./ },
+    "bookabach": { "p": "bookabach", "match": /bookabach\./ },
+    "fewodirekt": { "p": "fewodirekt", "match": /fewo-direkt\./ },
+    "stayz": { "p": "stayz", "match": /stayz\./ },
+    "mercadolibre": { "p": "mercadolibre", "match": /mercadolibre\./ },
+    "magazineluiza": { "p": "magazineluiza", "match": /magazineluiza\./ },
+    "advertiser": { "p": "advertiser", "match": /advertiser\./ },
+    "namshi": { "p": "namshi", "match": /namshi\./ },
+    "sivvi": { "p": "sivvi", "match": /sivvi\./ },
+    "vrbo": { "p": "vrbo", "match": /vrbo\./ },
+    "wotif": { "p": "wotif", "match": /wotif\./ },
+    "wayfair": { "p": "wayfair", "match": /wayfair\./ }
   };
 
   var __async$l = (__this, __arguments, generator) => {
@@ -244,78 +296,25 @@
     getEcommercePlatform: function() {
       let platform = null;
       const currentHost = window.location.host;
-      if (/amazon\./.test(currentHost)) {
-        platform = PlatformConst.amazon;
-      } else if (/ebay\./.test(currentHost)) {
-        platform = PlatformConst.ebay;
-      } else if (/lazada\./.test(currentHost)) {
-        platform = PlatformConst.lazada;
-      } else if (/aliexpress./.test(currentHost)) {
-        platform = PlatformConst.aliexpress;
-      } else if (/bestbuy\./.test(currentHost)) {
-        platform = PlatformConst.bestbuy;
-      } else if (/banggood\./.test(currentHost)) {
-        platform = PlatformConst.banggood;
-      } else if (/wish\./.test(currentHost)) {
-        platform = PlatformConst.wish;
-      } else if (/airbaltic\./.test(currentHost)) {
-        platform = PlatformConst.airbaltic;
-      } else if (/edureka\./.test(currentHost)) {
-        platform = PlatformConst.edureka;
-      } else if (/ranavat\./.test(currentHost)) {
-        platform = PlatformConst.ranavat;
-      } else if (/alibaba\./.test(currentHost)) {
-        platform = PlatformConst.alibaba;
-      } else if (/ticketmaster\./.test(currentHost)) {
-        platform = PlatformConst.ticketmaster;
-      } else if (/wilson\./.test(currentHost)) {
-        platform = PlatformConst.wilson;
-      } else if (/wilsonsleather\./.test(currentHost)) {
-        platform = PlatformConst.wilsonsleather;
-      } else if (/pictarine\./.test(currentHost)) {
-        platform = PlatformConst.pictarine;
-      } else if (/suiteness\./.test(currentHost)) {
-        platform = PlatformConst.suiteness;
-      } else if (/trip\./.test(currentHost)) {
-        platform = PlatformConst.trip;
-      } else if (/treatwell\./.test(currentHost)) {
-        platform = PlatformConst.treatwell;
-      } else if (/samsung\./.test(currentHost)) {
-        platform = PlatformConst.samsung;
-      } else if (/temu\./.test(currentHost)) {
-        platform = PlatformConst.temu;
-      } else if (/walmart\./.test(currentHost)) {
-        platform = PlatformConst.walmart;
-      } else if (/shopee\./.test(currentHost)) {
-        platform = PlatformConst.shopee;
-      } else if (/wildberries\./.test(currentHost)) {
-        platform = PlatformConst.wildberries;
-      } else if (/zalando\./.test(currentHost)) {
-        platform = PlatformConst.zalando;
-      } else if (/noon\./.test(currentHost)) {
-        platform = PlatformConst.noon;
-      } else if (/daraz\./.test(currentHost)) {
-        platform = PlatformConst.daraz;
-      } else if (/ozon\./.test(currentHost)) {
-        platform = PlatformConst.ozon;
-      } else if (/allegro\./.test(currentHost)) {
-        platform = PlatformConst.allegro;
-      } else if (/rakuten\./.test(currentHost)) {
-        platform = PlatformConst.rakuten;
+      for (let key in PlatformConst) {
+        if (["x", "youtube", "tiktok", "cobalt"].indexOf(key) !== -1) {
+          continue;
+        }
+        if (PlatformConst[key].match.test(currentHost)) {
+          platform = PlatformConst[key].p;
+          break;
+        }
       }
       return platform;
     },
     getOtherPlatform: function() {
       let platform = null;
       const currentHost = window.location.host;
-      if (/twitter|x\.com$/.test(currentHost)) {
-        platform = PlatformConst.x;
-      } else if (/youtube\.com$/.test(currentHost)) {
-        platform = PlatformConst.youtube;
-      } else if (/www\.tiktok\.com/.test(currentHost)) {
-        platform = PlatformConst.tiktok;
-      } else if (/cobalt\.tools/.test(currentHost)) {
-        platform = PlatformConst.cobalt;
+      for (let key in ["x", "youtube", "tiktok", "cobalt"]) {
+        if (PlatformConst[key].match.test(currentHost)) {
+          platform = PlatformConst[key].p;
+          break;
+        }
       }
       return platform;
     },
@@ -372,7 +371,11 @@
         };
         if (config.method === "POST") {
           config.headers = headers != null ? headers : { "Content-Type": "application/json" };
-          config.data = JSON.stringify(param);
+          if (JSON.stringify(config.headers).indexOf("application/json") != -1) {
+            config.data = JSON.stringify(param);
+          } else {
+            config.data = param;
+          }
         } else if (config.method === "GET") {
           config.headers = headers != null ? headers : { "Content-Type": "application/json" };
           config.data = param;
@@ -530,7 +533,6 @@
         }
         return hostname;
       } catch (error) {
-        console.error("Invalid URL:", error);
         return null;
       }
     },
@@ -540,7 +542,6 @@
         const countryCode = domainParts[domainParts.length - 1];
         return countryCode;
       } catch (error) {
-        console.log(error);
       }
       return null;
     }
@@ -1532,12 +1533,11 @@
       return __async$j(this, null, function* () {
         Toast.show({ "message": Commonlanguage.download.preparing, "background": "#000" });
         element.classList.add("download-loadding");
-        const data = yield Tools.request(
-          "POST",
-          "https://tikdownloader.io/api/ajaxSearch",
-          "q=" + url + "&lang=en",
-          { "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8" }
-        );
+        const param = new URLSearchParams({
+          lang: "en",
+          q: url
+        }).toString();
+        const data = yield Tools.request("POST", "https://tikdownloader.io/api/ajaxSearch", param, { "Content-Type": "application/x-www-form-urlencoded" });
         if (data.code === "success") {
           const result = JSON.parse(data.result);
           if (result.status == "ok" && result.hasOwnProperty("data")) {
@@ -1551,6 +1551,36 @@
         element.classList.remove("download-loadding");
       });
     },
+    appendHtml: function() {
+      if (!document.querySelector("#tiktok-download-990i")) {
+        const container = document.querySelector("#main-content-video_detail") || document.body;
+        if (!container) {
+          return;
+        }
+        const matchedDiv = document.querySelector("*[class*='-DivRightControlsWrapper'], *[class*='-DivMiniPlayerContainer']");
+        if (matchedDiv) {
+          let cloneNode = null;
+          let isDetail = matchedDiv.children.length != 1;
+          if (isDetail) {
+            cloneNode = matchedDiv.children[0].cloneNode(true);
+          } else {
+            cloneNode = matchedDiv.cloneNode(true);
+          }
+          cloneNode.id = "tiktok-download-990i";
+          cloneNode.querySelector("div").innerHTML = `<svg t="1724300009050" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5307" width="35" height="35"><path d="M298.666667 554.666667v85.333333H256v128h512v-128h-42.666667v-85.333333h128v213.333333a85.333333 85.333333 0 0 1-78.933333 85.077333L768 853.333333H256a85.333333 85.333333 0 0 1-85.12-78.933333L170.666667 768v-213.333333h128z" fill="#ffffff" p-id="5308"></path><path d="M512 627.498667l219.477333-219.477334h-120.704L512 506.88 413.141333 408.021333H292.522667L512 627.498667z" fill="#ffffff" p-id="5309"></path><path d="M554.666667 528V167.978667h-85.333334v360.021333h85.333334z" fill="#ffffff" p-id="5310"></path></svg>`;
+          if (isDetail) {
+            matchedDiv.insertBefore(cloneNode, matchedDiv.children[0]);
+          } else {
+            cloneNode.style.right = 166 + "px";
+            matchedDiv.parentNode.insertBefore(cloneNode, matchedDiv);
+          }
+          cloneNode.title = Commonlanguage.download.tip;
+          cloneNode.addEventListener("click", () => {
+            Tiktok.download(window.location.href, cloneNode);
+          });
+        }
+      }
+    },
     start: function() {
       return __async$j(this, null, function* () {
         if (!/www\.tiktok\.com/.test(window.location.host)) {
@@ -1563,41 +1593,8 @@
       }
     `);
         setInterval(() => {
-          if (!document.querySelector("#tiktok-download-990i")) {
-            const container = document.querySelector("#main-content-video_detail") || document.body;
-            if (!container) {
-              return;
-            }
-            const divs = container.querySelectorAll("div");
-            const regex = /-DivRightControlsWrapper|-DivMiniPlayerContainer/;
-            const matchedDiv = Array.from(divs).find((div) => {
-              return div.classList.value.split(" ").some((className) => {
-                return regex.test(className);
-              });
-            });
-            if (matchedDiv) {
-              let cloneNode = null;
-              let isDetail = matchedDiv.children.length != 1;
-              if (isDetail) {
-                cloneNode = matchedDiv.children[0].cloneNode(true);
-              } else {
-                cloneNode = matchedDiv.cloneNode(true);
-              }
-              cloneNode.id = "tiktok-download-990i";
-              cloneNode.querySelector("div").innerHTML = `<svg t="1724300009050" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5307" width="35" height="35"><path d="M298.666667 554.666667v85.333333H256v128h512v-128h-42.666667v-85.333333h128v213.333333a85.333333 85.333333 0 0 1-78.933333 85.077333L768 853.333333H256a85.333333 85.333333 0 0 1-85.12-78.933333L170.666667 768v-213.333333h128z" fill="#ffffff" p-id="5308"></path><path d="M512 627.498667l219.477333-219.477334h-120.704L512 506.88 413.141333 408.021333H292.522667L512 627.498667z" fill="#ffffff" p-id="5309"></path><path d="M554.666667 528V167.978667h-85.333334v360.021333h85.333334z" fill="#ffffff" p-id="5310"></path></svg>`;
-              if (isDetail) {
-                matchedDiv.insertBefore(cloneNode, matchedDiv.children[0]);
-              } else {
-                cloneNode.style.right = 166 + "px";
-                matchedDiv.parentNode.insertBefore(cloneNode, matchedDiv);
-              }
-              cloneNode.title = Commonlanguage.download.tip;
-              cloneNode.addEventListener("click", () => {
-                Tiktok.download(window.location.href, cloneNode);
-              });
-            }
-          }
-        }, 1500);
+          this.appendHtml();
+        }, 1e3);
       });
     }
   };
@@ -1991,7 +1988,9 @@
         let code = item.code, msg = item.msg;
         if (code) {
           ClipboardUtil.setValue(Tools.decryptStr(code));
-          element.innerText = msg;
+          if (element) {
+            element.innerText = msg;
+          }
         }
         this.openUrl(options);
       }
@@ -2007,7 +2006,6 @@
           const json = JSON.parse(dataContent);
           this.customOpenUrl(element, json, operate);
         } catch (e) {
-          console.log(e);
         }
       });
     },
@@ -2757,7 +2755,6 @@
       draggable.addEventListener("mousedown", (e) => {
         e.preventDefault();
         if (window.getComputedStyle(wrapper).position !== "absolute" && window.getComputedStyle(wrapper).position !== "fixed") {
-          console.error('The wrapper element must have position set to "absolute" or "fixed".');
           return;
         }
         isDragging = true;
@@ -3030,7 +3027,7 @@
     languageStoageKey: "language-stoage-key",
     currencyStoageKey: "language-currency-key",
     baseUrl: "https://oversea.mimixiaoke.com",
-    currentPlatform: PlatformConst.aliexpress,
+    currentPlatform: PlatformConst.aliexpress.p,
     checkDomInsertRs: true,
     getLang: function() {
       const host = window.location.host;
@@ -3305,7 +3302,7 @@
   };
   const AliexpressSearch = {
     loopIsComplete: true,
-    currentPlatform: PlatformConst.aliexpress,
+    currentPlatform: PlatformConst.aliexpress.p,
     isInbusinessPage: function() {
       return /inbusiness\.aliexpress\.com\/web\/search-products/.test(ItemSearchBaseObj.visitUrl);
     },
@@ -3566,46 +3563,16 @@
               });
               ItemSearchBaseObj.cacheRequestMap = {};
               document.querySelectorAll("*[" + ItemSearchBaseObj.searchAttribute + "='true']").forEach((element) => {
+                element.removeAttribute(ItemSearchBaseObj.searchAttribute);
                 const tipElement = element.querySelector("*[name^='ali-gogo-coupon-']");
                 if (tipElement) {
                   tipElement.remove();
                 }
               });
               oldUrl = window.location.href;
+              removeTagIsComplete = true;
             }
-            removeTagIsComplete = true;
           }, 777);
-          const promises = [];
-          selectors.forEach((selector) => {
-            let dselector = selector.element;
-            if (selector.findA != "this") {
-              dselector = dselector + " a";
-            }
-            promises.push(Tools.waitForElementByInterval(dselector, document.body, true, 50, 2e4));
-          });
-          const observerElement = yield Promise.race(promises);
-          if (observerElement) {
-            const observer = new MutationObserver((mutationsList) => {
-              if (mutationsList.length == 1) {
-                const mutation = mutationsList[0];
-                console.log("mutation=====", mutation);
-                if (mutation.type === "attributes" && mutation.attributeName === "href") {
-                  if (removeTagIsComplete) {
-                    removeTagIsComplete = false;
-                    document.querySelectorAll("*[" + ItemSearchBaseObj.searchAttribute + "='true']").forEach((element) => {
-                      element.removeAttribute(ItemSearchBaseObj.searchAttribute);
-                      const tipElement = element.querySelector("*[name^='ali-gogo-coupon-']");
-                      if (tipElement) {
-                        tipElement.remove();
-                      }
-                    });
-                    removeTagIsComplete = true;
-                  }
-                }
-              }
-            });
-            observer.observe(observerElement, { attributes: true });
-          }
         }
       });
     }
@@ -3633,7 +3600,7 @@
   };
   const Ebay = {
     baseUrl: "https://oversea.mimixiaoke.com",
-    currentPlatform: PlatformConst.ebay,
+    currentPlatform: PlatformConst.ebay.p,
     getGoodsId: function(url) {
       const regex = /https?:\/\/www\.ebay\.[a-z.]+\/itm\/(\d+)/;
       const match = url.match(regex);
@@ -3804,7 +3771,7 @@
   };
   const EbaySearch = {
     loopIsComplete: true,
-    currentPlatform: PlatformConst.ebay,
+    currentPlatform: PlatformConst.ebay.p,
     isRun: function() {
       let run = false;
       if (window.location.host.indexOf("ebay.") != -1) {
@@ -4042,7 +4009,7 @@
   const Lazada = {
     baseUrl: "https://oversea.mimixiaoke.com",
     visitUrl: window.location.href,
-    currentPlatform: PlatformConst.lazada,
+    currentPlatform: PlatformConst.lazada.p,
     getMarketplace: function(url = window.location.href) {
       return Tools.getCommonMarketplace(url);
     },
@@ -4155,7 +4122,7 @@
   };
   const LazadaSearch = {
     loopIsComplete: true,
-    currentPlatform: PlatformConst.lazada,
+    currentPlatform: PlatformConst.lazada.p,
     isRun: function() {
       let run = false;
       if (window.location.host.indexOf("lazada.") != -1) {
@@ -4345,7 +4312,7 @@
   };
   const Bestbuy = {
     baseUrl: "https://oversea.mimixiaoke.com",
-    currentPlatform: PlatformConst.bestbuy,
+    currentPlatform: PlatformConst.bestbuy.p,
     isDetail: function() {
       const visitUrl = window.location.href;
       return [/www\.bestbuy\.com\/site\/.*\/\d+\.p/].map((rs) => rs.test(visitUrl)).some((rs) => rs);
@@ -4490,7 +4457,7 @@
   };
   const BestbuySearch = {
     loopIsComplete: true,
-    currentPlatform: PlatformConst.bestbuy,
+    currentPlatform: PlatformConst.bestbuy.p,
     isRun: function() {
       return /https:\/\/www\.bestbuy\.com\/site\/searchpage\.jsp/.test(window.location.href);
     },
@@ -4717,7 +4684,7 @@
   };
   const Banggood = {
     baseUrl: "https://oversea.mimixiaoke.com",
-    currentPlatform: PlatformConst.banggood,
+    currentPlatform: PlatformConst.banggood.p,
     getGoodsId: function(url) {
       if (url.indexOf("?") != -1) {
         url = url.split("?")[0];
@@ -4910,7 +4877,7 @@
   };
   const BanggoodSearch = {
     loopIsComplete: true,
-    currentPlatform: PlatformConst.banggood,
+    currentPlatform: PlatformConst.banggood.p,
     isRun: function() {
       return !Banggood.isDetail(window.location.href);
     },
@@ -5145,6 +5112,12 @@
     }
   };
 
+  const Shein = {
+    getMarketplace: function(url = window.location.href) {
+      return Tools.getCommonMarketplace(url);
+    }
+  };
+
   const PlatformModules = {
     GoodsHistroy,
     Aliexpress: {
@@ -5187,6 +5160,9 @@
     },
     Shopee: {
       Shopee
+    },
+    Shein: {
+      Shein
     }
   };
 
@@ -5229,7 +5205,8 @@
           Wish,
           Temu,
           Amazon,
-          Shopee
+          Shopee,
+          Shein
         } = PlatformModules;
         let platform = InspectUtil.getPlatform(), marketplace = "", currency = "";
         let lang = StorageUtil.getValue(StorageKeys.langue.custom, "default");
@@ -5237,44 +5214,49 @@
           lang = DefaultVaule.lang;
         }
         switch (platform) {
-          case PlatformConst.aliexpress:
+          case PlatformConst.aliexpress.p:
             marketplace = Aliexpress.Aliexpress.getMarketplace();
             currency = yield Aliexpress.Aliexpress.getCurrency();
             break;
-          case PlatformConst.ebay:
+          case PlatformConst.ebay.p:
             marketplace = Ebay.Ebay.getMarketplace();
             break;
-          case PlatformConst.lazada:
+          case PlatformConst.lazada.p:
             marketplace = Lazada.Lazada.getMarketplace();
             break;
-          case PlatformConst.bestbuy:
+          case PlatformConst.bestbuy.p:
             marketplace = Bestbuy.Bestbuy.getMarketplace();
             break;
-          case PlatformConst.banggood:
+          case PlatformConst.banggood.p:
             marketplace = Banggood.Banggood.getMarketplace();
             currency = Banggood.Banggood.getCurrency();
             break;
-          case PlatformConst.airbaltic:
+          case PlatformConst.airbaltic.p:
             marketplace = Airbaltic.Airbaltic.getMarketplace();
             break;
-          case PlatformConst.edureka:
+          case PlatformConst.edureka.p:
             marketplace = Edureka.Edureka.getMarketplace();
             break;
-          case PlatformConst.ranavat:
+          case PlatformConst.ranavat.p:
             marketplace = Ranavat.Ranavat.getMarketplace();
             break;
-          case PlatformConst.wish:
+          case PlatformConst.wish.p:
             marketplace = Wish.Wish.getMarketplace();
             break;
-          case PlatformConst.amazon:
+          case PlatformConst.amazon.p:
             marketplace = Amazon.Amazon.getMarketplace();
             break;
-          case PlatformConst.temu:
+          case PlatformConst.temu.p:
             marketplace = Temu.Temu.getMarketplace();
             break;
-          case PlatformConst.shopee:
+          case PlatformConst.shopee.p:
             marketplace = Shopee.Shopee.getMarketplace();
             break;
+          case PlatformConst.shein.p:
+            marketplace = Shein.Shein.getMarketplace();
+            break;
+          default:
+            marketplace = Tools.getCommonMarketplace();
         }
         const params = {
           platform,
@@ -5748,15 +5730,14 @@
     tryCode: function(platform, supportData, code) {
       let promise = null;
       try {
-        if (platform === PlatformConst.aliexpress) {
+        if (platform === PlatformConst.aliexpress.p) {
           promise = new AliexpressAutoDetect().start(supportData, code);
-        } else if (platform === PlatformConst.wish) {
+        } else if (platform === PlatformConst.wish.p) {
           promise = new WishAutoDetect().start(supportData, code);
-        } else if (platform === PlatformConst.ebay) {
+        } else if (platform === PlatformConst.ebay.p) {
           promise = new EbayAutoDetect().start(supportData, code);
         }
       } catch (e) {
-        console.log("auto try code,", e);
       }
       return promise;
     }
@@ -6184,7 +6165,6 @@
             infoJson = JSON.parse(info.result);
           }
         } catch (e) {
-          console.log("req exception", e);
         }
         if (!infoJson)
           return;
@@ -6225,7 +6205,10 @@
       const autoRedirect = document.querySelector(".auto-redirect");
       if (autoRedirect) {
         const dataContent = autoRedirect.getAttribute("data-content");
-        InspectUtil.customOpenUrl(dataContent);
+        if (dataContent) {
+          const json = JSON.parse(dataContent);
+          InspectUtil.customOpenUrl(null, json);
+        }
       }
     }
   };
@@ -6307,27 +6290,27 @@
     aliexpress: function() {
       AllModules.Aliexpress.Aliexpress.start();
       AllModules.Aliexpress.AliexpressSearch.start();
-      AllModules.GoodsHistroy.start(PlatformConst.aliexpress);
+      AllModules.GoodsHistroy.start(PlatformConst.aliexpress.p);
     },
     ebay: function() {
       AllModules.Ebay.Ebay.start();
       AllModules.Ebay.EbaySearch.start();
-      AllModules.GoodsHistroy.start(PlatformConst.ebay);
+      AllModules.GoodsHistroy.start(PlatformConst.ebay.p);
     },
     lazada: function() {
       AllModules.Lazada.Lazada.start();
       AllModules.Lazada.LazadaSearch.start();
-      AllModules.GoodsHistroy.start(PlatformConst.lazada);
+      AllModules.GoodsHistroy.start(PlatformConst.lazada.p);
     },
     bestbuy: function() {
       AllModules.Bestbuy.Bestbuy.start();
       AllModules.Bestbuy.BestbuySearch.start();
-      AllModules.GoodsHistroy.start(PlatformConst.bestbuy);
+      AllModules.GoodsHistroy.start(PlatformConst.bestbuy.p);
     },
     banggood: function() {
       AllModules.Banggood.Banggood.start();
       AllModules.Banggood.BanggoodSearch.start();
-      AllModules.GoodsHistroy.start(PlatformConst.banggood);
+      AllModules.GoodsHistroy.start(PlatformConst.banggood.p);
     },
     wish: function() {
     },
@@ -6343,14 +6326,12 @@
             if (typeof this[platform] === "function") {
               this[platform]();
             } else {
-              console.log("error", "Hoooo，This method was not found");
             }
           } catch (e) {
-            console.log("error", "Hoooo，catch", e);
           }
           AllModules.MidListener.start();
         });
-        if (platform == PlatformConst.aliexpress) {
+        if (platform == PlatformConst.aliexpress.p) {
           setInterval(() => {
             Tools.removeAnchorsBySeletor();
           }, 2500);
@@ -6361,7 +6342,6 @@
         try {
           this[otherPlatform]();
         } catch (e) {
-          console.log("error", "Hoooo，catch", e);
         }
       }
     }
