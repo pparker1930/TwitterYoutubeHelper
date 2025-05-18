@@ -70,7 +70,7 @@
 // @description:ug    بۇ قوليازما بەزى تور بېكەتلەرنى ياخشىلاش بىلەن تەمىنلەيدۇ. 🔥Twitter (X): ۋاقىت فورماتلاش ئېكرانى ، HD رەسىم كۆرسىتىش ، رەسىم ۋە سىن چۈشۈرۈش قاتارلىقلارنى قوشۇڭ outYoutube: سىن چۈشۈرۈش ، ئېلان ئۆچۈرۈش قاتارلىقلارنى قوشۇڭ ikTiktok: HD سۇ ماركىسىسىز سىن چۈشۈرۈش قاتارلىقلار بىلەن تەمىنلەڭ. ، چۈشەندۈرۈشنى تەكشۈرۈپ بېقىڭ ~
 // @description:vi    Tập lệnh này sẽ cung cấp các cải tiến cho một số trang web. 🔥Twitter(X): Thêm hiển thị định dạng thời gian, hiển thị hình ảnh HD, tải xuống hình ảnh và video, v.v. 🔥Youtube: Thêm tải xuống video, xóa quảng cáo, v.v. 🔥Tiktok: Cung cấp tải xuống video HD không có hình mờ, v.v. Để biết thêm các tính năng, vui lòng kiểm tra phần mô tả~
 // @namespace   PeterParker_X_Y_NameScope
-// @version     2.1.3
+// @version     2.1.4
 // @author      PeterParker
 // @icon        data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAABhxJREFUeF7lm09oHUUcx3/7nm0aWou2CtL2kFLbREXFRPBU+tJb8Gb1Yg8VhIhHb6U86HvwKKWCR8WAx3qRipfYW7rBk2Iq2EvTKkUspRhbJTRpm/p25TdvZ3d2dmb2N7vzNnnJQMhLdnZ2vp/5/dvdeR5s8eZtcf1QHYDmL40EdhB99o4BhPPpRaj50HnDr2ph+guAiQ7PRmIEAFR5YZv17Ey0qGfY9nMPIBEdCz56/xab19F70e/ob/zfD3sOxnM+d/i4Yf79geEOgCSciz5zcw74Z8rqIBD2s7f3O9vcgigPQCHcVrQOzLkXj4PeKtyAKAegudAC8JiP4yq7Ei4DyQVRIkYUB9C8egUAmJ+j+Ms/fkWx8FJ9pt76UOMW4ENnfLLI4PYAeiaP4lnDVT/z21yRaxc6x2wN3qRtCrUDIJj8eojnxFy6BB3ABhHvGgINgGT2Vfl8no8YYgIA0NyBCOBqKE7mweVm3twqO75rqqO/Vmc8V19uBxCi/Xr6vU4lFktoCZqWmx3MACS/x4tspNXnos2uELZN9xJ6AArxVac8FFifeBW6C9eMLpVjBcZ4YAXAZvV3fHk+nvSTmYtKEShu2/TJuN+jj07Hn/EYH+PJzNewNnPRCMFsBfpCSQ2g5OqLk8dZozDVKqJA7IsNj4sAxGN4fOXNt8sA0FpBJQB0k9/582wsygRAPqYike8GaivIAlCsvm3wM62sOHkRgGwl3D2ChWvQXfg1Nw7guMaUyC6crQ1IAGwLHwoAqpvYFBQ5cQCHyqRFBYB00VMk94srqwtg26dPwrbp92N9opvIwRGtIC8I4kDme4ToUlJxlAagMX+b9CevLAJAE5YbRn9dACxqHSQAkhv0HQDFhOUgJ1uHLovIYxMCYcYNJABZ88cz8GEH9bmenL4oAGQ3sU2B/Bp9A2DjAvLkdVUcN39VnWBKjyagNBdIZ4PEAqRbXvFCNgBcBMB0FZlfBfK5lgSQPOCUKVPTIDV4mdIkdQyVJWwKAEUDIDkNMnLJHaLgAnoLoFaC1OBlchPqGCoLyK8E+VkFAFAygYsKsGgAJGYATiCuCAULSJ7zq+hS4gBl8iYTVxVRlArQzvwLugDFDVAcb7obGBRZn3gt7icKLBMA6eZfAgDFDSiFj+s+9OhvjAHpNz66Sdo8FXItVDee3eprLYAGwKYoqgKA/eoXqARlIRvJFexXH3ecJO8L5Juh+I2vafUoGaGK1cdrrAsAvDAVQv1IgqJ+mI6lezPp272hP88eQPo9gWQBtDjAp8PjAYpEcTVBoCicLtvck4MIIjgIafiQ4dWYcjgTADyhqX4mgIcae3ubnBrP3YJj/HP025XIouO0b/Q2WPl/HwT/nmpvUTSy8ZFYD4AyDrRG5+Dskeo2QhQFgechjNaiasdZ9jUZc4Hwm7FGUOttd1lYHRmZXR4/JU+gse8u4M8gNP/OC4A/cnt5x+35d5/5iW3CrAXge+9d92MAYS3Z9qIS6e3eA7D72UHQD7D8D4TL941z9QJvMgaAPbuXxlpesqsze/LQMHjP79sUALh4FJPKAkYIAwQgXLoD8PihOgeA166fuB5vvc28GAkujaZ2g8SjbAYAHvi1dxZT2+kyADAgKuPBJgAgmj5fWOXbYaUrDBKA279nzF8lPhMD+Fk6K/AOHBqIIBgqANROLCoXW/nP4NvRKxD26gKxDTKAUAp+RhfQBUJbAGJJOh+Vp1iqqhqW13LDcpuX3zamp7IAVvworIAeBDFnalyAC21H5aexFrdRIvVFGByUtix//BBYGlQ0lRVk06DG/FnAwEJoaBi6q6vw5901+O6vV+CTpY9LSCp/6uzYZ/D68B+w/8DTvcHKANCmwGiej4KnYHnpX1hdWYOVB2vwRXgKPg8+KK+ixAgXhj6Fqf++h527trNRRl7ary2CVG6QsgAEQJ0L1tGg2VBBHcNNv94dHnXubN5Cy98qmzdLBoE5CP92WN4Zro77AF7b9vsB8sXLA+AjVgfCiXA+bXcA+g/CqfD+ARBtrJxVRL5a3sxNPufeAkxXY7tQ+Ndm4zUQvj5bSwJURV+frRaAq/DncJwtD+B/6XGfbp4XQ5oAAAAASUVORK5CYII=
 // @include     https://x.com/*
@@ -115,6 +115,8 @@
 // @include     /^https:\/\/([\w-]+\.)?booking\.[\w.-]+([/?#].*)?$/
 // @include     /^https:\/\/([\w-]+\.)?agoda\.[\w.-]+([/?#].*)?$/
 // @include     /^https:\/\/([\w-]+\.)?hotels\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?hoteis\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?hoteles\.[\w.-]+([/?#].*)?$/
 // @include     /^https:\/\/([\w-]+\.)?tripadvisor\.[\w.-]+([/?#].*)?$/
 // @include     /^https:\/\/([\w-]+\.)?skyscanner\.[\w.-]+([/?#].*)?$/
 // @include     /^https:\/\/([\w-]+\.)?target\.[\w.-]+([/?#].*)?$/
@@ -136,7 +138,38 @@
 // @include     /^https:\/\/([\w-]+\.)?sivvi\.[\w.-]+([/?#].*)?$/
 // @include     /^https:\/\/([\w-]+\.)?vrbo\.[\w.-]+([/?#].*)?$/
 // @include     /^https:\/\/([\w-]+\.)?wotif\.[\w.-]+([/?#].*)?$/
-// @include     *://www.jtm.pub/mid/merge**
+// @include     /^https:\/\/([\w-]+\.)?ajio\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?flipkart\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?myntra\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?cex\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?changelly\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?kucoin\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?paxful\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?htx\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?mexc\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?coinmama\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?gate\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?bitget\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?freebitco\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?bybit\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?crypto\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?okx\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?coinbase\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?binance\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?wazirx\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?coindcx\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?zebpay\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?bitbns\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?cloudways\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?getresponse\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?bandwagonhost\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?moosend\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?domainracer\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?namesilo\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?digitalocean\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?virmach\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?vultr\.[\w.-]+([/?#].*)?$/
+// @include     *://www.jtmate.com/mid/merge**
 // @exclude     *://accounts.youtube.com/*
 // @exclude     *://www.youtube.com/live_chat_replay*
 // @exclude     *://www.youtube.com/persist_identity*
@@ -192,7 +225,7 @@
   const ScriptConst = {
     "lang": (navigator.language || navigator.userLanguage).slice(0, 2).toLowerCase(),
     "isDev": false,
-    "isDebug": false,
+    "isDebug": true,
     "currentHost": window.location.host,
     "currentUrl": window.location.href
   };
@@ -235,6 +268,8 @@
     "booking": { "p": "booking", "match": /\.booking\./ },
     "agoda": { "p": "agoda", "match": /agoda\./ },
     "hotels": { "p": "hotels", "match": /\.hotels\./ },
+    "hoteis": { "p": "hoteis", "match": /\.hoteis\./ },
+    "hoteles": { "p": "hoteles", "match": /\.hoteles\./ },
     "tripadvisor": { "p": "tripadvisor", "match": /\.tripadvisor\./ },
     "skyscanner": { "p": "skyscanner", "match": /skyscanner\./ },
     "target": { "p": "target", "match": /target\./ },
@@ -253,7 +288,30 @@
     "sivvi": { "p": "sivvi", "match": /sivvi\./ },
     "vrbo": { "p": "vrbo", "match": /vrbo\./ },
     "wotif": { "p": "wotif", "match": /wotif\./ },
-    "wayfair": { "p": "wayfair", "match": /wayfair\./ }
+    "wayfair": { "p": "wayfair", "match": /wayfair\./ },
+    "ajio": { "p": "ajio", "match": /ajio\./ },
+    "flipkart": { "p": "flipkart", "match": /flipkart\./ },
+    "myntra": { "p": "myntra", "match": /myntra\./ },
+    "cex": { "p": "cex", "match": /cex\./ },
+    "changelly": { "p": "changelly", "match": /changelly\./ },
+    "kucoin": { "p": "kucoin", "match": /kucoin\./ },
+    "paxful": { "p": "paxful", "match": /paxful\./ },
+    "htx": { "p": "htx", "match": /htx\./ },
+    "mexc": { "p": "mexc", "match": /mexc\./ },
+    "coinmama": { "p": "coinmama", "match": /coinmama\./ },
+    "pythonanywhere": { "p": "pythonanywhere", "match": /pythonanywhere\./ },
+    "gate": { "p": "gate", "match": /gate\./ },
+    "bitget": { "p": "bitget", "match": /bitget\./ },
+    "freebitco": { "p": "freebitco", "match": /freebitco\./ },
+    "bybit": { "p": "bybit", "match": /bybit\./ },
+    "crypto": { "p": "crypto", "match": /crypto\./ },
+    "okx": { "p": "okx", "match": /okx\./ },
+    "coinbase": { "p": "coinbase", "match": /coinbase\./ },
+    "binance": { "p": "binance", "match": /binance\./ },
+    "wazirx": { "p": "wazirx", "match": /wazirx\./ },
+    "coindcx": { "p": "coindcx", "match": /coindcx\./ },
+    "zebpay": { "p": "zebpay", "match": /zebpay\./ },
+    "bitbns": { "p": "bitbns", "match": /bitbns\./ }
   };
 
   var __async$l = (__this, __arguments, generator) => {
@@ -278,6 +336,15 @@
   };
   const Logger = {
     log: function(level = "info", ...messages) {
+      {
+        if (level.toLowerCase() === "info") {
+          console.info(...messages);
+        } else if (level.toLowerCase() === "error") {
+          console.error(...messages);
+        } else {
+          console.log(...messages);
+        }
+      }
     }
   };
   const Tools = {
@@ -534,6 +601,7 @@
         }
         return hostname;
       } catch (error) {
+        console.error("Invalid URL:", error);
         return null;
       }
     },
@@ -543,6 +611,7 @@
         const countryCode = domainParts[domainParts.length - 1];
         return countryCode;
       } catch (error) {
+        console.log(error);
       }
       return null;
     }
@@ -1240,6 +1309,7 @@
           let status_id2 = li.querySelector('a[href*="/status/"]').href.split("/status/").pop().split("/").shift();
           is_exist = this.history.indexOf(status_id2) >= 0;
         } catch (e) {
+          Logger.log("error", "get status_id error:", e);
         }
         let btn_down = document.createElement("div");
         btn_down.innerHTML = '<div><div><svg viewBox="0 0 24 24" style="width: 18px; height: 18px;">' + this.svg + "</svg></div></div>";
@@ -1625,6 +1695,7 @@
           const downloadUl = yield this.getDownloadUrl(window.location.href.replace("music.youtube.com", "www.youtube.com"));
           window.open(downloadUl, "_blank");
         } catch (ex) {
+          Logger.log("error", ex);
         } finally {
           btn.classList.remove("download-loadding");
         }
@@ -1725,6 +1796,7 @@
               return;
           }
         } catch (error) {
+          Logger.log("error", "youtube download", error);
         } finally {
           this.isComplete = true;
         }
@@ -1794,7 +1866,277 @@
     }
   };
 
-  var css_248z$4 = ".peter99032j-xyz-panel-wrapper{box-sizing:border-box;position:fixed;z-index:2147483646}.peter99032j-xyz-panel-wrapper svg.icon-svg path{fill:var(--color-modeal-header-icon)}.peter99032j-xyz-panel-wrapper svg.icon-svg:hover path{fill:var(--color-modeal-header-icon-hover)}.peter99032j-xyz-panel-wrapper>.peter99032j-xyz-panel-aside-main{background-color:#fff;border:1px solid #ebebeb;border-radius:5px;bottom:70px;box-shadow:2px 2px 5px #b6bdc5;display:none;height:400px;overflow-x:hidden;overflow-y:auto;position:absolute;right:0;width:400px}.peter99032j-xyz-panel-wrapper>.peter99032j-xyz-panel-aside-main>.panel-aside-main_____inner{display:flex;flex-direction:column;height:100%;width:100%}.peter99032j-xyz-panel-aside-main .panel-aside-main_____header{align-items:center;background-color:var(--color-modeal-header-background);border-bottom:1px solid #ebe6e6;box-sizing:border-box;display:flex;height:var(--size-height-modeal-header);justify-content:space-between;padding:0 var(--size-padding-horizontal-modeal-header)}.peter99032j-xyz-panel-aside-main .panel-aside-main_____header>.logo_____header{align-items:center;display:flex;justify-content:center}.peter99032j-xyz-panel-aside-main .panel-aside-main_____header>.logo_____header>svg{height:var(--size-height-modeal-icon);width:var(--size-height-modeal-icon)}.peter99032j-xyz-panel-aside-main .panel-aside-main_____header>.title_____header{flex:1;font-size:var(--size-font-modeal-header-title);font-weight:700;padding-left:10px}.peter99032j-xyz-panel-aside-main .panel-aside-main_____header .btns_____header{display:flex;flex-direction:row}.peter99032j-xyz-panel-aside-main .panel-aside-main_____header .btns_____header ._____close,.peter99032j-xyz-panel-aside-main .panel-aside-main_____header .btns_____header ._____setting{align-items:center;cursor:pointer;display:flex;justify-content:center;width:var(--size-height-modeal-operat-icon)}.peter99032j-xyz-panel-aside-main .panel-aside-main_____content{background-color:var(--color-modeal-content-background);flex:1;overflow:auto}.peter99032j-xyz-panel-aside-main .panel-aside-main_____item{margin:5px 0;padding:5px}.peter99032j-xyz-panel-aside-main .panel-aside-main_____item .item_____title{color:#b6b6b6;font-size:13px;font-weight:500;padding:5px 0;text-align:center}.peter99032j-xyz-panel-aside-main .panel-aside-main_____item .item_____container{display:flex;flex-flow:wrap;flex-direction:row;justify-content:flex-start}.peter99032j-xyz-panel-aside-main .histories-box-review_item{margin:5px 0;overflow:hidden;width:33.3333%}.peter99032j-xyz-panel-aside-main .histories-box-review_item>a{background-color:#fff!important;border:1px solid #ccc!important;border-radius:5px!important;box-sizing:initial!important;display:block!important;margin:0 auto!important;position:relative!important;width:110px!important}.peter99032j-xyz-panel-aside-main .histories-box-review_item>a>.review___shadow{border:2px solid red;border-radius:5px;bottom:0;display:none;left:0;position:absolute;right:0;text-align:center;top:0;z-index:99}.peter99032j-xyz-panel-aside-main .histories-box-review_item>a>.review___shadow .delete_____btn{background-color:red;border-radius:3px;color:#fff;font-size:13px;height:15px;line-height:10px;position:absolute;right:0;text-align:center;top:0;width:15px}.peter99032j-xyz-panel-aside-main .histories-box-review_item>a>.review___img{border-radius:5px 5px 0 0;height:110px;overflow:hidden;width:110px}.peter99032j-xyz-panel-aside-main .histories-box-review_item>a>.review___img>img{width:100%}.peter99032j-xyz-panel-aside-main .histories-box-review_item>a>.review___text{color:#000!important;font-size:13px!important;overflow:hidden!important;padding:5px!important;text-align:center!important;text-decoration:underline!important;text-overflow:ellipsis!important;white-space:nowrap!important}.peter99032j-xyz-panel-wrapper>.peter99032j-xyz-panel-aside-body{background-color:#fafafa;border-radius:5px;box-shadow:1px 1px 2px #b6bdc5;direction:ltr!important;display:flex;height:60px;overflow:hidden}.peter99032j-xyz-panel-wrapper>.peter99032j-xyz-panel-aside-body>div{align-items:center;display:flex;justify-content:center}.peter99032j-xyz-panel-aside-body .goods_____expand{cursor:pointer;width:20px!important}.peter99032j-xyz-panel-aside-body .goods_____expand svg{transition:transform .3s}.peter99032j-xyz-panel-aside-body .goods_____review{flex-direction:row;transition:all .5s ease-in-out;width:auto}.peter99032j-xyz-panel-aside-body .goods-review_____item{border-radius:4px;cursor:pointer;height:45px;line-height:45px;margin:0 5px;overflow:hidden;position:relative;width:45px}.peter99032j-xyz-panel-aside-body .goods-review_____item>a{display:block;height:100%;width:100%}.peter99032j-xyz-panel-aside-body .goods-review_____item>a>.review___shadow{background-color:#3d9ba433;bottom:0;display:none;left:0;position:absolute;right:0;text-align:center;top:0;z-index:99}.peter99032j-xyz-panel-aside-body .goods-review_____item>a>.review___shadow img{width:15px}.peter99032j-xyz-panel-aside-body .goods-review_____item img{width:100%}.peter99032j-xyz-panel-aside-body .history-box_____expand{cursor:pointer;flex-direction:column;margin:0 10px;text-align:center}.peter99032j-xyz-panel-aside-body .history-box_____expand svg{height:33px;width:33px}.peter99032j-xyz-panel-aside-body .history-box_____expand label{font-size:12px;font-weight:700}.peter99032j-xyz-panel-aside-body .wrapper_____drag-handle{box-shadow:0 3px 3px -2px #0003,0 3px 4px 0 #00000024,0 1px 8px 0 #0000001f;cursor:move;width:20px!important}";
+  const OverseaNavigation = {
+    number: Math.ceil(Math.random() * 1e8),
+    containerHight: 150,
+    GMopenInTab: function(url, options = { "active": true, "insert": true, "setParent": true }) {
+      if (typeof GM_openInTab === "function") {
+        GM_openInTab(url, options);
+      } else {
+        GM.openInTab(url, options);
+      }
+    },
+    addStyle: function(css) {
+      GM_addStyle(css);
+    },
+    request: function(mothed, url, param) {
+      return new Promise(function(resolve, reject) {
+        GM_xmlhttpRequest({
+          url,
+          method: mothed,
+          data: param,
+          onload: function(response) {
+            var status = response.status;
+            if (status == 200 || status == "200") {
+              var responseText = response.responseText;
+              resolve({ "result": "success", "responseText": responseText });
+            } else {
+              reject({ "result": "error", "responseText": null });
+            }
+          }
+        });
+      });
+    },
+    isRun: function(origin) {
+      const host = window.location.host;
+      const serverRegexs = [/cloudways\.com/, /getresponse\.com/, /bandwagonhost\.com/, /moosend\.com/, /domainracer\.com/, /namesilo\.com/, /digitalocean\.com/, /virmach\.com/, /vultr\.com/];
+      const encryptoRegexs = [
+        /changelly\.com/,
+        /bybit\.com/,
+        /gate\.io/,
+        /kucoin\.com/,
+        /coinmama\.com/,
+        /cex\.io/,
+        /paxful\.com/,
+        /htx\.com/,
+        /mexc\.com/,
+        /bitget\.com/,
+        /freebitco\.in/,
+        /crypto\.com/,
+        /okx.com/,
+        /coinbase\.com/,
+        /binance\.com/,
+        /wazirx\.com/,
+        /coindcx\.com/,
+        /zebpay\.com/,
+        /bitbns\.com/
+      ];
+      let isRunServer = serverRegexs.some((regex) => regex.test(host));
+      let isRunEncrypto = false;
+      if (!isRunServer) {
+        isRunEncrypto = encryptoRegexs.some((regex) => regex.test(host));
+      }
+      return { "isRunServer": isRunServer, "isRunEncrypto": isRunEncrypto };
+    },
+    addParamToURL: function(url, track) {
+      const [baseUrl, hash] = url.split("#");
+      const separator = baseUrl.includes("?") ? "&" : "?";
+      const newUrl = `${baseUrl}${separator}${track}`;
+      return hash ? `${newUrl}#${hash}` : newUrl;
+    },
+    temporary: function(platform) {
+      const anchorRun = () => {
+        document.querySelectorAll('a:not([anchor="true"])').forEach((element, index) => {
+          var href = element.getAttribute("href");
+          element.setAttribute("anchor", "true");
+          element.setAttribute("anchor-url", href);
+          if (href && href.indexOf("javascript:") == -1 && href.indexOf(platform.track) == -1) {
+            element.setAttribute("rel", "noreferrer nofollow");
+            href = this.addParamToURL(href, platform.track);
+            element.setAttribute("href", href);
+            element.setAttribute("anchor-i-url", href);
+          }
+        });
+      };
+      anchorRun();
+      setInterval(function() {
+        anchorRun();
+      }, 1e3);
+    },
+    generateHtml: function(origin) {
+      const number = this.number;
+      const containerHight = this.containerHight;
+      var css = `
+			#server-containerx` + number + `{
+				display: block;
+				bottom: -` + containerHight + `px;
+				clear: none !important;
+				float: none !important;
+				left: 50%;
+				margin: 0px !important;
+				max-height: none !important;
+				max-width: none !important;
+				opacity: 1;
+				overflow: visible !important;
+				padding: 0px !important;
+				position: fixed;
+				right: auto !important;
+				top: auto !important;
+				vertical-align: baseline !important;
+				visibility: visible !important;
+				z-index: 2147483647;
+				background: rgb(250, 250, 250) !important;
+				transition-duration:0.8s!important;
+				-webkit-transition-duration:0.8s!important;
+				transform:translateX(-50%);
+				width: 60% !important;
+				height: ` + containerHight + `px !important;
+				max-width:700px!important;
+				box-sizing: border-box!important;
+				box-shadow: rgba(0, 0, 0, 0.2) 0px -1px 5px -1px, rgba(0, 0, 0, 0.1) 0px 1px 2px -1px !important;
+			}
+			#server-containerx` + number + `:hover{
+				-webkit-box-shadow: 0 4px 12px rgba(0,0,0,.08);
+				box-shadow: 0 4px 12px rgba(0,0,0,.08);
+			}
+			#server-container-decoration` + number + `{
+				inset: auto !important;
+				clear: none !important;
+				display: block !important;
+				float: none !important;
+				height: 5px !important;
+				margin: 0px !important;
+				max-height: none !important;
+				max-width: none !important;
+				opacity: 1 !important;
+				overflow: visible !important;
+				padding: 0px !important;
+				position: relative !important;
+				vertical-align: baseline !important;
+				visibility: visible !important;
+				width: auto !important;
+				z-index: 1 !important;
+				background-color: #e4eaf6 !important;
+				box-shadow: rgba(0, 0, 0, 0.2) 0px -1px 5px -1px, rgba(0, 0, 0, 0.1) 0px 1px 2px -1px !important;
+			}
+			#server-container-expand` + number + `{
+				cursor:pointer;
+				position:absolute;
+				width:50px;
+				height:30px;
+				background-color: #e4eaf6;
+				top:-30px;
+				left:50%;
+				transform:translateX(-50%);
+				border-radius: 5px 5px 0px 0px;
+			}
+			#server-container-expand` + number + `:hover{
+
+			}
+			#server-container-expand` + number + `>svg{
+				width:50px;
+				height:30px;
+			}
+			#server-container-expand` + number + `>svg:hover{
+				transition: 0.6s;
+				transform: scale(1.1);
+			}
+			.server-container-column9980x{
+				position:relative;
+			}
+			.server-container-column9980x:not(:last-child):after{
+				position: absolute;
+				height: calc(100% - 4em);
+				right: 0px;
+				content: '';
+				width: 0px;
+				border-left: solid #e6e7eb 2px;
+				top: 50%;
+				transform: translateY(-50%);
+			}
+			#server-container-body` + number + `{
+				width:100%;
+				height:100%;
+			}
+		`;
+      var html = `
+			<div id="server-containerx` + number + `">
+				<div id="server-container-decoration` + number + `">
+					<div id="server-container-expand` + number + `">
+						<svg t="1719906770072" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4303" width="256" height="256"><path d="M444 136.3L123.8 324.8l3.2 371.5 323.3 183 320.2-188.5-3.2-371.5z" fill="#FFFFFF" p-id="4304"></path><path d="M630 287.6l-20.1-11.4-279.7 164.7L333 767l20.1 11.3-2.8-326z" fill="#06F3FF" p-id="4305"></path><path d="M746.8 489.8l-8.6 5.2c-4.7 2.9-6.2 9-3.4 13.7 1.9 3.1 5.2 4.8 8.6 4.8 1.8 0 3.5-0.5 5.2-1.4l8.6-5.2c4.7-2.9 6.2-9 3.4-13.7-2.9-4.7-9-6.2-13.8-3.4z" fill="#005BFF" p-id="4306"></path><path d="M638.6 534c-1.6-0.9-3.4-1.3-5.2-1.3-4.9 0-9.9 2.6-13 4.6-20.6 13-38 47.5-38 75.2 0 12.2 3.4 21.4 9.1 24.5 6 3.3 14-0.6 18.2-3.3 20.6-13 38-47.5 38-75.2 0-12.2-3.4-21.3-9.1-24.5z m-9.9 50.4l-8.6 5.2c-1.6 1-3.4 1.4-5.2 1.4-3.4 0-6.7-1.7-8.6-4.8-2.9-4.7-1.3-10.9 3.4-13.7l8.6-5.2c4.7-2.9 10.9-1.3 13.7 3.4 3 4.7 1.5 10.9-3.3 13.7z" fill="#E6E6E6" p-id="4307"></path><path d="M618.4 567.3l-8.6 5.2c-4.7 2.9-6.2 9-3.4 13.7 1.9 3.1 5.2 4.8 8.6 4.8 1.8 0 3.5-0.5 5.2-1.4l8.6-5.2c4.7-2.9 6.2-9 3.4-13.7-2.9-4.7-9.1-6.3-13.8-3.4z" fill="#E6E6E6" p-id="4308"></path><path d="M444 136.3L123.8 324.8l3.2 371.5 323.3 183 320.1-188.5-3.2-371.5-323.2-183zM166.8 672.9L164 347.6l280.3-165.1 71.2 40.3-280.3 165.1 2.8 325.3-71.2-40.3z m262.8 148.7l-76.5-43.3L333 767l-74.9-42.4-2.8-325.3 280.4-165.1 74.2 42 20.1 11.4 77.8 44-281 165.5 2.8 324.5z m40 0L467 519.8l260.7-153.5 2.6 301.7-260.7 153.6z m287.6-314.7l-8.6 5.2c-1.6 1-3.4 1.4-5.2 1.4-3.4 0-6.7-1.7-8.6-4.8-2.9-4.7-1.3-10.9 3.4-13.7l8.6-5.2c4.7-2.9 10.9-1.3 13.7 3.4 2.9 4.7 1.4 10.9-3.3 13.7z" fill="#005BFF" p-id="4309"></path><path d="M704 515.6l-8.6 5.2c-4.7 2.9-6.2 9-3.4 13.7 1.9 3.1 5.2 4.8 8.6 4.8 1.8 0 3.5-0.5 5.2-1.4l8.6-5.2c4.7-2.9 6.2-9 3.4-13.7-2.9-4.7-9-6.2-13.8-3.4zM827.2 430.8c-5.5 0-10 4.5-10 10v10c0 5.5 4.5 10 10 10s10-4.5 10-10v-10c0-5.5-4.5-10-10-10zM837.2 390.8c0-5.5-4.5-10-10-10s-10 4.5-10 10v10c0 5.5 4.5 10 10 10s10-4.5 10-10v-10zM837.2 340.8c0-5.5-4.5-10-10-10s-10 4.5-10 10v10c0 5.5 4.5 10 10 10s10-4.5 10-10v-10zM837.2 290.8c0-5.5-4.5-10-10-10s-10 4.5-10 10v10c0 5.5 4.5 10 10 10s10-4.5 10-10v-10zM803.4 467.4c-2.9-4.7-9-6.3-13.7-3.4l-8.6 5.2c-4.7 2.9-6.2 9-3.4 13.7 1.9 3.1 5.2 4.8 8.6 4.8 1.8 0 3.5-0.5 5.2-1.4l8.6-5.2c4.6-2.9 6.1-9 3.3-13.7zM665.3 540.1c-3-10.8-8.9-19.1-17.1-23.6-11.2-6.1-24.8-4.8-38.5 3.9-26.5 16.8-47.3 57.2-47.3 92.1 0 19.9 7.1 35.2 19.5 42 4.6 2.5 9.6 3.8 14.9 3.8 7.5 0 15.6-2.6 23.7-7.7 25.9-16.4 46.4-55.4 47.3-89.7l3.9-2.4c4.7-2.9 6.2-9 3.4-13.7-2.2-3.4-6.1-5.1-9.8-4.7z m-55.6 93.7c-4.2 2.7-12.2 6.6-18.2 3.3-5.7-3.1-9.1-12.3-9.1-24.5 0-27.7 17.4-62.2 38-75.2 3.1-1.9 8.1-4.6 13-4.6 1.8 0 3.6 0.4 5.2 1.3 5.7 3.1 9.1 12.3 9.1 24.5 0 27.7-17.4 62.1-38 75.2z" fill="#005BFF" p-id="4310"></path><path d="M891.2 321.7c-5.5 0-10 4.5-10 10v156.4l-81.7 49.3c-4.7 2.9-6.2 9-3.4 13.7 1.9 3.1 5.2 4.8 8.6 4.8 1.8 0 3.5-0.5 5.2-1.4l91.4-55.1V331.7c-0.1-5.5-4.6-10-10.1-10zM817.3 239.6c-0.1 0.4-0.1 0.8-0.1 1.3v10c0 5.5 4.5 10 10 10s10-4.5 10-10v-10c0-0.4 0-0.9-0.1-1.3 23.4-4.6 41-25.3 41-50 0-28.2-22.8-51-51-51s-51 22.8-51 51c0 24.7 17.7 45.4 41.2 50z" fill="#005BFF" p-id="4311"></path></svg>
+					</div>
+				</div>
+				<div id="server-container-body` + number + `">
+
+				</div>
+			</div>
+		`;
+      this.addStyle(css);
+      document.body.insertAdjacentHTML("beforeend", html);
+      this.addEventListener(origin);
+    },
+    addEventListener: function(origin) {
+      const self = this;
+      const number = this.number;
+      const href = window.location.href;
+      function expandOrShow(forceClose = false) {
+        const serverContainerx = document.querySelector("#server-containerx" + number);
+        var { bottom, height } = window.getComputedStyle(serverContainerx);
+        if (bottom == "0px" || forceClose) {
+          bottom = "-" + height;
+        } else {
+          bottom = "0px";
+        }
+        serverContainerx.style.bottom = bottom;
+      }
+      document.querySelector("#server-container-expand" + number).addEventListener("click", function() {
+        expandOrShow();
+      });
+      var lastScrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      function startContainer() {
+        setTimeout(function() {
+          window.addEventListener("scroll", function() {
+            var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            if (scrollTop - lastScrollTop > 30) {
+              expandOrShow(true);
+            }
+            lastScrollTop = scrollTop;
+          });
+        }, 1500);
+      }
+      var url = "https://oversea.mimixiaoke.com/api/discover/" + origin;
+      self.request("post", url, null).then((data) => {
+        if (data.result == "success" && !!data.responseText) {
+          const { html, platforms } = JSON.parse(data.responseText).data;
+          document.querySelector("#server-container-body" + number).insertAdjacentHTML("beforeend", html);
+          startContainer();
+          let platform = null;
+          for (let i = 0; i < platforms.length; i++) {
+            if (new RegExp(platforms[i].match.replace(/\\\\/g, "\\"), "i").test(href)) {
+              platform = platforms[i];
+              break;
+            }
+          }
+          if (platform) {
+            const storageKey = "__anchor__" + window.location.host;
+            if (platform.support_append || !!sessionStorage.getItem(storageKey)) {
+              self.temporary(platform);
+            } else {
+              if (window.location.pathname == platform.target) {
+                sessionStorage.setItem(storageKey, "true");
+                window.location.href = platform.promo_link;
+              }
+            }
+          }
+        }
+      }).catch((error) => {
+        console.log(error);
+      });
+    },
+    start: function() {
+      const { isRunServer, isRunEncrypto } = this.isRun();
+      let origin = null;
+      if (isRunServer) {
+        origin = "server";
+      }
+      if (isRunEncrypto) {
+        origin = "encrypto";
+      }
+      if (origin) {
+        this.generateHtml(origin);
+      }
+    }
+  };
 
   const CLASSNAME_ID_SUFFIX = "_" + Math.ceil(Math.random() * 1e8);
   const StorageKeys = {
@@ -1823,9 +2165,50 @@
     return {
       detectCoupon: { method: "POST", url: baseUrl + "/api/detect/coupon" },
       detectInfo: { method: "POST", url: baseUrl + "/api/detect/info" },
-      getLangue: { method: "POST", url: baseUrl + "/api/load/lang" }
+      getLangue: { method: "POST", url: baseUrl + "/api/load/lang" },
+      couponQuery: { method: "GET", url: baseUrl + "/api/coupon/query" },
+      couponChange: { method: "GET", url: baseUrl + "/api/coupon/change" },
+      couponExist: { method: "GET", url: baseUrl + "/api/coupon/exist" },
+      couponExistConf: { method: "GET", url: baseUrl + "/api/load/conf" }
     };
   };
+
+  const RequestUtil = {
+    request: function(method, url, params) {
+      return Tools.request(method, url, params);
+    },
+    _addExtraParams: function(params) {
+      if (!params.hasOwnProperty("url")) {
+        params.url = encodeURIComponent(window.location.href);
+      }
+      if (!params.hasOwnProperty("v")) {
+        params.v = "1.0.1";
+      }
+      if (!params.hasOwnProperty("no")) {
+        params.no = "100";
+      }
+      return params;
+    },
+    _baseQuery: function(scopName, params) {
+      params = this._addExtraParams(params);
+      const { method, url } = getRequestUrl()[scopName];
+      let finalUrl = url;
+      if (method.toUpperCase() === "GET") {
+        finalUrl = finalUrl + "?" + Object.entries(params).map(([key, value]) => `${key}=${value}`).join("&");
+        params = null;
+        console.log("url", finalUrl);
+      }
+      return this.request(method, finalUrl, params);
+    },
+    getCouponQuery: function(params) {
+      return this._baseQuery("couponQuery", params);
+    },
+    getCouponChange: function(params) {
+      return this._baseQuery("couponChange", params);
+    }
+  };
+
+  var css_248z$4 = ".peter99032j-xyz-panel-wrapper{box-sizing:border-box;position:fixed;z-index:2147483646}.peter99032j-xyz-panel-wrapper svg.icon-svg path{fill:var(--color-modeal-header-icon)}.peter99032j-xyz-panel-wrapper svg.icon-svg:hover path{fill:var(--color-modeal-header-icon-hover)}.peter99032j-xyz-panel-wrapper>.peter99032j-xyz-panel-aside-main{background-color:#fff;border:1px solid #ebebeb;border-radius:5px;bottom:70px;box-shadow:2px 2px 5px #b6bdc5;display:none;height:400px;overflow-x:hidden;overflow-y:auto;position:absolute;right:0;width:400px}.peter99032j-xyz-panel-wrapper>.peter99032j-xyz-panel-aside-main>.panel-aside-main_____inner{display:flex;flex-direction:column;height:100%;width:100%}.peter99032j-xyz-panel-aside-main .panel-aside-main_____header{align-items:center;background-color:var(--color-modeal-header-background);border-bottom:1px solid #ebe6e6;box-sizing:border-box;display:flex;height:var(--size-height-modeal-header);justify-content:space-between;padding:0 var(--size-padding-horizontal-modeal-header)}.peter99032j-xyz-panel-aside-main .panel-aside-main_____header>.logo_____header{align-items:center;display:flex;justify-content:center}.peter99032j-xyz-panel-aside-main .panel-aside-main_____header>.logo_____header>svg{height:var(--size-height-modeal-icon);width:var(--size-height-modeal-icon)}.peter99032j-xyz-panel-aside-main .panel-aside-main_____header>.title_____header{flex:1;font-size:var(--size-font-modeal-header-title);font-weight:700;padding-left:10px}.peter99032j-xyz-panel-aside-main .panel-aside-main_____header .btns_____header{display:flex;flex-direction:row}.peter99032j-xyz-panel-aside-main .panel-aside-main_____header .btns_____header ._____close,.peter99032j-xyz-panel-aside-main .panel-aside-main_____header .btns_____header ._____setting{align-items:center;cursor:pointer;display:flex;justify-content:center;width:var(--size-height-modeal-operat-icon)}.peter99032j-xyz-panel-aside-main .panel-aside-main_____content{background-color:var(--color-modeal-content-background);flex:1;overflow:auto}.peter99032j-xyz-panel-aside-main .panel-aside-main_____item{margin:5px 0;padding:5px}.peter99032j-xyz-panel-aside-main .panel-aside-main_____item .item_____title{color:#b6b6b6;font-size:13px;font-weight:500;padding:5px 0;text-align:center}.peter99032j-xyz-panel-aside-main .panel-aside-main_____item .item_____container{display:flex;flex-flow:wrap;flex-direction:row;justify-content:flex-start}.peter99032j-xyz-panel-aside-main .histories-box-review_item{margin:5px 0;overflow:hidden;width:33.3333%}.peter99032j-xyz-panel-aside-main .histories-box-review_item>a{background-color:#fff!important;border:1px solid #ccc!important;border-radius:5px!important;box-sizing:initial!important;display:block!important;margin:0 auto!important;position:relative!important;width:110px!important}.peter99032j-xyz-panel-aside-main .histories-box-review_item>a>.review___shadow{border:2px solid red;border-radius:5px;bottom:0;display:none;left:0;position:absolute;right:0;text-align:center;top:0;z-index:99}.peter99032j-xyz-panel-aside-main .histories-box-review_item>a>.review___shadow .delete_____btn{background-color:red;border-radius:3px;color:#fff;font-size:13px;height:15px;line-height:10px;position:absolute;right:0;text-align:center;top:0;width:15px}.peter99032j-xyz-panel-aside-main .histories-box-review_item>a>.review___img{border-radius:5px 5px 0 0;height:110px;overflow:hidden;width:110px}.peter99032j-xyz-panel-aside-main .histories-box-review_item>a>.review___img>img{width:100%}.peter99032j-xyz-panel-aside-main .histories-box-review_item>a>.review___text{color:#000!important;font-size:13px!important;overflow:hidden!important;padding:5px!important;text-align:center!important;text-decoration:underline!important;text-overflow:ellipsis!important;white-space:nowrap!important}.peter99032j-xyz-panel-wrapper>.peter99032j-xyz-panel-aside-body{background-color:#fafafa;border-radius:5px;box-shadow:1px 1px 2px #b6bdc5;direction:ltr!important;display:flex;height:60px;overflow:hidden}.peter99032j-xyz-panel-wrapper>.peter99032j-xyz-panel-aside-body>div{align-items:center;display:flex;justify-content:center}.peter99032j-xyz-panel-aside-body .goods_____expand{cursor:pointer;width:20px!important}.peter99032j-xyz-panel-aside-body .goods_____expand svg{transition:transform .3s}.peter99032j-xyz-panel-aside-body .goods_____review{flex-direction:row;transition:all .5s ease-in-out;width:auto}.peter99032j-xyz-panel-aside-body .goods-review_____item{border-radius:4px;cursor:pointer;height:45px;line-height:45px;margin:0 5px;overflow:hidden;position:relative;width:45px}.peter99032j-xyz-panel-aside-body .goods-review_____item>a{display:block;height:100%;width:100%}.peter99032j-xyz-panel-aside-body .goods-review_____item>a>.review___shadow{background-color:#3d9ba433;bottom:0;display:none;left:0;position:absolute;right:0;text-align:center;top:0;z-index:99}.peter99032j-xyz-panel-aside-body .goods-review_____item>a>.review___shadow img{width:15px}.peter99032j-xyz-panel-aside-body .goods-review_____item img{width:100%}.peter99032j-xyz-panel-aside-body .history-box_____expand{cursor:pointer;flex-direction:column;margin:0 10px;text-align:center}.peter99032j-xyz-panel-aside-body .history-box_____expand svg{height:33px;width:33px}.peter99032j-xyz-panel-aside-body .history-box_____expand label{font-size:12px;font-weight:700}.peter99032j-xyz-panel-aside-body .wrapper_____drag-handle{box-shadow:0 3px 3px -2px #0003,0 3px 4px 0 #00000024,0 1px 8px 0 #0000001f;cursor:move;width:20px!important}";
 
   var css_248z$3 = ":root{--color-modeal-header-background:#fff;--color-modeal-content-background:#f9f9f9;--color-modeal-header-icon:#bfbfbf;--color-modeal-header-icon-hover:#6a7a9b;--size-padding-horizontal-modeal-header:10px;--size-height-modeal-icon:50px;--size-height-modeal-operat-icon:30px;--size-height-modeal-header:55px;--size-font-modeal-header-title:18px}[data-extension-direction=rtl]{direction:rtl!important}";
 
@@ -1988,6 +2371,7 @@
             element.innerText = msg;
           }
         }
+        Logger.log("info", "data content======>", options);
         this.openUrl(options);
       }
     },
@@ -2002,6 +2386,7 @@
           const json = JSON.parse(dataContent);
           this.customOpenUrl(element, json, operate);
         } catch (e) {
+          console.log(e);
         }
       });
     },
@@ -2167,10 +2552,12 @@
               resolve("success");
             });
           } catch (error) {
+            Logger.log("error", error);
             this.langueObjects = this.defaultLangueObjects;
             resolve("success");
           }
         } else {
+          Logger.log("info", "get cache langue success=======>");
           this.langueObjects = langueObjects.data;
           resolve("success");
         }
@@ -2261,7 +2648,7 @@
         this.mask.appendChild(this.content);
       }
       middleBox(param) {
-        this.content.innerHTML = "";
+        this.content.replaceChildren();
         if (param.hasOwnProperty("direction")) {
           this.content.setAttribute("data-extension-direction", param.direction);
         }
@@ -2287,11 +2674,11 @@
           "border-radius": "4px 4px 0px 0px"
         });
         const span = document.createElement("span");
-        span.innerText = title;
+        span.textContent = title;
         span.setAttribute("langue-extension-text", "setting_modal_title");
         this.title.appendChild(span);
         this.closeBtn = document.createElement("span");
-        this.closeBtn.innerText = "×";
+        this.closeBtn.textContent = "×";
         this.setStyle(this.closeBtn, {
           "textDecoration": "none",
           "color": "#000",
@@ -2323,13 +2710,13 @@
           "max-height": "400px",
           "overflow": "auto"
         });
-        this.dialogContent.innerHTML = param.content;
+        this.dialogContent.insertAdjacentHTML("beforeend", param.content);
         this.content.appendChild(this.dialogContent);
         param.onContentReady(this);
       }
       updateTitle(title) {
         if (this.title) {
-          this.title.innerText = title;
+          this.title.textContent = title;
         }
       }
       close() {
@@ -2493,6 +2880,7 @@
         storageObj[platform] = newArr;
         StorageUtil.setValue(StorageKeys.history.goodsHistory, storageObj);
       } catch (e) {
+        Logger.log("error", "historyGood push item has exception" + e);
       }
     },
     get: function(platform, num = -1) {
@@ -2650,7 +3038,7 @@
       const realUrl = encodeURIComponent(url);
       let jumpUrl = "https://page.mimixiaoke.com/mid/redirect?url=" + realUrl;
       if (platform == "ebay" || platform == "bestbuy") {
-        jumpUrl = "https://www.jtm.pub/mid/redirect?url=" + realUrl;
+        jumpUrl = "https://www.jtmate.com/mid/redirect?url=" + realUrl;
       }
       return Tools.encryptStr(jumpUrl);
     },
@@ -2751,6 +3139,7 @@
       draggable.addEventListener("mousedown", (e) => {
         e.preventDefault();
         if (window.getComputedStyle(wrapper).position !== "absolute" && window.getComputedStyle(wrapper).position !== "fixed") {
+          console.error('The wrapper element must have position set to "absolute" or "fixed".');
           return;
         }
         isDragging = true;
@@ -2838,6 +3227,7 @@
         StyleUtil.addStyle(css_248z$4);
         this.createHistoryBox(platform);
       } catch (e) {
+        Logger.log("error", "history is exception:" + e);
       }
     }
   };
@@ -2982,6 +3372,9 @@
       Tools.waitForElementByInterval(priceTag).then((priceElement) => {
         const titleElement = document.querySelector(titleTag);
         const imgElement = document.querySelector(imageTag);
+        Logger.log("info", "titleElement", titleElement);
+        Logger.log("info", "priceElement", priceElement);
+        Logger.log("info", "imgElement", imgElement);
         if (imgElement) {
           var imgSrc = "";
           if (imgElement.tagName == "IMG") {
@@ -2995,6 +3388,7 @@
           GoodsHistroy.push(platform, goods);
         }
       }).catch((e) => {
+        Logger.log("error", "addGoodsHistory", e);
       });
     }
   };
@@ -3022,7 +3416,6 @@
   const Aliexpress = {
     languageStoageKey: "language-stoage-key",
     currencyStoageKey: "language-currency-key",
-    baseUrl: "https://oversea.mimixiaoke.com",
     currentPlatform: PlatformConst.aliexpress.p,
     checkDomInsertRs: true,
     getLang: function() {
@@ -3079,15 +3472,23 @@
         const language = this.getLang();
         const currency = yield this.getCurrency();
         const id = Tools.getParamterBySuffix(visitUrl, "html");
-        const url = this.baseUrl + "/api/coupon/query?ids=" + id + "&qu=&p=" + this.currentPlatform + "&no=100&v=1.0.1&lang=" + language + "&mul=false&currency=" + currency;
         try {
-          const data = yield Tools.request("GET", url, null);
+          const params = {
+            "ids": id,
+            "qu": "",
+            "p": this.currentPlatform,
+            "lang": language,
+            "mul": false,
+            "currency": currency
+          };
+          const data = yield RequestUtil.getCouponQuery(params);
           if (data.code == "success" && !!data.result) {
             const json = JSON.parse(data.result);
             Logger.log("info", "detail request json=", json);
             yield this.detailAnalyze(json, language, currency);
           }
         } catch (e) {
+          Logger.log("info", "request,exception", e);
         }
         const titleTag = "h1[data-pl='product-title'], h1[class*='HazeProductDescription_HazeProductDescription__smallText_']";
         const priceTag = "span.product-price-value, div[class*='currentPriceText'], div[class*='HazeProductPrice_SnowPrice__container']>div";
@@ -3121,9 +3522,13 @@
             const id = json.id;
             const promiseResultArray = [];
             const elementPromise = Tools.mustGetElement(mount);
-            const reqUrl = this.baseUrl + "/api/coupon/change?id=" + id + "&lang=" + language + "&platform=" + this.currentPlatform + "&currency=" + currency;
-            Logger.log("info", "coupon change >>>>>>>>>>>>>", reqUrl);
-            const reqPromise = Tools.request("GET", reqUrl, null);
+            const params = {
+              "id": id,
+              "lang": language,
+              "platform": this.currentPlatform,
+              "currency": currency
+            };
+            const reqPromise = RequestUtil.getCouponChange(params);
             promiseResultArray.push(elementPromise, reqPromise);
             const allResult = yield Promise.all(promiseResultArray);
             let element = null, qrcodeData = null;
@@ -3154,6 +3559,7 @@
             }
           });
         } catch (error) {
+          Logger.log("error", "detailAnalyze: ", error);
         } finally {
           this.checkDomInsertRs = true;
         }
@@ -3215,8 +3621,17 @@
         const language = yield GM_getValue(this.languageStoageKey, navigator.language);
         const currency = yield GM_getValue(this.currencyStoageKey, "USD");
         const ids = Tools.getParamterBySearch(window.location.search, "objectId") || Tools.getParamterBySearch(window.location.search, "availableProductShopcartIds") || Tools.getParamterBySearch(window.location.search, "itemId");
-        const confirmUrl = this.baseUrl + "/api/coupon/query?ids=" + ids + "&qu=&p=" + this.currentPlatform + "&no=100&v=1.0.1&lang=" + language + "&mul=true&currency=" + currency;
-        const res = yield Tools.request("GET", confirmUrl, null);
+        const params = {
+          "ids": ids,
+          "qu": "",
+          "p": this.currentPlatform,
+          "lang": language,
+          "mul": true,
+          "currency": currency
+        };
+        const res = yield RequestUtil.getCouponQuery(params);
+        Logger.log("info", "trade rq=", confirmUrl);
+        Logger.log("info", "trade res=", res);
         if (res.code == "success" && !!res.result) {
           const json = JSON.parse(res.result);
           yield this.tradeAnalyze(json, language);
@@ -3231,6 +3646,7 @@
         const { handler, css, html, templateId, distinguish } = json;
         GM_addStyle(css);
         let element = yield Tools.mustGetElement(handler);
+        Logger.log("info", "insert：element", element);
         Tools.loopTask(() => {
           if (!element) {
             return;
@@ -3338,6 +3754,7 @@
             yield this.search(items, language, currency);
           }
         } catch (e) {
+          Logger.log("error", "pickUpWholesale: ", e);
         }
       });
     },
@@ -3371,6 +3788,7 @@
             yield this.search(array, language, currency);
           }
         } catch (e) {
+          Logger.log("error", "pickUpInbusiness: ", e);
         }
       });
     },
@@ -3476,6 +3894,7 @@
             resolve(isBroken ? "broken" : "complete");
           });
         } catch (e) {
+          Logger.log("error", "createItemHtml: ", e);
           resolve("exception");
         }
       });
@@ -3537,10 +3956,12 @@
         const language = Aliexpress.getLang();
         const currency = yield Aliexpress.getCurrency();
         const confString = yield ItemSearchBaseObj.requestConf();
+        Logger.log("info", "conf ======>", confString);
         if (!confString) {
           return;
         }
         const selectors = ItemSearchBaseObj.pickupGoodsItem(this.currentPlatform, confString);
+        Logger.log("info", "search coupon selectors======>", selectors);
         setInterval(() => __async$f(this, null, function* () {
           if (removeTagIsComplete && this.loopIsComplete) {
             this.loopIsComplete = false;
@@ -3595,7 +4016,6 @@
     });
   };
   const Ebay = {
-    baseUrl: "https://oversea.mimixiaoke.com",
     currentPlatform: PlatformConst.ebay.p,
     getGoodsId: function(url) {
       const regex = /https?:\/\/www\.ebay\.[a-z.]+\/itm\/(\d+)/;
@@ -3625,15 +4045,22 @@
         if (!!varG) {
           idsG += "@" + varG;
         }
-        const url = this.baseUrl + "/api/coupon/query?ids=" + idsG + "&qu=&p=" + this.currentPlatform + "&no=100&v=1.0.1&marketplace=" + marketplace + "&mul=false";
         try {
-          const data = yield Tools.request("GET", url, null);
+          const params = {
+            "ids": idsG,
+            "qu": "",
+            "p": this.currentPlatform,
+            "marketplace": marketplace,
+            "mul": false
+          };
+          const data = yield RequestUtil.getCouponQuery(params);
           if (data.code == "success" && !!data.result) {
             const json = JSON.parse(data.result);
             Logger.log("info", "detail request json=", json);
             yield this.detailAnalyze(json, marketplace);
           }
         } catch (e) {
+          Logger.log("info", "request,exception", e);
         }
         const titleTag = ".x-item-title__mainTitle";
         const priceTag = ".x-price-primary >span";
@@ -3653,6 +4080,7 @@
           }
           GM_addStyle(css);
           const element = yield Tools.mustGetElement(handler);
+          Logger.log("info", "coupon insert：element", element);
           if (element) {
             couponResult = { "element": element, "html": html, "templateId": templateId, "distinguish": distinguish, "hint": hint, "mid": mid };
           }
@@ -3662,8 +4090,12 @@
           const id = json.id;
           const promiseResultArray = [];
           const elementPromise = Tools.mustGetElement(mount);
-          const reqUrl = this.baseUrl + "/api/coupon/change?id=" + id + "&marketplace=" + marketplace + "&platform=" + this.currentPlatform;
-          const reqPromise = Tools.request("GET", reqUrl, null);
+          const params = {
+            "id": id,
+            "marketplace": marketplace,
+            "platform": this.currentPlatform
+          };
+          const reqPromise = RequestUtil.getCouponChange(params);
           promiseResultArray.push(elementPromise, reqPromise);
           const allResult = yield Promise.all(promiseResultArray);
           let element = null, qrcodeData = null;
@@ -3676,6 +4108,7 @@
               }
             }
           }
+          Logger.log("info", "qrcocd insert：element", element);
           if (element && qrcodeData) {
             qrcodeResult = { "element": element, "html": html, "iden": iden, "qrcodeData": qrcodeData, "distinguish": distinguish };
           }
@@ -3821,6 +4254,7 @@
             yield this.search(items, marketplace);
           }
         } catch (e) {
+          Logger.log("error", "pickUpItems: ", e);
         }
       });
     },
@@ -3915,6 +4349,7 @@
             resolve("complete");
           });
         } catch (e) {
+          Logger.log("error", "createItemHtml: ", e);
           resolve("exception");
         }
       });
@@ -3967,10 +4402,12 @@
           return;
         const marketplace = Ebay.getMarketplace(window.location.href);
         const confString = yield ItemSearchBaseObj.requestConf();
+        Logger.log("info", "conf ======>", confString);
         if (!confString) {
           return;
         }
         const selectors = ItemSearchBaseObj.pickupGoodsItem(this.currentPlatform, confString);
+        Logger.log("info", "search coupon selectors======>", selectors);
         setInterval(() => __async$d(this, null, function* () {
           if (this.loopIsComplete) {
             this.loopIsComplete = false;
@@ -4003,7 +4440,6 @@
     });
   };
   const Lazada = {
-    baseUrl: "https://oversea.mimixiaoke.com",
     visitUrl: window.location.href,
     currentPlatform: PlatformConst.lazada.p,
     getMarketplace: function(url = window.location.href) {
@@ -4031,8 +4467,12 @@
           return;
         }
         element.insertAdjacentHTML("beforeend", html);
-        const reqImageUrl = this.baseUrl + "/api/coupon/change?id={id}&marketplace={marketplace}&platform={platform}".replace("{id}", id).replace("{marketplace}", marketplace).replace("{platform}", platform);
-        const qrcodeData = yield Tools.request("GET", reqImageUrl, null);
+        const params = {
+          "id": id,
+          "marketplace": marketplace,
+          "platform": platform
+        };
+        const qrcodeData = yield RequestUtil.getCouponChange(params);
         if (!!qrcodeData && qrcodeData.code === "success" && !!qrcodeData.result) {
           let mscanImg = JSON.parse(qrcodeData.result).mscanImg;
           if (!!mscanImg) {
@@ -4056,9 +4496,15 @@
         if (!ids) {
           return;
         }
-        const reqUrl = this.baseUrl + "/api/coupon/query?ids=" + ids + "&qu=&p=" + this.currentPlatform + "&no=100&v=1.0.1&marketplace=" + marketplace + "&mul=false";
         try {
-          const data = yield Tools.request("GET", reqUrl, null);
+          const params = {
+            "ids": ids,
+            "qu": "",
+            "p": this.currentPlatform,
+            "marketplace": marketplace,
+            "mul": false
+          };
+          const data = yield RequestUtil.getCouponQuery(params);
           if (!!data && data.code === "success" && !!data.result) {
             const json = JSON.parse(data.result);
             if (json && json.mscan) {
@@ -4080,6 +4526,7 @@
             }
           }
         } catch (e) {
+          Logger.log("info", "request,exception", e);
         }
         const titleTag = ".pdp-mod-product-badge-title";
         const priceTag = ".pdp-product-price >span";
@@ -4165,6 +4612,7 @@
             yield this.search(items, marketplace);
           }
         } catch (e) {
+          Logger.log("error", "pickUpItems: ", e);
         }
       });
     },
@@ -4244,6 +4692,7 @@
             resolve("complete");
           });
         } catch (e) {
+          Logger.log("error", "createItemHtml: ", e);
           resolve("exception");
         }
       });
@@ -4271,10 +4720,13 @@
           return;
         const marketplace = Lazada.getMarketplace(window.location.href);
         const confString = yield ItemSearchBaseObj.requestConf();
+        Logger.log("info", "conf ======>", confString);
+        Logger.log("info", "marketplace ======>", marketplace);
         if (!confString) {
           return;
         }
         const selectors = ItemSearchBaseObj.pickupGoodsItem(this.currentPlatform, confString);
+        Logger.log("info", "search coupon selectors======>", selectors);
         setInterval(() => __async$b(this, null, function* () {
           if (this.loopIsComplete) {
             this.loopIsComplete = false;
@@ -4307,7 +4759,6 @@
     });
   };
   const Bestbuy = {
-    baseUrl: "https://oversea.mimixiaoke.com",
     currentPlatform: PlatformConst.bestbuy.p,
     isDetail: function() {
       const visitUrl = window.location.href;
@@ -4327,15 +4778,22 @@
           return;
         }
         const marketplace = this.getMarketplace(visitUrl);
-        const url = this.baseUrl + "/api/coupon/query?ids=" + id + "&qu=&p=" + this.currentPlatform + "&no=100&v=1.0.1&marketplace=" + marketplace + "&mul=false";
         try {
-          const data = yield Tools.request("GET", url, null);
+          const params = {
+            "ids": id,
+            "qu": "",
+            "p": this.currentPlatform,
+            "marketplace": marketplace,
+            "mul": false
+          };
+          const data = yield RequestUtil.getCouponQuery(params);
           if (data.code == "success" && !!data.result) {
             const json = JSON.parse(data.result);
             Logger.log("info", "detail request json=", json);
             yield this.detailAnalyze(json, marketplace);
           }
         } catch (e) {
+          Logger.log("info", "request,exception", e);
         }
         const titleTag = ".sku-title";
         const priceTag = ".priceView-customer-price >span";
@@ -4351,6 +4809,7 @@
           const { handler, css, html, templateId, distinguish } = json.data;
           GM_addStyle(css);
           const element = yield Tools.mustGetElement(handler);
+          Logger.log("info", "coupon insert：element", element);
           if (element) {
             couponResult = { "element": element, "html": html, "templateId": templateId, "distinguish": distinguish };
           }
@@ -4360,8 +4819,12 @@
           const id = json.id;
           const promiseResultArray = [];
           const elementPromise = Tools.mustGetElement(mount);
-          const reqUrl = this.baseUrl + "/api/coupon/change?id=" + id + "&marketplace=" + marketplace + "&platform=" + this.currentPlatform;
-          const reqPromise = Tools.request("GET", reqUrl, null);
+          const params = {
+            "id": id,
+            "marketplace": marketplace,
+            "platform": this.currentPlatform
+          };
+          const reqPromise = RequestUtil.getCouponChange(params);
           promiseResultArray.push(elementPromise, reqPromise);
           const allResult = yield Promise.all(promiseResultArray);
           let element = null, qrcodeData = null;
@@ -4374,6 +4837,7 @@
               }
             }
           }
+          Logger.log("info", "qrcocd insert：element", element);
           if (element && qrcodeData) {
             qrcodeResult = { "element": element, "html": html, "iden": iden, "qrcodeData": qrcodeData, "distinguish": distinguish };
           }
@@ -4501,6 +4965,7 @@
             yield this.search(items, marketplace);
           }
         } catch (e) {
+          Logger.log("error", "pickUpItems: ", e);
         }
       });
     },
@@ -4591,6 +5056,7 @@
             resolve("complete");
           });
         } catch (e) {
+          Logger.log("error", "createItemHtml: ", e);
           resolve("exception");
         }
       });
@@ -4643,10 +5109,12 @@
           return;
         const marketplace = Bestbuy.getMarketplace(window.location.href);
         const confString = yield ItemSearchBaseObj.requestConf();
+        Logger.log("info", "conf ======>", confString);
         if (!confString) {
           return;
         }
         const selectors = ItemSearchBaseObj.pickupGoodsItem(this.currentPlatform, confString);
+        Logger.log("info", "search coupon selectors======>", selectors);
         setInterval(() => __async$9(this, null, function* () {
           if (this.loopIsComplete) {
             this.loopIsComplete = false;
@@ -4679,7 +5147,6 @@
     });
   };
   const Banggood = {
-    baseUrl: "https://oversea.mimixiaoke.com",
     currentPlatform: PlatformConst.banggood.p,
     getGoodsId: function(url) {
       if (url.indexOf("?") != -1) {
@@ -4731,15 +5198,24 @@
         const marketplace = this.getMarketplace(visitUrl);
         const currency = this.getCurrency();
         const lang = this.getLang();
-        const url = this.baseUrl + "/api/coupon/query?ids=" + id + "&qu=&p=" + this.currentPlatform + "&no=100&v=1.0.1&marketplace=" + marketplace + "&mul=false&currency=" + currency + "&lang=" + lang;
         try {
-          const data = yield Tools.request("GET", url, null);
+          const params = {
+            "ids": id,
+            "qu": "",
+            "p": this.currentPlatform,
+            "marketplace": marketplace,
+            "mul": false,
+            "currency": currency,
+            "lang": lang
+          };
+          const data = yield RequestUtil.getCouponQuery(params);
           if (data.code == "success" && !!data.result) {
             const json = JSON.parse(data.result);
             Logger.log("info", "detail request json=", json);
             yield this.detailAnalyze(json, marketplace);
           }
         } catch (e) {
+          Logger.log("info", "request,exception", e);
         }
         const titleTag = ".product-title-text";
         const priceTag = ".newbie-price";
@@ -4759,6 +5235,7 @@
           }
           GM_addStyle(css);
           const element = yield Tools.mustGetElement(handler);
+          Logger.log("info", "coupon insert：element", element);
           if (element) {
             couponResult = { "element": element, "html": html, "templateId": templateId, "distinguish": distinguish, "hint": hint, "mid": mid };
           }
@@ -4768,8 +5245,12 @@
           const id = json.id;
           const promiseResultArray = [];
           const elementPromise = Tools.mustGetElement(mount);
-          const reqUrl = this.baseUrl + "/api/coupon/change?id=" + id + "&marketplace=" + marketplace + "&platform=" + this.currentPlatform;
-          const reqPromise = Tools.request("GET", reqUrl, null);
+          const params = {
+            "id": id,
+            "marketplace": marketplace,
+            "platform": this.currentPlatform
+          };
+          const reqPromise = RequestUtil.getCouponChange(params);
           promiseResultArray.push(elementPromise, reqPromise);
           const allResult = yield Promise.all(promiseResultArray);
           let element = null, qrcodeData = null;
@@ -4782,6 +5263,7 @@
               }
             }
           }
+          Logger.log("info", "qrcocd insert：element", element);
           if (element && qrcodeData) {
             qrcodeResult = { "element": element, "html": html, "iden": iden, "qrcodeData": qrcodeData, "distinguish": distinguish };
           }
@@ -4915,6 +5397,7 @@
             yield this.search(items, marketplace, lang, currency);
           }
         } catch (e) {
+          Logger.log("error", "pickUpItems: ", e);
         }
       });
     },
@@ -5005,6 +5488,7 @@
             resolve("complete");
           });
         } catch (e) {
+          Logger.log("error", "createItemHtml: ", e);
           resolve("exception");
         }
       });
@@ -5050,10 +5534,12 @@
         const marketplace = Banggood.getMarketplace(window.location.href);
         const lang = Banggood.getLang();
         const confString = yield ItemSearchBaseObj.requestConf();
+        Logger.log("info", "conf ======>", confString);
         if (!confString) {
           return;
         }
         const selectors = ItemSearchBaseObj.pickupGoodsItem(this.currentPlatform, confString);
+        Logger.log("info", "search coupon selectors======>", selectors);
         setInterval(() => __async$7(this, null, function* () {
           if (this.loopIsComplete) {
             this.loopIsComplete = false;
@@ -5115,7 +5601,6 @@
   };
 
   const PlatformModules = {
-    GoodsHistroy,
     Aliexpress: {
       Aliexpress,
       AliexpressSearch
@@ -5186,7 +5671,7 @@
       step((generator = generator.apply(__this, __arguments)).next());
     });
   };
-  const RequestUtil = {
+  const RequestUnionUtil = {
     getDetectCouponParams: function() {
       return __async$6(this, null, function* () {
         const {
@@ -5271,18 +5756,21 @@
     request: function(method, url, params) {
       return Tools.request(method, url, params);
     },
-    getDetectCouponResult: function() {
+    _asyncBaseQuery: function(scopName) {
       return __async$6(this, null, function* () {
         const params = yield this.getDetectCouponParams();
-        const { method, url } = getRequestUrl()["detectCoupon"];
+        const { method, url } = getRequestUrl()[scopName];
         return this.request(method, url, params);
+      });
+    },
+    getDetectCouponResult: function() {
+      return __async$6(this, null, function* () {
+        return this._asyncBaseQuery("detectCoupon");
       });
     },
     getDetectInfoResult: function() {
       return __async$6(this, null, function* () {
-        const params = yield this.getDetectCouponParams();
-        const { method, url } = getRequestUrl()["detectInfo"];
-        return this.request(method, url, params);
+        return this._asyncBaseQuery("detectInfo");
       });
     }
   };
@@ -5676,6 +6164,7 @@
           const elements = document.querySelectorAll(expandCodeBoxSelectors[i]);
           for (let j = 0; j < elements.length; j++) {
             let element = elements[j];
+            Logger.log("info", "expand element##############", element);
             element.click();
             result = yield new Promise((resolveInner) => {
               setTimeout(() => {
@@ -5696,9 +6185,12 @@
     },
     isPrepared: function(supportData) {
       return new Promise((resolve) => {
+        Logger.log("info", "##############", "step 1: Verify that the container exists");
         Tools.waitForElementByInterval(supportData.promoContainerSelector, document.body, true, 50, 5 * 1e3).then((promoContainerElement) => {
           if (promoContainerElement) {
+            Logger.log("info", "##############", "step 2: Verify whether the code input box needs to be expanded");
             this._tryClickExpand(supportData).then((result) => {
+              Logger.log("info", "##############", "step 3: Expanded result", result);
               resolve(result);
             });
           } else {
@@ -5713,6 +6205,8 @@
   const AutoDetectUtil = {
     validate: function(platform, supportData) {
       return __async$2(this, null, function* () {
+        Logger.log("info", "platform=========>", platform);
+        Logger.log("info", "supportData=========>", supportData);
         const preparedData = {
           "result": false
         };
@@ -5720,6 +6214,7 @@
           const isPrepared = yield DetectHelper.isPrepared(supportData);
           preparedData.result = isPrepared;
         }
+        Logger.log("info", "validate data=========>", preparedData);
         return preparedData;
       });
     },
@@ -5734,6 +6229,7 @@
           promise = new EbayAutoDetect().start(supportData, code);
         }
       } catch (e) {
+        console.log("auto try code,", e);
       }
       return promise;
     }
@@ -6046,7 +6542,7 @@
         this.setCouponsHtml(modal);
       });
       generateRequest.append(generateRequestLoadding);
-      RequestUtil.getDetectCouponResult().then((reqData) => {
+      RequestUnionUtil.getDetectCouponResult().then((reqData) => {
         if (reqData.code !== "success") {
           generateRequestLoadding.remove();
           generateRequest.append(generateRequestLoaddingError);
@@ -6153,24 +6649,24 @@
       StyleUtil.addStyle(css.replace(/@logo@/g, logoBase64));
     },
     outerDIV: null,
-    start: function() {
+    start: function(platform, historyShow) {
       return __async(this, null, function* () {
         let infoJson = null;
         try {
-          const info = yield RequestUtil.getDetectInfoResult();
+          const info = yield RequestUnionUtil.getDetectInfoResult();
           Logger.log("info", "detect info=========>", info);
           if (info.code === "success") {
             infoJson = JSON.parse(info.result);
           }
         } catch (e) {
+          console.log("req exception", e);
         }
+        Logger.log("info", "detect info json=========>", infoJson);
         if (!infoJson)
           return;
-        if (!infoJson["show"]) {
-          return;
-        }
         const couponTotal = infoJson["coupon_total"];
         const modalPosition = infoJson["modal"];
+        const _historyShow = infoJson["history_show"];
         const iconJson = infoJson["icon"];
         const badgeData = iconJson["badge"];
         const dragData = iconJson["drag"];
@@ -6179,6 +6675,12 @@
         const autoOpen = cggJson["auto_open"];
         const modalTitle = cggJson["current_platform"];
         const logoBase64$1 = !!cggJson["logo"] ? cggJson["logo"] : logoBase64;
+        if (historyShow && _historyShow) {
+          GoodsHistroy.start(platform);
+        }
+        if (!infoJson["show"]) {
+          return;
+        }
         const selectedLanguage = LangueUtil.getSelectedLanguage();
         this.addStyle();
         const outerDIV = InspectUtil.generateOuterContainer(selectedLanguage.dir);
@@ -6198,7 +6700,7 @@
 
   const MidListener = {
     start: function() {
-      if ((window.location.host !== "www.jtm.pub" || window.location.href.indexOf("www.jtm.pub/mid/merge") == -1) && !ScriptConst.isDev) {
+      if ((window.location.host !== "www.jtmate.com" || window.location.href.indexOf("www.jtmate.com/mid/merge") == -1) && !ScriptConst.isDev) {
         return;
       }
       const autoRedirect = document.querySelector(".auto-redirect");
@@ -6256,7 +6758,8 @@
     Youtube: {
       YoutubeDownload
     },
-    Tiktok
+    Tiktok,
+    OverseaNavigation
   };
   const AllModules = __spreadValues(__spreadValues({}, otherModules), AllModules$1);
 
@@ -6286,48 +6789,53 @@
     cobalt: function() {
       AllModules.CobaltDownloader.start();
     },
+    historyShow: false,
     aliexpress: function() {
       AllModules.Aliexpress.Aliexpress.start();
       AllModules.Aliexpress.AliexpressSearch.start();
-      AllModules.GoodsHistroy.start(PlatformConst.aliexpress.p);
+      this.historyShow = true;
     },
     ebay: function() {
       AllModules.Ebay.Ebay.start();
       AllModules.Ebay.EbaySearch.start();
-      AllModules.GoodsHistroy.start(PlatformConst.ebay.p);
+      this.historyShow = true;
     },
     lazada: function() {
       AllModules.Lazada.Lazada.start();
       AllModules.Lazada.LazadaSearch.start();
-      AllModules.GoodsHistroy.start(PlatformConst.lazada.p);
+      this.historyShow = true;
     },
     bestbuy: function() {
       AllModules.Bestbuy.Bestbuy.start();
       AllModules.Bestbuy.BestbuySearch.start();
-      AllModules.GoodsHistroy.start(PlatformConst.bestbuy.p);
+      this.historyShow = true;
     },
     banggood: function() {
       AllModules.Banggood.Banggood.start();
       AllModules.Banggood.BanggoodSearch.start();
-      AllModules.GoodsHistroy.start(PlatformConst.banggood.p);
+      this.historyShow = true;
     },
     wish: function() {
     },
     unknown: function() {
+      Logger.log("error", "Hoooo，This method was not found");
     },
     start: function() {
       const platform = Tools.getEcommercePlatform();
       if (platform) {
         LangueUtil.initLangueDataMap().then(() => {
+          Logger.log("info", "init langue ==========>", "complete!");
           StyleUtil.init();
-          AllModules.InspectCouponsHTML.start();
           try {
             if (typeof this[platform] === "function") {
               this[platform]();
             } else {
+              console.log("error", "Hoooo，This method was not found");
             }
           } catch (e) {
+            console.log("error", "Hoooo，catch", e);
           }
+          AllModules.InspectCouponsHTML.start(platform, this.historyShow);
           AllModules.MidListener.start();
         });
         if (platform == PlatformConst.aliexpress.p) {
@@ -6341,8 +6849,10 @@
         try {
           this[otherPlatform]();
         } catch (e) {
+          console.log("error", "Hoooo，catch", e);
         }
       }
+      AllModules.OverseaNavigation.start();
     }
   };
   Init.start();
