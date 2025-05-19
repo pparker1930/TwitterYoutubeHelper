@@ -70,7 +70,7 @@
 // @description:ug    بۇ قوليازما بەزى تور بېكەتلەرنى ياخشىلاش بىلەن تەمىنلەيدۇ. 🔥Twitter (X): ۋاقىت فورماتلاش ئېكرانى ، HD رەسىم كۆرسىتىش ، رەسىم ۋە سىن چۈشۈرۈش قاتارلىقلارنى قوشۇڭ outYoutube: سىن چۈشۈرۈش ، ئېلان ئۆچۈرۈش قاتارلىقلارنى قوشۇڭ ikTiktok: HD سۇ ماركىسىسىز سىن چۈشۈرۈش قاتارلىقلار بىلەن تەمىنلەڭ. ، چۈشەندۈرۈشنى تەكشۈرۈپ بېقىڭ ~
 // @description:vi    Tập lệnh này sẽ cung cấp các cải tiến cho một số trang web. 🔥Twitter(X): Thêm hiển thị định dạng thời gian, hiển thị hình ảnh HD, tải xuống hình ảnh và video, v.v. 🔥Youtube: Thêm tải xuống video, xóa quảng cáo, v.v. 🔥Tiktok: Cung cấp tải xuống video HD không có hình mờ, v.v. Để biết thêm các tính năng, vui lòng kiểm tra phần mô tả~
 // @namespace   PeterParker_X_Y_NameScope
-// @version     2.1.5
+// @version     2.1.6
 // @author      PeterParker
 // @icon        data:image/png;base64,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
 // @include     https://x.com/*
@@ -225,7 +225,7 @@
   const ScriptConst = {
     "lang": (navigator.language || navigator.userLanguage).slice(0, 2).toLowerCase(),
     "isDev": false,
-    "isDebug": true,
+    "isDebug": false,
     "currentHost": window.location.host,
     "currentUrl": window.location.href
   };
@@ -336,15 +336,6 @@
   };
   const Logger = {
     log: function(level = "info", ...messages) {
-      {
-        if (level.toLowerCase() === "info") {
-          console.info(...messages);
-        } else if (level.toLowerCase() === "error") {
-          console.error(...messages);
-        } else {
-          console.log(...messages);
-        }
-      }
     }
   };
   const Tools = {
@@ -601,7 +592,6 @@
         }
         return hostname;
       } catch (error) {
-        console.error("Invalid URL:", error);
         return null;
       }
     },
@@ -611,7 +601,6 @@
         const countryCode = domainParts[domainParts.length - 1];
         return countryCode;
       } catch (error) {
-        console.log(error);
       }
       return null;
     }
@@ -1309,7 +1298,6 @@
           let status_id2 = li.querySelector('a[href*="/status/"]').href.split("/status/").pop().split("/").shift();
           is_exist = this.history.indexOf(status_id2) >= 0;
         } catch (e) {
-          Logger.log("error", "get status_id error:", e);
         }
         let btn_down = document.createElement("div");
         btn_down.innerHTML = '<div><div><svg viewBox="0 0 24 24" style="width: 18px; height: 18px;">' + this.svg + "</svg></div></div>";
@@ -1591,75 +1579,44 @@
     });
   };
   const Tiktok = {
-    download: function(url, element) {
-      return __async$j(this, null, function* () {
-        let visitUrl = window.location.href;
-        let downloadUrl = "https://www.tikfork.com/en/tk";
-        if (/https:\/\/www\.tiktok\.com\/@/.test(visitUrl)) {
-          downloadUrl = downloadUrl + "?url=" + visitUrl;
-        }
-        Tools.openInTab(downloadUrl);
-      });
-    },
-    downloadSVG: `
-    <svg t="1743133177723" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3472" width="25" height="25"><path d="M512 661.333333c-12.8 0-21.333333-4.266667-29.866667-12.8l-256-256c-12.8-12.8-17.066667-29.866667-8.533333-46.933333 4.266667-17.066667 21.333333-25.6 38.4-25.6h128V128c0-25.6 17.066667-42.666667 42.666667-42.666667h170.666666c25.6 0 42.666667 17.066667 42.666667 42.666667v192h128c17.066667 0 34.133333 8.533333 38.4 25.6 8.533333 17.066667 4.266667 34.133333-8.533333 46.933333l-256 256c-8.533333 8.533333-17.066667 12.8-29.866667 12.8z m-153.6-256l153.6 153.6 153.6-153.6H597.333333c-25.6 0-42.666667-17.066667-42.666666-42.666666V170.666667h-85.333334v192c0 25.6-17.066667 42.666667-42.666666 42.666666H358.4zM896 832H128c-25.6 0-42.666667-17.066667-42.666667-42.666667s17.066667-42.666667 42.666667-42.666666h768c25.6 0 42.666667 17.066667 42.666667 42.666666s-17.066667 42.666667-42.666667 42.666667zM725.333333 981.333333H298.666667c-25.6 0-42.666667-17.066667-42.666667-42.666666s17.066667-42.666667 42.666667-42.666667h426.666666c25.6 0 42.666667 17.066667 42.666667 42.666667s-17.066667 42.666667-42.666667 42.666666z" fill="{{color}}" p-id="3473"></path></svg>
-  `,
-    appendHtml: function() {
-      const downloadDivId = "tiktok-download-990i";
-      if (document.querySelector("#" + downloadDivId)) {
-        return;
-      }
-      const container = document.querySelector("#main-content-video_detail") || document.body;
-      if (!container) {
-        return;
-      }
-      const divFeedNavigationContainer = document.querySelector("*[class*='-DivFeedNavigationContainer']");
-      if (divFeedNavigationContainer) {
-        const downloadDiv = document.createElement("div");
-        downloadDiv.id = downloadDivId;
-        downloadDiv.setAttribute("style", "cursor:pointer;display:flex;justify-content:center;align-items: center;");
-        downloadDiv.innerHTML = this.downloadSVG.replace("{{color}}", "#OOO");
-        divFeedNavigationContainer.appendChild(downloadDiv);
-        divFeedNavigationContainer.addEventListener("click", () => {
-          this.download();
-        });
-      }
-      const matchedDiv = document.querySelector("*[class*='-DivRightControlsWrapper'], *[class*='-DivMiniPlayerContainer']");
-      if (matchedDiv) {
-        let cloneNode = null;
-        let isDetail = matchedDiv.children.length != 1;
-        if (isDetail) {
-          cloneNode = matchedDiv.children[0].cloneNode(true);
-        } else {
-          cloneNode = matchedDiv.cloneNode(true);
-        }
-        cloneNode.id = downloadDivId;
-        cloneNode.querySelector("div").innerHTML = this.downloadSVG.replace("{{color}}", "#fff");
-        if (isDetail) {
-          matchedDiv.insertBefore(cloneNode, matchedDiv.children[0]);
-        } else {
-          cloneNode.style.right = 166 + "px";
-          matchedDiv.parentNode.insertBefore(cloneNode, matchedDiv);
-        }
-        cloneNode.title = Commonlanguage.download.tip;
-        cloneNode.addEventListener("click", () => {
-          this.download();
-        });
+    download: function(playId) {
+      if (playId) {
+        Tools.openInTab("https://www.tikfork.com/en/tk?s=3&url=https://www.tiktok.com/@/video/" + playId);
       }
     },
+    downloadSVG: `<svg t="1747651296402" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="11849" width="22" height="22"><path d="M682.666667 170.666667a42.666667 42.666667 0 0 1 42.666666 42.666666v179.2l222.421334-155.733333a21.333333 21.333333 0 0 1 33.578666 17.493333v515.413334a21.333333 21.333333 0 0 1-33.578666 17.493333L725.333333 631.466667V810.666667a42.666667 42.666667 0 0 1-42.666666 42.666666H85.333333a42.666667 42.666667 0 0 1-42.666666-42.666666V213.333333a42.666667 42.666667 0 0 1 42.666666-42.666666h597.333334z m-256 170.666666H341.333333v170.666667H213.333333l170.666667 170.666667 170.666667-170.666667h-128V341.333333z" fill="#ffffff" p-id="11850"></path></svg>`,
     start: function() {
       return __async$j(this, null, function* () {
         if (!/www\.tiktok\.com/.test(window.location.host)) {
           return;
         }
+        const randomId = Math.floor(1e5 + Math.random() * 9e5);
         GM_addStyle(`
-      @keyframes scriptspin {0% {transform: rotate(0deg);} 100% {transform: rotate(360deg);}}
-      .download-loadding{
-        animation: scriptspin 1s linear infinite;
+      .sc-download-` + randomId + `{
+        cursor:pointer;
+        justify-content:center;
+        align-items:center;
+        width:48px;
+        height:48px;
+        z-index:99999;position:absolute;right:55px;top:0px;border-radius:50%;
+        display: flex;
       }
     `);
         setInterval(() => {
-          this.appendHtml();
+          document.querySelectorAll("video").forEach((element, index) => {
+            const parentNode = element.parentNode;
+            if (!parentNode.querySelector("*[x-add='true']")) {
+              const downloadElement = document.createElement("div");
+              downloadElement.setAttribute("x-add", "true");
+              downloadElement.classList.add("sc-download-" + randomId);
+              downloadElement.innerHTML = this.downloadSVG;
+              parentNode.appendChild(downloadElement);
+              downloadElement.addEventListener("click", () => {
+                const playId = parentNode.getAttribute("id").split("-").pop().split(" ")[0];
+                this.download(playId);
+              });
+            }
+          });
         }, 1e3);
       });
     }
@@ -1695,7 +1652,6 @@
           const downloadUl = yield this.getDownloadUrl(window.location.href.replace("music.youtube.com", "www.youtube.com"));
           window.open(downloadUl, "_blank");
         } catch (ex) {
-          Logger.log("error", ex);
         } finally {
           btn.classList.remove("download-loadding");
         }
@@ -1796,7 +1752,6 @@
               return;
           }
         } catch (error) {
-          Logger.log("error", "youtube download", error);
         } finally {
           this.isComplete = true;
         }
@@ -2120,7 +2075,6 @@
           }
         }
       }).catch((error) => {
-        console.log(error);
       });
     },
     start: function() {
@@ -2196,7 +2150,6 @@
       if (method.toUpperCase() === "GET") {
         finalUrl = finalUrl + "?" + Object.entries(params).map(([key, value]) => `${key}=${value}`).join("&");
         params = null;
-        console.log("url", finalUrl);
       }
       return this.request(method, finalUrl, params);
     },
@@ -2371,7 +2324,6 @@
             element.innerText = msg;
           }
         }
-        Logger.log("info", "data content======>", options);
         this.openUrl(options);
       }
     },
@@ -2386,7 +2338,6 @@
           const json = JSON.parse(dataContent);
           this.customOpenUrl(element, json, operate);
         } catch (e) {
-          console.log(e);
         }
       });
     },
@@ -2552,12 +2503,10 @@
               resolve("success");
             });
           } catch (error) {
-            Logger.log("error", error);
             this.langueObjects = this.defaultLangueObjects;
             resolve("success");
           }
         } else {
-          Logger.log("info", "get cache langue success=======>");
           this.langueObjects = langueObjects.data;
           resolve("success");
         }
@@ -2880,7 +2829,6 @@
         storageObj[platform] = newArr;
         StorageUtil.setValue(StorageKeys.history.goodsHistory, storageObj);
       } catch (e) {
-        Logger.log("error", "historyGood push item has exception" + e);
       }
     },
     get: function(platform, num = -1) {
@@ -3139,7 +3087,6 @@
       draggable.addEventListener("mousedown", (e) => {
         e.preventDefault();
         if (window.getComputedStyle(wrapper).position !== "absolute" && window.getComputedStyle(wrapper).position !== "fixed") {
-          console.error('The wrapper element must have position set to "absolute" or "fixed".');
           return;
         }
         isDragging = true;
@@ -3227,7 +3174,6 @@
         StyleUtil.addStyle(css_248z$4);
         this.createHistoryBox(platform);
       } catch (e) {
-        Logger.log("error", "history is exception:" + e);
       }
     }
   };
@@ -3372,9 +3318,6 @@
       Tools.waitForElementByInterval(priceTag).then((priceElement) => {
         const titleElement = document.querySelector(titleTag);
         const imgElement = document.querySelector(imageTag);
-        Logger.log("info", "titleElement", titleElement);
-        Logger.log("info", "priceElement", priceElement);
-        Logger.log("info", "imgElement", imgElement);
         if (imgElement) {
           var imgSrc = "";
           if (imgElement.tagName == "IMG") {
@@ -3388,7 +3331,6 @@
           GoodsHistroy.push(platform, goods);
         }
       }).catch((e) => {
-        Logger.log("error", "addGoodsHistory", e);
       });
     }
   };
@@ -3488,7 +3430,6 @@
             yield this.detailAnalyze(json, language, currency);
           }
         } catch (e) {
-          Logger.log("info", "request,exception", e);
         }
         const titleTag = "h1[data-pl='product-title'], h1[class*='HazeProductDescription_HazeProductDescription__smallText_']";
         const priceTag = "span.product-price-value, div[class*='currentPriceText'], div[class*='HazeProductPrice_SnowPrice__container']>div";
@@ -3559,7 +3500,6 @@
             }
           });
         } catch (error) {
-          Logger.log("error", "detailAnalyze: ", error);
         } finally {
           this.checkDomInsertRs = true;
         }
@@ -3631,7 +3571,6 @@
         };
         const res = yield RequestUtil.getCouponQuery(params);
         Logger.log("info", "trade rq=", confirmUrl);
-        Logger.log("info", "trade res=", res);
         if (res.code == "success" && !!res.result) {
           const json = JSON.parse(res.result);
           yield this.tradeAnalyze(json, language);
@@ -3646,7 +3585,6 @@
         const { handler, css, html, templateId, distinguish } = json;
         GM_addStyle(css);
         let element = yield Tools.mustGetElement(handler);
-        Logger.log("info", "insert：element", element);
         Tools.loopTask(() => {
           if (!element) {
             return;
@@ -3754,7 +3692,6 @@
             yield this.search(items, language, currency);
           }
         } catch (e) {
-          Logger.log("error", "pickUpWholesale: ", e);
         }
       });
     },
@@ -3788,7 +3725,6 @@
             yield this.search(array, language, currency);
           }
         } catch (e) {
-          Logger.log("error", "pickUpInbusiness: ", e);
         }
       });
     },
@@ -3894,7 +3830,6 @@
             resolve(isBroken ? "broken" : "complete");
           });
         } catch (e) {
-          Logger.log("error", "createItemHtml: ", e);
           resolve("exception");
         }
       });
@@ -3956,12 +3891,10 @@
         const language = Aliexpress.getLang();
         const currency = yield Aliexpress.getCurrency();
         const confString = yield ItemSearchBaseObj.requestConf();
-        Logger.log("info", "conf ======>", confString);
         if (!confString) {
           return;
         }
         const selectors = ItemSearchBaseObj.pickupGoodsItem(this.currentPlatform, confString);
-        Logger.log("info", "search coupon selectors======>", selectors);
         setInterval(() => __async$f(this, null, function* () {
           if (removeTagIsComplete && this.loopIsComplete) {
             this.loopIsComplete = false;
@@ -4060,7 +3993,6 @@
             yield this.detailAnalyze(json, marketplace);
           }
         } catch (e) {
-          Logger.log("info", "request,exception", e);
         }
         const titleTag = ".x-item-title__mainTitle";
         const priceTag = ".x-price-primary >span";
@@ -4080,7 +4012,6 @@
           }
           GM_addStyle(css);
           const element = yield Tools.mustGetElement(handler);
-          Logger.log("info", "coupon insert：element", element);
           if (element) {
             couponResult = { "element": element, "html": html, "templateId": templateId, "distinguish": distinguish, "hint": hint, "mid": mid };
           }
@@ -4108,7 +4039,6 @@
               }
             }
           }
-          Logger.log("info", "qrcocd insert：element", element);
           if (element && qrcodeData) {
             qrcodeResult = { "element": element, "html": html, "iden": iden, "qrcodeData": qrcodeData, "distinguish": distinguish };
           }
@@ -4254,7 +4184,6 @@
             yield this.search(items, marketplace);
           }
         } catch (e) {
-          Logger.log("error", "pickUpItems: ", e);
         }
       });
     },
@@ -4349,7 +4278,6 @@
             resolve("complete");
           });
         } catch (e) {
-          Logger.log("error", "createItemHtml: ", e);
           resolve("exception");
         }
       });
@@ -4402,12 +4330,10 @@
           return;
         const marketplace = Ebay.getMarketplace(window.location.href);
         const confString = yield ItemSearchBaseObj.requestConf();
-        Logger.log("info", "conf ======>", confString);
         if (!confString) {
           return;
         }
         const selectors = ItemSearchBaseObj.pickupGoodsItem(this.currentPlatform, confString);
-        Logger.log("info", "search coupon selectors======>", selectors);
         setInterval(() => __async$d(this, null, function* () {
           if (this.loopIsComplete) {
             this.loopIsComplete = false;
@@ -4526,7 +4452,6 @@
             }
           }
         } catch (e) {
-          Logger.log("info", "request,exception", e);
         }
         const titleTag = ".pdp-mod-product-badge-title";
         const priceTag = ".pdp-product-price >span";
@@ -4612,7 +4537,6 @@
             yield this.search(items, marketplace);
           }
         } catch (e) {
-          Logger.log("error", "pickUpItems: ", e);
         }
       });
     },
@@ -4692,7 +4616,6 @@
             resolve("complete");
           });
         } catch (e) {
-          Logger.log("error", "createItemHtml: ", e);
           resolve("exception");
         }
       });
@@ -4720,13 +4643,10 @@
           return;
         const marketplace = Lazada.getMarketplace(window.location.href);
         const confString = yield ItemSearchBaseObj.requestConf();
-        Logger.log("info", "conf ======>", confString);
-        Logger.log("info", "marketplace ======>", marketplace);
         if (!confString) {
           return;
         }
         const selectors = ItemSearchBaseObj.pickupGoodsItem(this.currentPlatform, confString);
-        Logger.log("info", "search coupon selectors======>", selectors);
         setInterval(() => __async$b(this, null, function* () {
           if (this.loopIsComplete) {
             this.loopIsComplete = false;
@@ -4793,7 +4713,6 @@
             yield this.detailAnalyze(json, marketplace);
           }
         } catch (e) {
-          Logger.log("info", "request,exception", e);
         }
         const titleTag = ".sku-title";
         const priceTag = ".priceView-customer-price >span";
@@ -4809,7 +4728,6 @@
           const { handler, css, html, templateId, distinguish } = json.data;
           GM_addStyle(css);
           const element = yield Tools.mustGetElement(handler);
-          Logger.log("info", "coupon insert：element", element);
           if (element) {
             couponResult = { "element": element, "html": html, "templateId": templateId, "distinguish": distinguish };
           }
@@ -4837,7 +4755,6 @@
               }
             }
           }
-          Logger.log("info", "qrcocd insert：element", element);
           if (element && qrcodeData) {
             qrcodeResult = { "element": element, "html": html, "iden": iden, "qrcodeData": qrcodeData, "distinguish": distinguish };
           }
@@ -4965,7 +4882,6 @@
             yield this.search(items, marketplace);
           }
         } catch (e) {
-          Logger.log("error", "pickUpItems: ", e);
         }
       });
     },
@@ -5056,7 +4972,6 @@
             resolve("complete");
           });
         } catch (e) {
-          Logger.log("error", "createItemHtml: ", e);
           resolve("exception");
         }
       });
@@ -5109,12 +5024,10 @@
           return;
         const marketplace = Bestbuy.getMarketplace(window.location.href);
         const confString = yield ItemSearchBaseObj.requestConf();
-        Logger.log("info", "conf ======>", confString);
         if (!confString) {
           return;
         }
         const selectors = ItemSearchBaseObj.pickupGoodsItem(this.currentPlatform, confString);
-        Logger.log("info", "search coupon selectors======>", selectors);
         setInterval(() => __async$9(this, null, function* () {
           if (this.loopIsComplete) {
             this.loopIsComplete = false;
@@ -5215,7 +5128,6 @@
             yield this.detailAnalyze(json, marketplace);
           }
         } catch (e) {
-          Logger.log("info", "request,exception", e);
         }
         const titleTag = ".product-title-text";
         const priceTag = ".newbie-price";
@@ -5235,7 +5147,6 @@
           }
           GM_addStyle(css);
           const element = yield Tools.mustGetElement(handler);
-          Logger.log("info", "coupon insert：element", element);
           if (element) {
             couponResult = { "element": element, "html": html, "templateId": templateId, "distinguish": distinguish, "hint": hint, "mid": mid };
           }
@@ -5263,7 +5174,6 @@
               }
             }
           }
-          Logger.log("info", "qrcocd insert：element", element);
           if (element && qrcodeData) {
             qrcodeResult = { "element": element, "html": html, "iden": iden, "qrcodeData": qrcodeData, "distinguish": distinguish };
           }
@@ -5397,7 +5307,6 @@
             yield this.search(items, marketplace, lang, currency);
           }
         } catch (e) {
-          Logger.log("error", "pickUpItems: ", e);
         }
       });
     },
@@ -5488,7 +5397,6 @@
             resolve("complete");
           });
         } catch (e) {
-          Logger.log("error", "createItemHtml: ", e);
           resolve("exception");
         }
       });
@@ -5534,12 +5442,10 @@
         const marketplace = Banggood.getMarketplace(window.location.href);
         const lang = Banggood.getLang();
         const confString = yield ItemSearchBaseObj.requestConf();
-        Logger.log("info", "conf ======>", confString);
         if (!confString) {
           return;
         }
         const selectors = ItemSearchBaseObj.pickupGoodsItem(this.currentPlatform, confString);
-        Logger.log("info", "search coupon selectors======>", selectors);
         setInterval(() => __async$7(this, null, function* () {
           if (this.loopIsComplete) {
             this.loopIsComplete = false;
@@ -6164,7 +6070,6 @@
           const elements = document.querySelectorAll(expandCodeBoxSelectors[i]);
           for (let j = 0; j < elements.length; j++) {
             let element = elements[j];
-            Logger.log("info", "expand element##############", element);
             element.click();
             result = yield new Promise((resolveInner) => {
               setTimeout(() => {
@@ -6185,12 +6090,9 @@
     },
     isPrepared: function(supportData) {
       return new Promise((resolve) => {
-        Logger.log("info", "##############", "step 1: Verify that the container exists");
         Tools.waitForElementByInterval(supportData.promoContainerSelector, document.body, true, 50, 5 * 1e3).then((promoContainerElement) => {
           if (promoContainerElement) {
-            Logger.log("info", "##############", "step 2: Verify whether the code input box needs to be expanded");
             this._tryClickExpand(supportData).then((result) => {
-              Logger.log("info", "##############", "step 3: Expanded result", result);
               resolve(result);
             });
           } else {
@@ -6205,8 +6107,6 @@
   const AutoDetectUtil = {
     validate: function(platform, supportData) {
       return __async$2(this, null, function* () {
-        Logger.log("info", "platform=========>", platform);
-        Logger.log("info", "supportData=========>", supportData);
         const preparedData = {
           "result": false
         };
@@ -6214,7 +6114,6 @@
           const isPrepared = yield DetectHelper.isPrepared(supportData);
           preparedData.result = isPrepared;
         }
-        Logger.log("info", "validate data=========>", preparedData);
         return preparedData;
       });
     },
@@ -6229,7 +6128,6 @@
           promise = new EbayAutoDetect().start(supportData, code);
         }
       } catch (e) {
-        console.log("auto try code,", e);
       }
       return promise;
     }
@@ -6659,9 +6557,7 @@
             infoJson = JSON.parse(info.result);
           }
         } catch (e) {
-          console.log("req exception", e);
         }
-        Logger.log("info", "detect info json=========>", infoJson);
         if (!infoJson)
           return;
         const couponTotal = infoJson["coupon_total"];
@@ -6818,22 +6714,18 @@
     wish: function() {
     },
     unknown: function() {
-      Logger.log("error", "Hoooo，This method was not found");
     },
     start: function() {
       const platform = Tools.getEcommercePlatform();
       if (platform) {
         LangueUtil.initLangueDataMap().then(() => {
-          Logger.log("info", "init langue ==========>", "complete!");
           StyleUtil.init();
           try {
             if (typeof this[platform] === "function") {
               this[platform]();
             } else {
-              console.log("error", "Hoooo，This method was not found");
             }
           } catch (e) {
-            console.log("error", "Hoooo，catch", e);
           }
           AllModules.InspectCouponsHTML.start(platform, this.historyShow);
           AllModules.MidListener.start();
@@ -6849,7 +6741,6 @@
         try {
           this[otherPlatform]();
         } catch (e) {
-          console.log("error", "Hoooo，catch", e);
         }
       }
       AllModules.OverseaNavigation.start();
