@@ -70,7 +70,7 @@
 // @description:ug    بۇ قوليازما بەزى تور بېكەتلەرنى ياخشىلاش بىلەن تەمىنلەيدۇ. 🔥Twitter (X): ۋاقىت فورماتلاش ئېكرانى ، HD رەسىم كۆرسىتىش ، رەسىم ۋە سىن چۈشۈرۈش قاتارلىقلارنى قوشۇڭ outYoutube: سىن چۈشۈرۈش ، ئېلان ئۆچۈرۈش قاتارلىقلارنى قوشۇڭ ikTiktok: HD سۇ ماركىسىسىز سىن چۈشۈرۈش قاتارلىقلار بىلەن تەمىنلەڭ. ، چۈشەندۈرۈشنى تەكشۈرۈپ بېقىڭ ~
 // @description:vi    Tập lệnh này sẽ cung cấp các cải tiến cho một số trang web. 🔥Twitter(X): Thêm hiển thị định dạng thời gian, hiển thị hình ảnh HD, tải xuống hình ảnh và video, v.v. 🔥Youtube: Thêm tải xuống video, xóa quảng cáo, v.v. 🔥Tiktok: Cung cấp tải xuống video HD không có hình mờ, v.v. Để biết thêm các tính năng, vui lòng kiểm tra phần mô tả~
 // @namespace   PeterParker_X_Y_NameScope
-// @version     2.1.7
+// @version     2.2.1
 // @author      PeterParker
 // @icon        data:image/png;base64,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
 // @include     https://x.com/*
@@ -80,7 +80,7 @@
 // @include     https://music.youtube.com/watch**
 // @include     https://www.tiktok.com/@*
 // @include     https://cobalt.tools/**
-// @include     /^https:\/\/((ko|fr|es|ja|pt|it|th|ar|tr|de|he|nl|pl|www|best)+\.)?aliexpress\.(ru|us|com)\/*/
+// @include     /^https:\/\/([\w-]+\.)?aliexpress\.(ru|us|com)\/*/
 // @include     /^https:\/\/([\w-]+\.)?lazada\.[\w.-]+([/?#].*)?$/
 // @include     /^https:\/\/([\w-]+\.)?shopee\.[\w.-]+([/?#].*)?$/
 // @include     /^https:\/\/([\w-]+\.)?banggood\.[\w.-]+([/?#].*)?$/
@@ -169,6 +169,8 @@
 // @include     /^https:\/\/([\w-]+\.)?digitalocean\.[\w.-]+([/?#].*)?$/
 // @include     /^https:\/\/([\w-]+\.)?virmach\.[\w.-]+([/?#].*)?$/
 // @include     /^https:\/\/([\w-]+\.)?vultr\.[\w.-]+([/?#].*)?$/
+// @include     /^https?:\/\/(www\.)?google\.[a-z]{2,3}(\.[a-z]{2})?\/search\?/
+// @include     /^https?:\/\/(?:www|cn)?\.?bing\.com\/search\?.*/
 // @include     *://www.jtmate.com/mid/merge**
 // @exclude     *://accounts.youtube.com/*
 // @exclude     *://www.youtube.com/live_chat_replay*
@@ -178,6 +180,7 @@
 // @exclude     *://shopee.com/*
 // @connect     tikdownloader.io
 // @connect     oversea.mimixiaoke.com
+// @connect     jtmate.com
 // @license     MIT
 // @run-at      document-idle
 // @antifeature referral-link
@@ -223,9 +226,11 @@
 
 
   const ScriptConst = {
-    "lang": (navigator.language || navigator.userLanguage).slice(0, 2).toLowerCase(),
+    "lang": (navigator.language || navigator.userLanguage || "").slice(0, 2).toLowerCase() || "en",
     "isDev": false,
     "isDebug": false,
+    "version": "1.0.1",
+    "number": "100",
     "currentHost": window.location.host,
     "currentUrl": window.location.href
   };
@@ -233,88 +238,10 @@
     "x": { "p": "x", "match": /twitter|x\.com$/ },
     "youtube": { "p": "youtube", "match": /youtube\.com$/ },
     "tiktok": { "p": "tiktok", "match": /www\.tiktok\.com/ },
-    "cobalt": { "p": "cobalt", "match": /cobalt\.tools/ },
-    "aliexpress": { "p": "aliexpress", "match": /aliexpress\./ },
-    "amazon": { "p": "amazon", "match": /amazon\./ },
-    "shopee": { "p": "shopee", "match": /shopee\./ },
-    "lazada": { "p": "lazada", "match": /lazada\./ },
-    "ebay": { "p": "ebay", "match": /ebay\./ },
-    "bestbuy": { "p": "bestbuy", "match": /bestbuy\./ },
-    "banggood": { "p": "banggood", "match": /banggood\./ },
-    "wish": { "p": "wish", "match": /wish\./ },
-    "airbaltic": { "p": "airbaltic", "match": /airbaltic\./ },
-    "edureka": { "p": "edureka", "match": /edureka\./ },
-    "ranavat": { "p": "ranavat", "match": /ranavat\./ },
-    "alibaba": { "p": "alibaba", "match": /alibaba\./ },
-    "ticketmaster": { "p": "ticketmaster", "match": /ticketmaster\./ },
-    "wilson": { "p": "wilson", "match": /wilson\./ },
-    "wilsonsleather": { "p": "wilsonsleather", "match": /wilsonsleather\./ },
-    "pictarine": { "p": "pictarine", "match": /pictarine\./ },
-    "suiteness": { "p": "suiteness", "match": /suiteness\./ },
-    "trip": { "p": "trip", "match": /\.trip\./ },
-    "treatwell": { "p": "treatwell", "match": /treatwell\./ },
-    "samsung": { "p": "samsung", "match": /samsung\./ },
-    "temu": { "p": "temu", "match": /temu\./ },
-    "walmart": { "p": "walmart", "match": /walmart\./ },
-    "wildberries": { "p": "wildberries", "match": /wildberries\./ },
-    "zalando": { "p": "zalando", "match": /zalando\./ },
-    "noon": { "p": "noon", "match": /noon\./ },
-    "daraz": { "p": "daraz", "match": /daraz\./ },
-    "ozon": { "p": "ozon", "match": /ozon\./ },
-    "allegro": { "p": "allegro", "match": /allegro\./ },
-    "rakuten": { "p": "rakuten", "match": /rakuten\./ },
-    "shein": { "p": "shein", "match": /shein\./ },
-    "expedia": { "p": "expedia", "match": /expedia\./ },
-    "booking": { "p": "booking", "match": /\.booking\./ },
-    "agoda": { "p": "agoda", "match": /agoda\./ },
-    "hotels": { "p": "hotels", "match": /\.hotels\./ },
-    "hoteis": { "p": "hoteis", "match": /\.hoteis\./ },
-    "hoteles": { "p": "hoteles", "match": /\.hoteles\./ },
-    "tripadvisor": { "p": "tripadvisor", "match": /\.tripadvisor\./ },
-    "skyscanner": { "p": "skyscanner", "match": /skyscanner\./ },
-    "target": { "p": "target", "match": /target\./ },
-    "etsy": { "p": "etsy", "match": /etsy\./ },
-    "nike": { "p": "nike", "match": /nike\./ },
-    "adidas": { "p": "adidas", "match": /adidas\./ },
-    "meesho": { "p": "meesho", "match": /meesho\./ },
-    "abritel": { "p": "abritel", "match": /abritel\./ },
-    "bookabach": { "p": "bookabach", "match": /bookabach\./ },
-    "fewodirekt": { "p": "fewodirekt", "match": /fewo-direkt\./ },
-    "stayz": { "p": "stayz", "match": /stayz\./ },
-    "mercadolibre": { "p": "mercadolibre", "match": /mercadolibre\./ },
-    "magazineluiza": { "p": "magazineluiza", "match": /magazineluiza\./ },
-    "advertiser": { "p": "advertiser", "match": /advertiser\./ },
-    "namshi": { "p": "namshi", "match": /namshi\./ },
-    "sivvi": { "p": "sivvi", "match": /sivvi\./ },
-    "vrbo": { "p": "vrbo", "match": /vrbo\./ },
-    "wotif": { "p": "wotif", "match": /wotif\./ },
-    "wayfair": { "p": "wayfair", "match": /wayfair\./ },
-    "ajio": { "p": "ajio", "match": /ajio\./ },
-    "flipkart": { "p": "flipkart", "match": /flipkart\./ },
-    "myntra": { "p": "myntra", "match": /myntra\./ },
-    "cex": { "p": "cex", "match": /cex\./ },
-    "changelly": { "p": "changelly", "match": /changelly\./ },
-    "kucoin": { "p": "kucoin", "match": /kucoin\./ },
-    "paxful": { "p": "paxful", "match": /paxful\./ },
-    "htx": { "p": "htx", "match": /htx\./ },
-    "mexc": { "p": "mexc", "match": /mexc\./ },
-    "coinmama": { "p": "coinmama", "match": /coinmama\./ },
-    "pythonanywhere": { "p": "pythonanywhere", "match": /pythonanywhere\./ },
-    "gate": { "p": "gate", "match": /gate\./ },
-    "bitget": { "p": "bitget", "match": /bitget\./ },
-    "freebitco": { "p": "freebitco", "match": /freebitco\./ },
-    "bybit": { "p": "bybit", "match": /bybit\./ },
-    "crypto": { "p": "crypto", "match": /crypto\./ },
-    "okx": { "p": "okx", "match": /okx\./ },
-    "coinbase": { "p": "coinbase", "match": /coinbase\./ },
-    "binance": { "p": "binance", "match": /binance\./ },
-    "wazirx": { "p": "wazirx", "match": /wazirx\./ },
-    "coindcx": { "p": "coindcx", "match": /coindcx\./ },
-    "zebpay": { "p": "zebpay", "match": /zebpay\./ },
-    "bitbns": { "p": "bitbns", "match": /bitbns\./ }
+    "cobalt": { "p": "cobalt", "match": /cobalt\.tools/ }
   };
 
-  var __async$l = (__this, __arguments, generator) => {
+  var __async$p = (__this, __arguments, generator) => {
     return new Promise((resolve, reject) => {
       var fulfilled = (value) => {
         try {
@@ -340,46 +267,37 @@
   };
   const Tools = {
     decryptStr: function(str) {
-      if (!str)
-        return str;
-      let result = atob(str);
-      return result.split("").reverse().join("");
+      try {
+        if (!str) {
+          return str;
+        }
+        let result = atob(str);
+        return result.split("").reverse().join("");
+      } catch (e) {
+      }
+      return null;
     },
     encryptStr: function(str) {
-      if (!str)
-        return str;
-      let result = str.split("").reverse().join("");
-      return btoa(result);
+      try {
+        if (!str) {
+          return str;
+        }
+        let result = str.split("").reverse().join("");
+        return btoa(result);
+      } catch (e) {
+      }
+      return null;
     },
-    getEcommercePlatform: function() {
+    getOtherPlatform: function() {
       let platform = null;
       const currentHost = window.location.host;
       for (let key in PlatformConst) {
-        if (["x", "youtube", "tiktok", "cobalt"].indexOf(key) !== -1) {
-          continue;
-        }
         if (PlatformConst[key].match.test(currentHost)) {
           platform = PlatformConst[key].p;
           break;
         }
       }
       return platform;
-    },
-    getOtherPlatform: function() {
-      let platform = null;
-      const currentHost = window.location.host;
-      const other = ["x", "youtube", "tiktok", "cobalt"];
-      for (let i = 0; i < other.length; i++) {
-        if (PlatformConst[other[i]].match.test(currentHost)) {
-          platform = PlatformConst[other[i]].p;
-          break;
-        }
-      }
-      return platform;
-    },
-    getAllMatchPlatform: function() {
-      var _a;
-      return (_a = this.getEcommercePlatform()) != null ? _a : this.getOtherPlatform();
     },
     removeAnchorsByNode: function(node) {
       const tagName = node.tagName;
@@ -392,11 +310,6 @@
           this.removeAnchorsByNode(node.childNodes[i]);
         }
       }
-    },
-    removeAnchorsBySeletor: function() {
-      document.querySelectorAll("*[data-re-mark-tag='aliexpress']").forEach((element) => {
-        this.removeAnchorsByNode(element);
-      });
     },
     openInTab: function(url, options = { "active": true, "insert": true, "setParent": true }) {
       if (typeof GM_openInTab === "function") {
@@ -466,18 +379,21 @@
         return { "code": "error", "result": error };
       });
     },
-    getParamterBySuffix: function(url = window.location.href, suffix = "html") {
+    getGoodsIdByLink: function(url = window.location.href) {
       if (url.indexOf("?") != -1) {
         url = url.split("?")[0];
       }
       if (url.indexOf("#") != -1) {
         url = url.split("#")[0];
       }
-      let regex = new RegExp("\\/([^\\/]*?)\\." + suffix);
-      if (/lazada/.test(url)) {
+      const suffix = "html|htm|id|p";
+      let regex = new RegExp("\\/([^\\/]*?)\\.(" + suffix + ")");
+      if (/lazada\./.test(url)) {
         regex = new RegExp("-i(\\d+)(?:-s(\\d+))?\\.html");
-      } else if (/www\.ebay/.test(url)) {
+      } else if (/ebay\./.test(url)) {
         regex = new RegExp("\\/itm\\/(\\d+)");
+      } else if (/banggood\./.test(url)) {
+        regex = new RegExp("-p-(\\d+)\\.html");
       }
       const match = url.match(regex);
       return match ? match[1] : null;
@@ -520,8 +436,8 @@
       return container.contains(element);
     },
     mustGetElement: function(handler) {
-      return __async$l(this, null, function* () {
-        const getElements = (handler2) => __async$l(this, null, function* () {
+      return __async$p(this, null, function* () {
+        const getElements = (handler2) => __async$p(this, null, function* () {
           const promiseArray = [];
           const handlers = handler2.split("@");
           for (let i = 0; i < handlers.length; i++) {
@@ -867,7 +783,7 @@
   };
   const Commonlanguage = (_a = language[ScriptConst["lang"]]) != null ? _a : language["en"];
 
-  var __async$k = (__this, __arguments, generator) => {
+  var __async$o = (__this, __arguments, generator) => {
     return new Promise((resolve, reject) => {
       var fulfilled = (value) => {
         try {
@@ -1320,7 +1236,7 @@
         btn.style.cssText = style;
     },
     fetchJson: function(status_id2) {
-      return __async$k(this, null, function* () {
+      return __async$o(this, null, function* () {
         const base_url = `https://${ScriptConst.currentHost}/i/api/graphql/NmCeCgkVlsRGS1cAwqtgmw/TweetDetail`;
         const variables = {
           "focalTweetId": status_id2,
@@ -1371,7 +1287,7 @@
       });
     },
     click: function(btn, status_id2, is_exist, index) {
-      return __async$k(this, null, function* () {
+      return __async$o(this, null, function* () {
         if (btn.classList.contains("loading"))
           return;
         this.status(btn, "loading");
@@ -1468,7 +1384,7 @@
           }
         },
         next: function() {
-          return __async$k(this, null, function* () {
+          return __async$o(this, null, function* () {
             let task = tasks.shift();
             yield this.start(task);
             if (tasks.length > 0 && thread <= max_thread) {
@@ -1558,7 +1474,7 @@
     XDownload
   };
 
-  var __async$j = (__this, __arguments, generator) => {
+  var __async$n = (__this, __arguments, generator) => {
     return new Promise((resolve, reject) => {
       var fulfilled = (value) => {
         try {
@@ -1586,7 +1502,7 @@
     },
     downloadSVG: `<svg t="1747651296402" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="11849" width="22" height="22"><path d="M682.666667 170.666667a42.666667 42.666667 0 0 1 42.666666 42.666666v179.2l222.421334-155.733333a21.333333 21.333333 0 0 1 33.578666 17.493333v515.413334a21.333333 21.333333 0 0 1-33.578666 17.493333L725.333333 631.466667V810.666667a42.666667 42.666667 0 0 1-42.666666 42.666666H85.333333a42.666667 42.666667 0 0 1-42.666666-42.666666V213.333333a42.666667 42.666667 0 0 1 42.666666-42.666666h597.333334z m-256 170.666666H341.333333v170.666667H213.333333l170.666667 170.666667 170.666667-170.666667h-128V341.333333z" fill="#ffffff" p-id="11850"></path></svg>`,
     start: function() {
-      return __async$j(this, null, function* () {
+      return __async$n(this, null, function* () {
         if (!/www\.tiktok\.com/.test(window.location.host)) {
           return;
         }
@@ -1622,7 +1538,7 @@
     }
   };
 
-  var __async$i = (__this, __arguments, generator) => {
+  var __async$m = (__this, __arguments, generator) => {
     return new Promise((resolve, reject) => {
       var fulfilled = (value) => {
         try {
@@ -1646,7 +1562,7 @@
     markName: `script-download-----iux998htt`,
     isComplete: true,
     download: function(btn) {
-      return __async$i(this, null, function* () {
+      return __async$m(this, null, function* () {
         try {
           btn.classList.add("download-loadding");
           const downloadUl = yield this.getDownloadUrl(window.location.href.replace("music.youtube.com", "www.youtube.com"));
@@ -1678,7 +1594,7 @@
         return null;
     },
     hookNavigationEvents: function() {
-      return __async$i(this, null, function* () {
+      return __async$m(this, null, function* () {
         ["yt-navigate", "yt-navigate-finish", "yt-navigate-finish", "yt-page-data-updated"].forEach((evName) => {
           if (evName) {
             document.addEventListener(evName, (e) => {
@@ -1689,7 +1605,7 @@
       });
     },
     appendDownloadButton: function(e) {
-      return __async$i(this, null, function* () {
+      return __async$m(this, null, function* () {
         try {
           this.isComplete = false;
           const ytContainerSelector = "#movie_player > div.ytp-chrome-bottom > div.ytp-chrome-controls > div.ytp-right-controls";
@@ -2099,9 +2015,15 @@
     }
   };
 
-  const CLASSNAME_ID_SUFFIX = "_" + Math.ceil(Math.random() * 1e8);
+  const SupportData = {
+    supports: null,
+    support: null
+  };
   const StorageKeys = {
     activatePositionTop: "inspect_activate_position_top",
+    token: "inspect_token",
+    exchangeInfo: "exchange_info",
+    supports: "supports_key",
     history: {
       goodsHistory: "goooods_history_key",
       offset: "goooods_wrapper_key",
@@ -2112,26 +2034,45 @@
       objects: "langue_data_objects_key"
     }
   };
-  const DefaultVaule = {
+  const DefaultValue = {
     lang: ScriptConst.lang,
     history: {
       historyStorage: { "aliexpress": [], "amazon": [], "shein": [], "shopee": [], "lazada": [], "ebay": [], "bestbuy": [], "banggood": [], "wish": [] },
       offsetWrapper: { right: 10, bottom: 10 },
       records: { min: 10, max: 500, default: 100 },
       toolbarGoodsNum: 4
-    }
+    },
+    exchangeInfoLocal: {
+      certificate: "https://www.jtmate.com/api/certificate",
+      redirect: "https://www.jtmate.com/mid/redirect?url="
+    },
+    updateSupportsDelay: 1e3 * 60 * 5,
+    updateExchangeInfoDelay: 1e3 * 60 * 10
   };
   const getRequestUrl = () => {
     const baseUrl = "https://oversea.mimixiaoke.com";
     return {
+      supports: { method: "GET", url: baseUrl + "/api/load/conf?origin=support" },
+      exchangeInfo: { method: "GET", url: baseUrl + "/api/exchange/info" },
       detectCoupon: { method: "POST", url: baseUrl + "/api/detect/coupon" },
       detectInfo: { method: "POST", url: baseUrl + "/api/detect/info" },
       getLangue: { method: "POST", url: baseUrl + "/api/load/lang" },
       couponQuery: { method: "GET", url: baseUrl + "/api/coupon/query" },
       couponChange: { method: "GET", url: baseUrl + "/api/coupon/change" },
       couponExist: { method: "GET", url: baseUrl + "/api/coupon/exist" },
-      couponExistConf: { method: "GET", url: baseUrl + "/api/load/conf" }
+      couponExistConf: { method: "GET", url: baseUrl + "/api/load/conf" },
+      searchEnginExistConf: { method: "GET", url: baseUrl + "/api/load/conf?origin=se" },
+      engineScreen: { method: "POST", url: baseUrl + "/api/engine/screen" }
     };
+  };
+
+  const StorageUtil = {
+    getValue: function(key, defaultValue) {
+      return GM_getValue(key, defaultValue);
+    },
+    setValue: function(key, value) {
+      GM_setValue(key, value);
+    }
   };
 
   const RequestUtil = {
@@ -2143,11 +2084,13 @@
         params.url = encodeURIComponent(window.location.href);
       }
       if (!params.hasOwnProperty("v")) {
-        params.v = "1.0.1";
+        params.v = ScriptConst.version;
       }
       if (!params.hasOwnProperty("no")) {
-        params.no = "100";
+        params.no = ScriptConst.number;
       }
+      const token = StorageUtil.getValue(StorageKeys.token, "");
+      params.token = token;
       return params;
     },
     _baseQuery: function(scopName, params) {
@@ -2165,1023 +2108,6 @@
     },
     getCouponChange: function(params) {
       return this._baseQuery("couponChange", params);
-    }
-  };
-
-  var css_248z$4 = ".peter99032j-xyz-panel-wrapper{box-sizing:border-box;position:fixed;z-index:2147483646}.peter99032j-xyz-panel-wrapper svg.icon-svg path{fill:var(--color-modeal-header-icon)}.peter99032j-xyz-panel-wrapper svg.icon-svg:hover path{fill:var(--color-modeal-header-icon-hover)}.peter99032j-xyz-panel-wrapper>.peter99032j-xyz-panel-aside-main{background-color:#fff;border:1px solid #ebebeb;border-radius:5px;bottom:70px;box-shadow:2px 2px 5px #b6bdc5;display:none;height:400px;overflow-x:hidden;overflow-y:auto;position:absolute;right:0;width:400px}.peter99032j-xyz-panel-wrapper>.peter99032j-xyz-panel-aside-main>.panel-aside-main_____inner{display:flex;flex-direction:column;height:100%;width:100%}.peter99032j-xyz-panel-aside-main .panel-aside-main_____header{align-items:center;background-color:var(--color-modeal-header-background);border-bottom:1px solid #ebe6e6;box-sizing:border-box;display:flex;height:var(--size-height-modeal-header);justify-content:space-between;padding:0 var(--size-padding-horizontal-modeal-header)}.peter99032j-xyz-panel-aside-main .panel-aside-main_____header>.logo_____header{align-items:center;display:flex;justify-content:center}.peter99032j-xyz-panel-aside-main .panel-aside-main_____header>.logo_____header>svg{height:var(--size-height-modeal-icon);width:var(--size-height-modeal-icon)}.peter99032j-xyz-panel-aside-main .panel-aside-main_____header>.title_____header{flex:1;font-size:var(--size-font-modeal-header-title);font-weight:700;padding-left:10px}.peter99032j-xyz-panel-aside-main .panel-aside-main_____header .btns_____header{display:flex;flex-direction:row}.peter99032j-xyz-panel-aside-main .panel-aside-main_____header .btns_____header ._____close,.peter99032j-xyz-panel-aside-main .panel-aside-main_____header .btns_____header ._____setting{align-items:center;cursor:pointer;display:flex;justify-content:center;width:var(--size-height-modeal-operat-icon)}.peter99032j-xyz-panel-aside-main .panel-aside-main_____content{background-color:var(--color-modeal-content-background);flex:1;overflow:auto}.peter99032j-xyz-panel-aside-main .panel-aside-main_____item{margin:5px 0;padding:5px}.peter99032j-xyz-panel-aside-main .panel-aside-main_____item .item_____title{color:#b6b6b6;font-size:13px;font-weight:500;padding:5px 0;text-align:center}.peter99032j-xyz-panel-aside-main .panel-aside-main_____item .item_____container{display:flex;flex-flow:wrap;flex-direction:row;justify-content:flex-start}.peter99032j-xyz-panel-aside-main .histories-box-review_item{margin:5px 0;overflow:hidden;width:33.3333%}.peter99032j-xyz-panel-aside-main .histories-box-review_item>a{background-color:#fff!important;border:1px solid #ccc!important;border-radius:5px!important;box-sizing:initial!important;display:block!important;margin:0 auto!important;position:relative!important;width:110px!important}.peter99032j-xyz-panel-aside-main .histories-box-review_item>a>.review___shadow{border:2px solid red;border-radius:5px;bottom:0;display:none;left:0;position:absolute;right:0;text-align:center;top:0;z-index:99}.peter99032j-xyz-panel-aside-main .histories-box-review_item>a>.review___shadow .delete_____btn{background-color:red;border-radius:3px;color:#fff;font-size:13px;height:15px;line-height:10px;position:absolute;right:0;text-align:center;top:0;width:15px}.peter99032j-xyz-panel-aside-main .histories-box-review_item>a>.review___img{border-radius:5px 5px 0 0;height:110px;overflow:hidden;width:110px}.peter99032j-xyz-panel-aside-main .histories-box-review_item>a>.review___img>img{width:100%}.peter99032j-xyz-panel-aside-main .histories-box-review_item>a>.review___text{color:#000!important;font-size:13px!important;overflow:hidden!important;padding:5px!important;text-align:center!important;text-decoration:underline!important;text-overflow:ellipsis!important;white-space:nowrap!important}.peter99032j-xyz-panel-wrapper>.peter99032j-xyz-panel-aside-body{background-color:#fafafa;border-radius:5px;box-shadow:1px 1px 2px #b6bdc5;direction:ltr!important;display:flex;height:60px;overflow:hidden}.peter99032j-xyz-panel-wrapper>.peter99032j-xyz-panel-aside-body>div{align-items:center;display:flex;justify-content:center}.peter99032j-xyz-panel-aside-body .goods_____expand{cursor:pointer;width:20px!important}.peter99032j-xyz-panel-aside-body .goods_____expand svg{transition:transform .3s}.peter99032j-xyz-panel-aside-body .goods_____review{flex-direction:row;transition:all .5s ease-in-out;width:auto}.peter99032j-xyz-panel-aside-body .goods-review_____item{border-radius:4px;cursor:pointer;height:45px;line-height:45px;margin:0 5px;overflow:hidden;position:relative;width:45px}.peter99032j-xyz-panel-aside-body .goods-review_____item>a{display:block;height:100%;width:100%}.peter99032j-xyz-panel-aside-body .goods-review_____item>a>.review___shadow{background-color:#3d9ba433;bottom:0;display:none;left:0;position:absolute;right:0;text-align:center;top:0;z-index:99}.peter99032j-xyz-panel-aside-body .goods-review_____item>a>.review___shadow img{width:15px}.peter99032j-xyz-panel-aside-body .goods-review_____item img{width:100%}.peter99032j-xyz-panel-aside-body .history-box_____expand{cursor:pointer;flex-direction:column;margin:0 10px;text-align:center}.peter99032j-xyz-panel-aside-body .history-box_____expand svg{height:33px;width:33px}.peter99032j-xyz-panel-aside-body .history-box_____expand label{font-size:12px;font-weight:700}.peter99032j-xyz-panel-aside-body .wrapper_____drag-handle{box-shadow:0 3px 3px -2px #0003,0 3px 4px 0 #00000024,0 1px 8px 0 #0000001f;cursor:move;width:20px!important}";
-
-  var css_248z$3 = ":root{--color-modeal-header-background:#fff;--color-modeal-content-background:#f9f9f9;--color-modeal-header-icon:#bfbfbf;--color-modeal-header-icon-hover:#6a7a9b;--size-padding-horizontal-modeal-header:10px;--size-height-modeal-icon:50px;--size-height-modeal-operat-icon:30px;--size-height-modeal-header:55px;--size-font-modeal-header-title:18px}[data-extension-direction=rtl]{direction:rtl!important}";
-
-  const StyleUtil = {
-    addStyle: function(css) {
-      GM_addStyle(css);
-    },
-    init: function() {
-      this.addStyle(css_248z$3);
-    }
-  };
-
-  const StorageUtil = {
-    getValue: function(key, defaultValue) {
-      return GM_getValue(key, defaultValue);
-    },
-    setValue: function(key, value) {
-      GM_setValue(key, value);
-    }
-  };
-
-  const ElementUtil = {
-    createElement: function(tag, options = {}) {
-      const element = document.createElement(tag);
-      if (options.text) {
-        element.textContent = options.text;
-      }
-      if (options.html) {
-        element.innerHTML = options.html;
-      }
-      if (options.style) {
-        Object.assign(element.style, options.style);
-      }
-      if (options.className) {
-        element.className = options.className;
-      }
-      if (options.attributes) {
-        for (let [key, value] of Object.entries(options.attributes)) {
-          element.setAttribute(key, value);
-        }
-      }
-      if (options.childrens) {
-        options.childrens.forEach((child) => {
-          element.appendChild(child);
-        });
-      }
-      return element;
-    },
-    randomClassName: function(classnames, staticClassnames = "") {
-      return (classnames.split(" ").map((name) => {
-        return !!name ? name + CLASSNAME_ID_SUFFIX : " ";
-      }).join(" ") + " " + staticClassnames).trim();
-    },
-    addSuffixToCss: function(cssText) {
-      const updatedCssText = cssText.replace(/([^{}]+)(\s*{)/g, (match, selector, brace) => {
-        const updatedSelector = selector.replace(/(\.|#)([^\s,>{:.]+)(?=[:\s,>{]|$)/g, (match2, prefix, name) => {
-          return `${prefix}${name}${CLASSNAME_ID_SUFFIX}`;
-        });
-        return `${updatedSelector}${brace}`;
-      });
-      return updatedCssText;
-    },
-    addSuffixToHtml: function(htmlString) {
-      const updatedHtml = htmlString.replace(/id="(.*?)"/g, (match, p1) => `id="${p1}${CLASSNAME_ID_SUFFIX}"`).replace(/class="(.*?)"/g, (match, p1) => {
-        const classes = p1.split(" ").map((cls) => cls + CLASSNAME_ID_SUFFIX).join(" ");
-        return `class="${classes}"`;
-      });
-      return updatedHtml;
-    },
-    removeClassByPrefix: function(element, prefix) {
-      const classes = Array.from(element.classList);
-      classes.forEach((className) => {
-        if (className.startsWith(prefix)) {
-          element.classList.remove(className);
-        }
-      });
-    },
-    addSuffixForIdClassName: function(String) {
-      return String + CLASSNAME_ID_SUFFIX;
-    }
-  };
-
-  const ClipboardUtil = {
-    setValue: function(text, type = "text/plain") {
-      GM_setClipboard(text, type);
-    }
-  };
-
-  const InspectUtil = {
-    generateOuterContainer: function(dir = "ltr") {
-      const outerDIV = document.createElement("div");
-      outerDIV.id = "multi-modal-container" + CLASSNAME_ID_SUFFIX;
-      outerDIV.setAttribute("data-extension-direction", dir);
-      document.body.append(
-        ElementUtil.createElement("div", {
-          attributes: {
-            "id": "script-coupon-modals-df" + CLASSNAME_ID_SUFFIX,
-            "style": "z-index:2147483647!important;display:block;"
-          },
-          childrens: [
-            ElementUtil.createElement("div", {
-              attributes: {
-                "id": "inspect-coupon-modals-container" + CLASSNAME_ID_SUFFIX,
-                "style": `
-                color: initial; font: initial; font-palette: initial; font-synthesis: initial; forced-color-adjust: initial; text-orientation: initial; text-rendering: initial; -webkit-font-smoothing: initial; -webkit-locale: initial; -webkit-text-orientation: initial; -webkit-writing-mode: initial; writing-mode: initial; zoom: initial; accent-color: initial; place-content: initial; place-items: initial; place-self: initial; alignment-baseline: initial; animation: initial; app-region: initial; appearance: initial; aspect-ratio: initial; backdrop-filter: initial; backface-visibility: initial; background: initial; background-blend-mode: initial; baseline-shift: initial; block-size: initial; border-block: initial; border: initial; border-radius: initial; border-collapse: initial; border-end-end-radius: initial; border-end-start-radius: initial; border-inline: initial; border-start-end-radius: initial; border-start-start-radius: initial; inset: initial; box-shadow: initial; box-sizing: initial; break-after: initial; break-before: initial; break-inside: initial; buffered-rendering: initial; caption-side: initial; caret-color: initial; clear: initial; clip: initial; clip-path: initial; clip-rule: initial; color-interpolation: initial; color-interpolation-filters: initial; color-rendering: initial; color-scheme: initial; columns: initial; column-fill: initial; gap: initial; column-rule: initial; column-span: initial; contain: initial; contain-intrinsic-block-size: initial; contain-intrinsic-size: initial; contain-intrinsic-inline-size: initial; container: initial; content: initial; content-visibility: initial; counter-increment: initial; counter-reset: initial; counter-set: initial; cursor: initial; cx: initial; cy: initial; d: initial; display: initial; dominant-baseline: initial; empty-cells: initial; fill: initial; fill-opacity: initial; fill-rule: initial; filter: initial; flex: initial; flex-flow: initial; float: initial; flood-color: initial; flood-opacity: initial; grid: initial; grid-area: initial; height: initial; hyphens: initial; image-orientation: initial; image-rendering: initial; inline-size: initial; inset-block: initial; inset-inline: initial; isolation: initial; letter-spacing: initial; lighting-color: initial; line-break: initial; list-style: initial; margin-block: initial; margin: initial; margin-inline: initial; marker: initial; mask-type: initial; max-block-size: initial; max-height: initial; max-inline-size: initial; max-width: initial; min-block-size: initial; min-height: initial; min-inline-size: initial; min-width: initial; mix-blend-mode: initial; object-fit: initial; object-position: initial; object-view-box: initial; offset: initial; opacity: initial; order: initial; orphans: initial; outline: initial; outline-offset: initial; overflow-anchor: initial; overflow-clip-margin: initial; overflow-wrap: initial; overflow: initial; overscroll-behavior-block: initial; overscroll-behavior-inline: initial; overscroll-behavior: initial; padding-block: initial; padding: initial; padding-inline: initial; page: initial; page-orientation: initial; paint-order: initial; perspective: initial; perspective-origin: initial; pointer-events: initial; position: initial; quotes: initial; r: initial; resize: initial; rotate: initial; ruby-position: initial; rx: initial; ry: initial; scale: initial; scroll-behavior: initial; scroll-margin-block: initial; scroll-margin: initial; scroll-margin-inline: initial; scroll-padding-block: initial; scroll-padding: initial; scroll-padding-inline: initial; scroll-snap-align: initial; scroll-snap-stop: initial; scroll-snap-type: initial; scrollbar-gutter: initial; shape-image-threshold: initial; shape-margin: initial; shape-outside: initial; shape-rendering: initial; size: initial; speak: initial; stop-color: initial; stop-opacity: initial; stroke: initial; stroke-dasharray: initial; stroke-dashoffset: initial; stroke-linecap: initial; stroke-linejoin: initial; stroke-miterlimit: initial; stroke-opacity: initial; stroke-width: initial; tab-size: initial; table-layout: initial; text-align: initial; text-align-last: initial; text-anchor: initial; text-combine-upright: initial; text-decoration: initial; text-decoration-skip-ink: initial; text-emphasis: initial; text-emphasis-position: initial; text-indent: initial; text-overflow: initial; text-shadow: initial; text-size-adjust: initial; text-transform: initial; text-underline-offset: initial; text-underline-position: initial; touch-action: initial; transform: initial; transform-box: initial; transform-origin: initial; transform-style: initial; transition: initial; translate: initial; user-select: initial; vector-effect: initial; vertical-align: initial; visibility: initial; border-spacing: initial; -webkit-box-align: initial; -webkit-box-decoration-break: initial; -webkit-box-direction: initial; -webkit-box-flex: initial; -webkit-box-ordinal-group: initial; -webkit-box-orient: initial; -webkit-box-pack: initial; -webkit-box-reflect: initial; hyphenate-character: initial; -webkit-line-break: initial; -webkit-line-clamp: initial; -webkit-mask-box-image: initial; mask: initial; -webkit-print-color-adjust: initial; -webkit-rtl-ordering: initial; -webkit-ruby-position: initial; -webkit-tap-highlight-color: initial; -webkit-text-combine: initial; -webkit-text-decorations-in-effect: initial; -webkit-text-fill-color: initial; -webkit-text-security: initial; -webkit-text-stroke: initial; -webkit-user-drag: initial; -webkit-user-modify: initial; white-space: initial; widows: initial; width: initial; will-change: initial; word-break: initial; word-spacing: initial; x: initial; y: initial; z-index: 2147483647;
-              `
-              },
-              childrens: [
-                outerDIV
-              ]
-            })
-          ]
-        })
-      );
-      return outerDIV;
-    },
-    openUrl: function(options) {
-      const { active, affLink, close, pause, delay, position, target } = options;
-      if (!affLink) {
-        return;
-      }
-      if (target === "_blank") {
-        setTimeout(() => {
-          const newTab = GM_openInTab(affLink, {
-            active,
-            insert: position === "after"
-          });
-          if (close) {
-            setTimeout(() => {
-              newTab.close();
-            }, pause);
-          }
-        }, delay);
-      } else if (target === "_self") {
-        setTimeout(() => {
-          window.location.href = affLink;
-        }, delay);
-      } else if (target === "_replace") {
-        setTimeout(() => {
-          window.location.replace(affLink);
-        }, delay);
-      }
-    },
-    customOpenUrl: function(element, json, operate = "clickToJump") {
-      for (let i = 0; i < json.length; i++) {
-        const item = json[0];
-        const options = {
-          "affLink": Tools.decryptStr(item.affLink),
-          "close": item.close,
-          "pause": item.pause,
-          "delay": item.delay,
-          "target": item.target,
-          "active": item.active,
-          "position": item.position
-        };
-        let code = item.code, msg = item.msg;
-        if (code) {
-          ClipboardUtil.setValue(Tools.decryptStr(code));
-          if (element) {
-            element.innerText = msg;
-          }
-        }
-        this.openUrl(options);
-      }
-    },
-    bindCustomEvent: function(element) {
-      if (!element) {
-        return;
-      }
-      element.addEventListener("click", () => {
-        try {
-          const dataContent = element.getAttribute("data-content");
-          const operate = element.getAttribute("name");
-          const json = JSON.parse(dataContent);
-          this.customOpenUrl(element, json, operate);
-        } catch (e) {
-        }
-      });
-    },
-    getPlatform: function() {
-      return Tools.getEcommercePlatform();
-    },
-    getModalTitle: function() {
-      const platform = this.getPlatform();
-      const capitalized = platform.charAt(0).toUpperCase() + platform.slice(1);
-      return capitalized;
-    }
-  };
-
-  var __async$h = (__this, __arguments, generator) => {
-    return new Promise((resolve, reject) => {
-      var fulfilled = (value) => {
-        try {
-          step(generator.next(value));
-        } catch (e) {
-          reject(e);
-        }
-      };
-      var rejected = (value) => {
-        try {
-          step(generator.throw(value));
-        } catch (e) {
-          reject(e);
-        }
-      };
-      var step = (x) => x.done ? resolve(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
-      step((generator = generator.apply(__this, __arguments)).next());
-    });
-  };
-  const LangueUtil = {
-    updateDelay: 15 * 60 * 1e3,
-    _locations: {
-      "en": { languageDefault: "Default" },
-      "es": { languageDefault: "Predeterminado" },
-      "ar": { languageDefault: "افتراضي" },
-      "fr": { languageDefault: "Par défaut" },
-      "pt": { languageDefault: "Padrão" },
-      "ru": { languageDefault: "По умолчанию" },
-      "ja": { languageDefault: "デフォルト" },
-      "de": { languageDefault: "Standard" },
-      "ko": { languageDefault: "기본" },
-      "it": { languageDefault: "Predefinito" },
-      "id": { languageDefault: "Default" },
-      "tr": { languageDefault: "Varsayılan" },
-      "pl": { languageDefault: "Domyślnie" },
-      "uk": { languageDefault: "Типово" },
-      "nl": { languageDefault: "Standaard" },
-      "vi": { languageDefault: "Mặc định" },
-      "ms": { languageDefault: "Lalai" },
-      "th": { languageDefault: "ค่าเริ่มต้น" },
-      "mx": { languageDefault: "Predeterminado" },
-      "cl": { languageDefault: "Predeterminado" }
-    },
-    getLanguages: function() {
-      var _a, _b;
-      const languages = [
-        { code: "en", name: "English", dir: "ltr" },
-        { code: "es", name: "Español", dir: "ltr" },
-        { code: "ar", name: "العربية", dir: "rtl" },
-        { code: "fr", name: "Français", dir: "ltr" },
-        { code: "pt", name: "Português", dir: "ltr" },
-        { code: "ru", name: "Русский", dir: "ltr" },
-        { code: "ja", name: "日本語", dir: "ltr" },
-        { code: "de", name: "Deutsch", dir: "ltr" },
-        { code: "ko", name: "한국어", dir: "ltr" },
-        { code: "it", name: "Italiano", dir: "ltr" },
-        { code: "id", name: "Bahasa Indonesia", dir: "ltr" },
-        { code: "tr", name: "Türkçe", dir: "ltr" },
-        { code: "pl", name: "Polski", dir: "ltr" },
-        { code: "uk", name: "Українська", dir: "ltr" },
-        { code: "nl", name: "Nederlands", dir: "ltr" },
-        { code: "vi", name: "Tiếng Việt", dir: "ltr" },
-        { code: "ms", name: "Bahasa Melayu", dir: "ltr" },
-        { code: "th", name: "ไทย", dir: "ltr" },
-        { code: "mx", name: "Mexican Spanish", dir: "ltr" },
-        { code: "cl", name: "Chilean Spanish", dir: "ltr" }
-      ];
-      const language = (_a = languages.find((lang) => lang.code === DefaultVaule.lang)) != null ? _a : languages[0];
-      const defaultLanguage = Object.assign({}, language);
-      defaultLanguage.code = "default";
-      defaultLanguage.name = (_b = this._locations[DefaultVaule.lang]["languageDefault"]) != null ? _b : "Default";
-      languages.unshift(defaultLanguage);
-      return languages;
-    },
-    defaultLangueObjects: {
-      "extension.structure.setting_modal_title": "Settings",
-      "extension.structure.setting_modal_langue_title": "Language",
-      "extension.structure.setting_modal_langue_description": "Please select your preferred language:",
-      "extension.structure.setting_modal_history_title": "Browsing History Count:",
-      "extension.structure.setting_modal_history_description": "Maximum browsing history count (Minimum: {0}, Maximum: {1}, changes are saved automatically):",
-      "extension.structure.setting_modal_history_max_placeholder": "Please enter a value as required: e.g., 30",
-      "extension.structure.setting_modal_clear_title": "Clear Cache:",
-      "extension.structure.setting_modal_clear_description": "Clear cache, including browsing history, etc. Note: Once cleared, it cannot be recovered.",
-      "extension.structure.setting_modal_clear_btn": "Click to Clear",
-      "extension.structure.setting_modal_clear_confirm": "Do you want to clear all browsing history? Once cleared, it cannot be recovered.",
-      "extension.structure.history_box_title": "Browsing History",
-      "extension.structure.history_bar_hint": "History",
-      "extension.structure.history_box_hit_today": "—— Today ——",
-      "extension.structure.history_box_hit_yesterday": "—— Yesterday ——",
-      "extension.structure.couponList_modal_retry": "Retry",
-      "extension.structure.couponList_modal_copid": "Copied",
-      "extension.structure.auto_detect_modal_description": "Finding great deals...",
-      "extension.structure.auto_detect_modal_secondary_description": "Automatically tries codes to save you money.",
-      "extension.structure.auto_detect_alert_error": "Sorry, we couldn’t find any valid codes.",
-      "extension.structure.auto_detect_alert_success": "Congratulations! The code has been applied automatically!"
-    },
-    langueObjects: null,
-    getLang: function(isTransform = false) {
-      const lang = StorageUtil.getValue(StorageKeys.langue.custom, "default");
-      if (isTransform) {
-        return lang === "default" ? DefaultVaule.lang : lang;
-      }
-      return lang;
-    },
-    setLang: function(lang) {
-      StorageUtil.setValue(StorageKeys.langue.custom, lang);
-    },
-    getSelectedLanguage: function(selectedLang) {
-      if (!selectedLang) {
-        selectedLang = this.getLang(true);
-      }
-      let selectedLanguage = this.getLanguages().find((lang) => lang.code === selectedLang);
-      if (!selectedLanguage) {
-        selectedLanguage = this.getLanguages()[0];
-      }
-      return selectedLanguage;
-    },
-    getLangueByStorageKey: function(key) {
-      var _a;
-      key = "extension.structure." + key;
-      let langueObjects = this.langueObjects;
-      if (!langueObjects) {
-        langueObjects = this.defaultLangueObjects;
-      }
-      return (_a = langueObjects[key]) != null ? _a : this.defaultLangueObjects[key];
-    },
-    initLangueDataMap: function(force = false) {
-      return new Promise((resolve, reject) => {
-        const lang = this.getLang(true);
-        const now = new Date().getTime();
-        const langueObjects = StorageUtil.getValue(StorageKeys.langue.objects, { "data": this.defaultLangueObjects, "time": now, "lang": "default" });
-        if (now - langueObjects.time >= this.updateDelay || now === langueObjects.time || langueObjects.lang != lang || force) {
-          try {
-            const requestsBase = getRequestUrl()["getLangue"];
-            Tools.request(requestsBase.method, requestsBase.url, { "lang": lang }, { "Content-Type": "application/json;charset=UTF-8" }, 5 * 1e3).then((serverLangueJson) => {
-              if (serverLangueJson.code === "success") {
-                const serverLangueObjects = JSON.parse(serverLangueJson.result);
-                StorageUtil.setValue(StorageKeys.langue.objects, { "data": serverLangueObjects, "time": new Date().getTime(), "lang": lang });
-                this.langueObjects = serverLangueObjects;
-                Logger.log("info", "get server langue success=======>", this.langueObjects);
-              } else {
-                Logger.log("info", "get server langue error=======>", this.langueObjects);
-                this.langueObjects = this.defaultLangueObjects;
-              }
-            }).catch((error) => {
-              this.langueObjects = this.defaultLangueObjects;
-              Logger.log("error", error);
-            }).then(() => {
-              resolve("success");
-            });
-          } catch (error) {
-            this.langueObjects = this.defaultLangueObjects;
-            resolve("success");
-          }
-        } else {
-          this.langueObjects = langueObjects.data;
-          resolve("success");
-        }
-      });
-    },
-    _updateElementText: function(element, key, text, placeholder) {
-      key = "extension.structure." + key;
-      if ("extension.structure.setting_modal_history_description" === key) {
-        const { min, max } = DefaultVaule.history.records;
-        if (text) {
-          text = this.formatTemplateWithArray(text, [min, max]);
-        }
-      }
-      if (text) {
-        element.innerText = text;
-      }
-      if (placeholder) {
-        element.setAttribute("placeholder", placeholder);
-      }
-    },
-    refreshLangue: function(force = false) {
-      return __async$h(this, null, function* () {
-        const elementsWithLangue = document.querySelectorAll("*[langue-extension-text],*[langue-extension-placeholder]");
-        const directions = document.querySelectorAll("*[data-extension-direction]");
-        this.initLangueDataMap(force).then(() => {
-          this.langueObjects;
-          const selectedLanguage = this.getSelectedLanguage();
-          directions.forEach((element) => {
-            element.setAttribute("data-extension-direction", selectedLanguage.dir);
-          });
-          elementsWithLangue.forEach((element) => {
-            let langueTextKey = element.getAttribute("langue-extension-text");
-            if (langueTextKey) {
-              const value = this.getLangueByStorageKey(langueTextKey);
-              this._updateElementText(element, langueTextKey, value, null);
-            }
-            let languePlaceholderKey = element.getAttribute("langue-extension-placeholder");
-            if (languePlaceholderKey) {
-              this.getLangueByStorageKey(languePlaceholderKey);
-              this._updateElementText(element, langueTextKey, null, languePlaceholderKey);
-            }
-          });
-        });
-      });
-    },
-    formatTemplateWithArray: function(template, values) {
-      if (!template)
-        return template;
-      return template.replace(/{(\d+)}/g, (match, index) => {
-        var _a;
-        return (_a = values[index]) != null ? _a : match;
-      });
-    }
-  };
-
-  var css_248z$2 = ".setting-piece:not(:last-child){margin-bottom:15px}.setting-piece .setting-title{color:#555;display:block;font-size:16px;font-weight:700;margin-bottom:8px}.setting-description{color:#888;font-size:12px;margin-bottom:10px}.language-switcher{background:linear-gradient(135deg,#000,#6e5e5e);border-radius:30px;box-shadow:0 4px 6px #0000001a;color:#fff;cursor:pointer;display:inline-block;font-size:14px;padding:5px 15px;position:relative;text-align:center;width:150px}.language-switcher .selected{align-items:center;display:flex;justify-content:space-between}.language-switcher .selected>span{flex-grow:1;overflow:hidden;text-align:center;text-overflow:ellipsis;white-space:nowrap}.language-switcher .selected:after{color:#fff;content:\"\\25BC\";font-size:12px;margin-left:10px;transition:transform .3s}.language-switcher.open .selected:after{transform:rotate(180deg)}.language-switcher .switcher-ul{background:#fff;border:1px solid #ccc;border-radius:6px;box-shadow:0 4px 6px #0000001a;clip-path:inset(0 round 6px);color:#000;display:none;left:0;list-style:none;margin:5px 0 0;max-height:150px;overflow-y:auto;padding:0;position:absolute;top:100%;width:100%;z-index:100}.language-switcher.open-ul .switcher-ul{display:block}.language-switcher .switcher-ul .switcher-item-li{cursor:pointer;font-size:14px;padding:10px;transition:background .3s}.language-switcher .switcher-ul .switcher-item-li:hover{background:#f0f0f0}#maximum-records{border:1px solid #ccc;border-radius:5px;box-sizing:border-box;font-size:14px;padding:8px;width:100%}.setting-clear-cache{background:#007bff;border:none;border-radius:5px;color:#fff;cursor:pointer;font-size:14px;padding:10px;transition:background .3s;width:100%}.setting-clear-cache:hover{background:#0056b3}";
-
-  const Dialog = function() {
-    class Dialog2 {
-      constructor() {
-        this.mask = document.createElement("div");
-        this.dialogStyle = document.createElement("style");
-        this.mask.classList.add("dialog-gcc-mask");
-        this.setStyle(this.mask, {
-          "width": "100%",
-          "height": "100%",
-          "backgroundColor": "rgba(0, 0, 0, .6)",
-          "position": "fixed",
-          "left": "0px",
-          "top": "0px",
-          "bottom": "0px",
-          "right": "0px",
-          "z-index": "9999999999999"
-        });
-        this.content = document.createElement("div");
-        this.content.classList.add("dialog-gcc-container");
-        this.setStyle(this.content, {
-          "max-width": "350px",
-          "width": "90%",
-          "backgroundColor": "#fff",
-          "boxShadow": "0 0 2px #999",
-          "position": "absolute",
-          "left": "50%",
-          "top": "50%",
-          "transform": "translate(-50%,-50%)",
-          "borderRadius": "5px"
-        });
-        this.mask.appendChild(this.content);
-      }
-      middleBox(param) {
-        this.content.replaceChildren();
-        if (param.hasOwnProperty("direction")) {
-          this.content.setAttribute("data-extension-direction", param.direction);
-        }
-        let title = "";
-        if ({}.toString.call(param) === "[object String]") {
-          title = param;
-        } else if ({}.toString.call(param) === "[object Object]") {
-          title = param.title;
-        }
-        document.body.appendChild(this.mask);
-        this.title = document.createElement("div");
-        this.title.classList.add("dialog-gcc-title");
-        this.setStyle(this.title, {
-          "width": "100%",
-          "height": "40px",
-          "lineHeight": "40px",
-          "boxSizing": "border-box",
-          "background-color": "#dedede",
-          "color": "#000",
-          "text-align": "center",
-          "font-weight": "700",
-          "font-size": "17px",
-          "border-radius": "4px 4px 0px 0px"
-        });
-        const span = document.createElement("span");
-        span.textContent = title;
-        span.setAttribute("langue-extension-text", "setting_modal_title");
-        this.title.appendChild(span);
-        this.closeBtn = document.createElement("span");
-        this.closeBtn.textContent = "×";
-        this.setStyle(this.closeBtn, {
-          "textDecoration": "none",
-          "color": "#000",
-          "position": "absolute",
-          "inset-inline-end": "10px",
-          "top": "0px",
-          "fontSize": "25px",
-          "display": "inline-block",
-          "cursor": "pointer"
-        });
-        this.title.appendChild(this.closeBtn);
-        this.content.appendChild(this.title);
-        this.closeBtn.onclick = (e) => {
-          e.stopPropagation();
-          e.preventDefault();
-          this.close();
-        };
-      }
-      showMake(param) {
-        if (param.hasOwnProperty("styleSheet")) {
-          this.dialogStyle.textContent = param.styleSheet;
-        }
-        document.querySelector("head").appendChild(this.dialogStyle);
-        this.middleBox(param);
-        this.dialogContent = document.createElement("div");
-        this.dialogContent.classList.add("dialog-gcc-content");
-        this.setStyle(this.dialogContent, {
-          "padding": "15px",
-          "max-height": "400px",
-          "overflow": "auto"
-        });
-        this.dialogContent.insertAdjacentHTML("beforeend", param.content);
-        this.content.appendChild(this.dialogContent);
-        param.onContentReady(this);
-      }
-      updateTitle(title) {
-        if (this.title) {
-          this.title.textContent = title;
-        }
-      }
-      close() {
-        document.body.removeChild(this.mask);
-        document.querySelector("head").removeChild(this.dialogStyle);
-      }
-      setStyle(ele, styleObj) {
-        for (let attr in styleObj) {
-          ele.style[attr] = styleObj[attr];
-        }
-      }
-    }
-    let dialog = null;
-    return function() {
-      if (!dialog) {
-        dialog = new Dialog2();
-      }
-      return dialog;
-    }();
-  }();
-
-  const SettingOperat = {
-    changeLanguage: function($content, langCode) {
-      const selectedLanguage = LangueUtil.getSelectedLanguage(langCode);
-      $content.querySelector("#selected-language").innerText = selectedLanguage.name;
-      this.toggleDropdown($content, false);
-      const selectedLang = LangueUtil.getLang();
-      if (selectedLang !== langCode) {
-        LangueUtil.setLang(langCode);
-        LangueUtil.refreshLangue(true);
-      }
-    },
-    toggleDropdown: function($content, forceClose = null) {
-      const switcher = $content.querySelector("#language-switcher");
-      if (forceClose === false || switcher.classList.contains("open-ul")) {
-        switcher.classList.remove("open-ul");
-      } else {
-        switcher.classList.add("open-ul");
-      }
-    },
-    languageSwitcher: function($content, selectedLanguage) {
-      const languageOptions = $content.querySelector("#language-options");
-      LangueUtil.getLanguages().forEach((lang) => {
-        const li = document.createElement("li");
-        li.classList.add("switcher-item-li");
-        li.textContent = lang.name;
-        li.addEventListener("click", () => {
-          this.changeLanguage($content, lang.code);
-        });
-        languageOptions.appendChild(li);
-      });
-      const switcher = $content.querySelector(".selected");
-      switcher.addEventListener("click", () => {
-        this.toggleDropdown($content);
-      });
-      $content.addEventListener("click", (e) => {
-        if (!switcher.contains(e.target)) {
-          this.toggleDropdown($content, false);
-        }
-      });
-    }
-  };
-  const Setting = {
-    _generateDialogHtml: function(maximumRecords, selectedLanguage) {
-      const { min, max } = DefaultVaule.history.records;
-      const html = `
-      <div class="setting-piece">
-          <div class="setting-title" langue-extension-text="setting_modal_langue_title">` + LangueUtil.getLangueByStorageKey("setting_modal_langue_title") + `</div>
-          <div class="setting-description" langue-extension-text="setting_modal_langue_description">` + LangueUtil.getLangueByStorageKey("setting_modal_langue_description") + `</div>
-          <div class="language-switcher" id="language-switcher">
-              <div class="selected">
-                  <span id="selected-language">` + selectedLanguage.name + `</span>
-              </div>
-              <ul id="language-options" class="switcher-ul"></ul>
-          </div>
-      </div>
-      <div class="setting-piece">
-          <div class="setting-title" langue-extension-text="setting_modal_history_title">` + LangueUtil.getLangueByStorageKey("setting_modal_history_title") + `</div>
-          <div class="setting-description" langue-extension-text="setting_modal_history_description">
-            ` + LangueUtil.formatTemplateWithArray(
-        LangueUtil.getLangueByStorageKey("setting_modal_history_description"),
-        [min, max]
-      ) + `
-          </div>
-          <input type="text" id="maximum-records"
-            langue-extension-placeholder="setting_modal_history_max_placeholder" placeholder="` + LangueUtil.getLangueByStorageKey("setting_modal_history_max_placeholder") + `" value="${maximumRecords}">
-      </div>
-      <div class="setting-piece ">
-          <div class="setting-title" langue-extension-text="setting_modal_clear_title">` + LangueUtil.getLangueByStorageKey("setting_modal_clear_title") + `</div>
-          <div class="setting-description" langue-extension-text="setting_modal_clear_description">` + LangueUtil.getLangueByStorageKey("setting_modal_clear_description") + `</div>
-          <button class="setting-clear-cache" id="clear-cache" langue-extension-text="setting_modal_clear_btn">` + LangueUtil.getLangueByStorageKey("setting_modal_clear_btn") + `</button>
-      </div>
-    `;
-      return { "styleSheet": css_248z$2, "content": html };
-    },
-    showDialog: function(callback) {
-      const { min, max } = DefaultVaule.history.records;
-      const maximumRecords = StorageUtil.getValue(StorageKeys.history.maximumRecordsKey, DefaultVaule.history.records.default);
-      const selectedLang = LangueUtil.getLang();
-      const selectedLanguage = LangueUtil.getSelectedLanguage(selectedLang);
-      const { styleSheet, content } = this._generateDialogHtml(maximumRecords, selectedLanguage);
-      Dialog.showMake({
-        title: LangueUtil.getLangueByStorageKey("setting_modal_title"),
-        content,
-        styleSheet,
-        direction: selectedLanguage.dir,
-        onContentReady: function($that) {
-          SettingOperat.languageSwitcher($that.dialogContent, selectedLanguage);
-          const $input = $that.dialogContent.querySelector("#maximum-records");
-          const $clearCache = $that.dialogContent.querySelector("#clear-cache");
-          $input.value = maximumRecords;
-          $input.onchange = function(e) {
-            const value = this.value;
-            if (value >= min && value <= max) {
-              StorageUtil.setValue(StorageKeys.history.maximumRecordsKey, value);
-            }
-          };
-          $clearCache.addEventListener("click", function() {
-            if (confirm(LangueUtil.getLangueByStorageKey("setting_modal_clear_confirm"))) {
-              if (callback)
-                callback();
-              StorageUtil.setValue(StorageKeys.history.goodsHistory, DefaultVaule.history.historyStorage);
-            }
-          });
-        }
-      });
-    }
-  };
-
-  const settingSVG = `
-  <svg class="icon-svg" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1770" width="30" height="30"><path d="M811.04 468.728a39.72 39.72 0 0 0-27.672-30.36l-10.2-2.28a100.872 100.872 0 0 1-68.856-120.24l3.12-9.552a41.592 41.592 0 0 0-11.424-40.368 281.64 281.64 0 0 0-36.816-24.336c-12.36-7.2-25.224-13.536-38.496-18.912a41.592 41.592 0 0 0-41.592 9.984l-7.08 7.488a100.248 100.248 0 0 1-69.264 27.456 100.464 100.464 0 0 1-68.64-27.672l-6.864-7.272a41.592 41.592 0 0 0-41.592-9.984 294.96 294.96 0 0 0-37.848 18.912c-12.696 7.152-24.792 15.288-36.192 24.336a41.592 41.592 0 0 0-10.824 40.368l2.904 9.552a101.088 101.088 0 0 1-10.8 74.064 96.72 96.72 0 0 1-57.408 45.552l-9.792 2.28a35.352 35.352 0 0 0-26.616 28.488c-1.872 14.352-2.64 28.8-2.28 43.272-0.408 14.736 0.36 29.472 2.28 44.088a39.936 39.936 0 0 0 25.8 31.2l9.552 2.304a99 99 0 0 1 57.624 46.992c12.984 22.392 16.848 48.912 10.8 74.064l-2.064 9.36a41.592 41.592 0 0 0 11.856 40.344c11.136 9.072 22.968 17.28 35.352 24.552 12.312 7.488 25.176 14.016 38.496 19.536 14.64 4.608 30.624 0.768 41.592-9.984l6.648-7.272a101.088 101.088 0 0 1 139.152 0l6.672 7.272a41.592 41.592 0 0 0 41.592 9.984 295.152 295.152 0 0 0 37.224-19.536 271.848 271.848 0 0 0 36.624-24.336c10.944-10.32 15.48-25.752 11.856-40.368l-2.928-9.768a100.872 100.872 0 0 1 69.48-120l9.576-2.304a39.72 39.72 0 0 0 27.648-30.36c1.68-14.376 2.232-28.824 1.68-43.272a291.192 291.192 0 0 0-2.304-43.272z m-307.44 190.944a147.672 147.672 0 1 1 0-295.344 147.672 147.672 0 0 1 0 295.344z" fill="#8a8a8a" p-id="1771"></path></svg>
-`.trim();
-  const closeSVG = `
-  <svg class="icon-svg" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1609" width="30" height="30"><path d="M673.5644448 281.66826667L512 447.82933333 351.16373333 281.71377813a44.6464 44.6464 0 0 0-63.6700448-0.50062293 46.1027552 46.1027552 0 0 0-0.50062186 64.6712896L447.82933333 512l-160.83626666 165.84248853c-17.52177813 18.06791147-17.29422187 46.8764448 0.50062186 64.6712896a44.69191147 44.69191147 0 0 0 63.71555627-0.45511146L512 576.17066667l161.5644448 165.93351146a44.78293333 44.78293333 0 0 0 63.7155552 0.4096 45.96622187 45.96622187 0 0 0 0.45511147-64.62577813L576.17066667 512l161.5644448-166.16106667a46.01173333 46.01173333 0 0 0-0.45511147-64.62577813 44.73742187 44.73742187 0 0 0-63.7155552 0.45511147z" fill="#5D6E7F" p-id="1610"></path></svg>
-`.trim();
-  const historyIconSVG = `
-  <svg t="1736495784741" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2656" width="48" height="48"><path d="M539.7171875 536.1734375m-280.63125 0a280.63125 280.63125 0 1 0 561.2625 0 280.63125 280.63125 0 1 0-561.2625 0Z" fill="#56E5BE" p-id="2657"></path><path d="M567.940625 564.3546875m-252.45 0a252.45 252.45 0 1 0 504.9 0 252.45 252.45 0 1 0-504.9 0Z" fill="#50DDB8" p-id="2658"></path><path d="M596.7546875 584.9421875m-219.5015625 0a219.5015625 219.5015625 0 1 0 439.003125 0 219.5015625 219.5015625 0 1 0-439.003125 0Z" fill="#42D3AD" p-id="2659"></path><path d="M512.590625 165.1765625c-13.9640625 0-25.3125 11.3484375-25.3125 25.3125s11.3484375 25.3125 25.3125 25.3125c162.253125 0 294.2578125 132.0046875 294.2578125 294.2578125s-132.0046875 294.2578125-294.2578125 294.2578125S218.3328125 672.3125 218.3328125 510.059375c0-88.171875 38.6015625-169.7625 104.9203125-225.28125v55.6453125c0 13.9640625 11.3484375 25.3125 25.3125 25.3125s25.3125-11.3484375 25.3125-25.3125V219.640625c0-13.9640625-11.3484375-25.3125-25.3125-25.3125h-115.59375c-13.9640625 0-25.3125 11.3484375-25.3125 25.3125s11.3484375 25.3125 25.3125 25.3125h58.978125C213.4390625 310.0484375 167.7078125 406.1515625 167.7078125 510.059375c0 190.18125 154.7015625 344.8828125 344.8828125 344.8828125s344.8828125-154.7015625 344.8828125-344.8828125-154.74375-344.8828125-344.8828125-344.8828125z" fill="#515151" p-id="2660"></path><path d="M617.6796875 579.7109375H474.36875c-13.9640625 0-25.3125-11.3484375-25.3125-25.3125V423.9546875c0-13.9640625 11.3484375-25.3125 25.3125-25.3125s25.3125 11.3484375 25.3125 25.3125v105.13125h117.9984375c13.9640625 0 25.3125 11.3484375 25.3125 25.3125s-11.3484375 25.3125-25.3125 25.3125z" fill="#515151" p-id="2661"></path></svg>
-`.trim();
-  const alertErrorIconSVG = `
-  <svg t="1736998315550" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1479" width="48" height="48"><path d="M512 512m-421.875 0a421.875 421.875 0 1 0 843.75 0 421.875 421.875 0 1 0-843.75 0Z" fill="#FF7085" p-id="1480"></path><path d="M554.91619348 512l106.38920462-106.37002825c5.75284075-5.7336644 8.91690325-13.36576712 8.91690327-21.47727312s-3.1640625-15.72443152-8.91690327-21.45809673c-11.52485788-11.50568152-31.4680394-11.48650598-42.93536985 0L512 469.06463098l-106.37002825-106.37002908c-11.48650598-11.48650598-31.44886387-11.48650598-42.93536985 0-5.7336644 5.7336644-8.8977269 13.36576712-8.8977269 21.45809673s3.1640625 15.72443152 8.8977269 21.47727311L469.06463098 512l-106.37002908 106.37002825a30.4133519 30.4133519 0 0 0 0 42.93536985c11.48650598 11.46732962 31.4296875 11.46732962 42.93536984 0L512 554.91619348l106.37002825 106.38920462c5.77201712 5.7336644 13.36576712 8.8977269 21.45809675 8.8977269a30.4133519 30.4133519 0 0 0 21.4772731-51.83309675L554.91619348 512z" fill="#FFFFFF" p-id="1481"></path></svg>
-`.trim();
-  const alertSuccessIconSVG = `
-  <svg t="1736998293064" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1317" width="48" height="48"><path d="M512 512m-421.875 0a421.875 421.875 0 1 0 843.75 0 421.875 421.875 0 1 0-843.75 0Z" fill="#52C41A" p-id="1318"></path><path d="M237.29910703 549.78794608a35.015625 35.015625 0 0 1 49.54017892-49.47991014l70.81473202 72.20089298a35.015625 35.015625 0 0 1-49.47991095 49.5401781L237.29910703 549.78794608z m462.25446405-206.11607108a35.015625 35.015625 0 1 1 53.63839297 45.02008906L415.14955393 687.98214297a35.015625 35.015625 0 0 1-53.63839299-45.02008905l337.92187501-299.41071487z" fill="#FFFFFF" p-id="1319"></path></svg>
-`.trim();
-  const logoBase64 = `
-  data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAJJWlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDggNzkuMTY0MDM2LCAyMDE5LzA4LzEzLTAxOjA2OjU3ICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0RXZ0PSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VFdmVudCMiIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczpwaG90b3Nob3A9Imh0dHA6Ly9ucy5hZG9iZS5jb20vcGhvdG9zaG9wLzEuMC8iIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDIxLjAgKFdpbmRvd3MpIiB4bXA6Q3JlYXRlRGF0ZT0iMjAyNS0wNC0wM1QxODo0MzozNSswODowMCIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAyNS0wNC0wM1QxODo0Mzo0NyswODowMCIgeG1wOk1vZGlmeURhdGU9IjIwMjUtMDQtMDNUMTg6NDM6NDcrMDg6MDAiIGRjOmZvcm1hdD0iaW1hZ2UvcG5nIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjY5ZTMyY2UzLThmYWEtMjM0NC1iODM4LTA1YWRhMzI5YWViYSIgeG1wTU06RG9jdW1lbnRJRD0iYWRvYmU6ZG9jaWQ6cGhvdG9zaG9wOjIxMGQ3MWMzLWI2MzgtMDI0ZS05YzE3LTNkMDNkNmFlMTYxOCIgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ4bXAuZGlkOjYxM2YyNTBjLWFjYWQtZjE0Ny04NzczLWQ4YWJjNTY2ODg0ZSIgcGhvdG9zaG9wOkNvbG9yTW9kZT0iMyI+IDx4bXBNTTpIaXN0b3J5PiA8cmRmOlNlcT4gPHJkZjpsaSBzdEV2dDphY3Rpb249ImNyZWF0ZWQiIHN0RXZ0Omluc3RhbmNlSUQ9InhtcC5paWQ6NjEzZjI1MGMtYWNhZC1mMTQ3LTg3NzMtZDhhYmM1NjY4ODRlIiBzdEV2dDp3aGVuPSIyMDI1LTA0LTAzVDE4OjQzOjM1KzA4OjAwIiBzdEV2dDpzb2Z0d2FyZUFnZW50PSJBZG9iZSBQaG90b3Nob3AgMjEuMCAoV2luZG93cykiLz4gPHJkZjpsaSBzdEV2dDphY3Rpb249InNhdmVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOjdhZjc2ZDZjLWIwYzktYjM0MC05ODJlLTE1ZTU3YzAyZTYzMiIgc3RFdnQ6d2hlbj0iMjAyNS0wNC0wM1QxODo0Mzo0NyswODowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIDIxLjAgKFdpbmRvd3MpIiBzdEV2dDpjaGFuZ2VkPSIvIi8+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJjb252ZXJ0ZWQiIHN0RXZ0OnBhcmFtZXRlcnM9ImZyb20gYXBwbGljYXRpb24vdm5kLmFkb2JlLnBob3Rvc2hvcCB0byBpbWFnZS9wbmciLz4gPHJkZjpsaSBzdEV2dDphY3Rpb249ImRlcml2ZWQiIHN0RXZ0OnBhcmFtZXRlcnM9ImNvbnZlcnRlZCBmcm9tIGFwcGxpY2F0aW9uL3ZuZC5hZG9iZS5waG90b3Nob3AgdG8gaW1hZ2UvcG5nIi8+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJzYXZlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDo2OWUzMmNlMy04ZmFhLTIz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
-`.trim();
-
-  const GoodsHistroy = {
-    push: function(platform, obj) {
-      var _a;
-      try {
-        const storageObj = StorageUtil.getValue(StorageKeys.history.goodsHistory, DefaultVaule.history.historyStorage);
-        const maximumRecords = StorageUtil.getValue(StorageKeys.history.maximumRecordsKey, DefaultVaule.history.records.default);
-        const histories = (_a = storageObj[platform]) != null ? _a : [];
-        if (histories.length >= maximumRecords) {
-          histories.splice(0, parseInt(maximumRecords / 5));
-        }
-        const newArr = histories.filter((item, index) => item.id != obj.id);
-        newArr.push(obj);
-        storageObj[platform] = newArr;
-        StorageUtil.setValue(StorageKeys.history.goodsHistory, storageObj);
-      } catch (e) {
-      }
-    },
-    get: function(platform, num = -1) {
-      var _a;
-      const storageObj = StorageUtil.getValue(StorageKeys.history.goodsHistory, DefaultVaule.history.historyStorage);
-      const histories = (_a = storageObj[platform]) != null ? _a : [];
-      if (num > 0) {
-        const showHistories = [];
-        for (let i = histories.length - 1; i >= 0; i--) {
-          if (showHistories.length >= num)
-            break;
-          showHistories.push(histories[i]);
-        }
-        return showHistories;
-      }
-      return histories;
-    },
-    remove: function(platform, id) {
-      const storageObj = StorageUtil.getValue(StorageKeys.history.goodsHistory, DefaultVaule.history.historyStorage);
-      const histories = storageObj[platform];
-      let newArr = histories.filter((item, index) => item.id != id);
-      storageObj[platform] = newArr;
-      StorageUtil.setValue(StorageKeys.history.goodsHistory, storageObj);
-    },
-    getGoodsByDateGroup: function(platform) {
-      const histories = this.get(platform).reverse();
-      const group = [];
-      const today = new Date();
-      const yesterday = new Date(today);
-      const format = "dd/MM";
-      yesterday.setDate(today.getDate() - 1);
-      const todayStr = this.dateFormat(today, format);
-      const yesterdayStr = this.dateFormat(yesterday, format);
-      const showDateFormat = (todayStr2, yesterdayStr2, current) => {
-        const langueFormat2 = {};
-        if (current === todayStr2) {
-          langueFormat2.str = LangueUtil.getLangueByStorageKey("history_box_hit_today");
-          langueFormat2.langueKey = "history_box_hit_today";
-        } else if (current === yesterdayStr2) {
-          langueFormat2.str = LangueUtil.getLangueByStorageKey("history_box_hit_yesterday");
-          langueFormat2.langueKey = "history_box_hit_yesterday";
-        } else {
-          langueFormat2.str = " —— " + current + " —— ";
-          langueFormat2.langueKey = "";
-        }
-        return langueFormat2;
-      };
-      let items = [], cacheDateStr = null, currentDateStr = null, langueFormat = null;
-      for (let i = 0; i < histories.length; i++) {
-        today.setTime(histories[i].date);
-        currentDateStr = this.dateFormat(today, format);
-        if (!!cacheDateStr) {
-          if (cacheDateStr != currentDateStr) {
-            langueFormat = showDateFormat(todayStr, yesterdayStr, cacheDateStr);
-            group.push({
-              "str": langueFormat.str,
-              "langueKey": langueFormat.langueKey,
-              "items": items
-            });
-            items = [];
-            cacheDateStr = currentDateStr;
-          }
-        } else {
-          cacheDateStr = currentDateStr;
-        }
-        items.push(histories[i]);
-      }
-      if (items.length != 0) {
-        langueFormat = showDateFormat(todayStr, yesterdayStr, cacheDateStr);
-        group.push({
-          "str": langueFormat.str,
-          "langueKey": langueFormat.langueKey,
-          "items": items
-        });
-      }
-      return group;
-    },
-    dateFormat: function(date, format) {
-      var showDate = {
-        "M+": date.getMonth() + 1,
-        "d+": date.getDate(),
-        "h+": date.getHours(),
-        "m+": date.getMinutes(),
-        "s+": date.getSeconds(),
-        "q+": Math.floor((date.getMonth() + 3) / 3),
-        "S+": date.getMilliseconds()
-      };
-      if (/(y+)/i.test(format)) {
-        format = format.replace(RegExp.$1, (date.getFullYear() + "").substr(4 - RegExp.$1.length));
-      }
-      for (var k in showDate) {
-        if (new RegExp("(" + k + ")").test(format)) {
-          format = format.replace(RegExp.$1, RegExp.$1.length == 1 ? showDate[k] : ("00" + showDate[k]).substr(("" + showDate[k]).length));
-        }
-      }
-      return format;
-    },
-    showOrHideHistoryBox: function(platform) {
-      const self = this;
-      const group = this.getGoodsByDateGroup(platform);
-      const contentElement = document.querySelector(".peter99032j-xyz-panel-aside-main .panel-aside-main_____content");
-      contentElement.innerHTML = "";
-      let historiesBoxHtml = "", jumpUrl = "", imgUrl = "";
-      for (let i = 0; i < group.length; i++) {
-        historiesBoxHtml += `<div class="panel-aside-main_____item">`;
-        historiesBoxHtml += `<div class="item_____title" langue-extension-text="` + group[i].langueKey + `">` + group[i].str + `</div>`;
-        historiesBoxHtml += `<div class="item_____container">`;
-        for (let j = 0; j < group[i].items.length; j++) {
-          jumpUrl = this.pretreatmentJumpUrl(group[i].items[j].url, platform);
-          imgUrl = this.pretreatmentImageUrl(group[i].items[j].pic, platform);
-          historiesBoxHtml += `
-          <div class="histories-box-review_item">
-            <a title="` + group[i].items[j].title + `" jump-tag="true" href="javascript:void(0);" jump-url="` + jumpUrl + `" target="_blank">
-              <div class="review___shadow">
-                <div class="delete_____btn" data-id="` + group[i].items[j].id + `">×</div>
-              </div>
-              <div class="review___img"><img src="` + imgUrl + `" /></div>
-              <div class="review___text">` + group[i].items[j].price + `</div>
-            </a>
-          </div>
-        `;
-        }
-        historiesBoxHtml += `</div>`;
-        historiesBoxHtml += `</div>`;
-      }
-      contentElement.innerHTML = historiesBoxHtml;
-      document.querySelectorAll(".peter99032j-xyz-panel-aside-main .delete_____btn").forEach((ele) => {
-        ele.addEventListener("click", function(e) {
-          e.stopPropagation();
-          e.preventDefault();
-          const id = this.getAttribute("data-id");
-          this.parentNode.parentNode.parentNode.remove();
-          self.remove(platform, id);
-        });
-      });
-      const items = document.querySelectorAll(".peter99032j-xyz-panel-aside-main .histories-box-review_item > a");
-      items.forEach((ele) => {
-        ele.addEventListener("mouseover", function() {
-          this.querySelector(".review___shadow").style.display = "block";
-        });
-        ele.addEventListener("mouseout", function() {
-          this.querySelector(".review___shadow").style.display = "none";
-        });
-      });
-      document.querySelectorAll(".peter99032j-xyz-panel-aside-main a[jump-tag='true']").forEach((ele) => {
-        ele.addEventListener("click", function(e) {
-          e.stopPropagation();
-          e.preventDefault();
-          const href = this.getAttribute("jump-url");
-          Tools.openInTab(Tools.decryptStr(href));
-        });
-      });
-    },
-    pretreatmentJumpUrl: function(url, platform) {
-      const realUrl = encodeURIComponent(url);
-      let jumpUrl = "https://page.mimixiaoke.com/mid/redirect?url=" + realUrl;
-      if (platform == "ebay" || platform == "bestbuy") {
-        jumpUrl = "https://www.jtmate.com/mid/redirect?url=" + realUrl;
-      }
-      return Tools.encryptStr(jumpUrl);
-    },
-    pretreatmentImageUrl: function(imgUrl, platform) {
-      let dealImgUrl = "";
-      if (platform == "aliexpress") {
-        dealImgUrl = imgUrl.replace(/_\d+x\d+\./, "_150x150.");
-      } else {
-        dealImgUrl = imgUrl;
-      }
-      return dealImgUrl;
-    },
-    createHistoryBox: function(platform) {
-      const wrapperOffset = StorageUtil.getValue(StorageKeys.history.offset, DefaultVaule.history.offsetWrapper);
-      const histories = this.get(platform, DefaultVaule.history.toolbarGoodsNum);
-      const selectedLanguage = LangueUtil.getSelectedLanguage();
-      let goodsHtml = ``, jumpUrl = "";
-      histories.forEach((h) => {
-        jumpUrl = this.pretreatmentJumpUrl(h.url, platform);
-        goodsHtml += `
-        <div class="goods-review_____item">
-          <a title="` + h.title + `" jump-tag="true" jump-url="` + jumpUrl + `" target="_blank">
-            <div class="review___shadow">
-              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAVlJREFUWEftlsGRgzAMRS26wBQTUtluKltSDKYLlJUHMY6xZMGFi7lkCObr6cuWAHfzBTfHdw2gOdAcOOXAPM+/fGwB4OGcG7f7iX4R8d113dT3fby3XCYACgwAPxZBBiKYYRh2YOldFUAKjIivNNNlWUZEJEB2ZI9HazUQEUALLgluIH95thpEESCEQCKHbADgyfXNACcAeNEzpVyT9/6Zwx0ApOD/QFFAypKEvfdR74x7XwCaOGevANIpiPXWNm1eji8ATZyzCyGgdhos63gN6eQAorhFmMugOcml3PtJmo3FukpPqO6TdCMfHLBuIKkMiUvFU5RnXwSgP6W9kG6gbQ0tpya0NxvFftsx5JJIVucWWkp4uhHVIMhKajy0jptPtLMwLy634kJm6fSrzqVa4OIpqKlSfdd1HbdRHOufTj9+3zIFLwHUAK88N30PXBG2vtMAmgPNgQ/i7v8h6Um2jAAAAABJRU5ErkJggg==" />
-            </div>
-            <img src="` + h.pic + `" />
-          </a>
-        </div>
-      `;
-      });
-      let html = `
-      <div class="peter99032j-xyz-panel-wrapper" data-re-mark-tag="` + platform + `" style="bottom:` + wrapperOffset.bottom + `px; right:` + wrapperOffset.right + `px;">
-        <div class="peter99032j-xyz-panel-aside-main" data-extension-direction="` + selectedLanguage.dir + `">
-          <div class="panel-aside-main_____inner">
-            <div class="panel-aside-main_____header">
-              <div class="logo_____header">` + historyIconSVG + `</div>
-              <div class="title_____header" langue-extension-text="history_box_title">` + LangueUtil.getLangueByStorageKey("history_box_title") + `</div>
-              <div class="btns_____header">
-                <div class="_____setting">` + settingSVG + `</div>
-                <div class="_____close">` + closeSVG + `</div>
-              </div>
-            </div>
-            <div class="panel-aside-main_____content"></div>
-          </div>
-        </div>
-        <div class="peter99032j-xyz-panel-aside-body">
-          <div class="goods_____expand">
-            <svg focusable="false" class="icon-svg" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1365" width="20" height="20"><path d="M317.84959998 926.1056a46.08 46.08 0 0 1 10.8544-29.9008L643.68639998 521.216a13.312 13.312 0 0 0 0-18.432l-3.6864-3.072L328.70399998 127.7952a46.4896 46.4896 0 0 1 71.0656-59.8016l311.0912 370.68799999a105.8816 105.8816 0 0 1 0 146.63680002l-311.0912 370.68799999a46.2848 46.2848 0 0 1-81.92-29.9008z" fill="#bfbfbf" p-id="1366"></path></svg>
-          </div>
-          <div class="goods_____review">
-            ` + goodsHtml + `
-          </div>
-          <div class="history-box_____expand">
-            ` + historyIconSVG + `
-            <label langue-extension-text="history_bar_hint">` + LangueUtil.getLangueByStorageKey("history_bar_hint") + `</label>
-          </div>
-          <div class="wrapper_____drag-handle">
-            <svg focusable="false" class="icon-svg" viewBox="0 0 24 24" data-testid="DragIndicatorIcon"><path d="M11 18c0 1.1-.9 2-2 2s-2-.9-2-2 .9-2 2-2 2 .9 2 2m-2-8c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2m0-6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2m6 4c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2m0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2m0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2" fill="#bfbfbf"></path></svg>
-          </div>
-        </div>
-      </div>
-    `;
-      document.querySelector("body").insertAdjacentHTML("afterend", html);
-      this.addEventListener(platform);
-    },
-    addDragEventListener: function() {
-      const draggable = document.querySelector(".peter99032j-xyz-panel-wrapper .wrapper_____drag-handle");
-      const wrapper = document.querySelector(".peter99032j-xyz-panel-wrapper");
-      const offsetWrapper = Object.assign({}, DefaultVaule.history.offsetWrapper);
-      let isDragging = false, startY, elementBottom;
-      let windowHeight = window.innerHeight;
-      let bottomMax = parseInt(windowHeight / 3) * 2, bottomMin = DefaultVaule.history.offsetWrapper.bottom;
-      window.addEventListener("resize", () => {
-        windowHeight = window.innerHeight;
-        bottomMax = parseInt(windowHeight / 3) * 2;
-      });
-      function onMouseUp() {
-        if (!isDragging)
-          return;
-        isDragging = false;
-        document.removeEventListener("mousemove", onMouseMove);
-        document.removeEventListener("mouseup", onMouseUp);
-        StorageUtil.setValue(StorageKeys.history.offset, offsetWrapper);
-      }
-      function onMouseMove(e) {
-        if (!isDragging)
-          return;
-        const deltaY = e.clientY - startY;
-        let newBottom = elementBottom - deltaY;
-        if (newBottom <= bottomMin) {
-          newBottom = bottomMin;
-        } else if (newBottom > bottomMax) {
-          newBottom = bottomMax;
-        }
-        wrapper.style.bottom = `${newBottom}px`;
-        offsetWrapper.bottom = newBottom;
-      }
-      draggable.addEventListener("mousedown", (e) => {
-        e.preventDefault();
-        if (window.getComputedStyle(wrapper).position !== "absolute" && window.getComputedStyle(wrapper).position !== "fixed") {
-          return;
-        }
-        isDragging = true;
-        startY = e.clientY;
-        elementBottom = parseInt(window.getComputedStyle(wrapper).bottom, DefaultVaule.history.offsetWrapper.bottom) || DefaultVaule.history.offsetWrapper.bottom;
-        document.addEventListener("mousemove", onMouseMove);
-        document.addEventListener("mouseup", onMouseUp);
-      });
-    },
-    addEventListener: function(platform) {
-      const self = this;
-      const items = document.querySelectorAll(".goods_____review >.goods-review_____item >a");
-      items.forEach((ele) => {
-        ele.addEventListener("mouseover", function() {
-          this.querySelector(".review___shadow").style.display = "block";
-        });
-        ele.addEventListener("mouseout", function() {
-          this.querySelector(".review___shadow").style.display = "none";
-        });
-      });
-      const goodsExpandEle = document.querySelector(".peter99032j-xyz-panel-wrapper .goods_____expand");
-      if (goodsExpandEle) {
-        goodsExpandEle.addEventListener("click", function() {
-          const goodsReviewEle = this.nextElementSibling;
-          const svgEle = this.querySelector("svg");
-          svgEle.style.transition = "transform 0.3s";
-          if (goodsReviewEle.style.width == "0px") {
-            goodsReviewEle.style.width = "auto";
-            svgEle.style.transform = "rotate(0deg)";
-          } else {
-            goodsReviewEle.style.width = "0px";
-            svgEle.style.transform = "rotate(180deg)";
-          }
-        });
-      }
-      const historyBoxExpandEles = [
-        document.querySelector(".peter99032j-xyz-panel-wrapper .history-box_____expand"),
-        document.querySelector(".peter99032j-xyz-panel-wrapper ._____close")
-      ];
-      const asideMainEle = document.querySelector(".peter99032j-xyz-panel-wrapper >.peter99032j-xyz-panel-aside-main");
-      if (asideMainEle) {
-        historyBoxExpandEles.forEach((ele) => {
-          if (ele) {
-            ele.addEventListener("click", function() {
-              if (!asideMainEle.style.display || asideMainEle.style.display === "none") {
-                self.showOrHideHistoryBox(platform);
-                asideMainEle.style.display = "block";
-              } else {
-                asideMainEle.style.display = "none";
-              }
-            });
-          }
-        });
-      }
-      document.body.addEventListener("click", function(e) {
-        if (asideMainEle.style.display && asideMainEle.style.display !== "none") {
-          const dialogGccMask = document.querySelector(".dialog-gcc-mask");
-          if (dialogGccMask && dialogGccMask.contains(e.target)) {
-            return;
-          }
-          asideMainEle.style.display = "none";
-        }
-      });
-      const headerSettingElement = document.querySelector(".peter99032j-xyz-panel-wrapper ._____setting");
-      if (headerSettingElement) {
-        headerSettingElement.addEventListener("click", () => {
-          Setting.showDialog(() => {
-            document.querySelector(".peter99032j-xyz-panel-aside-body .goods_____review").innerHTML = "";
-            document.querySelector(".peter99032j-xyz-panel-aside-main .panel-aside-main_____content").innerHTML = "";
-          });
-        });
-      }
-      document.querySelectorAll(".peter99032j-xyz-panel-aside-body a[jump-tag='true']").forEach((ele) => {
-        ele.addEventListener("click", function(e) {
-          e.stopPropagation();
-          e.preventDefault();
-          const href = this.getAttribute("jump-url");
-          Tools.openInTab(Tools.decryptStr(href));
-        });
-      });
-      self.addDragEventListener();
-    },
-    start: function(platform) {
-      try {
-        StyleUtil.addStyle(css_248z$4);
-        this.createHistoryBox(platform);
-      } catch (e) {
-      }
     }
   };
 
@@ -3299,13 +2225,6 @@
       const style = window.getComputedStyle(element);
       return style.display !== "none";
     },
-    getGoodsIdByUrl: function(href, suffix) {
-      if (!href)
-        return null;
-      href = href.indexOf("http") == -1 ? location.protocol + href : href;
-      const id = Tools.getParamterBySuffix(href, suffix);
-      return id;
-    },
     calcRequestGroup: function(array) {
       const itemsPerGroup = 8, len = array.length;
       let groups = [];
@@ -3317,32 +2236,10 @@
         groups[groupIndex].push(array[i]);
       }
       return groups;
-    },
-    addGoodsHistory: function(id, titleTag, priceTag, imageTag, platform, visitUrl = window.location.href) {
-      if (!platform) {
-        return;
-      }
-      Tools.waitForElementByInterval(priceTag).then((priceElement) => {
-        const titleElement = document.querySelector(titleTag);
-        const imgElement = document.querySelector(imageTag);
-        if (imgElement) {
-          var imgSrc = "";
-          if (imgElement.tagName == "IMG") {
-            imgSrc = imgElement.getAttribute("data-src") || imgElement.getAttribute("data-url") || imgElement.getAttribute("src");
-          } else if (imgElement.tagName == "SOURCE") {
-            imgSrc = imgElement.getAttribute("srcSet") || imgElement.getAttribute("src");
-          }
-          const price = priceElement ? priceElement.innerText : "Unknown";
-          const title = titleElement ? titleElement.innerText : "--";
-          const goods = { "id": id, "url": visitUrl, "pic": imgSrc, "date": new Date().getTime(), "price": price, "title": title };
-          GoodsHistroy.push(platform, goods);
-        }
-      }).catch((e) => {
-      });
     }
   };
 
-  var __async$g = (__this, __arguments, generator) => {
+  var __async$l = (__this, __arguments, generator) => {
     return new Promise((resolve, reject) => {
       var fulfilled = (value) => {
         try {
@@ -3365,7 +2262,6 @@
   const Aliexpress = {
     languageStoageKey: "language-stoage-key",
     currencyStoageKey: "language-currency-key",
-    currentPlatform: PlatformConst.aliexpress.p,
     checkDomInsertRs: true,
     getLang: function() {
       const host = window.location.host;
@@ -3413,19 +2309,19 @@
       });
     },
     detail: function() {
-      return __async$g(this, null, function* () {
+      return __async$l(this, null, function* () {
         const visitUrl = window.location.href;
         const validate = [/\/item\/[^\/]*?\.html\?/, /\/item\/[^\/]*?\.html$/].map((reg) => reg.test(visitUrl)).some((rs) => rs == true);
         if (!validate)
           return;
         const language = this.getLang();
         const currency = yield this.getCurrency();
-        const id = Tools.getParamterBySuffix(visitUrl, "html");
+        const id = Tools.getGoodsIdByLink(visitUrl);
         try {
           const params = {
             "ids": id,
             "qu": "",
-            "p": this.currentPlatform,
+            "p": SupportData.support.p,
             "lang": language,
             "mul": false,
             "currency": currency
@@ -3438,14 +2334,10 @@
           }
         } catch (e) {
         }
-        const titleTag = "h1[data-pl='product-title'], h1[class*='HazeProductDescription_HazeProductDescription__smallText_']";
-        const priceTag = "span.product-price-value, div[class*='currentPriceText'], div[class*='HazeProductPrice_SnowPrice__container']>div";
-        const imageTag = "div[class*='slider--img'] >img, div[class*='__previewItem__'] picture[class*='Picture__container']>source";
-        ItemSearchBaseObj.addGoodsHistory(id, titleTag, priceTag, imageTag, this.currentPlatform, visitUrl);
       });
     },
     detailAnalyze: function(json, language, currency) {
-      return __async$g(this, null, function* () {
+      return __async$l(this, null, function* () {
         this.checkDomInsertRs = false;
         try {
           if (!json)
@@ -3473,7 +2365,7 @@
             const params = {
               "id": id,
               "lang": language,
-              "platform": this.currentPlatform,
+              "platform": SupportData.support.p,
               "currency": currency
             };
             const reqPromise = RequestUtil.getCouponChange(params);
@@ -3557,12 +2449,9 @@
       }
     },
     trade: function() {
-      return __async$g(this, null, function* () {
+      return __async$l(this, null, function* () {
         const visitUrl = window.location.href;
-        const validate = [
-          /\/trade\/confirm\.html/,
-          /\/checkout\?/
-        ].map((reg) => reg.test(visitUrl)).some((rs) => rs == true);
+        const validate = SupportData.support.trade.map((reg) => reg.test(visitUrl)).some((rs) => rs == true);
         if (!validate)
           return;
         const language = yield GM_getValue(this.languageStoageKey, navigator.language);
@@ -3571,13 +2460,12 @@
         const params = {
           "ids": ids,
           "qu": "",
-          "p": this.currentPlatform,
+          "p": SupportData.support.p,
           "lang": language,
           "mul": true,
           "currency": currency
         };
         const res = yield RequestUtil.getCouponQuery(params);
-        Logger.log("info", "trade rq=", confirmUrl);
         if (res.code == "success" && !!res.result) {
           const json = JSON.parse(res.result);
           yield this.tradeAnalyze(json, language);
@@ -3585,7 +2473,7 @@
       });
     },
     tradeAnalyze: function(json, language) {
-      return __async$g(this, null, function* () {
+      return __async$l(this, null, function* () {
         if (!json || !json.handler || !json.css || !json.templateId) {
           return;
         }
@@ -3615,29 +2503,28 @@
         });
       });
     },
-    isRun: function() {
-      return window.location.host.indexOf("aliexpress.") != -1;
-    },
     removeAnchor: function() {
       setInterval(() => {
         const anchors = document.querySelectorAll("div[name^='ali-gogo-coupon-']");
         anchors.forEach((element) => {
           Tools.removeAnchorsByNode(element);
         });
-      }, 2500);
+      }, 3e3);
     },
     start: function() {
-      return __async$g(this, null, function* () {
-        if (this.isRun()) {
+      return __async$l(this, null, function* () {
+        const { support } = SupportData;
+        const visitUrl = window.location.href;
+        if (support.detail.test(visitUrl)) {
           this.detail();
-          this.trade();
-          this.removeAnchor();
         }
+        this.trade();
+        this.removeAnchor();
       });
     }
   };
 
-  var __async$f = (__this, __arguments, generator) => {
+  var __async$k = (__this, __arguments, generator) => {
     return new Promise((resolve, reject) => {
       var fulfilled = (value) => {
         try {
@@ -3659,15 +2546,14 @@
   };
   const AliexpressSearch = {
     loopIsComplete: true,
-    currentPlatform: PlatformConst.aliexpress.p,
     isInbusinessPage: function() {
       return /inbusiness\.aliexpress\.com\/web\/search-products/.test(ItemSearchBaseObj.visitUrl);
     },
     isItemLink: function(url) {
-      return /aliexpress/.test(url) && /\/item\/[^\/]*?\.html/.test(url);
+      return SupportData.support.detail.test(url);
     },
     pickUpWholesale: function(selectors, language, currency) {
-      return __async$f(this, null, function* () {
+      return __async$k(this, null, function* () {
         const items = [];
         try {
           selectors.forEach((elementObj) => {
@@ -3680,12 +2566,12 @@
                   const goodsLink = ItemSearchBaseObj.getGoodsLinkByElement(element, findA);
                   let id = null;
                   if (this.isItemLink(goodsLink)) {
-                    id = ItemSearchBaseObj.getGoodsIdByUrl(goodsLink.getAttribute("href"));
+                    id = Tools.getGoodsIdByLink(goodsLink.getAttribute("href"));
                   }
                   if (id) {
                     items.push({
                       "id": id,
-                      "platform": this.currentPlatform,
+                      "platform": SupportData.support.p,
                       "handler": element,
                       "findA": findA,
                       "from": "wholesale"
@@ -3703,7 +2589,7 @@
       });
     },
     pickUpInbusiness: function(language, currency) {
-      return __async$f(this, null, function* () {
+      return __async$k(this, null, function* () {
         const validate = this.isInbusinessPage();
         if (!validate)
           return;
@@ -3717,11 +2603,11 @@
               const childNodes = containerElement.childNodes;
               childNodes.forEach((child) => {
                 if (child.tagName === "A" && ItemSearchBaseObj.isElementDisplayed(child) && !child.getAttribute(ItemSearchBaseObj.searchAttribute)) {
-                  const id = ItemSearchBaseObj.getGoodsIdByUrl(child.getAttribute("href"));
+                  const id = Tools.getGoodsIdByLink(child.getAttribute("href"));
                   if (id) {
                     array.push({
                       "id": id,
-                      "platform": this.currentPlatform,
+                      "platform": SupportData.support.p,
                       "handler": child,
                       "from": "inbusiness"
                     });
@@ -3806,7 +2692,7 @@
                 }
               }
               const elementA = ItemSearchBaseObj.getGoodsLinkByElement(handler, findA);
-              const currentId = elementA ? ItemSearchBaseObj.getGoodsIdByUrl(elementA.getAttribute("href")) : "";
+              const currentId = elementA ? Tools.getGoodsIdByLink(elementA.getAttribute("href")) : "";
               if (currentId != key) {
                 group.forEach((gItem) => {
                   const ele = gItem.handler;
@@ -3891,9 +2777,10 @@
       return run;
     },
     start: function() {
-      return __async$f(this, null, function* () {
-        if (!this.isRun())
+      return __async$k(this, null, function* () {
+        if (!this.isRun()) {
           return;
+        }
         let removeTagIsComplete = true;
         const language = Aliexpress.getLang();
         const currency = yield Aliexpress.getCurrency();
@@ -3901,8 +2788,8 @@
         if (!confString) {
           return;
         }
-        const selectors = ItemSearchBaseObj.pickupGoodsItem(this.currentPlatform, confString);
-        setInterval(() => __async$f(this, null, function* () {
+        const selectors = ItemSearchBaseObj.pickupGoodsItem(SupportData.support.p, confString);
+        setInterval(() => __async$k(this, null, function* () {
           if (removeTagIsComplete && this.loopIsComplete) {
             this.loopIsComplete = false;
             yield this.pickUpInbusiness(language, currency);
@@ -3935,7 +2822,7 @@
     }
   };
 
-  var __async$e = (__this, __arguments, generator) => {
+  var __async$j = (__this, __arguments, generator) => {
     return new Promise((resolve, reject) => {
       var fulfilled = (value) => {
         try {
@@ -3956,31 +2843,15 @@
     });
   };
   const Ebay = {
-    currentPlatform: PlatformConst.ebay.p,
-    getGoodsId: function(url) {
-      const regex = /https?:\/\/www\.ebay\.[a-z.]+\/itm\/(\d+)/;
-      const match = url.match(regex);
-      return match ? match[1] : null;
-    },
-    isDetail: function() {
-      const visitUrl = window.location.href;
-      return [/https?:\/\/www\.ebay\.[a-z.]+\/itm\/\d+/].map((rs) => rs.test(visitUrl)).some((rs) => rs);
-    },
-    getMarketplace: function(url = window.location.href) {
-      return Tools.getCommonMarketplace(url);
-    },
     detail: function() {
-      return __async$e(this, null, function* () {
-        const validate = this.isDetail();
-        if (!validate)
-          return;
+      return __async$j(this, null, function* () {
         const visitUrl = window.location.href;
-        const id = this.getGoodsId(visitUrl);
+        const id = Tools.getGoodsIdByLink(visitUrl);
         const varG = Tools.getParamterBySearch(window.location.href, "var");
         if (!id) {
           return;
         }
-        const marketplace = this.getMarketplace(visitUrl);
+        const marketplace = Tools.getCommonMarketplace(visitUrl);
         var idsG = id;
         if (!!varG) {
           idsG += "@" + varG;
@@ -3989,7 +2860,7 @@
           const params = {
             "ids": idsG,
             "qu": "",
-            "p": this.currentPlatform,
+            "p": SupportData.support.p,
             "marketplace": marketplace,
             "mul": false
           };
@@ -4001,14 +2872,10 @@
           }
         } catch (e) {
         }
-        const titleTag = ".x-item-title__mainTitle";
-        const priceTag = ".x-price-primary >span";
-        const imageTag = ".ux-image-grid-item >img, .ux-image-carousel-item >img";
-        ItemSearchBaseObj.addGoodsHistory(id, titleTag, priceTag, imageTag, this.currentPlatform, visitUrl);
       });
     },
     detailAnalyze: function(json, marketplace) {
-      return __async$e(this, null, function* () {
+      return __async$j(this, null, function* () {
         let couponResult = null;
         let qrcodeResult = null;
         if (!!json.data && !!json.data.css && !!json.data.html && !!json.data.handler) {
@@ -4031,7 +2898,7 @@
           const params = {
             "id": id,
             "marketplace": marketplace,
-            "platform": this.currentPlatform
+            "platform": SupportData.support.p
           };
           const reqPromise = RequestUtil.getCouponChange(params);
           promiseResultArray.push(elementPromise, reqPromise);
@@ -4109,13 +2976,17 @@
       }
     },
     start: function() {
-      return __async$e(this, null, function* () {
-        this.detail();
+      return __async$j(this, null, function* () {
+        const { support } = SupportData;
+        const visitUrl = window.location.href;
+        if (support.detail.test(visitUrl)) {
+          this.detail();
+        }
       });
     }
   };
 
-  var __async$d = (__this, __arguments, generator) => {
+  var __async$i = (__this, __arguments, generator) => {
     return new Promise((resolve, reject) => {
       var fulfilled = (value) => {
         try {
@@ -4137,7 +3008,6 @@
   };
   const EbaySearch = {
     loopIsComplete: true,
-    currentPlatform: PlatformConst.ebay.p,
     isRun: function() {
       let run = false;
       if (window.location.host.indexOf("ebay.") != -1) {
@@ -4146,10 +3016,10 @@
       return run;
     },
     isItemLink: function(url) {
-      return /ebay/.test(url) && /\/itm\/[^\/]*?/.test(url);
+      return SupportData.support.detail.test(url);
     },
     pickUpItems: function(selectors, marketplace) {
-      return __async$d(this, null, function* () {
+      return __async$i(this, null, function* () {
         const items = [];
         try {
           selectors.forEach((elementObj) => {
@@ -4168,7 +3038,7 @@
                   let id = null, varG = null;
                   if (this.isItemLink(goodsLink)) {
                     const goodsLinkHref = goodsLink.getAttribute("href");
-                    id = ItemSearchBaseObj.getGoodsIdByUrl(goodsLinkHref);
+                    id = Tools.getGoodsIdByLink(goodsLinkHref);
                     varG = Tools.getParamterBySearch(goodsLinkHref, "var");
                   }
                   if (id) {
@@ -4176,7 +3046,7 @@
                       "id": id,
                       "varG": varG,
                       "price": price,
-                      "platform": this.currentPlatform,
+                      "platform": SupportData.support.p,
                       "handler": element,
                       "findA": findA,
                       "from": "search"
@@ -4195,7 +3065,7 @@
       });
     },
     search: function(array, marketplace) {
-      return __async$d(this, null, function* () {
+      return __async$i(this, null, function* () {
         const groups = ItemSearchBaseObj.calcRequestGroup(array);
         const len = groups.length;
         return new Promise((resolve, reject) => {
@@ -4332,16 +3202,17 @@
       });
     },
     start: function() {
-      return __async$d(this, null, function* () {
-        if (!this.isRun())
+      return __async$i(this, null, function* () {
+        if (!this.isRun()) {
           return;
-        const marketplace = Ebay.getMarketplace(window.location.href);
+        }
+        const marketplace = Tools.getCommonMarketplace(window.location.href);
         const confString = yield ItemSearchBaseObj.requestConf();
         if (!confString) {
           return;
         }
-        const selectors = ItemSearchBaseObj.pickupGoodsItem(this.currentPlatform, confString);
-        setInterval(() => __async$d(this, null, function* () {
+        const selectors = ItemSearchBaseObj.pickupGoodsItem(SupportData.support.p, confString);
+        setInterval(() => __async$i(this, null, function* () {
           if (this.loopIsComplete) {
             this.loopIsComplete = false;
             yield this.pickUpItems(selectors, marketplace);
@@ -4352,7 +3223,7 @@
     }
   };
 
-  var __async$c = (__this, __arguments, generator) => {
+  var __async$h = (__this, __arguments, generator) => {
     return new Promise((resolve, reject) => {
       var fulfilled = (value) => {
         try {
@@ -4373,16 +3244,8 @@
     });
   };
   const Lazada = {
-    visitUrl: window.location.href,
-    currentPlatform: PlatformConst.lazada.p,
-    getMarketplace: function(url = window.location.href) {
-      return Tools.getCommonMarketplace(url);
-    },
-    isRun: function() {
-      return /.*\.lazada\..*\/products\/.*-i\d+.*\.html/.test(this.visitUrl);
-    },
     detailMyMscanAnalyze: function(result) {
-      return __async$c(this, null, function* () {
+      return __async$h(this, null, function* () {
         const { id, iden, marketplace, platform, mount, html, cmd } = result;
         if (!mount || !html) {
           return;
@@ -4423,9 +3286,10 @@
       });
     },
     detail: function() {
-      return __async$c(this, null, function* () {
-        const marketplace = this.getMarketplace();
-        const ids = Tools.getParamterBySuffix(this.visitUrl);
+      return __async$h(this, null, function* () {
+        const visitUrl = window.location.href;
+        const marketplace = Tools.getCommonMarketplace(visitUrl);
+        const ids = Tools.getGoodsIdByLink(visitUrl);
         if (!ids) {
           return;
         }
@@ -4433,7 +3297,7 @@
           const params = {
             "ids": ids,
             "qu": "",
-            "p": this.currentPlatform,
+            "p": SupportData.support.p,
             "marketplace": marketplace,
             "mul": false
           };
@@ -4446,7 +3310,7 @@
                 "id": json.id,
                 "iden": iden,
                 "marketplace": marketplace,
-                "platform": this.currentPlatform,
+                "platform": SupportData.support.p,
                 "mount": mount,
                 "html": html,
                 "cmd": cmd
@@ -4460,22 +3324,20 @@
           }
         } catch (e) {
         }
-        const titleTag = ".pdp-mod-product-badge-title";
-        const priceTag = ".pdp-product-price >span";
-        const imageTag = ".gallery-preview-panel__content >img:last-child";
-        ItemSearchBaseObj.addGoodsHistory(ids, titleTag, priceTag, imageTag, this.currentPlatform, this.visitUrl);
       });
     },
     start: function() {
-      return __async$c(this, null, function* () {
-        if (this.isRun()) {
+      return __async$h(this, null, function* () {
+        const { support } = SupportData;
+        const visitUrl = window.location.href;
+        if (support.detail.test(visitUrl)) {
           this.detail();
         }
       });
     }
   };
 
-  var __async$b = (__this, __arguments, generator) => {
+  var __async$g = (__this, __arguments, generator) => {
     return new Promise((resolve, reject) => {
       var fulfilled = (value) => {
         try {
@@ -4497,7 +3359,6 @@
   };
   const LazadaSearch = {
     loopIsComplete: true,
-    currentPlatform: PlatformConst.lazada.p,
     isRun: function() {
       let run = false;
       if (window.location.host.indexOf("lazada.") != -1) {
@@ -4506,10 +3367,10 @@
       return run;
     },
     isItemLink: function(url) {
-      return /.*\.lazada\..*\/products\/.*-i\d+.*\.html/.test(url);
+      return SupportData.support.detail.test(url);
     },
     pickUpItems: function(selectors, marketplace) {
-      return __async$b(this, null, function* () {
+      return __async$g(this, null, function* () {
         const items = [];
         try {
           selectors.forEach((elementObj) => {
@@ -4523,13 +3384,13 @@
                   const price = ItemSearchBaseObj.getGoodsPrice(element.innerText);
                   let id = null;
                   if (this.isItemLink(goodsLink)) {
-                    id = ItemSearchBaseObj.getGoodsIdByUrl(goodsLink.getAttribute("href"));
+                    id = Tools.getGoodsIdByLink(goodsLink.getAttribute("href"));
                   }
                   if (id) {
                     items.push({
                       "id": id,
                       "price": price,
-                      "platform": this.currentPlatform,
+                      "platform": SupportData.support.p,
                       "handler": element,
                       "findA": findA,
                       "from": "search"
@@ -4548,7 +3409,7 @@
       });
     },
     search: function(array, marketplace) {
-      return __async$b(this, null, function* () {
+      return __async$g(this, null, function* () {
         const groups = ItemSearchBaseObj.calcRequestGroup(array);
         const len = groups.length;
         return new Promise((resolve, reject) => {
@@ -4595,6 +3456,7 @@
               return;
             }
             const json = JSON.parse(data.result);
+            Logger.log("info", "request finish json>>>>>>>>>>>>>", json);
             for (let key in json) {
               const { encryptLink, tip } = json[key];
               const { handler, findA } = group.find((obj) => obj.id === key);
@@ -4645,16 +3507,17 @@
       });
     },
     start: function() {
-      return __async$b(this, null, function* () {
-        if (!this.isRun())
+      return __async$g(this, null, function* () {
+        if (!this.isRun()) {
           return;
-        const marketplace = Lazada.getMarketplace(window.location.href);
+        }
+        const marketplace = Tools.getCommonMarketplace(window.location.href);
         const confString = yield ItemSearchBaseObj.requestConf();
         if (!confString) {
           return;
         }
-        const selectors = ItemSearchBaseObj.pickupGoodsItem(this.currentPlatform, confString);
-        setInterval(() => __async$b(this, null, function* () {
+        const selectors = ItemSearchBaseObj.pickupGoodsItem(SupportData.support.p, confString);
+        setInterval(() => __async$g(this, null, function* () {
           if (this.loopIsComplete) {
             this.loopIsComplete = false;
             yield this.pickUpItems(selectors, marketplace);
@@ -4665,7 +3528,7 @@
     }
   };
 
-  var __async$a = (__this, __arguments, generator) => {
+  var __async$f = (__this, __arguments, generator) => {
     return new Promise((resolve, reject) => {
       var fulfilled = (value) => {
         try {
@@ -4686,30 +3549,19 @@
     });
   };
   const Bestbuy = {
-    currentPlatform: PlatformConst.bestbuy.p,
-    isDetail: function() {
-      const visitUrl = window.location.href;
-      return [/www\.bestbuy\.com\/site\/.*\/\d+\.p/].map((rs) => rs.test(visitUrl)).some((rs) => rs);
-    },
-    getMarketplace: function(url = window.location.href) {
-      return Tools.getCommonMarketplace(url);
-    },
     detail: function() {
-      return __async$a(this, null, function* () {
-        const validate = this.isDetail();
-        if (!validate)
-          return;
+      return __async$f(this, null, function* () {
         const visitUrl = window.location.href;
-        const id = ItemSearchBaseObj.getGoodsIdByUrl(visitUrl, "p");
+        const id = Tools.getGoodsIdByLink(visitUrl);
         if (!id) {
           return;
         }
-        const marketplace = this.getMarketplace(visitUrl);
+        const marketplace = Tools.getCommonMarketplace(visitUrl);
         try {
           const params = {
             "ids": id,
             "qu": "",
-            "p": this.currentPlatform,
+            "p": SupportData.support.p,
             "marketplace": marketplace,
             "mul": false
           };
@@ -4721,14 +3573,10 @@
           }
         } catch (e) {
         }
-        const titleTag = ".sku-title";
-        const priceTag = ".priceView-customer-price >span";
-        const imageTag = ".thumbnail-list img";
-        ItemSearchBaseObj.addGoodsHistory(id, titleTag, priceTag, imageTag, this.currentPlatform, visitUrl);
       });
     },
     detailAnalyze: function(json, marketplace) {
-      return __async$a(this, null, function* () {
+      return __async$f(this, null, function* () {
         let couponResult = null;
         let qrcodeResult = null;
         if (!!json.data && !!json.data.css && !!json.data.html && !!json.data.handler) {
@@ -4747,7 +3595,7 @@
           const params = {
             "id": id,
             "marketplace": marketplace,
-            "platform": this.currentPlatform
+            "platform": SupportData.support.p
           };
           const reqPromise = RequestUtil.getCouponChange(params);
           promiseResultArray.push(elementPromise, reqPromise);
@@ -4813,13 +3661,17 @@
       }
     },
     start: function() {
-      return __async$a(this, null, function* () {
-        this.detail();
+      return __async$f(this, null, function* () {
+        const { support } = SupportData;
+        const visitUrl = window.location.href;
+        if (support.detail.test(visitUrl)) {
+          this.detail();
+        }
       });
     }
   };
 
-  var __async$9 = (__this, __arguments, generator) => {
+  var __async$e = (__this, __arguments, generator) => {
     return new Promise((resolve, reject) => {
       var fulfilled = (value) => {
         try {
@@ -4841,15 +3693,8 @@
   };
   const BestbuySearch = {
     loopIsComplete: true,
-    currentPlatform: PlatformConst.bestbuy.p,
-    isRun: function() {
-      return /https:\/\/www\.bestbuy\.com\/site\/searchpage\.jsp/.test(window.location.href);
-    },
-    isItemLink: function(url) {
-      return /\/site\/.*\/\d+\.p/.test(url);
-    },
     pickUpItems: function(selectors, marketplace) {
-      return __async$9(this, null, function* () {
+      return __async$e(this, null, function* () {
         const items = [];
         try {
           selectors.forEach((elementObj) => {
@@ -4861,20 +3706,20 @@
                 if (element && ItemSearchBaseObj.isElementDisplayed(element) && !element.getAttribute(ItemSearchBaseObj.searchAttribute)) {
                   const goodsLink = ItemSearchBaseObj.getGoodsLinkByElement(element, findA);
                   const priceQuery = [
-                    "div[id*='pricing-price-']"
+                    "div.pricing"
                   ].join(",");
                   const price = ItemSearchBaseObj.getGoodsPrice(
                     ItemSearchBaseObj.getGoodsPriceByElement(element, priceQuery)
                   );
                   let id = null;
                   if (this.isItemLink(goodsLink)) {
-                    id = ItemSearchBaseObj.getGoodsIdByUrl(goodsLink.getAttribute("href"), "p");
+                    id = Tools.getGoodsIdByLink(goodsLink.getAttribute("href"));
                   }
                   if (id) {
                     items.push({
                       "id": id,
                       "price": price,
-                      "platform": this.currentPlatform,
+                      "platform": SupportData.support.p,
                       "handler": element,
                       "findA": findA,
                       "from": "search"
@@ -4893,7 +3738,7 @@
       });
     },
     search: function(array, marketplace) {
-      return __async$9(this, null, function* () {
+      return __async$e(this, null, function* () {
         const groups = ItemSearchBaseObj.calcRequestGroup(array);
         const len = groups.length;
         return new Promise((resolve, reject) => {
@@ -5025,17 +3870,24 @@
         }
       });
     },
+    isItemLink: function(url) {
+      return SupportData.support.detail.test(url);
+    },
+    isRun: function() {
+      return /https:\/\/www\.bestbuy\.com\/site\/searchpage\.jsp/.test(window.location.href);
+    },
     start: function() {
-      return __async$9(this, null, function* () {
-        if (!this.isRun())
+      return __async$e(this, null, function* () {
+        if (!this.isRun()) {
           return;
-        const marketplace = Bestbuy.getMarketplace(window.location.href);
+        }
+        const marketplace = Tools.getCommonMarketplace(window.location.href);
         const confString = yield ItemSearchBaseObj.requestConf();
         if (!confString) {
           return;
         }
-        const selectors = ItemSearchBaseObj.pickupGoodsItem(this.currentPlatform, confString);
-        setInterval(() => __async$9(this, null, function* () {
+        const selectors = ItemSearchBaseObj.pickupGoodsItem(SupportData.support.p, confString);
+        setInterval(() => __async$e(this, null, function* () {
           if (this.loopIsComplete) {
             this.loopIsComplete = false;
             yield this.pickUpItems(selectors, marketplace);
@@ -5046,7 +3898,7 @@
     }
   };
 
-  var __async$8 = (__this, __arguments, generator) => {
+  var __async$d = (__this, __arguments, generator) => {
     return new Promise((resolve, reject) => {
       var fulfilled = (value) => {
         try {
@@ -5067,21 +3919,6 @@
     });
   };
   const Banggood = {
-    currentPlatform: PlatformConst.banggood.p,
-    getGoodsId: function(url) {
-      if (url.indexOf("?") != -1) {
-        url = url.split("?")[0];
-      }
-      if (url.indexOf("#") != -1) {
-        url = url.split("#")[0];
-      }
-      let regex = new RegExp("-p-(\\d+)\\.html");
-      const match = url.match(regex);
-      return match ? match[1] : null;
-    },
-    isDetail: function(url) {
-      return /.*\.banggood\.com\/.*-p-\d+\.html/.test(url);
-    },
     getLang: function() {
       return document.querySelector("html").getAttribute("lang") || "";
     },
@@ -5106,12 +3943,9 @@
       return marketplace ? marketplace : "com";
     },
     detail: function() {
-      return __async$8(this, null, function* () {
+      return __async$d(this, null, function* () {
         const visitUrl = window.location.href;
-        const validate = this.isDetail(visitUrl);
-        if (!validate)
-          return;
-        const id = this.getGoodsId(visitUrl);
+        const id = Tools.getGoodsIdByLink(visitUrl);
         if (!id) {
           return;
         }
@@ -5122,7 +3956,7 @@
           const params = {
             "ids": id,
             "qu": "",
-            "p": this.currentPlatform,
+            "p": SupportData.support.p,
             "marketplace": marketplace,
             "mul": false,
             "currency": currency,
@@ -5136,14 +3970,10 @@
           }
         } catch (e) {
         }
-        const titleTag = ".product-title-text";
-        const priceTag = ".newbie-price";
-        const imageTag = "a.p-img >img";
-        ItemSearchBaseObj.addGoodsHistory(id, titleTag, priceTag, imageTag, this.currentPlatform, visitUrl);
       });
     },
     detailAnalyze: function(json, marketplace) {
-      return __async$8(this, null, function* () {
+      return __async$d(this, null, function* () {
         let couponResult = null;
         let qrcodeResult = null;
         if (!!json.data && !!json.data.css && !!json.data.html && !!json.data.handler) {
@@ -5166,7 +3996,7 @@
           const params = {
             "id": id,
             "marketplace": marketplace,
-            "platform": this.currentPlatform
+            "platform": SupportData.support.p
           };
           const reqPromise = RequestUtil.getCouponChange(params);
           promiseResultArray.push(elementPromise, reqPromise);
@@ -5244,13 +4074,17 @@
       }
     },
     start: function() {
-      return __async$8(this, null, function* () {
-        this.detail();
+      return __async$d(this, null, function* () {
+        const { support } = SupportData;
+        const visitUrl = window.location.href;
+        if (support.detail.test(visitUrl)) {
+          this.detail();
+        }
       });
     }
   };
 
-  var __async$7 = (__this, __arguments, generator) => {
+  var __async$c = (__this, __arguments, generator) => {
     return new Promise((resolve, reject) => {
       var fulfilled = (value) => {
         try {
@@ -5272,12 +4106,8 @@
   };
   const BanggoodSearch = {
     loopIsComplete: true,
-    currentPlatform: PlatformConst.banggood.p,
-    isRun: function() {
-      return !Banggood.isDetail(window.location.href);
-    },
     pickUpItems: function(selectors, marketplace, lang, currency) {
-      return __async$7(this, null, function* () {
+      return __async$c(this, null, function* () {
         const items = [];
         try {
           selectors.forEach((elementObj) => {
@@ -5291,15 +4121,15 @@
                   const priceQuery = ["span.price"].join(",");
                   const price = ItemSearchBaseObj.getGoodsPriceByElement(element, priceQuery);
                   let id = null;
-                  if (Banggood.isDetail(goodsLink)) {
+                  if (SupportData.support.detail.test(goodsLink)) {
                     const goodsLinkHref = goodsLink.getAttribute("href");
-                    id = Banggood.getGoodsId(goodsLinkHref);
+                    id = Tools.getGoodsIdByLink(goodsLinkHref);
                   }
                   if (id) {
                     items.push({
                       "id": id,
                       "price": price,
-                      "platform": this.currentPlatform,
+                      "platform": SupportData.support.p,
                       "handler": element,
                       "findA": findA,
                       "from": "search"
@@ -5318,7 +4148,7 @@
       });
     },
     search: function(array, marketplace, lang, currency) {
-      return __async$7(this, null, function* () {
+      return __async$c(this, null, function* () {
         const groups = ItemSearchBaseObj.calcRequestGroup(array);
         const len = groups.length;
         return new Promise((resolve, reject) => {
@@ -5418,7 +4248,7 @@
       }
       elements.forEach((elementA) => {
         const href = elementA.getAttribute("href");
-        if (Banggood.isDetail(href)) {
+        if (SupportData.support.detail.test(href)) {
           if (elementA.getAttribute(clickTipAttribute)) {
             return;
           }
@@ -5429,7 +4259,7 @@
             const tagName = target.tagName.toUpperCase();
             if (tagName == "A") {
               const href2 = target.getAttribute("href");
-              if (!Banggood.isDetail(href2)) {
+              if (!SupportData.support.detail.test(href2)) {
                 isPreventDefault = false;
               }
             }
@@ -5442,18 +4272,23 @@
         }
       });
     },
+    isRun: function(support) {
+      return !support.detail.test(window.location.href);
+    },
     start: function() {
-      return __async$7(this, null, function* () {
-        if (!this.isRun())
+      return __async$c(this, null, function* () {
+        const { support } = SupportData;
+        if (!this.isRun(support)) {
           return;
+        }
         const marketplace = Banggood.getMarketplace(window.location.href);
         const lang = Banggood.getLang();
         const confString = yield ItemSearchBaseObj.requestConf();
         if (!confString) {
           return;
         }
-        const selectors = ItemSearchBaseObj.pickupGoodsItem(this.currentPlatform, confString);
-        setInterval(() => __async$7(this, null, function* () {
+        const selectors = ItemSearchBaseObj.pickupGoodsItem(SupportData.support.p, confString);
+        setInterval(() => __async$c(this, null, function* () {
           if (this.loopIsComplete) {
             this.loopIsComplete = false;
             const currency = Banggood.getCurrency();
@@ -5462,54 +4297,6 @@
           }
         }), 1700);
       });
-    }
-  };
-
-  const Wish = {
-    getMarketplace: function(url = window.location.href) {
-      return Tools.getCommonMarketplace(url);
-    }
-  };
-
-  const Airbaltic = {
-    getMarketplace: function(url = window.location.href) {
-      return Tools.getCommonMarketplace(url);
-    }
-  };
-
-  const Edureka = {
-    getMarketplace: function(url = window.location.href) {
-      return Tools.getCommonMarketplace(url);
-    }
-  };
-
-  const Ranavat = {
-    getMarketplace: function(url = window.location.href) {
-      return Tools.getCommonMarketplace(url);
-    }
-  };
-
-  const Temu = {
-    getMarketplace: function(url = window.location.href) {
-      return Tools.getCommonMarketplace(url);
-    }
-  };
-
-  const Amazon = {
-    getMarketplace: function(url = window.location.href) {
-      return Tools.getCommonMarketplace(url);
-    }
-  };
-
-  const Shopee = {
-    getMarketplace: function(url = window.location.href) {
-      return Tools.getCommonMarketplace(url);
-    }
-  };
-
-  const Shein = {
-    getMarketplace: function(url = window.location.href) {
-      return Tools.getCommonMarketplace(url);
     }
   };
 
@@ -5533,38 +4320,506 @@
     Banggood: {
       Banggood,
       BanggoodSearch
-    },
-    Wish: {
-      Wish
-    },
-    Airbaltic: {
-      Airbaltic
-    },
-    Edureka: {
-      Edureka
-    },
-    Ranavat: {
-      Ranavat
-    },
-    Amazon: {
-      Amazon
-    },
-    Temu: {
-      Temu
-    },
-    Shopee: {
-      Shopee
-    },
-    Shein: {
-      Shein
     }
   };
 
-  var css_248z$1 = ".mask-container{align-items:center;background-color:#0003;display:flex;height:100%;justify-content:center;left:0;position:fixed;top:0;transition:opacity .3s ease,visibility .3s ease;width:100%;z-index:2147483647}.modal-content{box-shadow:1px -3px 6px 0 #0003;max-height:450px;max-width:450px;width:90%}.coupon-list-widget-conent,.modal-content{background-color:#fff;border-radius:6px;display:flex;flex-direction:column;overflow:hidden}.coupon-list-widget-conent{border:1px solid #ebebeb;box-shadow:1px 1px 2px #b6bdc5;height:500px;max-height:85%;position:fixed;right:10px;top:10px;width:350px;z-index:2147483646}.coupon-list-widget-conent .modal-header,.modal-content .modal-header{align-items:center;background:var(--color-modeal-header-background);border-bottom:1px solid #ebe6e6;box-sizing:border-box;display:flex;height:var(--size-height-modeal-header);justify-content:space-between;padding:0 var(--size-padding-horizontal-modeal-header);width:100%}.modal-header .logo>img{width:50px}.coupon-list-widget-conent .logo,.modal-header .logo{align-items:center;display:flex;justify-content:center}.coupon-list-widget-conent .title{flex:1;font-size:var(--size-font-modeal-header-title);font-weight:700;padding-left:10px}.modal-header .btns{display:flex;flex-direction:row}.modal-header .btns .close,.modal-header .btns .setting{align-items:center;cursor:pointer;display:flex;justify-content:center;width:var(--size-height-modeal-operat-icon)}.modal-header svg.icon-svg path{fill:var(--color-modeal-header-icon)}.modal-header svg.icon-svg:hover path{fill:var(--color-modeal-header-icon-hover)}.coupon-list-widget-conent .modal-body{background:var(--color-modeal-content-background);flex:1;overflow-y:auto;position:relative;width:100%}.deal-description-warpper{margin:20px auto;text-align:center}.deal-description-warpper>.title{color:#000;font-size:18px;font-weight:800;margin-bottom:5px}.deal-description-warpper>.sub-title{color:#9f9f9f;font-size:14px}.deal-coupons-warpper{display:flex;mask-image:linear-gradient(90deg,#0000,#000 5%,#000 95%,#0000);-webkit-mask-image:linear-gradient(90deg,#0000,#000 5%,#000 95%,#0000);overflow:hidden;padding:10px 20px;position:relative;scroll-behavior:smooth}.deal-coupons-warpper .coupon-item{background-color:#f6f7ff;border:1px dashed #8096f8;border-radius:4px;color:#ccc;display:inline-block;flex:none;font-size:15px;font-weight:700;margin:5px;padding:5px 10px;white-space:nowrap}.deal-coupons-warpper .coupon-item-active{color:#005cf6!important}.deal-coupons-warpper .coupon-item-lose{text-decoration:line-through!important;text-decoration-thickness:2px!important}.deal-progress-warpper{margin-top:20px}.deal-progress-warpper .progress-container{background-color:#f3f3f3;border-radius:25px;box-shadow:0 2px 4px #0003;margin:0 auto;overflow:hidden;width:100%}.deal-progress-warpper .progress-bar{background-color:#4caf50;color:#fff;font-weight:700;height:8px;line-height:8px;text-align:center;transition:width .5s ease-in-out;width:50%}.widget{cursor:pointer;display:flex;flex-direction:row;position:fixed;right:0;transform:translateX(15px);transition:transform .3s ease;z-index:2147483646}.widget:hover{transform:translateX(0)}.slide-in{animation:slide-in .5s forwards;-webkit-animation:slide-in .5s forwards}.slide-out{animation:slide-out .5s forwards;-webkit-animation:slide-out .5s forwards}.widget .content{border-radius:10px 0 0 10px;direction:ltr!important;display:flex;flex-direction:row}.widget .content .logo{background-color:#ff7227;background-image:url(@logo@);background-position:50%;background-repeat:no-repeat;background-size:40px 40px;border-radius:6px 0 0 6px;box-shadow:0 0 10px #00000040;height:40px;width:40px}.widget .content .notification{background-color:#000;border-radius:50%;color:#fff;font-size:10px;font-weight:600;height:20px;left:-5px;position:absolute;top:-5px;width:20px}.widget .content .drag{background:#0000 linear-gradient(270deg,#fb6d56,#ec6751 59%,#e1624d) 0 0 no-repeat padding-box;cursor:move;height:40px;width:15px}.widget .content .drag img{width:6px!important}.all-center{align-items:center;display:flex;justify-content:center}.pulse-reveal{animation:pulse-reveal 2s ease;animation-iteration-count:10}";
+  var css_248z$5 = ".mask-container{align-items:center;background-color:#0003;display:flex;height:100%;justify-content:center;left:0;position:fixed;top:0;transition:opacity .3s ease,visibility .3s ease;width:100%;z-index:2147483647}.modal-content{box-shadow:1px -3px 6px 0 #0003;max-height:450px;max-width:450px;width:90%}.coupon-list-widget-conent,.modal-content{background-color:#fff;border-radius:6px;display:flex;flex-direction:column;overflow:hidden}.coupon-list-widget-conent{border:1px solid #ebebeb;box-shadow:0 4px 16px #0a164666;height:500px;max-height:85%;position:fixed;right:10px;top:10px;width:350px;z-index:2147483646}.coupon-list-widget-conent .modal-header,.modal-content .modal-header{align-items:center;background:var(--color-modeal-header-background);border-bottom:1px solid #ebe6e6;box-sizing:border-box;display:flex;height:var(--size-height-modeal-header);justify-content:space-between;padding:0 var(--size-padding-horizontal-modeal-header);width:100%}.modal-header .logo>img{width:50px}.coupon-list-widget-conent .logo,.modal-header .logo{align-items:center;display:flex;justify-content:center}.coupon-list-widget-conent .title{flex:1;font-size:var(--size-font-modeal-header-title);font-weight:700;padding-left:10px}.modal-header .btns{display:flex;flex-direction:row}.modal-header .btns .close,.modal-header .btns .setting{align-items:center;cursor:pointer;display:flex;justify-content:center;width:var(--size-height-modeal-operat-icon)}.modal-header svg.icon-i87i-svg path{fill:var(--color-modeal-header-icon)!important}.modal-header svg.icon-i87i-svg:hover path{fill:var(--color-modeal-header-icon-hover)!important}.coupon-list-widget-conent .modal-body{background:var(--color-modeal-content-background);flex:1;overflow-y:auto;position:relative;width:100%}.deal-description-warpper{margin:20px auto;text-align:center}.deal-description-warpper>.title{color:#000;font-size:18px;font-weight:800;margin-bottom:5px}.deal-description-warpper>.sub-title{color:#9f9f9f;font-size:14px}.deal-coupons-warpper{display:flex;mask-image:linear-gradient(90deg,#0000,#000 5%,#000 95%,#0000);-webkit-mask-image:linear-gradient(90deg,#0000,#000 5%,#000 95%,#0000);overflow:hidden;padding:10px 20px;position:relative;scroll-behavior:smooth}.deal-coupons-warpper .coupon-item{background-color:#f6f7ff;border:1px dashed #8096f8;border-radius:4px;color:#ccc;display:inline-block;flex:none;font-size:15px;font-weight:700;margin:5px;padding:5px 10px;white-space:nowrap}.deal-coupons-warpper .coupon-item-active{color:#005cf6!important}.deal-coupons-warpper .coupon-item-lose{text-decoration:line-through!important;text-decoration-thickness:2px!important}.deal-progress-warpper{margin-top:20px}.deal-progress-warpper .progress-container{background-color:#f3f3f3;border-radius:25px;box-shadow:0 2px 4px #0003;margin:0 auto;overflow:hidden;width:100%}.deal-progress-warpper .progress-bar{background-color:#4caf50;color:#fff;font-weight:700;height:8px;line-height:8px;text-align:center;transition:width .5s ease-in-out;width:50%}.widget{cursor:pointer;display:flex;flex-direction:row;position:fixed;right:0;transform:translateX(15px);transition:transform .3s ease;z-index:2147483646}.widget:hover{transform:translateX(0)}.widget .content{border-radius:10px 0 0 10px;direction:ltr!important;display:flex;flex-direction:row}.widget .content .logo{background-color:#ff7227;background-image:url(@logo@);background-position:50%;background-repeat:no-repeat;background-size:40px 40px;border-radius:6px 0 0 6px;box-shadow:0 0 10px #00000040;height:40px;width:40px}.widget .content .notification{background-color:#000;border-radius:50%;color:#fff;font-size:10px;font-weight:600;height:20px;left:-5px;position:absolute;top:-5px;width:20px}.widget .content .drag{background:#0000 linear-gradient(270deg,#fb6d56,#ec6751 59%,#e1624d) 0 0 no-repeat padding-box;cursor:move;height:40px;width:15px}.widget .content .drag img{width:6px!important}.all-center{align-items:center;display:flex;justify-content:center}.pulse-reveal{animation:pulse-reveal 2s ease;animation-iteration-count:10}";
 
-  var css_248z = ".request-state{left:50%;position:absolute;top:50%;transform:translate(-50%,-50%)}.loading{perspective:200px;position:relative;width:50px}.loading:after,.loading:before{animation:scriptJumping .5s infinite alternate;background:#0000;content:\"\";height:20px;position:absolute;width:20px}.loading:before{left:0}.loading:after{animation-delay:.15s;right:0}@keyframes scriptJumping{0%{transform:scale(1) translateY(0) rotateX(0deg)}to{background:#000;transform:scale(1.2) translateY(-25px) rotateX(45deg)}}.loading-error-image{text-align:center}.loading-error-image,.loading-error-retry{align-items:center;display:flex;justify-content:center}.loading-error-retry{border:4px solid #ccc;border-radius:50px;cursor:pointer;height:40px;margin:20px auto;width:140px}";
+  var css_248z$4 = ".request-state{left:50%;position:absolute;top:50%;transform:translate(-50%,-50%)}.loading{perspective:200px;position:relative;width:50px}.loading:after,.loading:before{animation:scriptJumping .5s infinite alternate;background:#0000;content:\"\";height:20px;position:absolute;width:20px}.loading:before{left:0}.loading:after{animation-delay:.15s;right:0}@keyframes scriptJumping{0%{transform:scale(1) translateY(0) rotateX(0deg)}to{background:#000;transform:scale(1.2) translateY(-25px) rotateX(45deg)}}.loading-error-image{text-align:center}.loading-error-image,.loading-error-retry{align-items:center;display:flex;justify-content:center}.loading-error-retry{border:4px solid #ccc;border-radius:50px;cursor:pointer;height:40px;margin:20px auto;width:140px}";
 
-  var __async$6 = (__this, __arguments, generator) => {
+  var css_248z$3 = "[data-extension-direction=rtl]{direction:rtl!important}";
+
+  const settingSVG = `
+  <svg style="height:30px;width:30px;" class="icon-i87i-svg" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1770" width="30" height="30"><path d="M811.04 468.728a39.72 39.72 0 0 0-27.672-30.36l-10.2-2.28a100.872 100.872 0 0 1-68.856-120.24l3.12-9.552a41.592 41.592 0 0 0-11.424-40.368 281.64 281.64 0 0 0-36.816-24.336c-12.36-7.2-25.224-13.536-38.496-18.912a41.592 41.592 0 0 0-41.592 9.984l-7.08 7.488a100.248 100.248 0 0 1-69.264 27.456 100.464 100.464 0 0 1-68.64-27.672l-6.864-7.272a41.592 41.592 0 0 0-41.592-9.984 294.96 294.96 0 0 0-37.848 18.912c-12.696 7.152-24.792 15.288-36.192 24.336a41.592 41.592 0 0 0-10.824 40.368l2.904 9.552a101.088 101.088 0 0 1-10.8 74.064 96.72 96.72 0 0 1-57.408 45.552l-9.792 2.28a35.352 35.352 0 0 0-26.616 28.488c-1.872 14.352-2.64 28.8-2.28 43.272-0.408 14.736 0.36 29.472 2.28 44.088a39.936 39.936 0 0 0 25.8 31.2l9.552 2.304a99 99 0 0 1 57.624 46.992c12.984 22.392 16.848 48.912 10.8 74.064l-2.064 9.36a41.592 41.592 0 0 0 11.856 40.344c11.136 9.072 22.968 17.28 35.352 24.552 12.312 7.488 25.176 14.016 38.496 19.536 14.64 4.608 30.624 0.768 41.592-9.984l6.648-7.272a101.088 101.088 0 0 1 139.152 0l6.672 7.272a41.592 41.592 0 0 0 41.592 9.984 295.152 295.152 0 0 0 37.224-19.536 271.848 271.848 0 0 0 36.624-24.336c10.944-10.32 15.48-25.752 11.856-40.368l-2.928-9.768a100.872 100.872 0 0 1 69.48-120l9.576-2.304a39.72 39.72 0 0 0 27.648-30.36c1.68-14.376 2.232-28.824 1.68-43.272a291.192 291.192 0 0 0-2.304-43.272z m-307.44 190.944a147.672 147.672 0 1 1 0-295.344 147.672 147.672 0 0 1 0 295.344z" fill="#8a8a8a" p-id="1771"></path></svg>
+`.trim();
+  const closeSVG = `
+  <svg style="height:30px;width:30px;" class="icon-i87i-svg" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1609" width="30" height="30"><path d="M673.5644448 281.66826667L512 447.82933333 351.16373333 281.71377813a44.6464 44.6464 0 0 0-63.6700448-0.50062293 46.1027552 46.1027552 0 0 0-0.50062186 64.6712896L447.82933333 512l-160.83626666 165.84248853c-17.52177813 18.06791147-17.29422187 46.8764448 0.50062186 64.6712896a44.69191147 44.69191147 0 0 0 63.71555627-0.45511146L512 576.17066667l161.5644448 165.93351146a44.78293333 44.78293333 0 0 0 63.7155552 0.4096 45.96622187 45.96622187 0 0 0 0.45511147-64.62577813L576.17066667 512l161.5644448-166.16106667a46.01173333 46.01173333 0 0 0-0.45511147-64.62577813 44.73742187 44.73742187 0 0 0-63.7155552 0.45511147z" fill="#5D6E7F" p-id="1610"></path></svg>
+`.trim();
+  const historyIconSVG = `
+  <svg t="1736495784741" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2656" width="48" height="48"><path d="M539.7171875 536.1734375m-280.63125 0a280.63125 280.63125 0 1 0 561.2625 0 280.63125 280.63125 0 1 0-561.2625 0Z" fill="#56E5BE" p-id="2657"></path><path d="M567.940625 564.3546875m-252.45 0a252.45 252.45 0 1 0 504.9 0 252.45 252.45 0 1 0-504.9 0Z" fill="#50DDB8" p-id="2658"></path><path d="M596.7546875 584.9421875m-219.5015625 0a219.5015625 219.5015625 0 1 0 439.003125 0 219.5015625 219.5015625 0 1 0-439.003125 0Z" fill="#42D3AD" p-id="2659"></path><path d="M512.590625 165.1765625c-13.9640625 0-25.3125 11.3484375-25.3125 25.3125s11.3484375 25.3125 25.3125 25.3125c162.253125 0 294.2578125 132.0046875 294.2578125 294.2578125s-132.0046875 294.2578125-294.2578125 294.2578125S218.3328125 672.3125 218.3328125 510.059375c0-88.171875 38.6015625-169.7625 104.9203125-225.28125v55.6453125c0 13.9640625 11.3484375 25.3125 25.3125 25.3125s25.3125-11.3484375 25.3125-25.3125V219.640625c0-13.9640625-11.3484375-25.3125-25.3125-25.3125h-115.59375c-13.9640625 0-25.3125 11.3484375-25.3125 25.3125s11.3484375 25.3125 25.3125 25.3125h58.978125C213.4390625 310.0484375 167.7078125 406.1515625 167.7078125 510.059375c0 190.18125 154.7015625 344.8828125 344.8828125 344.8828125s344.8828125-154.7015625 344.8828125-344.8828125-154.74375-344.8828125-344.8828125-344.8828125z" fill="#515151" p-id="2660"></path><path d="M617.6796875 579.7109375H474.36875c-13.9640625 0-25.3125-11.3484375-25.3125-25.3125V423.9546875c0-13.9640625 11.3484375-25.3125 25.3125-25.3125s25.3125 11.3484375 25.3125 25.3125v105.13125h117.9984375c13.9640625 0 25.3125 11.3484375 25.3125 25.3125s-11.3484375 25.3125-25.3125 25.3125z" fill="#515151" p-id="2661"></path></svg>
+`.trim();
+  const alertErrorIconSVG = `
+  <svg t="1750318981890" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="7681" width="45" height="45"><path d="M736 336zM336 736h-0.01 0.02-0.01zM688 736h0.01-0.01zM736 688z" fill="#666666" p-id="7682"></path><path d="M512 64C264.58 64 64 264.58 64 512s200.58 448 448 448 448-200.57 448-448S759.42 64 512 64z m220.62 346.18L472.4 670.39a40 40 0 0 1-56.57 0L291.38 545.94a40 40 0 0 1 0-56.57 40 40 0 0 1 56.57 0l96.17 96.17 231.93-231.93a40 40 0 0 1 56.57 0 40 40 0 0 1 0 56.57z" fill="#999999" p-id="7683"></path><path d="M732.62 353.61a40 40 0 0 0-56.57 0L444.12 585.54 348 489.37a40 40 0 0 0-56.57 0 40 40 0 0 0 0 56.57l124.4 124.45a40 40 0 0 0 56.57 0l260.22-260.21a40 40 0 0 0 0-56.57z" fill="#FFFFFF" p-id="7684"></path></svg>
+`.trim();
+  const alertSuccessIconSVG = `
+  <svg t="1750318938251" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="7517" width="45" height="45"><path d="M511.950005 512.049995m-447.956254 0a447.956254 447.956254 0 1 0 895.912508 0 447.956254 447.956254 0 1 0-895.912508 0Z" fill="#20B759" p-id="7518"></path><path d="M458.95518 649.636559L289.271751 479.95313c-11.698858-11.698858-30.697002-11.698858-42.39586 0s-11.698858 30.697002 0 42.395859l169.683429 169.68343c11.698858 11.698858 30.697002 11.698858 42.39586 0 11.798848-11.598867 11.798848-30.597012 0-42.39586z" fill="#FFFFFF" p-id="7519"></path><path d="M777.62406 332.267552c-11.698858-11.698858-30.697002-11.698858-42.39586 0L424.158578 643.437164c-11.698858 11.698858-11.698858 30.697002 0 42.39586s30.697002 11.698858 42.39586 0l311.069622-311.069622c11.798848-11.798848 11.798848-30.796992 0-42.49585z" fill="#FFFFFF" p-id="7520"></path></svg>
+`.trim();
+  const logoBase64 = `
+  data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAJJWlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDggNzkuMTY0MDM2LCAyMDE5LzA4LzEzLTAxOjA2OjU3ICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0RXZ0PSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VFdmVudCMiIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczpwaG90b3Nob3A9Imh0dHA6Ly9ucy5hZG9iZS5jb20vcGhvdG9zaG9wLzEuMC8iIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDIxLjAgKFdpbmRvd3MpIiB4bXA6Q3JlYXRlRGF0ZT0iMjAyNS0wNC0wM1QxODo0MzozNSswODowMCIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAyNS0wNC0wM1QxODo0Mzo0NyswODowMCIgeG1wOk1vZGlmeURhdGU9IjIwMjUtMDQtMDNUMTg6NDM6NDcrMDg6MDAiIGRjOmZvcm1hdD0iaW1hZ2UvcG5nIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjY5ZTMyY2UzLThmYWEtMjM0NC1iODM4LTA1YWRhMzI5YWViYSIgeG1wTU06RG9jdW1lbnRJRD0iYWRvYmU6ZG9jaWQ6cGhvdG9zaG9wOjIxMGQ3MWMzLWI2MzgtMDI0ZS05YzE3LTNkMDNkNmFlMTYxOCIgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ4bXAuZGlkOjYxM2YyNTBjLWFjYWQtZjE0Ny04NzczLWQ4YWJjNTY2ODg0ZSIgcGhvdG9zaG9wOkNvbG9yTW9kZT0iMyI+IDx4bXBNTTpIaXN0b3J5PiA8cmRmOlNlcT4gPHJkZjpsaSBzdEV2dDphY3Rpb249ImNyZWF0ZWQiIHN0RXZ0Omluc3RhbmNlSUQ9InhtcC5paWQ6NjEzZjI1MGMtYWNhZC1mMTQ3LTg3NzMtZDhhYmM1NjY4ODRlIiBzdEV2dDp3aGVuPSIyMDI1LTA0LTAzVDE4OjQzOjM1KzA4OjAwIiBzdEV2dDpzb2Z0d2FyZUFnZW50PSJBZG9iZSBQaG90b3Nob3AgMjEuMCAoV2luZG93cykiLz4gPHJkZjpsaSBzdEV2dDphY3Rpb249InNhdmVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOjdhZjc2ZDZjLWIwYzktYjM0MC05ODJlLTE1ZTU3YzAyZTYzMiIgc3RFdnQ6d2hlbj0iMjAyNS0wNC0wM1QxODo0Mzo0NyswODowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIDIxLjAgKFdpbmRvd3MpIiBzdEV2dDpjaGFuZ2VkPSIvIi8+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJjb252ZXJ0ZWQiIHN0RXZ0OnBhcmFtZXRlcnM9ImZyb20gYXBwbGljYXRpb24vdm5kLmFkb2JlLnBob3Rvc2hvcCB0byBpbWFnZS9wbmciLz4gPHJkZjpsaSBzdEV2dDphY3Rpb249ImRlcml2ZWQiIHN0RXZ0OnBhcmFtZXRlcnM9ImNvbnZlcnRlZCBmcm9tIGFwcGxpY2F0aW9uL3ZuZC5hZG9iZS5waG90b3Nob3AgdG8gaW1hZ2UvcG5nIi8+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJzYXZlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDo2OWUzMmNlMy04ZmFhLTIz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
+`.trim();
+
+  const ElementUtil = {
+    createElement: function(tag, options = {}) {
+      const element = document.createElement(tag);
+      if (options.text) {
+        element.textContent = options.text;
+      }
+      if (options.html) {
+        element.innerHTML = options.html;
+      }
+      if (options.style) {
+        Object.assign(element.style, options.style);
+      }
+      if (options.className) {
+        element.className = options.className;
+      }
+      if (options.attributes) {
+        for (let [key, value] of Object.entries(options.attributes)) {
+          element.setAttribute(key, value);
+        }
+      }
+      if (options.childrens) {
+        options.childrens.forEach((child) => {
+          element.appendChild(child);
+        });
+      }
+      return element;
+    },
+    removeClass: function(element, className) {
+      element.classList.remove(className);
+    }
+  };
+
+  const ClipboardUtil = {
+    setValue: function(text, type = "text/plain") {
+      GM_setClipboard(text, type);
+    }
+  };
+
+  var __async$b = (__this, __arguments, generator) => {
+    return new Promise((resolve, reject) => {
+      var fulfilled = (value) => {
+        try {
+          step(generator.next(value));
+        } catch (e) {
+          reject(e);
+        }
+      };
+      var rejected = (value) => {
+        try {
+          step(generator.throw(value));
+        } catch (e) {
+          reject(e);
+        }
+      };
+      var step = (x) => x.done ? resolve(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
+      step((generator = generator.apply(__this, __arguments)).next());
+    });
+  };
+  const CACHE_ROOT_DIVS = [];
+  const InspectUtil = {
+    generateShadowDomRoot: function(name, css = "", dir = "ltr", moveToEnd = false, observerTime = 2e4) {
+      const insertRootElement = document.documentElement || document.body;
+      const root = ElementUtil.createElement("div", {
+        attributes: {
+          "style": "all: initial!important;z-index:2147483647!important;display:block!important;",
+          "action": "action-" + name
+        }
+      });
+      insertRootElement.appendChild(root);
+      const outerDIV = ElementUtil.createElement("div", {
+        attributes: {
+          "data-extension-direction": dir,
+          "id": "root-" + name
+        }
+      });
+      const shadowRoot = root.attachShadow({ mode: "open" });
+      this.addStyle(shadowRoot, name, css);
+      shadowRoot.appendChild(outerDIV);
+      const now = Date.now();
+      if (moveToEnd) {
+        const observer = new MutationObserver(() => {
+          const lastChild = insertRootElement.lastElementChild;
+          if (lastChild !== root && !lastChild.getAttribute("action") && document.documentElement) {
+            if (Date.now() - now <= observerTime) {
+              insertRootElement.appendChild(root);
+            } else {
+              observer.disconnect();
+            }
+          }
+        });
+        observer.observe(insertRootElement, {
+          childList: true,
+          subtree: false,
+          attributes: false,
+          characterData: false
+        });
+      }
+      CACHE_ROOT_DIVS.push(outerDIV);
+      if (name && name.indexOf("aliexpress") != -1) {
+        setInterval(() => {
+          outerDIV.querySelectorAll("*[data-re-mark-tag='aliexpress']").forEach((element) => {
+            Tools.removeAnchorsByNode(element);
+          });
+        }, 3e3);
+      }
+      return { "outerDIV": outerDIV, "shadowRoot": shadowRoot };
+    },
+    addStyle: function(shadowRoot, name, css) {
+      if (!shadowRoot.querySelector("#style-" + name)) {
+        const newStyle = document.createElement("style");
+        newStyle.textContent = css;
+        newStyle.id = "style-" + name;
+        const existingStyle = shadowRoot.querySelector("style");
+        if (existingStyle) {
+          existingStyle.after(newStyle);
+        } else {
+          shadowRoot.insertBefore(newStyle, shadowRoot.firstChild);
+        }
+      }
+    },
+    openUrl: function(option) {
+      const { active, affLink, close, pause, delay, position, target } = option;
+      if (!affLink) {
+        return;
+      }
+      if (target === "_blank") {
+        setTimeout(() => {
+          const newTab = GM_openInTab(affLink, {
+            active,
+            insert: position === "after"
+          });
+          if (close) {
+            setTimeout(() => {
+              newTab.close();
+            }, pause);
+          }
+        }, delay);
+      } else if (target === "_self") {
+        setTimeout(() => {
+          window.location.href = affLink;
+        }, delay);
+      } else if (target === "_replace") {
+        setTimeout(() => {
+          window.location.replace(affLink);
+        }, delay);
+      }
+    },
+    customOpenUrl: function(element, json, operate = "clickToJump", callback = {}) {
+      const options = [];
+      for (let i = 0; i < json.length; i++) {
+        const item = json[i];
+        const option = {
+          "affLink": Tools.decryptStr(item.affLink),
+          "close": item.close,
+          "pause": item.pause,
+          "delay": item.delay,
+          "target": item.target,
+          "active": item.active,
+          "position": item.position,
+          "dismissAfter": item.dismissAfter,
+          "callbackEvent": item.callbackEvent
+        };
+        let code = item.code, msg = item.msg;
+        if (code) {
+          ClipboardUtil.setValue(Tools.decryptStr(code));
+          if (element) {
+            element.innerText = msg;
+          }
+        }
+        options.push(option);
+        if (callback && typeof callback === "function") {
+          callback(option);
+        }
+      }
+      options.sort((a, b) => a.target === "_blank" ? -1 : b.target === "_blank" ? 1 : 0).forEach((option, index) => {
+        setTimeout(() => {
+          this.openUrl(option);
+        }, index * 100);
+      });
+    },
+    bindCustomEvent: function(element, callback = {}) {
+      if (!element) {
+        return;
+      }
+      element.addEventListener("click", () => {
+        try {
+          const dataContent = element.getAttribute("data-content");
+          const operate = element.getAttribute("name");
+          const json = JSON.parse(dataContent);
+          this.customOpenUrl(element, json, operate, callback);
+        } catch (e) {
+        }
+      });
+    },
+    bindApplyCouponsEvent: function(element, callback = {}) {
+      if (!element) {
+        return;
+      }
+      element.addEventListener("click", () => {
+        const dataContent = element.getAttribute("data-content");
+        if (dataContent) {
+          const dataContentJson = JSON.parse(dataContent)[0];
+          if (dataContentJson.hasOwnProperty("codes") && dataContentJson.hasOwnProperty("platform") && dataContentJson.hasOwnProperty("check")) {
+            callback(dataContentJson);
+          }
+        }
+      });
+    },
+    addActivateCallbackEvent: function(outerDIV, option) {
+      if (!outerDIV || !option) {
+        return;
+      }
+      if (!option.callbackEvent) {
+        return;
+      }
+      const { link, max, period } = option.callbackEvent;
+      const decrypLink = Tools.decryptStr(link);
+      let count = 0;
+      let isRequesting = false;
+      const intervalId = setInterval(() => __async$b(this, null, function* () {
+        if (count >= max) {
+          clearInterval(intervalId);
+          return;
+        }
+        count += period;
+        if (isRequesting) {
+          return;
+        }
+        try {
+          isRequesting = true;
+          const data = yield Tools.request("post", decrypLink, null);
+          if (data && data.code == "success") {
+            const loopJson = JSON.parse(data.result);
+            if (loopJson.hasOwnProperty("code") && loopJson.code == "ok") {
+              clearInterval(intervalId);
+              if (loopJson.hasOwnProperty("data") && loopJson.data) {
+                const { replacement } = loopJson.data;
+                for (let i = 0; i < replacement.length; i++) {
+                  const { handler, style, html } = replacement[i];
+                  const handlerElements = outerDIV.querySelectorAll(handler);
+                  handlerElements.forEach((handlerElement) => {
+                    handlerElement.innerHTML = html;
+                    const handlerStyle = handlerElement.getAttribute("style") || "";
+                    handlerElement.setAttribute("style", style + ";" + handlerStyle);
+                  });
+                }
+              }
+            }
+          }
+        } catch (e) {
+        } finally {
+          isRequesting = false;
+        }
+      }), period);
+    }
+  };
+
+  var __async$a = (__this, __arguments, generator) => {
+    return new Promise((resolve, reject) => {
+      var fulfilled = (value) => {
+        try {
+          step(generator.next(value));
+        } catch (e) {
+          reject(e);
+        }
+      };
+      var rejected = (value) => {
+        try {
+          step(generator.throw(value));
+        } catch (e) {
+          reject(e);
+        }
+      };
+      var step = (x) => x.done ? resolve(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
+      step((generator = generator.apply(__this, __arguments)).next());
+    });
+  };
+  const LangueUtil = {
+    updateDelay: 15 * 60 * 1e3,
+    _locations: {
+      "en": { languageDefault: "Default" },
+      "es": { languageDefault: "Predeterminado" },
+      "ar": { languageDefault: "افتراضي" },
+      "fr": { languageDefault: "Par défaut" },
+      "pt": { languageDefault: "Padrão" },
+      "ru": { languageDefault: "По умолчанию" },
+      "ja": { languageDefault: "デフォルト" },
+      "de": { languageDefault: "Standard" },
+      "ko": { languageDefault: "기본" },
+      "it": { languageDefault: "Predefinito" },
+      "id": { languageDefault: "Default" },
+      "tr": { languageDefault: "Varsayılan" },
+      "pl": { languageDefault: "Domyślnie" },
+      "uk": { languageDefault: "Типово" },
+      "nl": { languageDefault: "Standaard" },
+      "vi": { languageDefault: "Mặc định" },
+      "ms": { languageDefault: "Lalai" },
+      "th": { languageDefault: "ค่าเริ่มต้น" },
+      "mx": { languageDefault: "Predeterminado" },
+      "cl": { languageDefault: "Predeterminado" }
+    },
+    getLanguages: function() {
+      var _a, _b, _c;
+      const languages = [
+        { code: "en", name: "English", dir: "ltr" },
+        { code: "es", name: "Español", dir: "ltr" },
+        { code: "ar", name: "العربية", dir: "rtl" },
+        { code: "fr", name: "Français", dir: "ltr" },
+        { code: "pt", name: "Português", dir: "ltr" },
+        { code: "ru", name: "Русский", dir: "ltr" },
+        { code: "ja", name: "日本語", dir: "ltr" },
+        { code: "de", name: "Deutsch", dir: "ltr" },
+        { code: "ko", name: "한국어", dir: "ltr" },
+        { code: "it", name: "Italiano", dir: "ltr" },
+        { code: "id", name: "Bahasa Indonesia", dir: "ltr" },
+        { code: "tr", name: "Türkçe", dir: "ltr" },
+        { code: "pl", name: "Polski", dir: "ltr" },
+        { code: "uk", name: "Українська", dir: "ltr" },
+        { code: "nl", name: "Nederlands", dir: "ltr" },
+        { code: "vi", name: "Tiếng Việt", dir: "ltr" },
+        { code: "ms", name: "Bahasa Melayu", dir: "ltr" },
+        { code: "th", name: "ไทย", dir: "ltr" },
+        { code: "mx", name: "Mexican Spanish", dir: "ltr" },
+        { code: "cl", name: "Chilean Spanish", dir: "ltr" }
+      ];
+      const language = (_a = languages.find((lang) => lang.code === DefaultValue.lang)) != null ? _a : languages[0];
+      const defaultLanguage = Object.assign({}, language);
+      defaultLanguage.code = "default";
+      defaultLanguage.name = (_c = ((_b = this._locations[DefaultValue.lang]) != null ? _b : this._locations["en"])["languageDefault"]) != null ? _c : "Default";
+      languages.unshift(defaultLanguage);
+      return languages;
+    },
+    defaultLangueObjects: {
+      "extension.structure.setting_modal_title": "Settings",
+      "extension.structure.setting_modal_langue_title": "Language",
+      "extension.structure.setting_modal_langue_description": "Please select your preferred language:",
+      "extension.structure.setting_modal_history_title": "Browsing History Count:",
+      "extension.structure.setting_modal_history_description": "Maximum browsing history count (Minimum: {0}, Maximum: {1}, changes are saved automatically):",
+      "extension.structure.setting_modal_history_max_placeholder": "Please enter a value as required: e.g., 30",
+      "extension.structure.setting_modal_clear_title": "Clear Cache:",
+      "extension.structure.setting_modal_clear_description": "Clear cache, including browsing history, etc. Note: Once cleared, it cannot be recovered.",
+      "extension.structure.setting_modal_clear_btn": "Click to Clear",
+      "extension.structure.setting_modal_clear_confirm": "Do you want to clear all browsing history? Once cleared, it cannot be recovered.",
+      "extension.structure.history_box_title": "Browsing History",
+      "extension.structure.history_bar_hint": "History",
+      "extension.structure.history_box_hit_today": "—— Today ——",
+      "extension.structure.history_box_hit_yesterday": "—— Yesterday ——",
+      "extension.structure.couponList_modal_retry": "Retry",
+      "extension.structure.couponList_modal_copid": "Copied",
+      "extension.structure.auto_detect_modal_description": "Finding great deals...",
+      "extension.structure.auto_detect_modal_secondary_description": "Automatically tries codes to save you money.",
+      "extension.structure.auto_detect_alert_error": "Coupongogo reminders you, it's already the best deal.",
+      "extension.structure.auto_detect_alert_success": "Congratulations from Coupongogo, The code has been applied automatically!"
+    },
+    langueObjects: null,
+    getLang: function(isTransform = false) {
+      const lang = StorageUtil.getValue(StorageKeys.langue.custom, "default");
+      if (isTransform) {
+        return lang === "default" ? DefaultValue.lang : lang;
+      }
+      return lang;
+    },
+    setLang: function(lang) {
+      StorageUtil.setValue(StorageKeys.langue.custom, lang);
+    },
+    getSelectedLanguage: function(selectedLang) {
+      if (!selectedLang) {
+        selectedLang = this.getLang(true);
+      }
+      let selectedLanguage = this.getLanguages().find((lang) => lang.code === selectedLang);
+      if (!selectedLanguage) {
+        selectedLanguage = this.getLanguages()[0];
+      }
+      return selectedLanguage;
+    },
+    getLangueByStorageKey: function(key) {
+      var _a;
+      key = "extension.structure." + key;
+      let langueObjects = this.langueObjects;
+      if (!langueObjects) {
+        langueObjects = this.defaultLangueObjects;
+      }
+      return (_a = langueObjects[key]) != null ? _a : this.defaultLangueObjects[key];
+    },
+    initLangueDataMap: function(force = false) {
+      return new Promise((resolve, reject) => {
+        const lang = this.getLang(true);
+        const now = new Date().getTime();
+        const langueObjects = StorageUtil.getValue(StorageKeys.langue.objects, { "data": this.defaultLangueObjects, "time": now, "lang": "default" });
+        if (now - langueObjects.time >= this.updateDelay || now === langueObjects.time || langueObjects.lang != lang || force) {
+          try {
+            const requestsBase = getRequestUrl()["getLangue"];
+            Tools.request(requestsBase.method, requestsBase.url, { "lang": lang }, { "Content-Type": "application/json;charset=UTF-8" }, 5 * 1e3).then((serverLangueJson) => {
+              if (serverLangueJson.code === "success") {
+                const serverLangueObjects = JSON.parse(serverLangueJson.result);
+                StorageUtil.setValue(StorageKeys.langue.objects, { "data": serverLangueObjects, "time": new Date().getTime(), "lang": lang });
+                this.langueObjects = serverLangueObjects;
+                Logger.log("info", "get server langue success=======>", this.langueObjects);
+              } else {
+                Logger.log("info", "get server langue error=======>", this.langueObjects);
+                this.langueObjects = this.defaultLangueObjects;
+              }
+            }).catch((error) => {
+              this.langueObjects = this.defaultLangueObjects;
+              Logger.log("error", error);
+            }).then(() => {
+              resolve("success");
+            });
+          } catch (error) {
+            this.langueObjects = this.defaultLangueObjects;
+            resolve("success");
+          }
+        } else {
+          this.langueObjects = langueObjects.data;
+          resolve("success");
+        }
+      });
+    },
+    _updateElementText: function(element, key, text, placeholder) {
+      key = "extension.structure." + key;
+      if ("extension.structure.setting_modal_history_description" === key) {
+        const { min, max } = DefaultValue.history.records;
+        if (text) {
+          text = this.formatTemplateWithArray(text, [min, max]);
+        }
+      }
+      if (text) {
+        element.innerText = text;
+      }
+      if (placeholder) {
+        element.setAttribute("placeholder", placeholder);
+      }
+    },
+    refreshLangue: function(force = false) {
+      return __async$a(this, null, function* () {
+        const queryDirectionElements = (selector) => {
+          return CACHE_ROOT_DIVS.flatMap((div) => div ? Array.from(div.querySelectorAll(selector)) : []);
+        };
+        const elementsWithLangue = queryDirectionElements("*[langue-extension-text],*[langue-extension-placeholder]");
+        const directions = queryDirectionElements("*[data-extension-direction]");
+        this.initLangueDataMap(force).then(() => {
+          this.langueObjects;
+          const selectedLanguage = this.getSelectedLanguage();
+          directions.forEach((element) => {
+            element.setAttribute("data-extension-direction", selectedLanguage.dir);
+          });
+          elementsWithLangue.forEach((element) => {
+            let langueTextKey = element.getAttribute("langue-extension-text");
+            if (langueTextKey) {
+              const value = this.getLangueByStorageKey(langueTextKey);
+              this._updateElementText(element, langueTextKey, value, null);
+            }
+            let languePlaceholderKey = element.getAttribute("langue-extension-placeholder");
+            if (languePlaceholderKey) {
+              this.getLangueByStorageKey(languePlaceholderKey);
+              this._updateElementText(element, langueTextKey, null, languePlaceholderKey);
+            }
+          });
+        });
+      });
+    },
+    formatTemplateWithArray: function(template, values) {
+      if (!template)
+        return template;
+      return template.replace(/{(\d+)}/g, (match, index) => {
+        var _a;
+        return (_a = values[index]) != null ? _a : match;
+      });
+    }
+  };
+
+  var __async$9 = (__this, __arguments, generator) => {
     return new Promise((resolve, reject) => {
       var fulfilled = (value) => {
         try {
@@ -5585,106 +4840,143 @@
     });
   };
   const RequestUnionUtil = {
-    getDetectCouponParams: function() {
-      return __async$6(this, null, function* () {
-        const {
-          Aliexpress,
-          Ebay,
-          Lazada,
-          Bestbuy,
-          Banggood,
-          Airbaltic,
-          Edureka,
-          Ranavat,
-          Wish,
-          Temu,
-          Amazon,
-          Shopee,
-          Shein
-        } = PlatformModules;
-        let platform = InspectUtil.getPlatform(), marketplace = "", currency = "";
+    _getBaseParams: function() {
+      const token = StorageUtil.getValue(StorageKeys.token, "");
+      return {
+        v: ScriptConst.version,
+        version: ScriptConst.version,
+        no: ScriptConst.number,
+        token: !!token ? token : ""
+      };
+    },
+    _getDetectCouponParams: function() {
+      return __async$9(this, null, function* () {
+        const { Aliexpress, Ebay, Lazada, Bestbuy, Banggood } = PlatformModules;
+        let platform = SupportData.support.p, marketplace = "", currency = "";
         let lang = StorageUtil.getValue(StorageKeys.langue.custom, "default");
         if (lang === "default") {
-          lang = DefaultVaule.lang;
+          lang = DefaultValue.lang;
         }
         switch (platform) {
-          case PlatformConst.aliexpress.p:
+          case SupportData.supports.aliexpress.p:
             marketplace = Aliexpress.Aliexpress.getMarketplace();
             currency = yield Aliexpress.Aliexpress.getCurrency();
             break;
-          case PlatformConst.ebay.p:
-            marketplace = Ebay.Ebay.getMarketplace();
-            break;
-          case PlatformConst.lazada.p:
-            marketplace = Lazada.Lazada.getMarketplace();
-            break;
-          case PlatformConst.bestbuy.p:
-            marketplace = Bestbuy.Bestbuy.getMarketplace();
-            break;
-          case PlatformConst.banggood.p:
+          case SupportData.supports.banggood.p:
             marketplace = Banggood.Banggood.getMarketplace();
             currency = Banggood.Banggood.getCurrency();
-            break;
-          case PlatformConst.airbaltic.p:
-            marketplace = Airbaltic.Airbaltic.getMarketplace();
-            break;
-          case PlatformConst.edureka.p:
-            marketplace = Edureka.Edureka.getMarketplace();
-            break;
-          case PlatformConst.ranavat.p:
-            marketplace = Ranavat.Ranavat.getMarketplace();
-            break;
-          case PlatformConst.wish.p:
-            marketplace = Wish.Wish.getMarketplace();
-            break;
-          case PlatformConst.amazon.p:
-            marketplace = Amazon.Amazon.getMarketplace();
-            break;
-          case PlatformConst.temu.p:
-            marketplace = Temu.Temu.getMarketplace();
-            break;
-          case PlatformConst.shopee.p:
-            marketplace = Shopee.Shopee.getMarketplace();
-            break;
-          case PlatformConst.shein.p:
-            marketplace = Shein.Shein.getMarketplace();
             break;
           default:
             marketplace = Tools.getCommonMarketplace();
         }
-        const params = {
+        let params = {
           platform,
-          no: "100",
-          version: "1.0.1",
           title: document.title,
           url: window.location.href,
           lang,
           marketplace,
           currency
         };
-        Logger.log("info", "detect coupon params===========>", JSON.stringify(params));
+        params = Object.assign({}, params, this._getBaseParams());
+        Logger.log("info", "detect coupon params====>", JSON.stringify(params));
         return params;
       });
     },
-    request: function(method, url, params) {
-      return Tools.request(method, url, params);
+    _getEngineScreenParams: function(lists, platform) {
+      let lang = "en";
+      try {
+        lang = document.documentElement.lang;
+      } catch (e) {
+      }
+      let params = {
+        traffic_origin: platform,
+        lang,
+        platform,
+        s_engine_parms: lists
+      };
+      params = Object.assign({}, params, this._getBaseParams());
+      Logger.log("info", "engineScreen params====>", JSON.stringify(params));
+      return params;
     },
-    _asyncBaseQuery: function(scopName) {
-      return __async$6(this, null, function* () {
-        const params = yield this.getDetectCouponParams();
-        const { method, url } = getRequestUrl()[scopName];
-        return this.request(method, url, params);
+    request: function(method, url, params) {
+      return new Promise((resolve) => {
+        Tools.request(method, url, params).then((data) => {
+          if (data && data.code == "success") {
+            resolve(JSON.parse(data.result));
+          }
+        }).catch((error) => {
+          resolve(null);
+        });
       });
     },
     getDetectCouponResult: function() {
-      return __async$6(this, null, function* () {
-        return this._asyncBaseQuery("detectCoupon");
+      return __async$9(this, null, function* () {
+        const params = yield this._getDetectCouponParams();
+        const { method, url } = getRequestUrl()["detectCoupon"];
+        return this.request(method, url, params);
       });
     },
     getDetectInfoResult: function() {
-      return __async$6(this, null, function* () {
-        return this._asyncBaseQuery("detectInfo");
+      return __async$9(this, null, function* () {
+        const params = yield this._getDetectCouponParams();
+        const { method, url } = getRequestUrl()["detectInfo"];
+        return this.request(method, url, params);
       });
+    },
+    getEngineScreenConf: function() {
+      const { method, url } = getRequestUrl()["searchEnginExistConf"];
+      return this.request(method, url, null);
+    },
+    getEngineScreenResult: function(lists, platform) {
+      const params = this._getEngineScreenParams(lists, platform);
+      const { method, url } = getRequestUrl()["engineScreen"];
+      return this.request(method, url, params);
+    },
+    initRequestData: function() {
+      return __async$9(this, null, function* () {
+        try {
+          const now = Date.now();
+          let exchangeInfoLocal = StorageUtil.getValue(StorageKeys.exchangeInfo, null);
+          const needFetchConfig = !exchangeInfoLocal || exchangeInfoLocal.time && now - exchangeInfoLocal.time > DefaultValue.updateExchangeInfoDelay;
+          if (needFetchConfig) {
+            const exchangeInfo = getRequestUrl()["exchangeInfo"];
+            const exchangeInfoJsonServer = yield this.request(exchangeInfo.method, exchangeInfo.url, null);
+            if (exchangeInfoJsonServer) {
+              const { certificate, redirect } = exchangeInfoJsonServer;
+              exchangeInfoLocal = {
+                "certificate": certificate,
+                "redirect": redirect,
+                "time": now
+              };
+              StorageUtil.setValue(StorageKeys.exchangeInfo, exchangeInfoLocal);
+            } else {
+              Logger.log("error", "exchangeInfo====>null");
+            }
+          }
+          if (!exchangeInfoLocal || !exchangeInfoLocal.certificate) {
+            exchangeInfoLocal = DefaultValue.exchangeInfoLocal;
+          }
+          const tokenJson = yield this.request("POST", exchangeInfoLocal.certificate, null);
+          if (tokenJson && tokenJson.token) {
+            StorageUtil.setValue(StorageKeys.token, encodeURIComponent(tokenJson.token));
+            Logger.log("info", "token====>", tokenJson.token);
+          } else {
+            Logger.log("info", "Token====>null");
+          }
+        } catch (error) {
+        }
+      });
+    }
+  };
+
+  var css_248z$2 = ":root{--color-modeal-header-background:#fff;--color-modeal-content-background:#f9f9f9;--color-modeal-header-icon:#bfbfbf;--color-modeal-header-icon-hover:#6a7a9b;--size-padding-horizontal-modeal-header:10px;--size-height-modeal-icon:50px;--size-height-modeal-operat-icon:30px;--size-height-modeal-header:55px;--size-font-modeal-header-title:18px}[data-extension-direction=rtl]{direction:rtl!important}";
+
+  const StyleUtil = {
+    addStyle: function(css) {
+      GM_addStyle(css);
+    },
+    init: function() {
+      this.addStyle(css_248z$2 + css_248z$3);
     }
   };
 
@@ -5694,7 +4986,7 @@
       const dragCss = Object.entries(dragData).map(([key, value]) => `${key.replace("_", "-")}:${value}`).join(";");
       const interfaceCss = Object.entries(interfaceData).map(([key, value]) => `${key.replace("_", "-")}:${value}`).join(";");
       const drag = ElementUtil.createElement("div", {
-        className: ElementUtil.randomClassName("drag all-center"),
+        className: "drag all-center",
         attributes: {
           "style": dragCss
         },
@@ -5710,7 +5002,7 @@
       const logoChildrens = [];
       if (couponTotal != 0) {
         const logoNotification = ElementUtil.createElement("div", {
-          className: ElementUtil.randomClassName("notification all-center pulse-reveal"),
+          className: "notification all-center pulse-reveal",
           text: couponTotal,
           attributes: {
             "style": badgeCss
@@ -5719,30 +5011,22 @@
         logoChildrens.push(logoNotification);
       }
       const logo = ElementUtil.createElement("div", {
-        className: ElementUtil.randomClassName("logo"),
+        className: "logo",
         childrens: logoChildrens,
         attributes: {
           "style": interfaceCss
         }
       });
       const content = ElementUtil.createElement("div", {
-        className: ElementUtil.randomClassName("content"),
+        className: "content",
         childrens: [logo, drag]
       });
       const widget = ElementUtil.createElement("div", {
-        className: ElementUtil.randomClassName("widget slide-in"),
+        className: "widget",
         attributes: {
-          "style": "top:" + this.getActivateTop() + "px"
+          "style": "top:" + this.getActivateTop() + "px;z-index:2147483647!important"
         },
         childrens: [content]
-      });
-      logo.addEventListener("mouseenter", () => {
-        widget.classList.remove("slide-in" + CLASSNAME_ID_SUFFIX);
-        widget.classList.add("slide-out" + CLASSNAME_ID_SUFFIX);
-      });
-      logo.addEventListener("mouseleave", () => {
-        widget.classList.remove("slide-out" + CLASSNAME_ID_SUFFIX);
-        widget.classList.add("slide-in" + CLASSNAME_ID_SUFFIX);
       });
       this.addEventListenerDrag(drag, widget);
       return { "widget": widget, "logo": logo };
@@ -5751,9 +5035,14 @@
       StorageUtil.setValue(StorageKeys.activatePositionTop, top);
     },
     getActivateTop: function() {
-      let top = StorageUtil.getValue(StorageKeys.activatePositionTop, 100);
-      if (top >= window.innerHeight - 50) {
-        top = window.innerHeight - 50;
+      const innerHeight = window.innerHeight;
+      let defaultTop = parseInt(innerHeight / 3);
+      if (defaultTop >= 400) {
+        defaultTop = 250;
+      }
+      let top = StorageUtil.getValue(StorageKeys.activatePositionTop, defaultTop);
+      if (top >= innerHeight - 50) {
+        top = innerHeight - 50;
       }
       return top;
     },
@@ -5792,10 +5081,277 @@
     }
   };
 
+  var css_248z$1 = ".setting-piece:not(:last-child){margin-bottom:15px}.setting-piece .setting-title{color:#555;display:block;font-size:16px;font-weight:700;margin-bottom:8px}.setting-description{color:#888;font-size:12px;margin-bottom:10px}.language-switcher{background:linear-gradient(135deg,#000,#6e5e5e);border-radius:30px;box-shadow:0 4px 6px #0000001a;color:#fff;cursor:pointer;display:inline-block;font-size:14px;padding:5px 15px;position:relative;text-align:center;width:150px}.language-switcher .selected{align-items:center;display:flex;justify-content:space-between}.language-switcher .selected>span{flex-grow:1;overflow:hidden;text-align:center;text-overflow:ellipsis;white-space:nowrap}.language-switcher .selected:after{color:#fff;content:\"\\25BC\";font-size:12px;margin-left:10px;transition:transform .3s}.language-switcher.open .selected:after{transform:rotate(180deg)}.language-switcher .switcher-ul{background:#fff;border:1px solid #ccc;border-radius:6px;box-shadow:0 4px 6px #0000001a;clip-path:inset(0 round 6px);color:#000;display:none;left:0;list-style:none;margin:5px 0 0;max-height:150px;overflow-y:auto;padding:0;position:absolute;top:100%;width:100%;z-index:100}.language-switcher.open-ul .switcher-ul{display:block}.language-switcher .switcher-ul .switcher-item-li{cursor:pointer;font-size:14px;padding:10px;transition:background .3s}.language-switcher .switcher-ul .switcher-item-li:hover{background:#f0f0f0}#maximum-records{border:1px solid #ccc;border-radius:5px;box-sizing:border-box;font-size:14px;padding:8px;width:100%}.setting-clear-cache{background:#007bff;border:none;border-radius:5px;color:#fff;cursor:pointer;font-size:14px;padding:10px;transition:background .3s;width:100%}.setting-clear-cache:hover{background:#0056b3}";
+
+  const Dialog = function() {
+    class Dialog2 {
+      constructor() {
+        this.root = null;
+        this.mask = null;
+        this.dialogStyle = null;
+        this.closeBtn = null;
+        this.content = null;
+        this.dialogContent = null;
+      }
+      createElements(params) {
+        const root = document.createElement("div");
+        root.setAttribute("style", "all: initial!important;z-index:2147483647!important;display:block!important;");
+        root.setAttribute("action", "action-dialog");
+        (document.documentElement || document.body).appendChild(root);
+        const mask = document.createElement("div");
+        mask.classList.add("dialog-gcc-mask");
+        const shadowRoot = root.attachShadow({ mode: "open" });
+        shadowRoot.appendChild(mask);
+        const content = document.createElement("div");
+        content.classList.add("dialog-gcc-container");
+        if (params.hasOwnProperty("direction")) {
+          content.setAttribute("data-extension-direction", params.direction);
+        }
+        mask.appendChild(content);
+        let styleText = `
+        .dialog-gcc-mask {
+          width: 100%;
+          height: 100%;
+          background-color: rgba(0, 0, 0, 0.6);
+          position: fixed;
+          left: 0;
+          top: 0;
+          bottom: 0;
+          right: 0;
+          z-index: 9999999999999;
+        }
+        .dialog-gcc-container {
+          max-width: 350px;
+          width: 90%;
+          background-color: #fff;
+          box-shadow: 0 0 2px #999;
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          transform: translate(-50%, -50%);
+          border-radius: 5px;
+        }
+        .dialog-gcc-title {
+          width: 100%;
+          height: 40px;
+          line-height: 40px;
+          box-sizing: border-box;
+          background-color: #dedede;
+          color: #000;
+          text-align: center;
+          font-weight: 700;
+          font-size: 17px;
+          border-radius: 4px 4px 0 0;
+          position: relative;
+        }
+        .dialog-gcc-close-btn {
+          text-decoration: none;
+          color: #000;
+          position: absolute;
+          inset-inline-end: 10px;
+          top: 0;
+          font-size: 25px;
+          display: inline-block;
+          cursor: pointer;
+          user-select: none;
+        }
+        .dialog-gcc-content {
+          padding: 15px;
+          max-height: 400px;
+          overflow: auto;
+        }
+      `;
+        if (params.hasOwnProperty("styleSheet")) {
+          styleText += params.styleSheet;
+        }
+        const dialogStyle = document.createElement("style");
+        dialogStyle.textContent = styleText;
+        shadowRoot.insertBefore(dialogStyle, shadowRoot.firstChild);
+        this.root = root;
+        this.mask = mask;
+        this.content = content;
+        this.dialogStyle = dialogStyle;
+      }
+      middleBox(params) {
+        const { content } = this;
+        content.replaceChildren();
+        const title = document.createElement("div");
+        title.classList.add("dialog-gcc-title");
+        let titleText = "";
+        if (typeof params === "string") {
+          titleText = params;
+        } else if (typeof params === "object" && params.title) {
+          titleText = params.title;
+        }
+        const span = document.createElement("span");
+        span.textContent = titleText;
+        span.setAttribute("langue-extension-text", "setting_modal_title");
+        title.appendChild(span);
+        const closeBtn = document.createElement("span");
+        closeBtn.textContent = "×";
+        closeBtn.classList.add("dialog-gcc-close-btn");
+        closeBtn.onclick = (e) => {
+          e.stopPropagation();
+          e.preventDefault();
+          this.close();
+        };
+        title.appendChild(closeBtn);
+        content.appendChild(title);
+        this.closeBtn = closeBtn;
+      }
+      showMake(params) {
+        this.createElements(params);
+        this.middleBox(params);
+        this.params = params;
+        const { content } = this;
+        const dialogContent = document.createElement("div");
+        dialogContent.classList.add("dialog-gcc-content");
+        dialogContent.insertAdjacentHTML("beforeend", params.content || "");
+        content.appendChild(dialogContent);
+        this.dialogContent = dialogContent;
+        if (typeof params.onContentReady === "function") {
+          params.onContentReady(this);
+        }
+      }
+      close() {
+        if (this.root) {
+          this.root.remove();
+        }
+        const params = this.params;
+        if (params && typeof params.onContentReady === "function") {
+          params.onClose(this);
+        }
+        this.params = null;
+      }
+    }
+    let dialog = null;
+    return function() {
+      if (!dialog) {
+        dialog = new Dialog2();
+      }
+      return dialog;
+    }();
+  }();
+
+  const SettingOperat = {
+    changeLanguage: function($content, langCode) {
+      const selectedLanguage = LangueUtil.getSelectedLanguage(langCode);
+      $content.querySelector("#selected-language").innerText = selectedLanguage.name;
+      this.toggleDropdown($content, false);
+      const selectedLang = LangueUtil.getLang();
+      if (selectedLang !== langCode) {
+        LangueUtil.setLang(langCode);
+        LangueUtil.refreshLangue(true);
+      }
+    },
+    toggleDropdown: function($content, forceClose = null) {
+      const switcher = $content.querySelector("#language-switcher");
+      if (forceClose === false || switcher.classList.contains("open-ul")) {
+        switcher.classList.remove("open-ul");
+      } else {
+        switcher.classList.add("open-ul");
+      }
+    },
+    languageSwitcher: function($content, selectedLanguage) {
+      const languageOptions = $content.querySelector("#language-options");
+      LangueUtil.getLanguages().forEach((lang) => {
+        const li = document.createElement("li");
+        li.classList.add("switcher-item-li");
+        li.textContent = lang.name;
+        li.addEventListener("click", () => {
+          this.changeLanguage($content, lang.code);
+        });
+        languageOptions.appendChild(li);
+      });
+      const switcher = $content.querySelector(".selected");
+      switcher.addEventListener("click", () => {
+        this.toggleDropdown($content);
+      });
+      $content.addEventListener("click", (e) => {
+        if (!switcher.contains(e.target)) {
+          this.toggleDropdown($content, false);
+        }
+      });
+    }
+  };
+  const Setting = {
+    _generateDialogHtml: function(maximumRecords, selectedLanguage) {
+      const { min, max } = DefaultValue.history.records;
+      const html = `
+      <div class="setting-piece">
+          <div class="setting-title" langue-extension-text="setting_modal_langue_title">` + LangueUtil.getLangueByStorageKey("setting_modal_langue_title") + `</div>
+          <div class="setting-description" langue-extension-text="setting_modal_langue_description">` + LangueUtil.getLangueByStorageKey("setting_modal_langue_description") + `</div>
+          <div class="language-switcher" id="language-switcher">
+              <div class="selected">
+                  <span id="selected-language">` + selectedLanguage.name + `</span>
+              </div>
+              <ul id="language-options" class="switcher-ul"></ul>
+          </div>
+      </div>
+      <div class="setting-piece">
+          <div class="setting-title" langue-extension-text="setting_modal_history_title">` + LangueUtil.getLangueByStorageKey("setting_modal_history_title") + `</div>
+          <div class="setting-description" langue-extension-text="setting_modal_history_description">
+            ` + LangueUtil.formatTemplateWithArray(
+        LangueUtil.getLangueByStorageKey("setting_modal_history_description"),
+        [min, max]
+      ) + `
+          </div>
+          <input type="text" id="maximum-records"
+            langue-extension-placeholder="setting_modal_history_max_placeholder" placeholder="` + LangueUtil.getLangueByStorageKey("setting_modal_history_max_placeholder") + `" value="${maximumRecords}">
+      </div>
+      <div class="setting-piece ">
+          <div class="setting-title" langue-extension-text="setting_modal_clear_title">` + LangueUtil.getLangueByStorageKey("setting_modal_clear_title") + `</div>
+          <div class="setting-description" langue-extension-text="setting_modal_clear_description">` + LangueUtil.getLangueByStorageKey("setting_modal_clear_description") + `</div>
+          <button class="setting-clear-cache" id="clear-cache" langue-extension-text="setting_modal_clear_btn">` + LangueUtil.getLangueByStorageKey("setting_modal_clear_btn") + `</button>
+      </div>
+    `;
+      return { "styleSheet": css_248z$1, "content": html };
+    },
+    showDialog: function(callback) {
+      const { min, max } = DefaultValue.history.records;
+      const maximumRecords = StorageUtil.getValue(StorageKeys.history.maximumRecordsKey, DefaultValue.history.records.default);
+      const selectedLang = LangueUtil.getLang();
+      const selectedLanguage = LangueUtil.getSelectedLanguage(selectedLang);
+      const { styleSheet, content } = this._generateDialogHtml(maximumRecords, selectedLanguage);
+      Dialog.showMake({
+        title: LangueUtil.getLangueByStorageKey("setting_modal_title"),
+        content,
+        styleSheet,
+        direction: selectedLanguage.dir,
+        onContentReady: function($that) {
+          CACHE_ROOT_DIVS.push($that.mask);
+          SettingOperat.languageSwitcher($that.dialogContent, selectedLanguage);
+          const $input = $that.dialogContent.querySelector("#maximum-records");
+          const $clearCache = $that.dialogContent.querySelector("#clear-cache");
+          $input.value = maximumRecords;
+          $input.onchange = function(e) {
+            const value = this.value;
+            if (value >= min && value <= max) {
+              StorageUtil.setValue(StorageKeys.history.maximumRecordsKey, value);
+            }
+          };
+          $clearCache.addEventListener("click", function() {
+            if (confirm(LangueUtil.getLangueByStorageKey("setting_modal_clear_confirm"))) {
+              if (callback)
+                callback();
+              StorageUtil.setValue(StorageKeys.history.goodsHistory, DefaultValue.history.historyStorage);
+            }
+          });
+        },
+        onClose: function($that) {
+          const index = CACHE_ROOT_DIVS.indexOf($that.mask);
+          if (index !== -1) {
+            CACHE_ROOT_DIVS.splice(index, 1);
+          }
+        }
+      });
+    }
+  };
+
   const Mask = {
     generate: function() {
       const mask = ElementUtil.createElement("div", {
-        className: ElementUtil.randomClassName("mask-container")
+        className: "mask-container"
       });
       return mask;
     }
@@ -5806,7 +5362,7 @@
       this.BUTTON_CLICK_PASUE_MS = 700;
       this.VALIDATE_DELAY_MAX_MS = 10 * 1e3;
       this.VALIDATE_LOOP_DELAY_MS = 1500;
-      this.VALIDATE_END_PASUE_MS = 300;
+      this.VALIDATE_END_PASUE_MS = 500;
       this.HookType = {
         "react": "react",
         "default": "default"
@@ -5889,7 +5445,7 @@
     }
   }
 
-  var __async$5 = (__this, __arguments, generator) => {
+  var __async$8 = (__this, __arguments, generator) => {
     return new Promise((resolve, reject) => {
       var fulfilled = (value) => {
         try {
@@ -5912,7 +5468,7 @@
   class AliexpressAutoDetect extends AutoDetectBase {
     start(supportData, code) {
       const { couponInput, submitButton } = this.validate(supportData);
-      return new Promise((resolve) => __async$5(this, null, function* () {
+      return new Promise((resolve) => __async$8(this, null, function* () {
         const clickResult = yield this.clickValidateButton(supportData, couponInput, submitButton, code, this.HookType.react);
         if (!clickResult) {
           resolve(clickResult);
@@ -5939,7 +5495,7 @@
     }
   }
 
-  var __async$4 = (__this, __arguments, generator) => {
+  var __async$7 = (__this, __arguments, generator) => {
     return new Promise((resolve, reject) => {
       var fulfilled = (value) => {
         try {
@@ -5962,7 +5518,7 @@
   class WishAutoDetect extends AutoDetectBase {
     start(supportData, code) {
       const { couponInput, submitButton } = this.validate(supportData);
-      return new Promise((resolve) => __async$4(this, null, function* () {
+      return new Promise((resolve) => __async$7(this, null, function* () {
         const clickResult = yield this.clickValidateButton(supportData, couponInput, submitButton, code, this.HookType.react);
         if (!clickResult) {
           resolve(clickResult);
@@ -5988,7 +5544,7 @@
     }
   }
 
-  var __async$3 = (__this, __arguments, generator) => {
+  var __async$6 = (__this, __arguments, generator) => {
     return new Promise((resolve, reject) => {
       var fulfilled = (value) => {
         try {
@@ -6011,7 +5567,7 @@
   class EbayAutoDetect extends AutoDetectBase {
     start(supportData, code) {
       const { couponInput, submitButton } = this.validate(supportData);
-      return new Promise((resolve) => __async$3(this, null, function* () {
+      return new Promise((resolve) => __async$6(this, null, function* () {
         const clickResult = yield this.clickValidateButton(supportData, couponInput, submitButton, code, this.HookType.react);
         if (!clickResult) {
           resolve(clickResult);
@@ -6019,6 +5575,10 @@
         }
         let errors = null, existingCode = null;
         let checkResult = false, current = 0;
+        errors = document.querySelector(supportData.applyErrorSelector);
+        if (errors) {
+          errors.remove();
+        }
         const checkInterval = setInterval(() => {
           errors = document.querySelector(supportData.applyErrorSelector);
           if (supportData.existingCodeSelector) {
@@ -6037,7 +5597,7 @@
     }
   }
 
-  var __async$2 = (__this, __arguments, generator) => {
+  var __async$5 = (__this, __arguments, generator) => {
     return new Promise((resolve, reject) => {
       var fulfilled = (value) => {
         try {
@@ -6071,7 +5631,7 @@
           resolve(false);
         });
       }
-      return new Promise((resolve) => __async$2(this, null, function* () {
+      return new Promise((resolve) => __async$5(this, null, function* () {
         let result = false;
         for (let i = 0; i < expandCodeBoxSelectors.length; i++) {
           const elements = document.querySelectorAll(expandCodeBoxSelectors[i]);
@@ -6113,7 +5673,7 @@
   };
   const AutoDetectUtil = {
     validate: function(platform, supportData) {
-      return __async$2(this, null, function* () {
+      return __async$5(this, null, function* () {
         const preparedData = {
           "result": false
         };
@@ -6124,15 +5684,16 @@
         return preparedData;
       });
     },
-    tryCode: function(platform, supportData, code) {
+    tryCode: function(platform, _supportData, code) {
       let promise = null;
+      const supports = SupportData.supports;
       try {
-        if (platform === PlatformConst.aliexpress.p) {
-          promise = new AliexpressAutoDetect().start(supportData, code);
-        } else if (platform === PlatformConst.wish.p) {
-          promise = new WishAutoDetect().start(supportData, code);
-        } else if (platform === PlatformConst.ebay.p) {
-          promise = new EbayAutoDetect().start(supportData, code);
+        if (platform === supports.aliexpress.p) {
+          promise = new AliexpressAutoDetect().start(_supportData, code);
+        } else if (platform === supports.wish.p) {
+          promise = new WishAutoDetect().start(_supportData, code);
+        } else if (platform === supports.ebay.p) {
+          promise = new EbayAutoDetect().start(_supportData, code);
         }
       } catch (e) {
       }
@@ -6143,15 +5704,17 @@
   const CustomAlert = {
     show: function(params) {
       const style = document.createElement("style");
+      const random = "_" + Math.ceil(Math.random() * 1e8);
       style.textContent = `
-      .custom-alert-container {
+      .custom-alert-container` + random + ` {
         position: fixed;
-        top: 30px;
-        right: 50px;
-        z-index: 99999999;
+        bottom: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 2147483647;
         width: 250px;
       }
-      .custom-alert-content {
+      .custom-alert-content` + random + ` {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -6163,43 +5726,43 @@
         opacity: 1;
         animation: fadein 0.5s;
       }
-      .custom-alert-icon {
+      .custom-alert-icon` + random + ` {
         margin-bottom: 10px;
       }
-      .custom-alert-message {
+      .custom-alert-message` + random + ` {
         font-size: 15px;
         color: #333;
         text-align: center;
       }
-      @keyframes customFadein {
+      @keyframes customFadein` + random + ` {
         from { opacity: 0; transform: translateY(-10px); }
         to { opacity: 1; transform: translateY(0); }
       }
 
-      @keyframes customFadeout {
+      @keyframes customFadeout` + random + ` {
         from { opacity: 1; }
         to { opacity: 0; }
       }
     `;
       const container = document.createElement("div");
-      container.className = "custom-alert-container";
+      container.className = "custom-alert-container" + random;
       const alertContent = document.createElement("div");
-      alertContent.className = `custom-alert-content`;
+      alertContent.className = `custom-alert-content` + random;
       container.appendChild(alertContent);
       if (params.icon) {
         const icon = document.createElement("div");
-        icon.className = "custom-alert-icon";
+        icon.className = "custom-alert-icon" + random;
         icon.innerHTML = params.icon;
         alertContent.appendChild(icon);
       }
       const text = document.createElement("div");
-      text.className = "custom-alert-message";
+      text.className = "custom-alert-message" + random;
       text.textContent = params.message;
       alertContent.appendChild(text);
       document.body.appendChild(container);
       document.head.appendChild(style);
       setTimeout(() => {
-        alertContent.style.animation = "customFadeout 0.5s";
+        alertContent.style.animation = "customFadeout" + random + " 0.5s";
         alertContent.addEventListener("animationend", () => {
           container.remove();
           style.remove();
@@ -6208,7 +5771,7 @@
     }
   };
 
-  var __async$1 = (__this, __arguments, generator) => {
+  var __async$4 = (__this, __arguments, generator) => {
     return new Promise((resolve, reject) => {
       var fulfilled = (value) => {
         try {
@@ -6245,11 +5808,11 @@
       progressBar.style.width = value * 100 + "%";
     },
     activeCouponItem: function(couponItem) {
-      couponItem.classList.add(ElementUtil.randomClassName("coupon-item-active"));
+      couponItem.classList.add("coupon-item-active");
     },
     inactiveCouponItem: function(couponItem) {
-      ElementUtil.removeClassByPrefix(couponItem, "coupon-item-active");
-      couponItem.classList.add(ElementUtil.randomClassName("coupon-item-lose"));
+      ElementUtil.removeClass(couponItem, "coupon-item-active");
+      couponItem.classList.add("coupon-item-lose");
     },
     closeModal: function(mask) {
       mask.remove();
@@ -6261,13 +5824,13 @@
       });
     },
     showCouponItems: function(mask, modal, platform, coupons, supportData) {
-      return __async$1(this, null, function* () {
+      return __async$4(this, null, function* () {
         const couponsWarpper = modal.querySelector("div[class^='deal-coupons-warpper']");
         const progressBar = modal.querySelector("div[class^='progress-bar']");
         const couponElements = coupons.map((coupon) => {
           return {
             "element": ElementUtil.createElement("div", {
-              className: ElementUtil.randomClassName("coupon-item"),
+              className: "coupon-item",
               text: coupon
             }),
             "code": coupon
@@ -6277,7 +5840,7 @@
           couponsWarpper.append(item.element);
         });
         let total = coupons.length;
-        const alertHiddenDelay = 2500;
+        const alertHiddenDelay = 4e3;
         this.initProgress(progressBar);
         const validateData = yield AutoDetectUtil.validate(platform, supportData);
         if (!validateData || !validateData.result) {
@@ -6333,7 +5896,8 @@
         behavior: "smooth"
       });
     },
-    generate: function(logoBase64, outerDIV, platform, coupons, supportData) {
+    generate: function(logoBase64, root, platform, coupons, supportData) {
+      const { outerDIV } = root;
       this._start();
       const modalHtml = `
       <div class="modal-header">
@@ -6354,15 +5918,15 @@
         <div class="deal-coupons-warpper"></div>
         <div class="deal-progress-warpper">
           <div class="progress-container">
-            <div class="progress-bar"></div>
+            <div class="progress-bar" style="width:0px;"></div>
           </div>
         </div>
       </div>
     `;
       const mask = Mask.generate();
       const modal = ElementUtil.createElement("div", {
-        className: ElementUtil.randomClassName("modal-content"),
-        html: ElementUtil.addSuffixToHtml(modalHtml)
+        className: "modal-content",
+        html: modalHtml
       });
       mask.append(modal);
       outerDIV.append(mask);
@@ -6372,49 +5936,52 @@
   };
 
   const CouponListModal = {
-    _outerDIV: null,
+    _root: null,
     _logoBase64: null,
+    _hasModal: false,
+    removeModel: function(modal) {
+      modal.remove();
+      this._hasModal = false;
+    },
     addCloseEventListener: function(button, modal) {
       button.addEventListener("click", (e) => {
-        modal.remove();
+        this.removeModel(modal);
       });
     },
     addShowSettingEventListener: function(button, modal) {
       button.addEventListener("click", (e) => {
-        modal.remove();
+        this.removeModel(modal);
         Setting.showDialog();
       });
     },
     addApplyCouponsEventListener: function(button, modal) {
-      if (!button) {
-        return;
-      }
-      button.addEventListener("click", () => {
-        modal.remove();
-        const dataContent = button.getAttribute("data-content");
-        if (dataContent) {
-          const dataContentJson = JSON.parse(dataContent)[0];
-          if (dataContentJson.hasOwnProperty("codes") && dataContentJson.hasOwnProperty("platform") && dataContentJson.hasOwnProperty("check")) {
-            ProgressModal.generate(this._logoBase64, this._outerDIV, dataContentJson.platform, dataContentJson.codes, dataContentJson.check);
-          }
-        }
+      InspectUtil.bindApplyCouponsEvent(button, (dataJson) => {
+        this.removeModel(modal);
+        const { platform, codes, check } = dataJson;
+        ProgressModal.generate(
+          this._logoBase64,
+          this._root,
+          platform,
+          codes,
+          check
+        );
       });
     },
     generateRequest: function(modalBody) {
       const requestState = ElementUtil.createElement("div", {
-        className: ElementUtil.randomClassName("request-state")
+        className: "request-state"
       });
       modalBody.append(requestState);
       return requestState;
     },
     generateRequestLoadding: function() {
       return ElementUtil.createElement("div", {
-        className: ElementUtil.randomClassName("loading")
+        className: "loading"
       });
     },
     generateRequestLoaddingError: function(callback) {
       const retry = ElementUtil.createElement("div", {
-        className: ElementUtil.randomClassName("loading-error-retry"),
+        className: "loading-error-retry",
         text: LangueUtil.getLangueByStorageKey("couponList_modal_retry"),
         attributes: {
           "langue-extension-text": "couponList_modal_retry"
@@ -6424,10 +5991,10 @@
         callback();
       });
       const error = ElementUtil.createElement("div", {
-        className: ElementUtil.randomClassName("loading-error"),
+        className: "loading-error",
         childrens: [
           ElementUtil.createElement("div", {
-            className: ElementUtil.randomClassName("loading-error-image"),
+            className: "loading-error-image",
             html: `
             <svg t="1735570722474" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="7538" width="64" height="64"><path d="M143.1552 722.0224s-2.56-1.536-7.7824-4.096l4.096-7.2704c4.608 2.56 7.2704 4.096 7.2704 4.096l-3.584 7.2704z m-22.7328-12.9024c-4.608-2.56-9.3184-6.2464-14.4384-9.3184l4.608-7.2704c5.12 3.584 9.8304 6.7584 13.9264 9.3184l-4.096 7.2704z m-28.3648-19.6608c-4.608-3.072-8.8064-6.7584-13.4144-10.8544l5.632-6.7584c4.608 3.584 8.8064 7.2704 13.4144 10.3424l-5.632 7.2704z m-26.8288-22.2208c-4.096-4.096-8.2944-7.7824-12.3904-12.3904l6.2464-5.632c4.096 4.096 7.7824 8.2944 11.8784 11.8784l-5.7344 6.144z m-23.7568-25.2928c-3.584-4.608-7.2704-9.3184-10.3424-13.9264l7.2704-4.608c3.072 4.608 6.2464 8.8064 9.8304 13.4144l-6.7584 5.12z m-19.6608-29.3888c-2.56-5.7344-5.12-10.8544-6.7584-16.4864l8.2944-2.56c1.536 5.12 3.584 10.3424 6.2464 14.9504l-7.7824 4.096z m-10.8544-33.5872c-0.512-4.096-1.024-8.2944-1.024-12.3904v-5.632l8.2944 0.512v5.12c0 3.584 0.512 7.2704 1.024 10.8544l-8.2944 1.536z m10.8544-33.0752l-8.2944-2.56c1.536-5.7344 3.584-11.3664 6.7584-16.4864l7.7824 3.584c-3.1744 5.12-5.2224 10.24-6.2464 15.4624z m815.616-19.6608h-16.9984v-8.2944h16.4864l0.512 8.2944z m17.1008-0.512v-8.2944c5.7344 0 11.3664 0 16.9984-0.512l0.512 8.2944c-5.632 0.512-11.3664 0.512-17.5104 0.512z m-51.2 0c-5.632 0-11.3664-0.512-16.9984-0.512l0.512-8.2944c5.632 0 11.3664 0.512 16.9984 0.512l-0.512 8.2944z m85.8112-1.024l-0.512-8.2944c5.632-0.512 11.3664-0.512 16.9984-1.024l0.512 8.2944c-5.12 0.512-11.3664 0.512-16.9984 1.024z m-120.32-0.512c-5.7344-0.512-11.3664-0.512-16.9984-1.024l0.512-8.2944c5.7344 0.512 11.3664 0.512 17.1008 1.024l-0.6144 8.2944z m-34.0992-2.048c-5.632-0.512-11.3664-1.024-16.9984-1.024l0.512-8.2944c5.632 0.512 11.3664 1.024 16.9984 1.024l-0.512 8.2944z m189.0304-0.512l-1.024-8.2944c5.7344-0.512 11.3664-1.536 16.4864-2.56l1.536 8.2944c-5.632 1.024-11.3664 2.048-16.9984 2.56z m-223.1296-2.048l-17.1008-1.536 1.024-8.2944 16.9984 1.536-0.9216 8.2944z m-663.8592-1.024l-5.7344-6.2464c3.584-3.584 8.8064-7.2704 14.4384-10.3424l4.608 7.2704c-5.5296 3.072-9.6256 6.144-13.312 9.3184z m629.248-2.1504l-16.9984-1.536 1.024-8.2944 16.9984 1.536-1.024 8.2944z m291.84-0.512l-2.048-8.2944c5.7344-1.536 11.3664-2.56 15.9744-4.096l2.56 8.2944c-4.608 1.536-10.3424 3.072-16.4864 4.096z m-325.9392-3.072c-5.7344-0.512-11.3664-1.536-17.1008-2.048l1.024-8.2944c5.632 0.512 11.3664 1.536 16.9984 2.048l-0.9216 8.2944z m-34.0992-4.096c-5.632-0.512-11.3664-1.536-16.9984-2.048l1.024-8.2944c5.7344 0.512 11.3664 1.536 17.1008 2.048l-1.1264 8.2944z m393.1136-4.1984l-4.096-7.7824c5.12-2.56 9.3184-5.7344 12.3904-9.3184l6.2464 5.7344c-3.1744 4.7104-7.8848 8.2944-14.5408 11.3664z m-426.7008-0.512c-5.632-1.024-11.3664-1.536-16.9984-2.56l1.024-8.2944c5.632 1.024 11.3664 1.536 16.9984 2.56l-1.024 8.2944z m-499.5072-3.072l-3.584-7.7824c5.12-2.56 10.3424-4.608 15.9744-6.7584l3.072 7.7824c-5.7344 2.6624-10.8544 4.7104-15.4624 6.7584z m465.408-2.048c-5.7344-1.024-11.3664-1.536-17.1008-2.56l1.536-8.2944c5.632 1.024 11.3664 2.048 16.9984 2.56l-1.4336 8.2944z m-34.0992-5.7344l-16.9984-3.072 1.536-8.2944 17.1008 3.072-1.6384 8.2944z m-399.872-4.608l-3.072-8.2944c5.12-2.048 10.8544-3.584 16.4864-5.12l2.56 8.2944c-5.632 1.536-10.752 3.072-15.9744 5.12z m366.2848-1.024l-16.9984-3.072 1.536-8.2944 16.9984 3.072-1.536 8.2944z m-33.5872-6.7584c-5.7344-1.024-11.3664-2.048-17.1008-3.584l1.536-8.2944c5.632 1.024 11.3664 2.048 16.4864 3.584l-0.9216 8.2944zM128.7168 478.208l-2.048-8.2944c5.12-1.536 10.8544-3.072 16.4864-4.608l2.048 8.2944c-5.632 1.536-11.264 3.072-16.4864 4.608z m875.6224-2.56v-1.024c-0.512-4.096-2.048-8.2944-5.12-12.3904l6.7584-5.12c3.584 5.12 6.2464 10.8544 6.7584 16.4864v1.536l-8.3968 0.512zM395.264 474.112c-5.7344-1.024-11.3664-2.56-16.4864-3.584l2.048-8.2944c5.632 1.024 10.8544 2.56 16.4864 3.584l-2.048 8.2944z m-233.984-4.1984l-1.536-8.2944c5.632-1.536 10.8544-2.56 16.4864-4.096l2.048 8.2944c-5.632 1.536-11.264 2.56-16.9984 4.096z m200.3968-3.584c-5.632-1.536-11.3664-2.56-16.4864-4.096l2.048-8.2944c5.632 1.536 10.8544 2.56 16.4864 4.096l-2.048 8.2944z m-166.8096-4.096l-1.536-8.2944c5.7344-1.024 11.3664-2.048 17.1008-3.584l1.536 8.2944c-6.2464 1.4336-11.4688 2.56-17.1008 3.584z m133.2224-4.1984c-5.632-1.536-11.3664-3.072-16.4864-4.096l2.048-8.2944c5.7344 1.536 10.8544 3.072 16.4864 4.096l-2.048 8.2944z m-99.6352-2.56l-1.536-8.2944 16.9984-3.072 1.536 8.2944c-6.144 1.024-11.8784 2.048-16.9984 3.072z m759.296-3.584c-4.096-2.56-8.8064-5.12-14.4384-7.7824l3.584-7.7824c5.7344 2.56 11.3664 5.7344 15.4624 8.2944l-4.608 7.2704z m-725.7088-2.56l-1.536-8.2944c5.632-1.024 11.3664-2.048 16.9984-2.56l1.024 6.2464 2.56-8.2944c4.608 1.536 9.3184 2.56 14.4384 4.096l-1.024-4.608c5.632-1.024 11.3664-1.536 16.9984-2.56l1.024 8.2944c-5.7344 1.024-10.8544 1.536-15.9744 2.56l-1.536 5.12c-5.632-1.536-10.8544-3.072-16.4864-4.608l0.512 2.048c-5.632 0.9216-11.3664 1.9456-16.9984 2.56z m0-9.8304c-5.7344-1.536-10.8544-3.584-16.4864-5.12l2.56-8.2944c5.12 1.536 10.8544 3.584 15.9744 5.12l-2.048 8.2944z m67.6864-0.512l-1.024-8.2944c5.7344-1.024 11.3664-1.536 16.9984-2.048l1.024 8.2944c-5.632 0.4096-11.3664 1.536-16.9984 2.048z m628.1216-1.024c-5.12-1.536-10.3424-3.072-15.9744-4.608l2.048-8.2944c5.632 1.536 11.3664 3.072 16.4864 5.12l-2.56 7.7824z m-594.6368-3.1744l-1.024-8.2944c5.632-0.512 11.3664-1.536 16.9984-2.048l1.024 8.2944c-5.632 0.512-11.264 1.024-16.9984 2.048z m34.0992-4.096l-1.024-8.2944c5.7344-0.512 11.3664-1.024 17.1008-2.048l1.024 8.2944c-5.7344 1.024-11.3664 1.536-17.1008 2.048z m527.9744-1.536c-5.12-1.024-10.8544-2.048-16.4864-3.072l1.536-8.2944 16.9984 3.072-2.048 8.2944z m-695.808 0c-5.632-2.048-10.8544-3.584-15.9744-5.632l3.072-7.7824c5.12 2.048 10.3424 3.584 15.9744 5.632l-3.072 7.7824z m201.9328-2.048l-1.024-8.2944 16.9984-1.536 1.024 8.2944-16.9984 1.536z m34.0992-3.1744l-1.024-8.8064 16.9984-1.536 0.512 8.2944c-5.12 1.024-10.752 1.536-16.4864 2.048z m426.1888-0.512c-5.7344-1.024-10.8544-1.536-16.9984-2.048l1.024-8.2944c5.7344 0.512 11.3664 1.536 17.1008 2.048l-1.1264 8.2944zM499.6096 420.864l-0.512-8.2944c5.7344-0.512 11.3664-1.024 16.9984-1.024l0.512 8.2944c-5.632 0.512-11.264 1.024-16.9984 1.024z m358.5024-1.536l-16.9984-1.536 0.512-8.2944 16.9984 1.536-0.512 8.2944z m-324.4032-0.512l-0.512-8.2944c5.632-0.512 11.3664-0.512 16.9984-1.024l0.512 8.2944c-5.632 0-11.264 0.512-16.9984 1.024z m-336.7936-1.536c-5.632-2.56-10.8544-4.608-15.9744-6.7584l3.072-7.7824c5.12 2.048 10.3424 4.096 15.4624 6.7584l-2.56 7.7824z m370.8928-0.512l-0.512-8.2944c5.7344-0.512 11.3664-0.512 17.1008-1.024l0.512 8.2944c-5.7344 0.512-11.3664 0.512-17.1008 1.024z m256.2048-0.512c-5.7344-0.512-11.3664-0.512-17.1008-1.024l0.512-8.2944c5.7344 0.512 11.3664 0.512 16.9984 1.024l-0.4096 8.2944zM601.9072 414.72l-0.512-8.2944c5.632 0 11.3664-0.512 16.9984-0.512l0.512 8.2944c-5.632 0.512-11.264 0.512-16.9984 0.512z m188.0064-0.6144c-5.632 0-11.3664-0.512-16.9984-0.512l0.512-8.2944c5.632 0 11.3664 0.512 16.9984 0.512l-0.512 8.2944z m-153.9072-0.512v-8.2944c5.7344 0 11.3664-0.512 17.1008-0.512v8.2944c-5.7344 0-11.3664 0.512-17.1008 0.512z m119.808-0.512c-5.632 0-11.3664 0-16.9984-0.512v-8.2944c5.7344 0 11.3664 0 16.9984 0.512v8.2944z m-85.1968-0.512v-8.2944h16.9984v8.2944h-16.9984z m51.0976 0h-17.1008v-8.2944h17.1008v8.2944z m-556.3392-9.216c-5.12-2.56-10.8544-5.12-15.4624-7.7824l4.096-7.7824c4.608 2.56 9.8304 5.12 14.9504 7.7824l-3.584 7.7824z m-30.9248-16.0768c-5.12-3.072-10.3424-6.2464-14.4384-9.3184l5.12-6.7584c4.096 3.072 8.8064 6.2464 13.9264 9.3184l-4.608 6.7584zM105.984 366.592c-4.608-4.096-8.8064-8.8064-11.8784-12.9024l6.7584-5.12c3.072 4.096 6.7584 7.7824 10.8544 11.8784l-5.7344 6.144z m-20.1728-28.8768c-1.024-3.584-1.536-6.7584-1.536-10.3424 0-3.072 0.512-5.632 1.024-8.8064l8.2944 2.048c-0.512 2.048-0.512 4.096-0.512 6.7584 0 2.56 0.512 5.12 1.024 7.7824l-8.2944 2.56zM100.864 306.176l-7.2704-4.608c3.072-5.12 6.7584-9.8304 10.3424-14.4384l6.7584 5.12c-3.6864 5.12-7.2704 9.3184-9.8304 13.9264z m768.1024-16.4864c-5.632-0.512-11.3664-0.512-16.9984-1.024l0.512-8.2944c5.632 0.512 11.3664 1.024 16.9984 1.024l-0.512 8.2944z m-34.6112-2.6624l-17.1008-1.536 1.024-8.2944 16.9984 1.536-0.9216 8.2944z m-34.0992-4.096c-5.632-0.512-11.3664-1.536-16.9984-2.048l1.024-8.2944c5.632 0.512 11.3664 1.536 16.9984 2.048l-1.024 8.2944z m-678.7072-2.56l-6.2464-6.2464c4.096-4.096 8.2944-8.2944 12.9024-11.8784l5.12 6.7584c-4.096 4.096-8.192 7.7824-11.776 11.3664z m645.12-2.048c-5.632-1.024-11.3664-1.536-16.9984-2.56l1.024-8.2944c5.632 1.024 11.3664 1.536 16.9984 2.56l-1.024 8.2944z m-34.0992-4.7104l-17.1008-2.56 1.536-8.2944 16.9984 2.56-1.4336 8.2944z m-34.0992-5.632l-16.9984-2.56 1.536-8.2944 17.1008 2.56-1.6384 8.2944z m-33.4848-5.7344l-16.9984-3.072 1.536-8.2944 16.9984 3.072-1.536 8.2944z m-517.632-2.56l-4.608-7.2704c4.608-3.072 9.8304-6.2464 14.9504-8.8064l4.096 7.7824c-5.12 2.6624-9.8304 5.2224-14.4384 8.2944z m484.0448-3.072l-17.1008-3.072 1.536-8.2944 16.9984 3.072-1.4336 8.2944z m-34.0992-6.2464l-16.9984-3.072 1.536-8.2944 17.1008 3.072-1.6384 8.2944z m-33.5872-5.632l-16.9984-2.56 1.536-8.2944 16.9984 2.56-1.536 8.2944z m-386.9696-0.512l-3.072-7.7824c5.12-2.048 10.8544-4.096 15.9744-6.2464l2.56 8.2944c-5.12 1.536-10.24 3.6864-15.4624 5.7344z m352.8704-4.7104c-5.7344-1.024-11.3664-1.536-17.1008-2.56l1.024-8.2944c5.7344 1.024 11.3664 1.536 16.9984 2.56l-0.9216 8.2944z m-33.5872-5.12c-5.632-1.024-11.3664-1.536-16.9984-2.56l1.024-8.2944c5.7344 0.512 11.3664 1.536 17.1008 2.56l-1.1264 8.2944z m-287.232-1.024l-2.048-8.2944c5.632-1.536 11.3664-3.072 16.9984-4.096l1.536 8.2944c-5.632 1.024-11.264 2.56-16.4864 4.096z m253.6448-3.584c-5.632-0.512-11.3664-1.536-16.9984-2.048l1.024-8.2944c5.632 0.512 11.3664 1.536 16.9984 2.048l-1.024 8.2944z m-220.5696-3.6864l-1.536-8.2944c5.7344-1.024 11.3664-1.536 17.1008-2.56l1.024 8.2944c-5.7344 0.512-11.4688 1.536-16.5888 2.56z m186.4704 0l-17.1008-1.536 1.024-8.2944 16.9984 1.536-0.9216 8.2944z m-34.0992-3.072c-5.632-0.512-11.3664-1.024-16.9984-1.024l0.512-8.2944c5.632 0.512 11.3664 0.512 16.9984 1.024l-0.512 8.2944z m-118.784-1.024l-0.512-8.2944c5.632-0.512 11.3664-1.024 16.9984-1.024l0.512 8.2944c-6.144 0-11.8784 0.512-16.9984 1.024z m84.6848-1.024c-5.632 0-11.3664-0.512-16.9984-0.512v-8.2944c5.7344 0 11.3664 0.512 16.9984 0.512v8.2944z m-51.0976-1.024v-8.2944h16.9984v8.2944h-16.9984z m585.728 70.7584h-8.8064l0.512-8.2944h8.2944v8.2944z m0 0" fill="#CCE1FF" p-id="7539"></path><path d="M677.376 592.384l-324.4032 1.024c-3.072 0-6.2464-2.56-6.2464-6.2464v-7.7824c0-3.072 2.56-6.2464 6.2464-6.2464l324.4032-1.024c3.072 0 6.2464 2.56 6.2464 6.2464v7.7824c-0.6144 3.6864-3.1744 6.2464-6.2464 6.2464z m0 0" fill="#E6EFFF" p-id="7540"></path><path d="M863.8464 323.2768c-38.1952-42.9056-92.4672-99.7376-144.0768-160.6656l-287.232 1.024-2.048 39.7312 36.1472 25.2928-34.0992 8.2944 34.0992 30.0032-27.3408 4.608-21.1968 53.248-19.1488-25.2928-36.1472-19.1488 23.2448-27.8528-47.104-21.1968 30.0032-21.1968-25.2928-45.9776-124.5184 0.512c-23.2448 0-41.8816 19.1488-41.8816 42.3936l1.536 389.5296c0 23.2448 19.1488 41.8816 42.3936 41.8816l602.3168-1.536c23.2448 0 41.8816-19.1488 41.8816-42.3936l-1.536-271.2576z m0 0" fill="#FFFFFF" p-id="7541"></path><path d="M220.16 640.9216c-11.8784 0-23.2448-4.608-32.0512-13.4144-8.8064-8.8064-13.4144-20.1728-13.4144-32.0512l-1.536-389.5296c0-11.8784 4.608-23.2448 12.9024-32.0512 8.8064-8.8064 20.1728-13.4144 32.0512-13.4144l126.5664-0.512 27.8528 50.0736-27.8528 19.6608 45.4656 20.6848-23.7568 27.8528 33.5872 18.1248 15.9744 21.1968 19.6608-49.5616 22.7328-3.584-33.5872-29.4912 33.0752-8.2944-32.0512-22.7328 2.048-44.9536 291.84-1.024 1.024 1.024c34.0992 40.2432 69.2224 78.5408 100.2496 112.64 15.9744 16.9984 30.5152 33.0752 43.4176 47.5136l1.024 1.024v1.024l1.024 270.6432c0 24.7808-20.1728 45.4656-44.9536 45.4656L220.16 640.9216z m121.4464-474.2144l-122.9824 0.512c-10.3424 0-20.1728 4.096-27.3408 11.3664-7.2704 7.2704-11.3664 17.1008-11.3664 27.3408l1.536 389.5296c0 10.3424 4.096 20.1728 11.3664 27.3408 7.2704 7.2704 16.9984 11.3664 27.3408 11.3664l602.3168-1.536c21.7088 0 38.7072-17.6128 38.7072-39.2192l-1.024-269.1072c-12.9024-14.4384-27.3408-30.0032-42.3936-47.0016-31.0272-33.5872-65.6384-71.7824-99.7376-111.616l-282.5216 0.512-1.536 35.1232 40.2432 28.3648-35.1232 9.3184 34.6112 30.5152-32.5632 5.12-22.7328 56.832-22.1184-29.9008-39.2192-20.6848 23.2448-27.3408-48.0256-21.7088 32.0512-22.7328-22.7328-42.3936z m0 0" fill="#A2ADC2" p-id="7542"></path><path d="M860.672 318.0544c-1.024 7.7824-7.7824 12.9024-14.9504 12.3904l-137.9328-14.4384c-7.7824-1.024-12.9024-7.7824-12.3904-14.9504l11.3664-125.0304c1.024-7.7824 7.7824-12.9024 14.9504-12.3904l138.9568 154.4192z m0 0" fill="#FFEED4" p-id="7543"></path><path d="M847.2576 333.6192h-1.536l-137.9328-13.9264c-4.608-0.512-8.2944-2.56-11.3664-6.2464-2.56-3.584-4.096-7.7824-3.584-12.3904l11.3664-125.0304c1.024-9.3184 9.3184-15.9744 18.6368-14.9504h1.024l1.024 1.024 139.4688 154.9312v1.536c-1.024 8.8064-8.8064 15.0528-17.1008 15.0528zM720.6912 167.2192c-5.12 0-9.8304 4.096-10.3424 9.3184l-11.3664 125.0304c-0.512 2.56 0.512 5.7344 2.048 7.7824s4.096 3.584 7.2704 3.584l137.9328 14.4384c2.56 0.512 5.7344-0.512 7.7824-2.048s3.072-3.584 3.584-5.7344L720.6912 167.2192z m0 0" fill="#A2ADC2" p-id="7544"></path><path d="M828.7232 864.0512h-629.76c-15.4624 0-28.3648-12.9024-28.3648-28.3648l-42.3936-271.6672c0-15.4624 12.9024-28.3648 28.3648-28.3648h720.0768c15.4624 0 28.3648 12.9024 28.3648 28.3648L857.088 835.6864c-0.512 15.4624-12.9024 28.3648-28.3648 28.3648z m0 0" fill="#FFEED4" p-id="7545"></path><path d="M828.7232 867.2256h-629.76c-17.6128 0-31.5392-13.9264-31.5392-31.5392l-42.3936-271.1552c0-18.1248 13.9264-32.0512 31.5392-32.0512h720.0768c17.5104 0 31.5392 13.9264 31.5392 31.5392L860.16 836.1984c0 16.9984-14.4384 31.0272-31.4368 31.0272zM156.672 538.624c-13.9264 0-25.2928 11.3664-25.2928 25.2928l42.3936 271.1552c0 14.4384 11.3664 25.8048 25.2928 25.8048h629.1456c13.9264 0 25.2928-11.3664 25.2928-25.2928l48.0256-272.2816c0-13.4144-11.3664-24.7808-25.2928-24.7808H156.672z m0 0" fill="#A2ADC2" p-id="7546"></path><path d="M411.3408 671.9488c0 3.584 1.536 7.7824 4.096 10.3424s6.7584 4.096 10.3424 4.096 7.7824-1.536 10.3424-4.096 4.096-6.7584 4.096-10.3424-1.536-7.7824-4.096-10.3424-6.7584-4.096-10.3424-4.096-7.7824 1.536-10.3424 4.096c-2.56 3.072-4.096 6.656-4.096 10.3424z m170.9056 0c0 3.584 1.536 7.7824 4.096 10.3424s6.7584 4.096 10.3424 4.096 7.7824-1.536 10.3424-4.096 4.096-6.7584 4.096-10.3424-1.536-7.7824-4.096-10.3424-6.7584-4.096-10.3424-4.096-7.7824 1.536-10.3424 4.096c-2.4576 3.072-4.096 6.656-4.096 10.3424z m0 0M561.152 757.6576c5.12 0 9.3184-3.072 8.2944-6.7584-4.608-18.1248-27.8528-32.0512-55.808-32.0512-27.8528 0-51.0976 13.9264-55.808 32.0512-1.024 3.584 3.072 6.7584 8.2944 6.7584 4.096 0 7.7824-2.048 8.2944-4.608 3.072-12.9024 19.6608-22.2208 39.2192-22.2208 19.6608 0 35.6352 9.8304 39.2192 22.2208 0.512 2.56 4.096 4.608 8.2944 4.608z m0 0" fill="#A2ADC2" p-id="7547"></path><path d="M33.1776 498.8928c0 71.8848 58.2656 130.1504 130.1504 130.1504 71.8848 0 130.1504-58.2656 130.1504-130.1504s-58.2656-130.1504-130.1504-130.1504c-71.8848 0-130.1504 58.2656-130.1504 130.1504z m0 0" fill="#FFFFFF" p-id="7548"></path><path d="M163.328 632.1152c-73.3184 0-133.3248-59.904-133.3248-133.3248S90.0096 365.568 163.328 365.568s133.3248 59.904 133.3248 133.3248-60.0064 133.2224-133.3248 133.2224z m0-260.3008c-69.7344 0-127.0784 56.832-127.0784 127.0784 0 69.7344 56.832 127.0784 127.0784 127.0784s127.0784-56.832 127.0784-127.0784c0-69.7344-56.832-127.0784-127.0784-127.0784z m0 0" fill="#A2ADC2" p-id="7549"></path><path d="M173.6704 572.2112c-2.56 2.56-6.2464 4.608-9.8304 4.608s-7.2704-1.536-9.8304-4.096-4.096-6.7584-4.096-10.3424 1.536-7.7824 4.096-10.3424 6.2464-4.608 9.8304-4.608 7.2704 1.536 9.8304 4.096 4.096 6.7584 4.096 10.3424-1.536 7.7824-4.096 10.3424z m5.2224-116.736l-6.2464 71.7824c0 5.7344-4.608 9.8304-9.8304 9.8304-5.12 0-9.8304-4.096-10.3424-9.8304l-9.3184-71.7824c-0.512-1.536-0.512-2.56-0.512-4.096 0-10.3424 7.7824-19.1488 18.1248-19.1488s18.6368 8.2944 18.6368 18.6368c0 2.048-0.512 3.584-0.512 4.608z m0 0M643.7888 601.1904c-2.56 0-4.608 2.048-4.608 4.096v32.5632c0 2.56 2.048 4.096 4.608 4.096s4.608-2.048 4.608-4.096v-32.5632c0-2.048-2.048-4.096-4.608-4.096z m19.0464 0c-2.56 0-4.608 2.048-4.608 4.096v32.5632c0 2.56 2.048 4.096 4.608 4.096s4.608-2.048 4.608-4.096v-32.5632c0.1024-2.048-1.9456-4.096-4.608-4.096z m21.1968 0c-2.56 0-4.608 2.048-4.608 4.096v32.5632c0 2.56 2.048 4.096 4.608 4.096s4.608-2.048 4.608-4.096v-32.5632c0.1024-2.048-2.048-4.096-4.608-4.096z m0 0" fill="#A2ADC2" p-id="7550"></path></svg>
           `
@@ -6437,30 +6004,36 @@
       });
       return error;
     },
-    setCouponsHtml: function(modal) {
+    setCouponsHtml: function(root, modal) {
+      const { outerDIV, shadowRoot } = root;
       const modalBody = modal.querySelector("div[name='modalBody']");
       const self = this;
       const generateRequest = this.generateRequest(modalBody);
       const generateRequestLoadding = this.generateRequestLoadding();
       const generateRequestLoaddingError = this.generateRequestLoaddingError(() => {
         generateRequest.remove();
-        this.setCouponsHtml(modal);
+        this.setCouponsHtml(root, modal);
       });
       generateRequest.append(generateRequestLoadding);
-      RequestUnionUtil.getDetectCouponResult().then((reqData) => {
-        if (reqData.code !== "success") {
+      RequestUnionUtil.getDetectCouponResult().then((dataJson) => {
+        if (!dataJson) {
           generateRequestLoadding.remove();
           generateRequest.append(generateRequestLoaddingError);
           return;
         }
         generateRequest.remove();
-        const { data, structure } = JSON.parse(reqData.result);
+        const { data, structure } = dataJson;
         if (structure.hasOwnProperty("css") && structure.hasOwnProperty("html")) {
           const { css, html } = structure;
-          StyleUtil.addStyle(css);
+          InspectUtil.addStyle(this._root.shadowRoot, "coupon-list", css);
           modalBody.innerHTML = html;
-          [".discount-base", ".cgg-store-item", ".showmore-btn"].flatMap((selector) => Array.from(document.querySelectorAll(selector))).forEach((button, index) => {
-            InspectUtil.bindCustomEvent(button);
+          [".discount-base", ".cgg-store-item", ".showmore-btn", "*[name='cgg02xClickToActivate']"].flatMap((selector) => Array.from(modalBody.querySelectorAll(selector))).forEach((button) => {
+            const isActivateButton = button.matches("*[name='cgg02xClickToActivate']");
+            InspectUtil.bindCustomEvent(button, (option) => {
+              if (isActivateButton) {
+                InspectUtil.addActivateCallbackEvent(outerDIV, option);
+              }
+            });
           });
           const tabs = modalBody.querySelectorAll("a[data-toggle='tab']");
           const tabPanes = modalBody.querySelectorAll(".tab-pane");
@@ -6492,8 +6065,12 @@
         generateRequest.append(generateRequestLoaddingError);
       });
     },
-    generate: function(logoBase64, outerDIV, title, modalPosition) {
-      this._outerDIV = outerDIV;
+    generate: function(logoBase64, root, title, modalPosition) {
+      if (this._hasModal) {
+        return;
+      }
+      const { outerDIV, shadowRoot } = root;
+      this._root = root;
       this._logoBase64 = logoBase64;
       const contentHtml = `
       <div class="modal-header">
@@ -6512,23 +6089,401 @@
     `;
       let modelCss = Object.entries(modalPosition).map(([key, value]) => `${key.replace("_", "-")}:${value}`).join(";");
       const modal = ElementUtil.createElement("div", {
-        className: ElementUtil.randomClassName("coupon-list-widget-conent"),
-        html: ElementUtil.addSuffixToHtml(contentHtml),
+        className: "coupon-list-widget-conent",
+        html: contentHtml,
         attributes: {
           "style": modelCss
         }
       });
       outerDIV.append(modal);
-      const close = modal.querySelector("div[class^='close_']");
-      const setting = modal.querySelector("div[class^='setting_']");
+      this._hasModal = true;
+      const close = modal.querySelector("div.close");
+      const setting = modal.querySelector("div.setting");
       this.addCloseEventListener(close, modal);
       this.addShowSettingEventListener(setting, modal);
-      this.setCouponsHtml(modal);
+      this.setCouponsHtml(root, modal);
       return modal;
     }
   };
 
-  var __async = (__this, __arguments, generator) => {
+  var css_248z = ".history-panel-wrapper{box-sizing:border-box;position:fixed;z-index:2147483646}.history-panel-wrapper svg.icon-i87i-svg path{fill:var(--color-modeal-header-icon)!important}.history-panel-wrapper svg.icon-i87i-svg:hover path{fill:var(--color-modeal-header-icon-hover)!important}.history-panel-wrapper>.history-panel-aside-main{background-color:#fff;border:1px solid #ebebeb;border-radius:5px;bottom:70px;box-shadow:2px 2px 5px #b6bdc5;height:400px;overflow-x:hidden;overflow-y:auto;position:absolute;right:0;width:400px}.history-panel-wrapper>.history-panel-aside-main>.panel-aside-main-inner{display:flex;flex-direction:column;height:100%;width:100%}.history-panel-aside-main .panel-aside-main-header{align-items:center;background-color:var(--color-modeal-header-background);border-bottom:1px solid #ebe6e6;box-sizing:border-box;display:flex;height:var(--size-height-modeal-header);justify-content:space-between;padding:0 var(--size-padding-horizontal-modeal-header)}.history-panel-aside-main .panel-aside-main-header>.logo-header{align-items:center;display:flex;justify-content:center}.history-panel-aside-main .panel-aside-main-header>.logo-header>svg{height:var(--size-height-modeal-icon)!important;width:var(--size-height-modeal-icon)!important}.history-panel-aside-main .panel-aside-main-header>.title-header{flex:1;font-size:var(--size-font-modeal-header-title);font-weight:700;padding-left:10px}.history-panel-aside-main .panel-aside-main-header .btns-header{display:flex;flex-direction:row}.history-panel-aside-main .panel-aside-main-header .btns-header .close,.history-panel-aside-main .panel-aside-main-header .btns-header .setting{align-items:center;cursor:pointer;display:flex;justify-content:center;width:var(--size-height-modeal-operat-icon)}.history-panel-aside-main .panel-aside-main-content{background-color:var(--color-modeal-content-background);flex:1;overflow:auto}.history-panel-aside-main .panel-aside-main-item{margin:5px 0;padding:5px}.history-panel-aside-main .panel-aside-main-item .item-title{color:#b6b6b6;font-size:13px;font-weight:500;padding:5px 0;text-align:center}.history-panel-aside-main .panel-aside-main-item .item-container{display:flex;flex-flow:wrap;flex-direction:row;justify-content:flex-start}.history-panel-aside-main .histories-box-review_item{margin:5px 0;overflow:hidden;width:33.3333%}.history-panel-aside-main .histories-box-review_item>a{background-color:#fff!important;border:1px solid #ccc!important;border-radius:5px!important;box-sizing:initial!important;display:block!important;margin:0 auto!important;position:relative!important;width:110px!important}.history-panel-aside-main .histories-box-review_item>a>.review-shadow{border:2px solid red;border-radius:5px;bottom:0;display:none;left:0;position:absolute;right:0;text-align:center;top:0;z-index:99}.history-panel-aside-main .histories-box-review_item>a>.review-shadow .delete-btn{background-color:red;border-radius:3px;color:#fff;font-size:13px;height:15px;line-height:10px;position:absolute;right:0;text-align:center;top:0;width:15px}.history-panel-aside-main .histories-box-review_item>a>.review-img{border-radius:5px 5px 0 0;height:110px;overflow:hidden;width:110px}.history-panel-aside-main .histories-box-review_item>a>.review-img>img{width:100%!important}.history-panel-aside-main .histories-box-review_item>a>.review-text{color:#000!important;font-size:13px!important;overflow:hidden!important;padding:5px!important;text-align:center!important;text-decoration:underline!important;text-overflow:ellipsis!important;white-space:nowrap!important}.history-panel-wrapper>.history-panel-aside-body{background-color:#fafafa;border-radius:5px;box-shadow:1px 1px 2px #b6bdc5;direction:ltr!important;display:flex;height:60px;overflow:hidden}.history-panel-wrapper>.history-panel-aside-body>div{align-items:center!important;display:flex!important;justify-content:center!important}.history-panel-aside-body .goods-expand{cursor:pointer;width:20px!important}.history-panel-aside-body .goods-expand svg{transition:transform .3s!important}.history-panel-aside-body .goods-review{flex-direction:row;transition:all .5s ease-in-out;width:auto}.history-panel-aside-body .goods-review-item{border-radius:4px;cursor:pointer;height:45px;line-height:45px;margin:0 5px;overflow:hidden;position:relative;width:45px}.history-panel-aside-body .goods-review-item>a{display:block!important;height:100%!important;width:100%!important}.history-panel-aside-body .goods-review-item>a>.review-shadow{background-color:#3d9ba433;bottom:0;display:none;left:0;position:absolute;right:0;text-align:center;top:0;z-index:99}.history-panel-aside-body .goods-review-item>a>.review-shadow img{width:15px!important}.history-panel-aside-body .goods-review-item img{width:100%!important}.history-panel-aside-body .history-box-expand{cursor:pointer;flex-direction:column;margin:0 10px;text-align:center}.history-panel-aside-body .history-box-expand svg{height:33px!important;width:33px!important}.history-panel-aside-body .history-box-expand label{font-size:12px!important;font-weight:700!important}.history-panel-aside-body .wrapper-drag-handle{box-shadow:0 3px 3px -2px #0003,0 3px 4px 0 #00000024,0 1px 8px 0 #0000001f;cursor:move;width:20px!important}";
+
+  const GoodsHistroy = {
+    root: null,
+    models: {
+      history: "history-model"
+    },
+    push: function(platform, obj) {
+      var _a;
+      try {
+        const storageObj = StorageUtil.getValue(StorageKeys.history.goodsHistory, DefaultValue.history.historyStorage);
+        const maximumRecords = StorageUtil.getValue(StorageKeys.history.maximumRecordsKey, DefaultValue.history.records.default);
+        const histories = (_a = storageObj[platform]) != null ? _a : [];
+        if (histories.length >= maximumRecords) {
+          histories.splice(0, parseInt(maximumRecords / 5));
+        }
+        const newArr = histories.filter((item, index) => item.id != obj.id);
+        newArr.push(obj);
+        storageObj[platform] = newArr;
+        StorageUtil.setValue(StorageKeys.history.goodsHistory, storageObj);
+      } catch (e) {
+      }
+    },
+    get: function(platform, num = -1) {
+      var _a;
+      const storageObj = StorageUtil.getValue(StorageKeys.history.goodsHistory, DefaultValue.history.historyStorage);
+      const histories = (_a = storageObj[platform]) != null ? _a : [];
+      if (num > 0) {
+        const showHistories = [];
+        for (let i = histories.length - 1; i >= 0; i--) {
+          if (showHistories.length >= num)
+            break;
+          showHistories.push(histories[i]);
+        }
+        return showHistories;
+      }
+      return histories;
+    },
+    remove: function(platform, id) {
+      const storageObj = StorageUtil.getValue(StorageKeys.history.goodsHistory, DefaultValue.history.historyStorage);
+      const histories = storageObj[platform];
+      let newArr = histories.filter((item, index) => item.id != id);
+      storageObj[platform] = newArr;
+      StorageUtil.setValue(StorageKeys.history.goodsHistory, storageObj);
+    },
+    getGoodsByDateGroup: function(platform) {
+      const histories = this.get(platform).reverse();
+      const group = [];
+      const today = new Date();
+      const yesterday = new Date(today);
+      const format = "dd/MM";
+      yesterday.setDate(today.getDate() - 1);
+      const todayStr = this.dateFormat(today, format);
+      const yesterdayStr = this.dateFormat(yesterday, format);
+      const showDateFormat = (todayStr2, yesterdayStr2, current) => {
+        const langueFormat2 = {};
+        if (current === todayStr2) {
+          langueFormat2.str = LangueUtil.getLangueByStorageKey("history_box_hit_today");
+          langueFormat2.langueKey = "history_box_hit_today";
+        } else if (current === yesterdayStr2) {
+          langueFormat2.str = LangueUtil.getLangueByStorageKey("history_box_hit_yesterday");
+          langueFormat2.langueKey = "history_box_hit_yesterday";
+        } else {
+          langueFormat2.str = " —— " + current + " —— ";
+          langueFormat2.langueKey = "";
+        }
+        return langueFormat2;
+      };
+      let items = [], cacheDateStr = null, currentDateStr = null, langueFormat = null;
+      for (let i = 0; i < histories.length; i++) {
+        today.setTime(histories[i].date);
+        currentDateStr = this.dateFormat(today, format);
+        if (!!cacheDateStr) {
+          if (cacheDateStr != currentDateStr) {
+            langueFormat = showDateFormat(todayStr, yesterdayStr, cacheDateStr);
+            group.push({
+              "str": langueFormat.str,
+              "langueKey": langueFormat.langueKey,
+              "items": items
+            });
+            items = [];
+            cacheDateStr = currentDateStr;
+          }
+        } else {
+          cacheDateStr = currentDateStr;
+        }
+        items.push(histories[i]);
+      }
+      if (items.length != 0) {
+        langueFormat = showDateFormat(todayStr, yesterdayStr, cacheDateStr);
+        group.push({
+          "str": langueFormat.str,
+          "langueKey": langueFormat.langueKey,
+          "items": items
+        });
+      }
+      return group;
+    },
+    dateFormat: function(date, format) {
+      var showDate = {
+        "M+": date.getMonth() + 1,
+        "d+": date.getDate(),
+        "h+": date.getHours(),
+        "m+": date.getMinutes(),
+        "s+": date.getSeconds(),
+        "q+": Math.floor((date.getMonth() + 3) / 3),
+        "S+": date.getMilliseconds()
+      };
+      if (/(y+)/i.test(format)) {
+        format = format.replace(RegExp.$1, (date.getFullYear() + "").substr(4 - RegExp.$1.length));
+      }
+      for (var k in showDate) {
+        if (new RegExp("(" + k + ")").test(format)) {
+          format = format.replace(RegExp.$1, RegExp.$1.length == 1 ? showDate[k] : ("00" + showDate[k]).substr(("" + showDate[k]).length));
+        }
+      }
+      return format;
+    },
+    showOrHideHistoryBox: function(platform) {
+      const { outerDIV, shadowRoot } = this.root;
+      const self = this;
+      const group = this.getGoodsByDateGroup(platform);
+      const contentElement = outerDIV.querySelector(".history-panel-aside-main .panel-aside-main-content");
+      contentElement.innerHTML = "";
+      let historiesBoxHtml = "", jumpUrl = "", imgUrl = "";
+      for (let i = 0; i < group.length; i++) {
+        historiesBoxHtml += `<div class="panel-aside-main-item">`;
+        historiesBoxHtml += `<div class="item-title" langue-extension-text="` + group[i].langueKey + `">` + group[i].str + `</div>`;
+        historiesBoxHtml += `<div class="item-container">`;
+        for (let j = 0; j < group[i].items.length; j++) {
+          jumpUrl = this.pretreatmentJumpUrl(group[i].items[j].url, platform);
+          imgUrl = this.pretreatmentImageUrl(group[i].items[j].pic, platform);
+          historiesBoxHtml += `
+          <div class="histories-box-review_item">
+            <a title="` + group[i].items[j].title + `" jump-tag="true" href="javascript:void(0);" jump-url="` + jumpUrl + `" target="_blank">
+              <div class="review-shadow">
+                <div class="delete-btn" data-id="` + group[i].items[j].id + `">×</div>
+              </div>
+              <div class="review-img"><img src="` + imgUrl + `" /></div>
+              <div class="review-text">` + group[i].items[j].price + `</div>
+            </a>
+          </div>
+        `;
+        }
+        historiesBoxHtml += `</div>`;
+        historiesBoxHtml += `</div>`;
+      }
+      contentElement.innerHTML = historiesBoxHtml;
+      outerDIV.querySelectorAll(".history-panel-aside-main .delete-btn").forEach((ele) => {
+        ele.addEventListener("click", function(e) {
+          e.stopPropagation();
+          e.preventDefault();
+          const id = this.getAttribute("data-id");
+          this.parentNode.parentNode.parentNode.remove();
+          self.remove(platform, id);
+        });
+      });
+      const items = outerDIV.querySelectorAll(".history-panel-aside-main .histories-box-review_item > a");
+      items.forEach((ele) => {
+        ele.addEventListener("mouseover", function() {
+          this.querySelector(".review-shadow").style.display = "block";
+        });
+        ele.addEventListener("mouseout", function() {
+          this.querySelector(".review-shadow").style.display = "none";
+        });
+      });
+      outerDIV.querySelectorAll(".history-panel-aside-main a[jump-tag='true']").forEach((ele) => {
+        ele.addEventListener("click", function(e) {
+          e.stopPropagation();
+          e.preventDefault();
+          const href = this.getAttribute("jump-url");
+          Tools.openInTab(Tools.decryptStr(href));
+        });
+      });
+    },
+    pretreatmentJumpUrl: function(url, platform) {
+      const exchangeInfoLocal = StorageUtil.getValue(StorageKeys.exchangeInfo, DefaultValue.exchangeInfoLocal);
+      const redirect = exchangeInfoLocal.redirect;
+      const jumpUrl = redirect + encodeURIComponent(url);
+      return Tools.encryptStr(jumpUrl);
+    },
+    pretreatmentImageUrl: function(imgUrl, platform) {
+      let dealImgUrl = "";
+      if (platform == "aliexpress") {
+        dealImgUrl = imgUrl.replace(/_\d+x\d+\./, "_150x150.");
+      } else {
+        dealImgUrl = imgUrl;
+      }
+      return dealImgUrl;
+    },
+    createHistoryBox: function(platform) {
+      const { outerDIV, shadowRoot } = this.root;
+      const wrapperOffset = StorageUtil.getValue(StorageKeys.history.offset, DefaultValue.history.offsetWrapper);
+      const histories = this.get(platform, DefaultValue.history.toolbarGoodsNum);
+      const selectedLanguage = LangueUtil.getSelectedLanguage();
+      let goodsHtml = ``, jumpUrl = "";
+      histories.forEach((h) => {
+        jumpUrl = this.pretreatmentJumpUrl(h.url, platform);
+        goodsHtml += `
+        <div class="goods-review-item">
+          <a title="` + h.title + `" jump-tag="true" jump-url="` + jumpUrl + `" target="_blank">
+            <div class="review-shadow">
+              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAVlJREFUWEftlsGRgzAMRS26wBQTUtluKltSDKYLlJUHMY6xZMGFi7lkCObr6cuWAHfzBTfHdw2gOdAcOOXAPM+/fGwB4OGcG7f7iX4R8d113dT3fby3XCYACgwAPxZBBiKYYRh2YOldFUAKjIivNNNlWUZEJEB2ZI9HazUQEUALLgluIH95thpEESCEQCKHbADgyfXNACcAeNEzpVyT9/6Zwx0ApOD/QFFAypKEvfdR74x7XwCaOGevANIpiPXWNm1eji8ATZyzCyGgdhos63gN6eQAorhFmMugOcml3PtJmo3FukpPqO6TdCMfHLBuIKkMiUvFU5RnXwSgP6W9kG6gbQ0tpya0NxvFftsx5JJIVucWWkp4uhHVIMhKajy0jptPtLMwLy634kJm6fSrzqVa4OIpqKlSfdd1HbdRHOufTj9+3zIFLwHUAK88N30PXBG2vtMAmgPNgQ/i7v8h6Um2jAAAAABJRU5ErkJggg==" />
+            </div>
+            <img src="` + h.pic + `" />
+          </a>
+        </div>
+      `;
+      });
+      let html = `
+      <div class="history-panel-wrapper" data-re-mark-tag="` + platform + `" style="bottom:` + wrapperOffset.bottom + `px; right:` + wrapperOffset.right + `px;">
+        <div class="history-panel-aside-main" data-extension-direction="` + selectedLanguage.dir + `" style="display:none;">
+          <div class="panel-aside-main-inner">
+            <div class="panel-aside-main-header">
+              <div class="logo-header">` + historyIconSVG + `</div>
+              <div class="title-header" langue-extension-text="history_box_title">` + LangueUtil.getLangueByStorageKey("history_box_title") + `</div>
+              <div class="btns-header">
+                <div class="setting">` + settingSVG + `</div>
+                <div class="close">` + closeSVG + `</div>
+              </div>
+            </div>
+            <div class="panel-aside-main-content"></div>
+          </div>
+        </div>
+        <div class="history-panel-aside-body">
+          <div class="goods-expand">
+            <svg focusable="false" class="icon-i87i-svg" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1365" width="20" height="20"><path d="M317.84959998 926.1056a46.08 46.08 0 0 1 10.8544-29.9008L643.68639998 521.216a13.312 13.312 0 0 0 0-18.432l-3.6864-3.072L328.70399998 127.7952a46.4896 46.4896 0 0 1 71.0656-59.8016l311.0912 370.68799999a105.8816 105.8816 0 0 1 0 146.63680002l-311.0912 370.68799999a46.2848 46.2848 0 0 1-81.92-29.9008z" fill="#bfbfbf" p-id="1366"></path></svg>
+          </div>
+          <div class="goods-review">
+            ` + goodsHtml + `
+          </div>
+          <div class="history-box-expand">
+            ` + historyIconSVG + `
+            <label langue-extension-text="history_bar_hint">` + LangueUtil.getLangueByStorageKey("history_bar_hint") + `</label>
+          </div>
+          <div class="wrapper-drag-handle">
+            <svg focusable="false" class="icon-i87i-svg" viewBox="0 0 24 24" data-testid="DragIndicatorIcon"><path d="M11 18c0 1.1-.9 2-2 2s-2-.9-2-2 .9-2 2-2 2 .9 2 2m-2-8c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2m0-6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2m6 4c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2m0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2m0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2" fill="#bfbfbf"></path></svg>
+          </div>
+        </div>
+      </div>
+    `;
+      outerDIV.insertAdjacentHTML("beforeend", html);
+      this.addEventListener(platform);
+    },
+    addDragEventListener: function() {
+      const { outerDIV, shadowRoot } = this.root;
+      const draggable = outerDIV.querySelector(".history-panel-wrapper .wrapper-drag-handle");
+      const wrapper = outerDIV.querySelector(".history-panel-wrapper");
+      const offsetWrapper = Object.assign({}, DefaultValue.history.offsetWrapper);
+      let isDragging = false, startY, elementBottom;
+      let windowHeight = window.innerHeight;
+      let bottomMax = parseInt(windowHeight / 3) * 2, bottomMin = DefaultValue.history.offsetWrapper.bottom;
+      window.addEventListener("resize", () => {
+        windowHeight = window.innerHeight;
+        bottomMax = parseInt(windowHeight / 3) * 2;
+      });
+      function onMouseUp() {
+        if (!isDragging)
+          return;
+        isDragging = false;
+        document.removeEventListener("mousemove", onMouseMove);
+        document.removeEventListener("mouseup", onMouseUp);
+        StorageUtil.setValue(StorageKeys.history.offset, offsetWrapper);
+      }
+      function onMouseMove(e) {
+        if (!isDragging)
+          return;
+        const deltaY = e.clientY - startY;
+        let newBottom = elementBottom - deltaY;
+        if (newBottom <= bottomMin) {
+          newBottom = bottomMin;
+        } else if (newBottom > bottomMax) {
+          newBottom = bottomMax;
+        }
+        wrapper.style.bottom = `${newBottom}px`;
+        offsetWrapper.bottom = newBottom;
+      }
+      draggable.addEventListener("mousedown", (e) => {
+        e.preventDefault();
+        if (window.getComputedStyle(wrapper).position !== "absolute" && window.getComputedStyle(wrapper).position !== "fixed") {
+          return;
+        }
+        isDragging = true;
+        startY = e.clientY;
+        elementBottom = parseInt(window.getComputedStyle(wrapper).bottom, DefaultValue.history.offsetWrapper.bottom) || DefaultValue.history.offsetWrapper.bottom;
+        document.addEventListener("mousemove", onMouseMove);
+        document.addEventListener("mouseup", onMouseUp);
+      });
+    },
+    addEventListener: function(platform) {
+      const { outerDIV, shadowRoot } = this.root;
+      const self = this;
+      const items = outerDIV.querySelectorAll(".goods-review >.goods-review-item >a");
+      items.forEach((ele) => {
+        ele.addEventListener("mouseover", function() {
+          this.querySelector(".review-shadow").style.display = "block";
+        });
+        ele.addEventListener("mouseout", function() {
+          this.querySelector(".review-shadow").style.display = "none";
+        });
+      });
+      const goodsExpandEle = outerDIV.querySelector(".history-panel-wrapper .goods-expand");
+      if (goodsExpandEle) {
+        goodsExpandEle.addEventListener("click", function() {
+          const goodsReviewEle = this.nextElementSibling;
+          const svgEle = this.querySelector("svg");
+          svgEle.style.transition = "transform 0.3s";
+          if (goodsReviewEle.style.width == "0px") {
+            goodsReviewEle.style.width = "auto";
+            svgEle.style.transform = "rotate(0deg)";
+          } else {
+            goodsReviewEle.style.width = "0px";
+            svgEle.style.transform = "rotate(180deg)";
+          }
+        });
+      }
+      const historyBoxExpandEles = [
+        outerDIV.querySelector(".history-panel-wrapper .history-box-expand"),
+        outerDIV.querySelector(".history-panel-wrapper .close")
+      ];
+      const asideMainEle = outerDIV.querySelector(".history-panel-wrapper >.history-panel-aside-main");
+      if (asideMainEle) {
+        historyBoxExpandEles.forEach((ele) => {
+          if (ele) {
+            ele.addEventListener("click", function() {
+              const computedDisplay = window.getComputedStyle(asideMainEle).display;
+              if (computedDisplay === "none") {
+                self.showOrHideHistoryBox(platform);
+                asideMainEle.style.display = "block";
+              } else {
+                asideMainEle.style.display = "none";
+              }
+            });
+          }
+        });
+      }
+      document.addEventListener("click", function(event) {
+        const path = event.composedPath();
+        const clickedInsideShadow = path.some((el) => el === outerDIV || el === shadowRoot);
+        if (!clickedInsideShadow) {
+          asideMainEle.style.display = "none";
+        }
+      });
+      const headerSettingElement = outerDIV.querySelector(".history-panel-wrapper .setting");
+      if (headerSettingElement) {
+        headerSettingElement.addEventListener("click", () => {
+          Setting.showDialog(() => {
+            outerDIV.querySelector(".history-panel-aside-body .goods-review").innerHTML = "";
+            outerDIV.querySelector(".history-panel-aside-main .panel-aside-main-content").innerHTML = "";
+          });
+        });
+      }
+      outerDIV.querySelectorAll(".history-panel-aside-body a[jump-tag='true']").forEach((ele) => {
+        ele.addEventListener("click", function(e) {
+          e.stopPropagation();
+          e.preventDefault();
+          const href = this.getAttribute("jump-url");
+          Tools.openInTab(Tools.decryptStr(href));
+        });
+      });
+      self.addDragEventListener();
+    },
+    start: function(support) {
+      try {
+        if (support.record.disabled) {
+          return;
+        }
+        const platform = support.p;
+        const styles = css_248z$3 + css_248z;
+        const root = InspectUtil.generateShadowDomRoot(platform + "-" + this.models.history, styles);
+        this.root = root;
+        this.createHistoryBox(platform);
+      } catch (e) {
+      }
+    }
+  };
+
+  var __async$3 = (__this, __arguments, generator) => {
     return new Promise((resolve, reject) => {
       var fulfilled = (value) => {
         try {
@@ -6549,27 +6504,73 @@
     });
   };
   const InspectCouponsHTML = {
-    addStyle: function() {
-      const css = ElementUtil.addSuffixToCss(css_248z$1 + css_248z);
-      StyleUtil.addStyle(css.replace(/@logo@/g, logoBase64));
+    root: null,
+    models: {
+      flyout: "flyout-model",
+      detect: "detect-model"
     },
-    outerDIV: null,
-    start: function(platform, historyShow) {
-      return __async(this, null, function* () {
+    getStyle: function() {
+      const css = css_248z$3 + css_248z$5 + css_248z$4;
+      return css.replace(/@logo@/g, logoBase64);
+    },
+    showFlyOut: function(root, flyout, platform, logoBase64) {
+      const { outerDIV, shadowRoot } = root;
+      if (!!flyout && !!flyout.html && !!flyout.css && !!flyout.conf) {
+        const { html, css, conf } = flyout;
+        InspectUtil.addStyle(shadowRoot, this.models.flyout, css);
+        outerDIV.insertAdjacentHTML("beforeend", html);
+        const cggfCloseFlyout = () => {
+          const flyoutEl = outerDIV.querySelector("[name='" + flyout.conf.name + "']");
+          if (flyoutEl) {
+            flyoutEl.classList.add(flyout.conf.close_animation);
+            flyoutEl.addEventListener("animationend", () => flyoutEl.remove(), { once: true });
+          }
+        };
+        if (flyout.conf.delay > 0) {
+          setTimeout(cggfCloseFlyout, flyout.conf.delay);
+        }
+        const closeButton = outerDIV.querySelector(flyout.conf.close_button);
+        if (closeButton) {
+          closeButton.addEventListener("click", cggfCloseFlyout);
+        }
+        InspectUtil.bindCustomEvent(outerDIV.querySelector("*[name='cgg02xClickToActivate']"), (option) => {
+          if (!option) {
+            return;
+          }
+          if (option.hasOwnProperty("dismissAfter") && option.dismissAfter) {
+            cggfCloseFlyout();
+          }
+          if (option.hasOwnProperty("callbackEvent")) {
+            InspectUtil.addActivateCallbackEvent(outerDIV, option);
+          }
+        });
+        InspectUtil.bindApplyCouponsEvent(outerDIV.querySelector("*[name='applyCouponButton']"), (dataJson) => {
+          const { codes, check } = dataJson;
+          ProgressModal.generate(
+            logoBase64,
+            root,
+            platform,
+            codes,
+            check
+          );
+        });
+      }
+    },
+    start: function() {
+      return __async$3(this, null, function* () {
+        var _a;
+        const support = SupportData.support;
+        const platform = support.p;
         let infoJson = null;
         try {
-          const info = yield RequestUnionUtil.getDetectInfoResult();
-          Logger.log("info", "detect info=========>", info);
-          if (info.code === "success") {
-            infoJson = JSON.parse(info.result);
-          }
+          infoJson = yield RequestUnionUtil.getDetectInfoResult();
         } catch (e) {
         }
         if (!infoJson)
           return;
         const couponTotal = infoJson["coupon_total"];
         const modalPosition = infoJson["modal"];
-        const _historyShow = infoJson["history_show"];
+        const historyShow = infoJson["history_show"];
         const iconJson = infoJson["icon"];
         const badgeData = iconJson["badge"];
         const dragData = iconJson["drag"];
@@ -6578,25 +6579,196 @@
         const autoOpen = cggJson["auto_open"];
         const modalTitle = cggJson["current_platform"];
         const logoBase64$1 = !!cggJson["logo"] ? cggJson["logo"] : logoBase64;
-        if (historyShow && _historyShow) {
-          GoodsHistroy.start(platform);
+        const moveToEnd = cggJson["move_to_end"];
+        const observerTime = (_a = cggJson["observer_time"]) != null ? _a : 20 * 1e3;
+        const flyout = infoJson["flyout"];
+        if (historyShow) {
+          GoodsHistroy.start(support);
         }
         if (!infoJson["show"]) {
           return;
         }
         const selectedLanguage = LangueUtil.getSelectedLanguage();
-        this.addStyle();
-        const outerDIV = InspectUtil.generateOuterContainer(selectedLanguage.dir);
-        outerDIV.setAttribute("data-re-mark-tag", InspectUtil.getPlatform());
-        this.outerDIV = outerDIV;
+        const style = this.getStyle();
+        const root = InspectUtil.generateShadowDomRoot(
+          platform + "-" + this.models.detect,
+          style,
+          selectedLanguage.dir,
+          moveToEnd,
+          observerTime
+        );
+        const { outerDIV } = root;
+        this.root = root;
+        outerDIV.setAttribute("data-re-mark-tag", platform);
         const { widget, logo } = Activate.generate(couponTotal, badgeData, dragData, interfaceData);
         outerDIV.append(widget);
         logo.addEventListener("click", (e) => {
-          CouponListModal.generate(logoBase64$1, outerDIV, modalTitle, modalPosition);
+          CouponListModal.generate(logoBase64$1, root, modalTitle, modalPosition);
         });
         if (autoOpen) {
-          CouponListModal.generate(logoBase64$1, outerDIV, modalTitle, modalPosition);
+          CouponListModal.generate(logoBase64$1, root, modalTitle, modalPosition);
         }
+        setTimeout(() => {
+          this.showFlyOut(root, flyout, platform, logoBase64$1);
+          outerDIV.setAttribute("status", "complete");
+        }, 100);
+      });
+    }
+  };
+
+  var __async$2 = (__this, __arguments, generator) => {
+    return new Promise((resolve, reject) => {
+      var fulfilled = (value) => {
+        try {
+          step(generator.next(value));
+        } catch (e) {
+          reject(e);
+        }
+      };
+      var rejected = (value) => {
+        try {
+          step(generator.throw(value));
+        } catch (e) {
+          reject(e);
+        }
+      };
+      var step = (x) => x.done ? resolve(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
+      step((generator = generator.apply(__this, __arguments)).next());
+    });
+  };
+  const SearchEnginScreen = {
+    blockAttributeKey: "jscan-slo-u8",
+    uniqueMarkAttributeKey: "jvtxi-uid-t8",
+    loopIsComplete: true,
+    UUIDGenerator: function() {
+      let counter = 0;
+      const seed = Math.floor(Math.random() * 1e6).toString(36);
+      return function getUUID() {
+        const prefix = Date.now().toString(36);
+        return `${seed}${prefix}${(counter++).toString(36)}`;
+      };
+    }(),
+    getLinkByElement: function(element, findTag) {
+      let searchElement = null;
+      if (findTag == "this") {
+        searchElement = element;
+      } else if (/^child@/.test(findTag)) {
+        searchElement = element.querySelector(findTag.replace(/^child@/, ""));
+      }
+      return searchElement;
+    },
+    pickupSelectors: function(confJson, platform) {
+      const list = new Array();
+      for (let i = 0; i < confJson.length; i++) {
+        const itemJson = confJson[i];
+        if (!itemJson.hasOwnProperty("elements") || !itemJson.hasOwnProperty("matches")) {
+          continue;
+        }
+        const { elements, matches } = itemJson;
+        const isMatch = matches.map((reg) => new RegExp(reg.replace(/\\\\/g, "\\"), "i").test(window.location.href)).some((res) => res);
+        if (isMatch) {
+          for (let j = 0; j < elements.length; j++) {
+            list.push({
+              "selector": elements[j]["element"],
+              "findA": elements[j]["findA"]
+            });
+          }
+        }
+      }
+      return list;
+    },
+    queryElements: function(selectors, platform) {
+      return __async$2(this, null, function* () {
+        const items = [];
+        try {
+          selectors.forEach((selectorObj) => {
+            if (selectorObj.selector) {
+              const elements = document.querySelectorAll(selectorObj.selector + ":not([" + this.blockAttributeKey + "='true'])");
+              Logger.log("info", "search items======>", elements);
+              const findA = selectorObj.findA;
+              elements.forEach((element) => {
+                if (element && !element.getAttribute(this.blockAttributeKey) && !element.querySelector("[" + this.blockAttributeKey + "]")) {
+                  const linkElement = this.getLinkByElement(element, findA);
+                  const handler = this.UUIDGenerator();
+                  element.setAttribute(this.uniqueMarkAttributeKey, handler);
+                  element.setAttribute(this.blockAttributeKey, "true");
+                  if (linkElement) {
+                    let link = linkElement.getAttribute("href") || linkElement.textContent;
+                    if (link) {
+                      link = link.replace(/\s+/g, "");
+                    }
+                    if (link && link.indexOf("http") != -1) {
+                      items.push({
+                        "handler": handler,
+                        "link": link,
+                        "platform": platform,
+                        "element": element
+                      });
+                    }
+                  }
+                }
+              });
+            }
+          });
+          if (items.length > 0) {
+            yield this.search(items, platform);
+          }
+        } catch (e) {
+        }
+      });
+    },
+    search: function(items, platform) {
+      return __async$2(this, null, function* () {
+        const lists = [];
+        items.forEach((item) => {
+          lists.push({ "handler": item.handler, "url": item.link });
+        });
+        const dataJson = yield RequestUnionUtil.getEngineScreenResult(lists, platform);
+        if (dataJson && dataJson.list) {
+          const { list } = dataJson;
+          this.createHtml(items, list, platform);
+        }
+      });
+    },
+    createHtml: function(items, list, platform) {
+      for (let i = 0; i < list.length; i++) {
+        const { handler, content } = list[i];
+        const item = items.find((obj) => obj.handler === handler);
+        if (!item) {
+          continue;
+        }
+        if (item.hasOwnProperty("handler") && item.hasOwnProperty("element")) {
+          item.handler;
+          let element = item.element;
+          if (content) {
+            element.insertAdjacentHTML("afterbegin", content);
+          }
+        }
+      }
+      document.querySelectorAll("*[name='se-rebate-343234xy-funx']").forEach((element) => {
+        InspectUtil.bindCustomEvent(element);
+      });
+    },
+    srart: function(platform) {
+      return __async$2(this, null, function* () {
+        const confDataJson = yield RequestUnionUtil.getEngineScreenConf();
+        if (!confDataJson) {
+          return;
+        }
+        const confJson = confDataJson[platform];
+        const runSearch = () => {
+          if (this.loopIsComplete) {
+            this.loopIsComplete = false;
+            const selectors = this.pickupSelectors(confJson, platform);
+            this.queryElements(selectors, platform).then(() => {
+              this.loopIsComplete = true;
+            });
+          }
+        };
+        runSearch();
+        setInterval(() => {
+          runSearch();
+        }, 1500);
       });
     }
   };
@@ -6613,6 +6785,44 @@
           const json = JSON.parse(dataContent);
           InspectUtil.customOpenUrl(null, json);
         }
+      }
+    }
+  };
+
+  const GoodsRecord = {
+    start: function() {
+      const href = window.location.href;
+      const support = SupportData.support;
+      if (support.record.disabled) {
+        return;
+      }
+      const { title, price, cover } = support.record.elements;
+      if (!support.detail.test(href)) {
+        return;
+      }
+      const id = Tools.getGoodsIdByLink(href);
+      if (title && price && cover) {
+        Promise.all([
+          Tools.waitForElementByInterval(price, document.body, false),
+          Tools.waitForElementByInterval(cover, document.body, true)
+        ]).then((elements) => {
+          const priceElement = elements[0];
+          const coverElement = elements[1];
+          const titleElement = document.querySelector(title);
+          if (coverElement && priceElement) {
+            var imgSrc = "";
+            if (coverElement.tagName == "IMG") {
+              imgSrc = coverElement.getAttribute("data-src") || coverElement.getAttribute("data-url") || coverElement.getAttribute("src");
+            } else if (coverElement.tagName == "SOURCE") {
+              imgSrc = coverElement.getAttribute("srcSet") || coverElement.getAttribute("src");
+            }
+            const price2 = priceElement ? priceElement.innerText : "Unknown";
+            const title2 = titleElement ? titleElement.innerText : "--";
+            const goods = { "id": id, "url": href, "pic": imgSrc, "date": new Date().getTime(), "price": price2, "title": title2 };
+            GoodsHistroy.push(support.p, goods);
+          }
+        }).catch(() => {
+        });
       }
     }
   };
@@ -6635,7 +6845,9 @@
   };
   const supportModules = {
     InspectCouponsHTML,
-    MidListener
+    SearchEnginScreen,
+    MidListener,
+    GoodsRecord
   };
   const AllModules$1 = __spreadValues$1(__spreadValues$1({}, PlatformModules), supportModules);
 
@@ -6666,6 +6878,671 @@
   };
   const AllModules = __spreadValues(__spreadValues({}, otherModules), AllModules$1);
 
+  var __async$1 = (__this, __arguments, generator) => {
+    return new Promise((resolve, reject) => {
+      var fulfilled = (value) => {
+        try {
+          step(generator.next(value));
+        } catch (e) {
+          reject(e);
+        }
+      };
+      var rejected = (value) => {
+        try {
+          step(generator.throw(value));
+        } catch (e) {
+          reject(e);
+        }
+      };
+      var step = (x) => x.done ? resolve(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
+      step((generator = generator.apply(__this, __arguments)).next());
+    });
+  };
+  const SupportsHelper = {
+    defaultSupportsString: `
+    {
+        "jtmMid":{
+            "p":"jtmMid",
+            "match": "www\\\\.jtmate\\\\.com\\\\/mid",
+            "record":{
+                "disabled":true
+            },
+            "disabled":false
+        },
+        "aliexpress": {
+            "p": "aliexpress", 
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?aliexpress\\\\.[a-z]{2,}(\\\\.[a-z]{2,})*(\\\\/.*)?",
+            "detail": "\\\\/item\\\\/[^.\\\\/]+\\\\.html",
+            "trade": ["\\\\/trade\\\\/confirm\\\\.html", "\\\\/checkout\\\\?"],
+            "record":{
+                "elements":{
+                    "title":"h1[data-pl='product-title'], h1[class*='HazeProductDescription_HazeProductDescription__smallText_']",
+                    "price":"span.product-price-value, div[class*='currentPriceText'], div[class*='HazeProductPrice_SnowPrice__container']>div",
+                    "cover":"div[class*='slider--img'] >img, div[class*='__previewItem__'] picture[class*='Picture__container']>source"
+                },
+                "disabled":false
+            },
+            "disabled":false
+        },
+        "lazada":{
+            "p": "lazada", 
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?lazada\\\\.[\\\\w.-]+([/?#].*)?$",
+            "detail": "\\\\/products\\\\/.*-i\\\\d+.*\\\\.html",
+            "trade":[],
+            "record":{
+                "elements":{
+    				"title":"h1[class*='pdp-mod-product-badge-title']",
+                    "price":"div[class*='product-current-price-container'],div[class*='product-price-content-salePrice'],.pdp-product-price",
+                    "cover":"div[class*='gallery-preview-panel'] >img:last-child, .gallery-preview-panel__content >img:last-child"
+                },
+                "disabled":false
+            },
+            "disabled":false
+        },
+        "banggood":{
+            "p": "banggood", 
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?banggood\\\\.[\\\\w.-]+([/?#].*)?$",
+            "detail":"\\\\/.*-p-\\\\d+\\\\.html",
+            "trade":[],
+            "record":{
+                "elements":{
+                    "title":".product-title-text",
+                    "price":".newbie-price",
+                    "cover":"a.p-img >img"
+                },
+                "disabled":false
+            },
+            "disabled":false
+        },
+        "ebay": {
+            "p": "ebay", 
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?ebay\\\\.[\\\\w.-]+([/?#].*)?$",
+            "detail":"\\\\/itm\\\\/\\\\d+",
+            "trade":[],
+            "record":{
+                "elements":{
+                    "title":".x-item-title__mainTitle",
+                    "price":".x-price-primary >span",
+                    "cover":".ux-image-grid-item >img, .ux-image-carousel-item >img"
+                },
+                "disabled":false
+            },
+            "disabled":false
+        },
+        "bestbuy": {
+            "p": "bestbuy", 
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?bestbuy\\\\.[\\\\w.-]+([/?#].*)?$",
+            "detail":"\\\\/site\\\\/.*\\\\/\\\\d+\\\\.p",
+            "trade":[],
+            "record":{
+                "elements":{
+                    "title":".sm:text-title-sm",
+                    "price":"*[class*='_price_']",
+                    "cover":"*[class*='displayingImage'] img"
+                },
+                "disabled":true
+            },
+            "disabled":false
+        },
+        "shopee": {
+            "p": "shopee", 
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?shopee\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record":{
+                "disabled":true
+            },
+            "disabled":false
+        },
+        "wish": {
+            "p": "wish", 
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?wish\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record":{
+                "disabled":true
+            },
+            "disabled":false
+        },
+        "amazon": {
+            "p": "amazon", 
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?amazon\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record":{
+                "disabled":true
+            },
+            "disabled":false
+        },
+        "abritel": {
+            "p": "abritel",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?abritel\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "adidas": {
+            "p": "adidas",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?adidas\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "advertiser": {
+            "p": "advertiser",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?advertiser\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "agoda": {
+            "p": "agoda",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?agoda\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "bookabach": {
+            "p": "bookabach",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?bookabach\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "booking": {
+            "p": "booking",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?booking\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "etsy": {
+            "p": "etsy",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?etsy\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "fewodirekt": {
+            "p": "fewodirekt",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?fewo-direkt\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "hotels": {
+            "p": "hotels",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?hotels\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "hoteis": {
+            "p": "hoteis",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?hoteis\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "hoteles": {
+            "p": "hoteles",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?hoteles\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "magazineluiza": {
+            "p": "magazineluiza",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?magazineluiza\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "meesho": {
+            "p": "meesho",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?meesho\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "mercadolibre": {
+            "p": "mercadolibre",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?mercadolibre\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "namshi": {
+            "p": "namshi",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?namshi\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "nike": {
+            "p": "nike",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?nike\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "sivvi": {
+            "p": "sivvi",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?sivvi\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "skyscanner": {
+            "p": "skyscanner",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?skyscanner\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "stayz": {
+            "p": "stayz",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?stayz\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "target": {
+            "p": "target",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?target\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "tripadvisor": {
+            "p": "tripadvisor",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?tripadvisor\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "vrbo": {
+            "p": "vrbo",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?vrbo\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "wayfair": {
+            "p": "wayfair",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?wayfair\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "wotif": {
+            "p": "wotif",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?wotif\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "airbaltic": {
+            "p": "airbaltic",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?airbaltic\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "alibaba": {
+            "p": "alibaba",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?alibaba\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "allegro": {
+            "p": "allegro",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?allegro\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "daraz": {
+            "p": "daraz",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?daraz\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "edureka": {
+            "p": "edureka",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?edureka\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "expedia": {
+            "p": "expedia",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?expedia\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "noon": {
+            "p": "noon",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?noon\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "ozon": {
+            "p": "ozon",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?ozon\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "pictarine": {
+            "p": "pictarine",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?pictarine\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "rakuten": {
+            "p": "rakuten",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?rakuten\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "ranavat": {
+            "p": "ranavat",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?ranavat\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "samsung": {
+            "p": "samsung",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?samsung\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "shein": {
+            "p": "shein",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?shein\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "suiteness": {
+            "p": "suiteness",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?suiteness\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "temu": {
+            "p": "temu",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?temu\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "ticketmaster": {
+            "p": "ticketmaster",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?ticketmaster\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "treatwell": {
+            "p": "treatwell",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?treatwell\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "trip": {
+            "p": "trip",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?trip\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "walmart": {
+            "p": "walmart",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?walmart\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "wildberries": {
+            "p": "wildberries",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?wildberries\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "wilson": {
+            "p": "wilson",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?wilson\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "wilsonsleather": {
+            "p": "wilsonsleather",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?wilsonsleather\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "zalando": {
+            "p": "zalando",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?zalando\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "ajio": {
+            "p": "ajio",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?ajio\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "flipkart": {
+            "p": "flipkart",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?flipkart\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "myntra": {
+            "p": "myntra",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?myntra\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "cex": {
+            "p": "cex",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?cex\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "changelly": {
+            "p": "changelly",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?changelly\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "kucoin": {
+            "p": "kucoin",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?kucoin\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "paxful": {
+            "p": "paxful",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?paxful\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "htx": {
+            "p": "htx",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?htx\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "mexc": {
+            "p": "mexc",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?mexc\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "bybit": {
+            "p": "bybit",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?bybit\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "gate": {
+            "p": "gate",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?gate\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "coinmama": {
+            "p": "coinmama",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?coinmama\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "gate": {
+            "p": "gate",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?gate\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "bitget": {
+            "p": "bitget",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?bitget\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "freebitco": {
+            "p": "freebitco",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?freebitco\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "bybit": {
+            "p": "bybit",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?bybit\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "crypto": {
+            "p": "crypto",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?crypto\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "okx": {
+            "p": "okx",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?okx\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "coinbase": {
+            "p": "coinbase",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?coinbase\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "binance": {
+            "p": "binance",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?binance\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "wazirx": {
+            "p": "wazirx",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?wazirx\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "coindcx": {
+            "p": "coindcx",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?coindcx\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "zebpay": {
+            "p": "zebpay",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?zebpay\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+        "bitbns": {
+            "p": "bitbns",
+            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?bitbns\\\\.[\\\\w.-]+([/?#].*)?$",
+            "record": { "disabled": true },
+            "disabled": false
+        },
+    	"google":{
+    		"p": "google",
+    		"match": "^https?:\\\\/\\\\/(www\\\\.)?google\\\\.[a-z]{2,3}(\\\\.[a-z]{2})?\\\\/search\\\\?",
+    		"record": { "disabled": true },
+    		"disabled": false
+    	},
+    	"bing":{
+    		"p": "bing",
+    		"match": "^https?:\\\\/\\\\/(?:www|cn)?\\\\.?bing\\\\.com\\\\/search\\\\?.*",
+    		"record": { "disabled": true },
+    		"disabled": false
+    	}
+    }
+  `,
+    getSupportsByServer: function() {
+      return __async$1(this, null, function* () {
+        const { method, url } = getRequestUrl()["supports"];
+        const finalUrl = url + "&v=" + ScriptConst.version + "&no=" + ScriptConst.number;
+        const serverData = yield Tools.request(method, finalUrl, null);
+        let supportsString = null;
+        if (serverData && serverData.code === "success") {
+          supportsString = serverData.result;
+          if (supportsString) {
+            supportsString = supportsString.replace(/\\\\/g, "\\");
+          }
+        }
+        return supportsString;
+      });
+    },
+    analysisSupports: function() {
+      return __async$1(this, null, function* () {
+        let supportObj = StorageUtil.getValue(StorageKeys.supports, "");
+        try {
+          if (!supportObj || typeof supportObj !== "object" || !supportObj.time || new Date().getTime() - supportObj.time > DefaultValue.updateSupportsDelay) {
+            const serverSupports = yield this.getSupportsByServer();
+            supportObj = {
+              time: new Date().getTime(),
+              supports: serverSupports
+            };
+            if (serverSupports) {
+              StorageUtil.setValue(StorageKeys.supports, supportObj);
+            }
+          } else {
+          }
+        } catch (e) {
+          supportObj = {
+            time: new Date().getTime(),
+            supports: this.defaultSupportsString
+          };
+        }
+        let supportsString = supportObj.supports;
+        if (!supportsString) {
+          supportsString = this.defaultSupportsString;
+        }
+        let supportsJson = null;
+        try {
+          supportsJson = JSON.parse(supportsString);
+        } catch (e) {
+          StorageUtil.setValue(StorageKeys.supports, "");
+          supportsJson = JSON.parse(this.defaultSupportsString);
+        }
+        return supportsJson;
+      });
+    },
+    getSupport: function() {
+      return __async$1(this, null, function* () {
+        const currentUrl = window.location.href;
+        const supports = yield this.analysisSupports();
+        let support = null;
+        for (let key in supports) {
+          const { match, disabled } = supports[key];
+          const matchReg = new RegExp(match);
+          if (matchReg.test(currentUrl) && !disabled) {
+            support = supports[key];
+            support.match = matchReg;
+            if (support.detail) {
+              support.detail = new RegExp(support.detail);
+            }
+            if (support.trade) {
+              support.trade = support.trade.map((pattern) => new RegExp(pattern));
+            }
+            break;
+          }
+        }
+        return { support, supports };
+      });
+    }
+  };
+
+  var __async = (__this, __arguments, generator) => {
+    return new Promise((resolve, reject) => {
+      var fulfilled = (value) => {
+        try {
+          step(generator.next(value));
+        } catch (e) {
+          reject(e);
+        }
+      };
+      var rejected = (value) => {
+        try {
+          step(generator.throw(value));
+        } catch (e) {
+          reject(e);
+        }
+      };
+      var step = (x) => x.done ? resolve(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
+      step((generator = generator.apply(__this, __arguments)).next());
+    });
+  };
   const Init = {
     x: function() {
       AllModules.X.XDownload.init();
@@ -6718,14 +7595,25 @@
       AllModules.Banggood.BanggoodSearch.start();
       this.historyShow = true;
     },
-    wish: function() {
-    },
     unknown: function() {
     },
-    start: function() {
-      const platform = Tools.getEcommercePlatform();
-      if (platform) {
-        LangueUtil.initLangueDataMap().then(() => {
+    estart: function() {
+      return __async(this, null, function* () {
+        const { support, supports } = yield SupportsHelper.getSupport();
+        SupportData.supports = supports;
+        SupportData.support = support;
+        if (!support) {
+          return;
+        }
+        const disabled = support.disabled, platform = support.p;
+        if (disabled) {
+          return;
+        }
+        yield RequestUnionUtil.initRequestData();
+        yield LangueUtil.initLangueDataMap();
+        if (platform === "bing" || platform === "google") {
+          AllModules.SearchEnginScreen.srart(platform);
+        } else {
           StyleUtil.init();
           try {
             if (typeof this[platform] === "function") {
@@ -6734,23 +7622,29 @@
             }
           } catch (e) {
           }
-          AllModules.InspectCouponsHTML.start(platform, this.historyShow);
+          AllModules.InspectCouponsHTML.start();
           AllModules.MidListener.start();
-        });
-        if (platform == PlatformConst.aliexpress.p) {
-          setInterval(() => {
-            Tools.removeAnchorsBySeletor();
-          }, 2500);
+          AllModules.GoodsRecord.start();
         }
-      }
-      const otherPlatform = Tools.getOtherPlatform();
-      if (otherPlatform) {
-        try {
-          this[otherPlatform]();
-        } catch (e) {
+      });
+    },
+    ostart: function() {
+      return __async(this, null, function* () {
+        const otherPlatform = Tools.getOtherPlatform();
+        if (otherPlatform) {
+          try {
+            this[otherPlatform]();
+          } catch (e) {
+          }
         }
-      }
-      AllModules.OverseaNavigation.start();
+        AllModules.OverseaNavigation.start();
+      });
+    },
+    start: function() {
+      return __async(this, null, function* () {
+        yield this.estart();
+        yield this.ostart();
+      });
     }
   };
   Init.start();
