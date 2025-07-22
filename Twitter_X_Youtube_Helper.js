@@ -1,4 +1,5 @@
 // ==UserScript==
+// ==UserScript==
 // @name       Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
 // @name:ar    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
 // @name:bg    Twitter(X)ᴾˡᵘˢ+++ ; Youtubeᴾˡᵘˢ+++
@@ -70,7 +71,7 @@
 // @description:ug    بۇ قوليازما بەزى تور بېكەتلەرنى ياخشىلاش بىلەن تەمىنلەيدۇ. 🔥Twitter (X): ۋاقىت فورماتلاش ئېكرانى ، HD رەسىم كۆرسىتىش ، رەسىم ۋە سىن چۈشۈرۈش قاتارلىقلارنى قوشۇڭ outYoutube: سىن چۈشۈرۈش ، ئېلان ئۆچۈرۈش قاتارلىقلارنى قوشۇڭ ikTiktok: HD سۇ ماركىسىسىز سىن چۈشۈرۈش قاتارلىقلار بىلەن تەمىنلەڭ. ، چۈشەندۈرۈشنى تەكشۈرۈپ بېقىڭ ~
 // @description:vi    Tập lệnh này sẽ cung cấp các cải tiến cho một số trang web. 🔥Twitter(X): Thêm hiển thị định dạng thời gian, hiển thị hình ảnh HD, tải xuống hình ảnh và video, v.v. 🔥Youtube: Thêm tải xuống video, xóa quảng cáo, v.v. 🔥Tiktok: Cung cấp tải xuống video HD không có hình mờ, v.v. Để biết thêm các tính năng, vui lòng kiểm tra phần mô tả~
 // @namespace   PeterParker_X_Y_NameScope
-// @version     2.2.2
+// @version     2.2.3
 // @author      PeterParker
 // @icon        data:image/png;base64,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
 // @match       *://*/*
@@ -80,7 +81,6 @@
 // @include     https://www.youtube.com/**
 // @include     https://music.youtube.com/watch**
 // @include     https://www.tiktok.com/@*
-// @include     https://cobalt.tools/**
 // @include     /^https:\/\/([\w-]+\.)?aliexpress\.(ru|us|com)\/*/
 // @include     /^https:\/\/([\w-]+\.)?lazada\.[\w.-]+([/?#].*)?$/
 // @include     /^https:\/\/([\w-]+\.)?shopee\.[\w.-]+([/?#].*)?$/
@@ -179,7 +179,6 @@
 // @exclude     *://x.com/i/flow/*
 // @exclude     *://www.lazada.com/*
 // @exclude     *://shopee.com/*
-// @connect     tikdownloader.io
 // @connect     oversea.mimixiaoke.com
 // @connect     jtmate.com
 // @license     MIT
@@ -247,7 +246,7 @@
     "cobalt": { "p": "cobalt", "match": /cobalt\.tools/ }
   };
 
-  var __async$q = (__this, __arguments, generator) => {
+  var __async$p = (__this, __arguments, generator) => {
     return new Promise((resolve, reject) => {
       var fulfilled = (value) => {
         try {
@@ -322,6 +321,14 @@
         GM_openInTab(url, options);
       } else {
         GM.openInTab(url, options);
+      }
+    },
+    onPageLoad: function(callback) {
+      if (document.readyState === "complete") {
+        callback();
+      } else {
+        window.addEventListener("DOMContentLoaded", callback, { once: true });
+        window.addEventListener("load", callback, { once: true });
       }
     },
     request: function(method, url, param, headers = { "Content-Type": "application/json;charset=UTF-8" }, timeout = 20 * 1e3) {
@@ -442,8 +449,8 @@
       return container.contains(element);
     },
     mustGetElement: function(handler) {
-      return __async$q(this, null, function* () {
-        const getElements = (handler2) => __async$q(this, null, function* () {
+      return __async$p(this, null, function* () {
+        const getElements = (handler2) => __async$p(this, null, function* () {
           const promiseArray = [];
           const handlers = handler2.split("@");
           for (let i = 0; i < handlers.length; i++) {
@@ -1270,7 +1277,7 @@
     XDownload
   };
 
-  var __async$p = (__this, __arguments, generator) => {
+  var __async$o = (__this, __arguments, generator) => {
     return new Promise((resolve, reject) => {
       var fulfilled = (value) => {
         try {
@@ -1316,7 +1323,7 @@
       return match ? match[1] : null;
     },
     start: function() {
-      return __async$p(this, null, function* () {
+      return __async$o(this, null, function* () {
         if (!/www\.tiktok\.com/.test(window.location.host)) {
           return;
         }
@@ -1356,202 +1363,113 @@
     }
   };
 
-  var __async$o = (__this, __arguments, generator) => {
-    return new Promise((resolve, reject) => {
-      var fulfilled = (value) => {
-        try {
-          step(generator.next(value));
-        } catch (e) {
-          reject(e);
-        }
-      };
-      var rejected = (value) => {
-        try {
-          step(generator.throw(value));
-        } catch (e) {
-          reject(e);
-        }
-      };
-      var step = (x) => x.done ? resolve(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
-      step((generator = generator.apply(__this, __arguments)).next());
-    });
-  };
   const YoutubeDownload = {
-    markName: `script-download-----iux998htt`,
-    isComplete: true,
-    download: function(btn) {
-      return __async$o(this, null, function* () {
-        try {
-          btn.classList.add("download-loadding");
-          const downloadUl = yield this.getDownloadUrl(window.location.href.replace("music.youtube.com", "www.youtube.com"));
-          window.open(downloadUl, "_blank");
-        } catch (ex) {
-        } finally {
-          btn.classList.remove("download-loadding");
+    genrateShortDownloadSvg: function() {
+      const svgNS = "http://www.w3.org/2000/svg";
+      const svg = document.createElementNS(svgNS, "svg");
+      svg.setAttribute("viewBox", "0 0 1024 1024");
+      svg.setAttribute("width", "32");
+      svg.setAttribute("height", "32");
+      const paths = [
+        {
+          d: "M0 0m512 0l0 0q512 0 512 512l0 0q0 512-512 512l0 0q-512 0-512-512l0 0q0-512 512-512Z",
+          opacity: "0.7"
+        },
+        {
+          d: "M671.1552 727.2192H350.4128a95.7696 95.7696 0 0 1-96.2304-95.104v-190.2336a31.872 31.872 0 0 1 32.0768-31.7184 31.872 31.872 0 0 1 32.0768 31.7184v190.2336a31.9232 31.9232 0 0 0 32.0768 31.6928h320.7424a31.9232 31.9232 0 0 0 32.0768-31.6928v-190.2336a32.0768 32.0768 0 0 1 64.1536 0v190.2336a95.7696 95.7696 0 0 1-96.2304 95.104z",
+          fill: "#FFFFFF"
+        },
+        {
+          d: "M499.1232 563.7376a16.5632 16.5632 0 0 0 23.3472 0l108.7744-108.8256c6.4256-6.4256 4.2496-11.6736-4.8384-11.6736h-33.0496a16.5632 16.5632 0 0 1-16.512-16.5376v-66.0992a16.5376 16.5376 0 0 0-16.512-16.512h-99.0976a16.5632 16.5632 0 0 0-16.512 16.512v66.0992a16.5632 16.5632 0 0 1-16.512 16.5376h-33.1008c-9.088 0-11.264 5.248-4.8384 11.6736z",
+          fill: "#FFFFFF"
+        },
+        {
+          d: "M446.2336 294.5792a16.512 16.512 0 1 1 16.512 16.5376 16.5376 16.5376 0 0 1-16.512-16.5376z",
+          fill: "#FFFFFF"
+        },
+        {
+          d: "M542.2848 294.5792a16.512 16.512 0 1 1 16.512 16.5376 16.5376 16.5376 0 0 1-16.512-16.5376z",
+          fill: "#FFFFFF"
+        },
+        {
+          d: "M461.2352 277.9904h99.0976v33.0496h-99.0976z",
+          fill: "#FFFFFF"
         }
+      ];
+      paths.forEach((attr) => {
+        const path = document.createElementNS(svgNS, "path");
+        for (let key in attr) {
+          path.setAttribute(key, attr[key]);
+        }
+        svg.appendChild(path);
       });
+      return svg;
     },
-    getDownloadUrl: function(videoUrl, audioOnly = false) {
-      return new Promise((resolve, reject) => {
-        resolve("https://cobalt.tools/?url=" + videoUrl);
-      });
-    },
-    elementInContainer: function(container, element) {
-      return container.contains(element);
-    },
-    detectYoutubeService: function() {
-      if (window.location.hostname === "www.youtube.com" && window.location.pathname.startsWith("/shorts"))
-        return "shorts";
-      if (window.location.hostname === "www.youtube.com" && window.location.pathname.startsWith("/watch"))
-        return "watch";
-      else if (window.location.hostname === "music.youtube.com")
-        return "music";
-      else if (window.location.hostname === "www.youtube.com")
-        return "youtube";
-      else
-        return null;
-    },
-    hookNavigationEvents: function() {
-      return __async$o(this, null, function* () {
-        ["yt-navigate", "yt-navigate-finish", "yt-navigate-finish", "yt-page-data-updated"].forEach((evName) => {
-          if (evName) {
-            document.addEventListener(evName, (e) => {
-              this.appendDownloadButton(e);
+    genrateShorts: function() {
+      const genrateHtml = () => {
+        if (window.location.href.indexOf("/shorts/") != -1) {
+          const navigationButtonDown = document.querySelector("#navigation-button-down");
+          if (navigationButtonDown) {
+            const download = document.createElement("div");
+            download.setAttribute("style", "cursor:pointer;display: flex;justify-content: center;align-items: center;");
+            download.id = "script_download_shorts";
+            download.className = "navigation-button style-scope ytd-shorts";
+            navigationButtonDown.after(download);
+            download.appendChild(this.genrateShortDownloadSvg());
+            download.addEventListener("click", () => {
+              this.downloadVideo();
             });
           }
-        });
-      });
-    },
-    appendDownloadButton: function(e) {
-      return __async$o(this, null, function* () {
-        try {
-          this.isComplete = false;
-          const ytContainerSelector = "#movie_player > div.ytp-chrome-bottom > div.ytp-chrome-controls > div.ytp-right-controls";
-          const ytmContainerSelector = "#layout > ytmusic-player-bar > div.middle-controls.style-scope.ytmusic-player-bar > div.middle-controls-buttons.style-scope.ytmusic-player-bar";
-          const img = document.createElement("img");
-          img.src = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAepJREFUaEPtmEFygzAMRQ3dsm2mx0kOkfO0OQ+HCL1Np91m29ARtgM0gPUluZ3MmE0miSH//S8Jk8o9+FE9uH5XAP47wZJASUDpQCkhpYHq00sCSxY27ct+/Py6d67u6P3l+DG8Wh5mCXjR369eXDUBuJN78jCfbxYgaoBR+KboJa0nCwgVgBd/PSudVIGIAZp2RyUQSkaJ4JwYQgRgLD7SiyCkAD3P8z5MHW5/1Ad0UsEAgPs3R5v2+ZyYTMGPvrscvw48c8K8QxYD4umyEwCkX7AUoAT+BgBLAQVg1v6QqzCB4SbH1sVeKJj5YgDn+GVkDEBTp3r3fVV3caIE+On2InH/yALAasTkLOf1URYA9rZhFYInft4/qSlpXELx5+4dBMRT+bFvaJkA5pMEHwAZAMhb/h2VVo/zvGl3yPjNM0ZxAA/B20LMKj05CKar2SXkAbYamcQ+DU9b6YMeM1e34vkAtlJA7p7+OotlBYmn60AJJFJg//jaREJNEAEE9yyfxmLFsQ0Q98D0RGyuJ7tCJF6cQJRjBCEWrwbQgfiphT5C/s4SbuK1Yghp0NcbO834jKwXHnWYAcz7I/61OP6tSN9r3V4yLwtAsmUNFxQAQzNFlyoJiGwzPKkkYGim6FIlAZFthic9fAI/mIfoMZ8JBO0AAAAASUVORK5CYII=";
-          img.style.width = "44px";
-          img.style.height = "44px";
-          const markName = this.markName;
-          if (document.querySelector("." + markName))
-            return;
-          const escapeHTMLPolicy = trustedTypes.createPolicy("conardEscapePolicy", {
-            createHTML: (string) => string.replace(/\</g, "&lt;")
-          });
-          const downloadButton = document.createElement("button");
-          downloadButton.id = "ytdl-download-button";
-          downloadButton.classList.add("ytp-button", markName);
-          downloadButton.title = Commonlanguage.download.tip;
-          downloadButton.style.borderRadius = "50%";
-          downloadButton.appendChild(img);
-          switch (this.detectYoutubeService()) {
-            case "watch":
-              const ytCont = yield Tools.waitForElementByInterval(ytContainerSelector);
-              if (this.elementInContainer(ytCont, ytCont.querySelector("#ytdl-download-button"))) {
-                break;
-              }
-              const ytDlBtnClone = downloadButton.cloneNode(true);
-              ytDlBtnClone.classList.add("YT");
-              ytDlBtnClone.addEventListener("click", () => {
-                this.download(ytDlBtnClone);
-              });
-              ytCont.insertBefore(ytDlBtnClone, ytCont.firstChild);
-              break;
-            case "shorts":
-              if (!document.querySelector("#navigation-button-download-----iux998htt")) {
-                const navigationButtonDown = document.querySelector("#navigation-button-down");
-                const navigationButtonDownload = navigationButtonDown.cloneNode(false);
-                navigationButtonDownload.id = "navigation-button-download-----iux998htt";
-                navigationButtonDownload.style.textAlign = "center";
-                navigationButtonDownload.appendChild(img);
-                document.querySelector(".navigation-container").appendChild(navigationButtonDownload);
-                navigationButtonDownload.addEventListener("click", () => {
-                  this.download(img);
-                });
-              }
-              break;
-            case "music":
-              const ytmCont = yield Tools.waitForElementByInterval(ytmContainerSelector);
-              if (this.elementInContainer(ytmCont, ytmCont.querySelector("#ytdl-download-button"))) {
-                break;
-              }
-              const ytmDlBtnClone = downloadButton.cloneNode(true);
-              ytmDlBtnClone.classList.add("YTM");
-              ytmDlBtnClone.addEventListener("click", () => {
-                this.download(ytmDlBtnClone);
-              });
-              ytmCont.insertBefore(ytmDlBtnClone, ytmCont.firstChild);
-              break;
-            default:
-              return;
-          }
-        } catch (error) {
-        } finally {
-          this.isComplete = true;
         }
-      });
-    },
-    initStyle: function() {
-      GM_addStyle(`
-      @keyframes scriptspin {0% {transform: rotate(0deg);} 100% {transform: rotate(360deg);}}
-      .download-loadding{
-        animation: scriptspin 1s linear infinite;
-      }
-    `);
-    },
-    asyncAppendDownloadButton: function() {
-      let allDelay = 1e3 * 30, delay = 250;
-      const interval = setInterval(() => {
-        if (document.querySelector("." + this.markName) || allDelay <= 0) {
-          clearInterval(interval);
-        } else {
-          if (this.isComplete)
-            this.appendDownloadButton();
-        }
-        allDelay -= delay;
-      }, delay);
-    },
-    start: function() {
-      this.initStyle();
-      let currentUrl = null;
+      };
       setInterval(() => {
-        const visitUrl = window.location.href;
-        if (currentUrl !== window.location.href) {
-          currentUrl = window.location.href;
-          const watch = /www\.youtube\.com\/watch\?v=/.test(visitUrl);
-          const shorts = /www\.youtube\.com\/shorts\//.test(visitUrl);
-          const music = /music\.youtube\.com\/watch\?v=/.test(visitUrl);
-          if (watch || shorts || music) {
-            this.hookNavigationEvents();
-            this.asyncAppendDownloadButton();
+        if (!document.querySelector("#script_download_shorts")) {
+          genrateHtml();
+        }
+      }, 800);
+    },
+    genrateOuterBox: function() {
+      const outerBoxId = "script_outer_box";
+      const outerBox = document.createElement("div");
+      outerBox.id = outerBoxId;
+      outerBox.setAttribute("style", "margin-left:10px;display:inline-flex;border-radius:10px;overflow: hidden;");
+      const download = document.createElement("div");
+      download.setAttribute("style", "width:36px;height:36px;border:none;cursor:pointer;display:flex;align-items: center;justify-content:center");
+      download.appendChild(this.genrateShortDownloadSvg());
+      outerBox.appendChild(download);
+      download.onclick = this.downloadVideo;
+      const interval = setInterval(() => {
+        if (!document.querySelector("#" + outerBoxId)) {
+          const owner = document.querySelector("#owner");
+          if (owner) {
+            owner.appendChild(outerBox);
+            clearInterval(interval);
+          } else {
+            const actions = document.querySelector("#actions");
+            if (actions) {
+              actions.insertBefore(outerBox, actions.firstChild);
+              clearInterval(interval);
+            }
           }
         }
       }, 500);
-    }
-  };
-
-  const CobaltDownloader = {
+    },
+    downloadVideo: function() {
+      const url = "https://www.tikfork.com/en/yt?s=10&url=" + window.location.href;
+      Tools.openInTab(url);
+    },
     start: function() {
-      const params = new URLSearchParams(window.location.search);
-      const url = params.get("url");
-      if (url) {
-        GM_setClipboard(url, "txt", () => {
-          Toast.show({ "message": Commonlanguage.download.preparing, "background": "#000", "time": 3e3 });
-          setTimeout(() => {
-            const buttonPaste = document.querySelector("#button-paste");
-            if (buttonPaste) {
-              buttonPaste.click();
-              document.querySelector("#link-area").value = url;
-              const downloadButton = document.querySelector("#download-button");
-              if (downloadButton) {
-                setTimeout(() => {
-                  downloadButton.click();
-                }, 2e3);
-              }
-            }
-          }, 2e3);
-        });
-      }
+      return new Promise((resolve) => {
+        if (/youtube\.com/.test(window.location.host)) {
+          Tools.onPageLoad(() => {
+            this.genrateShorts();
+            this.genrateOuterBox();
+            resolve();
+          });
+        } else {
+          resolve();
+        }
+      });
     }
   };
 
@@ -4147,7 +4065,7 @@
     }
   };
 
-  var css_248z$5 = ".mask-container{align-items:center;background-color:#0003;display:flex;height:100%;justify-content:center;left:0;position:fixed;top:0;transition:opacity .3s ease,visibility .3s ease;width:100%;z-index:2147483647}.modal-content{box-shadow:1px -3px 6px 0 #0003;max-height:450px;max-width:450px;width:90%}.coupon-list-widget-conent,.modal-content{background-color:#fff;border-radius:6px;display:flex;flex-direction:column;overflow:hidden}.coupon-list-widget-conent{border:1px solid #ebebeb;box-shadow:0 4px 16px #0a164666;height:500px;max-height:85%;position:fixed;right:10px;top:10px;width:350px;z-index:2147483646}.coupon-list-widget-conent .modal-header,.modal-content .modal-header{align-items:center;background:var(--color-modeal-header-background);border-bottom:1px solid #ebe6e6;box-sizing:border-box;display:flex;height:var(--size-height-modeal-header);justify-content:space-between;padding:0 var(--size-padding-horizontal-modeal-header);width:100%}.modal-header .logo>img{width:50px}.coupon-list-widget-conent .logo,.modal-header .logo{align-items:center;display:flex;justify-content:center}.coupon-list-widget-conent .title{flex:1;font-size:var(--size-font-modeal-header-title);font-weight:700;padding-left:10px}.modal-header .btns{display:flex;flex-direction:row;position:relative}.modal-header .btns .close,.modal-header .btns .setting{align-items:center;cursor:pointer;display:flex;justify-content:center;width:var(--size-height-modeal-operat-icon)}.modal-header svg.icon-i87i-svg path{fill:var(--color-modeal-header-icon)!important}.modal-header svg.icon-i87i-svg:hover path{fill:var(--color-modeal-header-icon-hover)!important}.setting-dropdown{background:#fff;border-radius:6px;box-shadow:0 4px 11px #0a164633;display:none;margin-top:5px;max-height:300px;overflow:auto;position:absolute;right:0;top:25px;width:180px;z-index:99999999}.setting-dropdown.active{display:block}.setting-category{border-top:1px solid #eee;padding:10px}.setting-category-title{font-size:14px;font-weight:700;margin-bottom:8px}.setting-option{border-radius:4px;cursor:pointer;font-size:12px;padding:3px 7px}.setting-option:hover{background-color:#f0f0f0}.coupon-list-widget-conent .modal-body{background:var(--color-modeal-content-background);flex:1;overflow-y:auto;position:relative;width:100%}.deal-description-warpper{margin:20px auto;text-align:center}.deal-description-warpper>.title{color:#000;font-size:18px;font-weight:800;margin-bottom:5px}.deal-description-warpper>.sub-title{color:#9f9f9f;font-size:14px}.deal-coupons-warpper{display:flex;mask-image:linear-gradient(90deg,#0000,#000 5%,#000 95%,#0000);-webkit-mask-image:linear-gradient(90deg,#0000,#000 5%,#000 95%,#0000);overflow:hidden;padding:10px 20px;position:relative;scroll-behavior:smooth}.deal-coupons-warpper .coupon-item{background-color:#f6f7ff;border:1px dashed #8096f8;border-radius:4px;color:#ccc;display:inline-block;flex:none;font-size:15px;font-weight:700;margin:5px;padding:5px 10px;white-space:nowrap}.deal-coupons-warpper .coupon-item-active{color:#005cf6!important}.deal-coupons-warpper .coupon-item-lose{text-decoration:line-through!important;text-decoration-thickness:2px!important}.deal-progress-warpper{margin-top:20px}.deal-progress-warpper .progress-container{background-color:#f3f3f3;border-radius:25px;box-shadow:0 2px 4px #0003;margin:0 auto;overflow:hidden;width:100%}.deal-progress-warpper .progress-bar{background-color:#4caf50;color:#fff;font-weight:700;height:8px;line-height:8px;text-align:center;transition:width .5s ease-in-out;width:50%}.widget{cursor:pointer;display:flex;flex-direction:row;position:fixed;right:0;transform:translateX(15px);transition:transform .3s ease;z-index:2147483646}.widget:hover{transform:translateX(0)}.widget .content{border-radius:10px 0 0 10px;direction:ltr!important;display:flex;flex-direction:row}.widget .content .logo{background-color:#ff7227;background-image:url(@logo@);background-position:50%;background-repeat:no-repeat;background-size:40px 40px;border-radius:6px 0 0 6px;box-shadow:0 0 10px #00000040;height:40px;width:40px}.widget .content .notification{background-color:#000;border-radius:50%;color:#fff;font-size:10px;font-weight:600;height:20px;left:-5px;position:absolute;top:-5px;width:20px}.widget .content .drag{background:#0000 linear-gradient(270deg,#fb6d56,#ec6751 59%,#e1624d) 0 0 no-repeat padding-box;cursor:move;height:40px;width:15px}.widget .content .drag img{width:6px!important}.all-center{align-items:center;display:flex;justify-content:center}.pulse-reveal{animation:pulse-reveal 2s ease;animation-iteration-count:10}";
+  var css_248z$5 = ".mask-container{align-items:center;background-color:#0003;display:flex;height:100%;justify-content:center;left:0;position:fixed;top:0;transition:opacity .3s ease,visibility .3s ease;width:100%;z-index:2147483647}.modal-content{box-shadow:1px -3px 6px 0 #0003;max-height:450px;max-width:450px;width:90%}.coupon-list-widget-conent,.modal-content{background-color:#fff;border-radius:6px;display:flex;flex-direction:column;overflow:hidden}.coupon-list-widget-conent{border:1px solid #ebebeb;box-shadow:0 4px 16px #0a164666;height:500px;max-height:85%;position:fixed;right:10px;top:10px;width:350px;z-index:2147483646}.coupon-list-widget-conent .modal-header,.modal-content .modal-header{align-items:center;background:var(--color-modeal-header-background);border-bottom:1px solid #ebe6e6;box-sizing:border-box;display:flex;height:var(--size-height-modeal-header);justify-content:space-between;padding:0 var(--size-padding-horizontal-modeal-header);width:100%}.modal-header .logo>img{width:50px}.coupon-list-widget-conent .logo,.modal-header .logo{align-items:center;display:flex;justify-content:center}.coupon-list-widget-conent .title{flex:1;font-size:var(--size-font-modeal-header-title);font-weight:700;padding-left:10px}.modal-header .btns{display:flex;flex-direction:row;position:relative}.modal-header .btns .close,.modal-header .btns .setting{align-items:center;cursor:pointer;display:flex;justify-content:center;width:var(--size-height-modeal-operat-icon)}.modal-header svg.icon-i87i-svg path{fill:var(--color-modeal-header-icon)!important}.modal-header svg.icon-i87i-svg:hover path{fill:var(--color-modeal-header-icon-hover)!important}.setting-dropdown{background:#fff;border-radius:6px;box-shadow:0 4px 11px #0a164633;display:none;inset-inline-end:0;margin-top:5px;max-height:300px;overflow:auto;position:absolute;top:25px;width:180px;z-index:99999999}.setting-dropdown.active{display:block}.setting-category{border-top:1px solid #eee;padding:10px}.setting-category-title{font-size:14px;font-weight:700;margin-bottom:8px}.setting-option{border-radius:4px;cursor:pointer;font-size:12px;padding:3px 7px}.setting-option:hover{background-color:#f0f0f0}.coupon-list-widget-conent .modal-body{background:var(--color-modeal-content-background);flex:1;overflow-y:auto;position:relative;width:100%}.deal-description-warpper{margin:20px auto;text-align:center}.deal-description-warpper>.title{color:#000;font-size:18px;font-weight:800;margin-bottom:5px}.deal-description-warpper>.sub-title{color:#9f9f9f;font-size:14px}.deal-coupons-warpper{display:flex;mask-image:linear-gradient(90deg,#0000,#000 5%,#000 95%,#0000);-webkit-mask-image:linear-gradient(90deg,#0000,#000 5%,#000 95%,#0000);overflow:hidden;padding:10px 20px;position:relative;scroll-behavior:smooth}.deal-coupons-warpper .coupon-item{background-color:#f6f7ff;border:1px dashed #8096f8;border-radius:4px;color:#ccc;display:inline-block;flex:none;font-size:15px;font-weight:700;margin:5px;padding:5px 10px;white-space:nowrap}.deal-coupons-warpper .coupon-item-active{color:#005cf6!important}.deal-coupons-warpper .coupon-item-lose{text-decoration:line-through!important;text-decoration-thickness:2px!important}.deal-progress-warpper{margin-top:20px}.deal-progress-warpper .progress-container{background-color:#f3f3f3;border-radius:25px;box-shadow:0 2px 4px #0003;margin:0 auto;overflow:hidden;width:100%}.deal-progress-warpper .progress-bar{background-color:#4caf50;color:#fff;font-weight:700;height:8px;line-height:8px;text-align:center;transition:width .5s ease-in-out;width:50%}.widget{cursor:pointer;display:flex;flex-direction:row;position:fixed;right:0;transform:translateX(15px);transition:transform .3s ease;z-index:2147483646}.widget:hover{transform:translateX(0)}.widget .content{border-radius:10px 0 0 10px;direction:ltr!important;display:flex;flex-direction:row}.widget .content .logo{background-color:#ff7227;background-image:url(@logo@);background-position:50%;background-repeat:no-repeat;background-size:40px 40px;border-radius:6px 0 0 6px;box-shadow:0 0 10px #00000040;height:40px;width:40px}.widget .content .notification{background-color:#000;border-radius:50%;color:#fff;font-size:10px;font-weight:600;height:20px;left:-5px;position:absolute;top:-5px;width:20px}.widget .content .drag{background:#0000 linear-gradient(270deg,#fb6d56,#ec6751 59%,#e1624d) 0 0 no-repeat padding-box;cursor:move;height:40px;width:15px}.widget .content .drag img{width:6px!important}.all-center{align-items:center;display:flex;justify-content:center}.pulse-reveal{animation:pulse-reveal 2s ease;animation-iteration-count:10}";
 
   var css_248z$4 = ".request-state{left:50%;position:absolute;top:50%;transform:translate(-50%,-50%)}.loading{perspective:200px;position:relative;width:50px}.loading:after,.loading:before{animation:scriptJumping .5s infinite alternate;background:#0000;content:\"\";height:20px;position:absolute;width:20px}.loading:before{left:0}.loading:after{animation-delay:.15s;right:0}@keyframes scriptJumping{0%{transform:scale(1) translateY(0) rotateX(0deg)}to{background:#000;transform:scale(1.2) translateY(-25px) rotateX(45deg)}}.loading-error-image{text-align:center}.loading-error-image,.loading-error-retry{align-items:center;display:flex;justify-content:center}.loading-error-retry{border:4px solid #ccc;border-radius:50px;cursor:pointer;height:40px;margin:20px auto;width:140px}";
 
@@ -4269,7 +4187,7 @@
           characterData: false
         });
       }
-      CACHE_ROOT_DIVS.push(outerDIV);
+      CACHE_ROOT_DIVS.push(shadowRoot);
       if (name && name.indexOf("aliexpress") != -1) {
         setInterval(() => {
           outerDIV.querySelectorAll("*[data-re-mark-tag='aliexpress']").forEach((element) => {
@@ -4939,6 +4857,9 @@
         }
         mask.appendChild(content);
         let styleText = `
+        *[data-extension-direction='rtl']{
+          direction: rtl!important;
+        }
         .dialog-gcc-mask {
           width: 100%;
           height: 100%;
@@ -5001,6 +4922,7 @@
         this.mask = mask;
         this.content = content;
         this.dialogStyle = dialogStyle;
+        this.shadowRoot = shadowRoot;
       }
       middleBox(params) {
         const { content } = this;
@@ -5149,7 +5071,7 @@
         styleSheet,
         direction: selectedLanguage.dir,
         onContentReady: function($that) {
-          CACHE_ROOT_DIVS.push($that.mask);
+          CACHE_ROOT_DIVS.push($that.shadowRoot);
           SettingOperat.languageSwitcher($that.dialogContent, selectedLanguage);
           const $input = $that.dialogContent.querySelector("#maximum-records");
           const $clearCache = $that.dialogContent.querySelector("#clear-cache");
@@ -6881,7 +6803,6 @@
     return a;
   };
   const otherModules = {
-    CobaltDownloader,
     X,
     Youtube: {
       YoutubeDownload
@@ -7576,9 +7497,6 @@
     },
     tiktok: function() {
       AllModules.Tiktok.start();
-    },
-    cobalt: function() {
-      AllModules.CobaltDownloader.start();
     },
     historyShow: false,
     aliexpress: function() {
