@@ -5505,7 +5505,7 @@
       step((generator = generator.apply(__this, __arguments)).next());
     });
   };
-  class AmazonAutoDetect extends AutoDetectBase {
+  class WishAutoDetect extends AutoDetectBase {
     start(supportData, code) {
       const { couponInput, submitButton } = this.validate(supportData);
       return new Promise((resolve) => __async$a(this, null, function* () {
@@ -5607,7 +5607,7 @@
       step((generator = generator.apply(__this, __arguments)).next());
     });
   };
-  class WishAutoDetect extends AutoDetectBase {
+  class AmazonAutoDetect extends AutoDetectBase {
     start(supportData, code) {
       const { couponInput, submitButton } = this.validate(supportData);
       return new Promise((resolve) => __async$8(this, null, function* () {
@@ -5742,11 +5742,11 @@
         if (platform === supports.aliexpress.p) {
           promise = new AliexpressAutoDetect().start(_supportData, code);
         } else if (platform === supports.wish.p) {
-          promise = new AmazonAutoDetect().start(_supportData, code);
+          promise = new WishAutoDetect().start(_supportData, code);
         } else if (platform === supports.ebay.p) {
           promise = new EbayAutoDetect().start(_supportData, code);
         } else if (platform === supports.amazon.p) {
-          promise = new WishAutoDetect().start(_supportData, code);
+          promise = new AmazonAutoDetect().start(_supportData, code);
         }
       } catch (e) {
       }
