@@ -70,7 +70,7 @@
 // @description:ug    بۇ قوليازما بەزى تور بېكەتلەرنى ياخشىلاش بىلەن تەمىنلەيدۇ. 🔥Twitter (X): ۋاقىت فورماتلاش ئېكرانى ، HD رەسىم كۆرسىتىش ، رەسىم ۋە سىن چۈشۈرۈش قاتارلىقلارنى قوشۇڭ outYoutube: سىن چۈشۈرۈش ، ئېلان ئۆچۈرۈش قاتارلىقلارنى قوشۇڭ ikTiktok: HD سۇ ماركىسىسىز سىن چۈشۈرۈش قاتارلىقلار بىلەن تەمىنلەڭ. ، چۈشەندۈرۈشنى تەكشۈرۈپ بېقىڭ ~
 // @description:vi    Tập lệnh này sẽ cung cấp các cải tiến cho một số trang web. 🔥Twitter(X): Thêm hiển thị định dạng thời gian, hiển thị hình ảnh HD, tải xuống hình ảnh và video, v.v. 🔥Youtube: Thêm tải xuống video, xóa quảng cáo, v.v. 🔥Tiktok: Cung cấp tải xuống video HD không có hình mờ, v.v. Để biết thêm các tính năng, vui lòng kiểm tra phần mô tả~
 // @namespace   PeterParker_X_Y_NameScope
-// @version     2.2.6
+// @version     2.3.1
 // @author      PeterParker
 // @icon        data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAABhxJREFUeF7lm09oHUUcx3/7nm0aWou2CtL2kFLbREXFRPBU+tJb8Gb1Yg8VhIhHb6U86HvwKKWCR8WAx3qRipfYW7rBk2Iq2EvTKkUspRhbJTRpm/p25TdvZ3d2dmb2N7vzNnnJQMhLdnZ2vp/5/dvdeR5s8eZtcf1QHYDmL40EdhB99o4BhPPpRaj50HnDr2ph+guAiQ7PRmIEAFR5YZv17Ey0qGfY9nMPIBEdCz56/xab19F70e/ob/zfD3sOxnM+d/i4Yf79geEOgCSciz5zcw74Z8rqIBD2s7f3O9vcgigPQCHcVrQOzLkXj4PeKtyAKAegudAC8JiP4yq7Ei4DyQVRIkYUB9C8egUAmJ+j+Ms/fkWx8FJ9pt76UOMW4ENnfLLI4PYAeiaP4lnDVT/z21yRaxc6x2wN3qRtCrUDIJj8eojnxFy6BB3ABhHvGgINgGT2Vfl8no8YYgIA0NyBCOBqKE7mweVm3twqO75rqqO/Vmc8V19uBxCi/Xr6vU4lFktoCZqWmx3MACS/x4tspNXnos2uELZN9xJ6AArxVac8FFifeBW6C9eMLpVjBcZ4YAXAZvV3fHk+nvSTmYtKEShu2/TJuN+jj07Hn/EYH+PJzNewNnPRCMFsBfpCSQ2g5OqLk8dZozDVKqJA7IsNj4sAxGN4fOXNt8sA0FpBJQB0k9/582wsygRAPqYike8GaivIAlCsvm3wM62sOHkRgGwl3D2ChWvQXfg1Nw7guMaUyC6crQ1IAGwLHwoAqpvYFBQ5cQCHyqRFBYB00VMk94srqwtg26dPwrbp92N9opvIwRGtIC8I4kDme4ToUlJxlAagMX+b9CevLAJAE5YbRn9dACxqHSQAkhv0HQDFhOUgJ1uHLovIYxMCYcYNJABZ88cz8GEH9bmenL4oAGQ3sU2B/Bp9A2DjAvLkdVUcN39VnWBKjyagNBdIZ4PEAqRbXvFCNgBcBMB0FZlfBfK5lgSQPOCUKVPTIDV4mdIkdQyVJWwKAEUDIDkNMnLJHaLgAnoLoFaC1OBlchPqGCoLyK8E+VkFAFAygYsKsGgAJGYATiCuCAULSJ7zq+hS4gBl8iYTVxVRlArQzvwLugDFDVAcb7obGBRZn3gt7icKLBMA6eZfAgDFDSiFj+s+9OhvjAHpNz66Sdo8FXItVDee3eprLYAGwKYoqgKA/eoXqARlIRvJFexXH3ecJO8L5Juh+I2vafUoGaGK1cdrrAsAvDAVQv1IgqJ+mI6lezPp272hP88eQPo9gWQBtDjAp8PjAYpEcTVBoCicLtvck4MIIjgIafiQ4dWYcjgTADyhqX4mgIcae3ubnBrP3YJj/HP025XIouO0b/Q2WPl/HwT/nmpvUTSy8ZFYD4AyDrRG5+Dskeo2QhQFgechjNaiasdZ9jUZc4Hwm7FGUOttd1lYHRmZXR4/JU+gse8u4M8gNP/OC4A/cnt5x+35d5/5iW3CrAXge+9d92MAYS3Z9qIS6e3eA7D72UHQD7D8D4TL941z9QJvMgaAPbuXxlpesqsze/LQMHjP79sUALh4FJPKAkYIAwQgXLoD8PihOgeA166fuB5vvc28GAkujaZ2g8SjbAYAHvi1dxZT2+kyADAgKuPBJgAgmj5fWOXbYaUrDBKA279nzF8lPhMD+Fk6K/AOHBqIIBgqANROLCoXW/nP4NvRKxD26gKxDTKAUAp+RhfQBUJbAGJJOh+Vp1iqqhqW13LDcpuX3zamp7IAVvworIAeBDFnalyAC21H5aexFrdRIvVFGByUtix//BBYGlQ0lRVk06DG/FnAwEJoaBi6q6vw5901+O6vV+CTpY9LSCp/6uzYZ/D68B+w/8DTvcHKANCmwGiej4KnYHnpX1hdWYOVB2vwRXgKPg8+KK+ixAgXhj6Fqf++h527trNRRl7ary2CVG6QsgAEQJ0L1tGg2VBBHcNNv94dHnXubN5Cy98qmzdLBoE5CP92WN4Zro77AF7b9vsB8sXLA+AjVgfCiXA+bXcA+g/CqfD+ARBtrJxVRL5a3sxNPufeAkxXY7tQ+Ndm4zUQvj5bSwJURV+frRaAq/DncJwtD+B/6XGfbp4XQ5oAAAAASUVORK5CYII=
 // @match       *://*/*
@@ -248,26 +248,6 @@
     "cobalt": { "p": "cobalt", "match": /cobalt\.tools/ }
   };
 
-  var __async$s = (__this, __arguments, generator) => {
-    return new Promise((resolve, reject) => {
-      var fulfilled = (value) => {
-        try {
-          step(generator.next(value));
-        } catch (e) {
-          reject(e);
-        }
-      };
-      var rejected = (value) => {
-        try {
-          step(generator.throw(value));
-        } catch (e) {
-          reject(e);
-        }
-      };
-      var step = (x) => x.done ? resolve(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
-      step((generator = generator.apply(__this, __arguments)).next());
-    });
-  };
   const Logger = {
     log: function(level = "info", ...messages) {
     }
@@ -357,14 +337,14 @@
           }
         };
         if (config.method === "POST") {
-          config.headers = headers != null ? headers : { "Content-Type": "application/json" };
+          config.headers = headers ?? { "Content-Type": "application/json" };
           if (JSON.stringify(config.headers).indexOf("application/json") != -1) {
             config.data = JSON.stringify(param);
           } else {
             config.data = param;
           }
         } else if (config.method === "GET") {
-          config.headers = headers != null ? headers : { "Content-Type": "application/json" };
+          config.headers = headers ?? { "Content-Type": "application/json" };
           config.data = param;
         }
         GM_xmlhttpRequest(config);
@@ -379,7 +359,7 @@
       const signal = controller.signal;
       config.signal = signal;
       if (config.method === "POST") {
-        config.headers = headers != null ? headers : { "Content-Type": "application/json" };
+        config.headers = headers ?? { "Content-Type": "application/json" };
         config.body = JSON.stringify(param);
       }
       const timeoutId = setTimeout(() => controller.abort(), timeout);
@@ -452,50 +432,48 @@
     elementInContainer: function(container, element) {
       return container.contains(element);
     },
-    mustGetElement: function(handler) {
-      return __async$s(this, null, function* () {
-        const getElements = (handler2) => __async$s(this, null, function* () {
-          const promiseArray = [];
-          const handlers = handler2.split("@");
-          for (let i = 0; i < handlers.length; i++) {
-            const eleName = handlers[i];
-            if (!eleName) {
-              continue;
-            }
-            if (eleName == "body") {
-              promiseArray.push(
-                new Promise((resolve, reject) => {
-                  resolve(document.body);
-                })
-              );
-            } else if (eleName == "html") {
-              promiseArray.push(
-                new Promise((resolve, reject) => {
-                  resolve(document.html);
-                })
-              );
-            } else {
-              promiseArray.push(this.waitForElementByInterval(eleName, document.body, true, 10, 1500));
-            }
+    mustGetElement: async function(handler) {
+      const getElements = async (handler2) => {
+        const promiseArray = [];
+        const handlers = handler2.split("@");
+        for (let i = 0; i < handlers.length; i++) {
+          const eleName = handlers[i];
+          if (!eleName) {
+            continue;
           }
-          let element2 = yield Promise.race(promiseArray);
-          return element2;
-        });
-        let element = yield getElements(handler);
-        return new Promise((resolve, reject) => {
+          if (eleName == "body") {
+            promiseArray.push(
+              new Promise((resolve, reject) => {
+                resolve(document.body);
+              })
+            );
+          } else if (eleName == "html") {
+            promiseArray.push(
+              new Promise((resolve, reject) => {
+                resolve(document.html);
+              })
+            );
+          } else {
+            promiseArray.push(this.waitForElementByInterval(eleName, document.body, true, 10, 1500));
+          }
+        }
+        let element2 = await Promise.race(promiseArray);
+        return element2;
+      };
+      let element = await getElements(handler);
+      return new Promise((resolve, reject) => {
+        if (element) {
+          resolve(element);
+          return;
+        }
+        const waitInterval = setInterval(() => {
+          element = getElements(handler);
           if (element) {
+            clearInterval(waitInterval);
             resolve(element);
             return;
           }
-          const waitInterval = setInterval(() => {
-            element = getElements(handler);
-            if (element) {
-              clearInterval(waitInterval);
-              resolve(element);
-              return;
-            }
-          }, 2e3);
-        });
+        }, 2e3);
       });
     },
     loopTask: function(callback, delay = 1500) {
@@ -587,7 +565,6 @@
     }
   };
 
-  var _a;
   const language = {
     "zh": {
       "dateFormat": {
@@ -798,28 +775,8 @@
       }
     }
   };
-  const Commonlanguage = (_a = language[ScriptConst["lang"]]) != null ? _a : language["en"];
+  const Commonlanguage = language[ScriptConst["lang"]] ?? language["en"];
 
-  var __async$r = (__this, __arguments, generator) => {
-    return new Promise((resolve, reject) => {
-      var fulfilled = (value) => {
-        try {
-          step(generator.next(value));
-        } catch (e) {
-          reject(e);
-        }
-      };
-      var rejected = (value) => {
-        try {
-          step(generator.throw(value));
-        } catch (e) {
-          reject(e);
-        }
-      };
-      var step = (x) => x.done ? resolve(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
-      step((generator = generator.apply(__this, __arguments)).next());
-    });
-  };
   const FMT = 3;
   let fmt = GM_getValue("fmt", FMT);
   const XSettingsDialog = {
@@ -919,7 +876,6 @@
   };
   const XDateFormat = {
     df: function(date, f) {
-      var _a;
       const WEEK = Commonlanguage.dateFormat.week;
       const WEEK_FULL = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
       const MONTH_SHORT = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
@@ -968,7 +924,7 @@
         `M${YM}-${MO}-${DA}(${WE}) ${HO}:${MI}:${SE}`,
         `${WE_FULL}, ${MO_NAME_FULL} ${parseInt(DA)}, ${YE} ${HO12}:${MI}:${SE} ${AMPM}`
       ];
-      return (_a = F[f]) != null ? _a : F[0];
+      return F[f] ?? F[0];
     },
     repldatetime: function() {
       const MYNAME = "peter_parker_x1190";
@@ -1090,10 +1046,9 @@
       this.status(btn, ["loading"]);
       const handleDownload = (url, filename, defaultExt) => {
         return new Promise((resolve, reject) => {
-          var _a;
           GM_download({
             url,
-            name: filename + "." + ((_a = this.getExtension(url)) != null ? _a : defaultExt),
+            name: filename + "." + (this.getExtension(url) ?? defaultExt),
             onload: function() {
               resolve();
             },
@@ -1105,12 +1060,11 @@
       };
       const filenameTemplate = "{name}";
       const validMediaTasks = statusIds.map((statusId) => {
-        var _a;
         const media = this.mediaMap[statusId];
         if (!media)
           return null;
         const { entityId, id, thumbnail, video, photo, text } = media;
-        const filename = filenameTemplate.replace("{name}", (_a = this.sanitizeFilename(text)) != null ? _a : entityId);
+        const filename = filenameTemplate.replace("{name}", this.sanitizeFilename(text) ?? entityId);
         return () => new Promise((resolve) => {
           setTimeout(() => {
             if (video)
@@ -1235,18 +1189,16 @@
         const json = JSON.parse(responseText);
         const all = Object.values(this.flattenByKey(json, "extended_entities"));
         const result = all.flatMap((item) => {
-          var _a;
           const entityId = item.id_str || item.conversation_id_str;
-          return (((_a = item.extended_entities) == null ? void 0 : _a.media) || []).filter((m) => ["video", "animated_gif", "photo"].includes(m.type)).map((m) => {
-            var _a2, _b, _c, _d, _e;
-            const bestVideo = (_b = (_a2 = m.video_info) == null ? void 0 : _a2.variants) == null ? void 0 : _b.filter((v) => v.content_type === "video/mp4").sort((a, b) => b.bitrate - a.bitrate)[0];
+          return (item.extended_entities?.media || []).filter((m) => ["video", "animated_gif", "photo"].includes(m.type)).map((m) => {
+            const bestVideo = m.video_info?.variants?.filter((v) => v.content_type === "video/mp4").sort((a, b) => b.bitrate - a.bitrate)[0];
             return {
               entityId,
               id: m.id_str,
-              thumbnail: (_c = m.media_url_https) == null ? void 0 : _c.split(".jpg")[0],
-              video: bestVideo == null ? void 0 : bestVideo.url,
+              thumbnail: m.media_url_https?.split(".jpg")[0],
+              video: bestVideo?.url,
               photo: m.media_url_https,
-              text: ((_e = (_d = (item.full_text || "").split("https://t.co")[0]) == null ? void 0 : _d.trim()) == null ? void 0 : _e.slice(0, 50)) || entityId
+              text: (item.full_text || "").split("https://t.co")[0]?.trim()?.slice(0, 50) || entityId
             };
           });
         });
@@ -1260,29 +1212,26 @@
       const self = this;
       (function interceptFetch() {
         const origFetch = window.fetch;
-        window.fetch = function(...args) {
-          return __async$r(this, null, function* () {
-            var _a;
-            try {
-              const request = args[0];
-              const url = typeof request === "string" ? request : request == null ? void 0 : request.url;
-              const isMatch = regex.test(url);
-              const response = yield origFetch.apply(this, args);
-              if (isMatch && response.ok && ((_a = response.headers.get("content-type")) == null ? void 0 : _a.includes("application/json"))) {
-                const cloned = response.clone();
-                cloned.text().then((text) => {
-                  try {
-                    self.processResponseBody(text);
-                  } catch (e) {
-                  }
-                }).catch((err) => {
-                });
-              }
-              return response;
-            } catch (e) {
-              throw e;
+        window.fetch = async function(...args) {
+          try {
+            const request = args[0];
+            const url = typeof request === "string" ? request : request?.url;
+            const isMatch = regex.test(url);
+            const response = await origFetch.apply(this, args);
+            if (isMatch && response.ok && response.headers.get("content-type")?.includes("application/json")) {
+              const cloned = response.clone();
+              cloned.text().then((text) => {
+                try {
+                  self.processResponseBody(text);
+                } catch (e) {
+                }
+              }).catch((err) => {
+              });
             }
-          });
+            return response;
+          } catch (e) {
+            throw e;
+          }
         };
       })();
     },
@@ -1343,26 +1292,6 @@
     XDownload
   };
 
-  var __async$q = (__this, __arguments, generator) => {
-    return new Promise((resolve, reject) => {
-      var fulfilled = (value) => {
-        try {
-          step(generator.next(value));
-        } catch (e) {
-          reject(e);
-        }
-      };
-      var rejected = (value) => {
-        try {
-          step(generator.throw(value));
-        } catch (e) {
-          reject(e);
-        }
-      };
-      var step = (x) => x.done ? resolve(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
-      step((generator = generator.apply(__this, __arguments)).next());
-    });
-  };
   const Tiktok = {
     download: function(playId) {
       if (playId) {
@@ -1388,13 +1317,12 @@
       const match = str.match(/-(\d+)$/);
       return match ? match[1] : null;
     },
-    start: function() {
-      return __async$q(this, null, function* () {
-        if (!/www\.tiktok\.com/.test(window.location.host)) {
-          return;
-        }
-        const randomId = Math.floor(1e5 + Math.random() * 9e5);
-        GM_addStyle(`
+    start: async function() {
+      if (!/www\.tiktok\.com/.test(window.location.host)) {
+        return;
+      }
+      const randomId = Math.floor(1e5 + Math.random() * 9e5);
+      GM_addStyle(`
       .sc-download-` + randomId + `{
         cursor:pointer;
         justify-content:center;
@@ -1405,27 +1333,26 @@
         display: flex;
       }
     `);
-        setInterval(() => {
-          document.querySelectorAll("video").forEach((element, index) => {
-            const parentNode = element.parentNode;
-            if (!parentNode.querySelector("*[x-add='true']")) {
-              const downloadElement = document.createElement("div");
-              downloadElement.setAttribute("x-add", "true");
-              downloadElement.classList.add("sc-download-" + randomId);
-              downloadElement.innerHTML = this.downloadSVG;
-              parentNode.appendChild(downloadElement);
-              downloadElement.addEventListener("click", () => {
-                const container = this.findAncestorByClass(parentNode, "xgplayer-container", 3);
-                if (container && container.getAttribute("id")) {
-                  const playId = this.extractLastDashNumber(container.getAttribute("id"));
-                  if (playId)
-                    this.download(playId);
-                }
-              });
-            }
-          });
-        }, 1e3);
-      });
+      setInterval(() => {
+        document.querySelectorAll("video").forEach((element, index) => {
+          const parentNode = element.parentNode;
+          if (!parentNode.querySelector("*[x-add='true']")) {
+            const downloadElement = document.createElement("div");
+            downloadElement.setAttribute("x-add", "true");
+            downloadElement.classList.add("sc-download-" + randomId);
+            downloadElement.innerHTML = this.downloadSVG;
+            parentNode.appendChild(downloadElement);
+            downloadElement.addEventListener("click", () => {
+              const container = this.findAncestorByClass(parentNode, "xgplayer-container", 3);
+              if (container && container.getAttribute("id")) {
+                const playId = this.extractLastDashNumber(container.getAttribute("id"));
+                if (playId)
+                  this.download(playId);
+              }
+            });
+          }
+        });
+      }, 1e3);
     }
   };
 
@@ -1577,6 +1504,7 @@
         /changelly\.com/,
         /bybit\.com/,
         /gate\.io/,
+        /gate\.com/,
         /kucoin\.com/,
         /coinmama\.com/,
         /cex\.io/,
@@ -2047,29 +1975,10 @@
     }
   };
 
-  var __async$p = (__this, __arguments, generator) => {
-    return new Promise((resolve, reject) => {
-      var fulfilled = (value) => {
-        try {
-          step(generator.next(value));
-        } catch (e) {
-          reject(e);
-        }
-      };
-      var rejected = (value) => {
-        try {
-          step(generator.throw(value));
-        } catch (e) {
-          reject(e);
-        }
-      };
-      var step = (x) => x.done ? resolve(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
-      step((generator = generator.apply(__this, __arguments)).next());
-    });
-  };
   const Aliexpress = {
-    languageStoageKey: "language-stoage-key",
-    currencyStoageKey: "language-currency-key",
+    languageStorageKey: "aliexpress-language-key",
+    currencyStorageKey: "aliexpress-currency-key",
+    marketplaceStorageKey: "aliexpress-marketplace-key",
     checkDomInsertRs: true,
     getLang: function() {
       const host = window.location.host;
@@ -2081,18 +1990,34 @@
       } else if (/^aliexpress\.ru$/.test(host)) {
         lang = "ru";
       }
-      GM_setValue(this.languageStoageKey, lang);
+      GM_setValue(this.languageStorageKey, lang);
       return lang;
     },
-    getMarketplace: function() {
-      let marketplace = "";
+    getMarketplace: async function(marketplaceHandler) {
+      let countryCode = "";
       const host = window.location.host;
       if (/^(us|ko|uk|fr|de|it|ca|au|jp|ja|he|kr|ru|br|in|es|mx|pl|tr|ar|id|th|vn|sg|my|ph|be|nl|se|ch|no|dk|at|ie|fi|pt|gr|hu|cz|bg|ro|ua|il|sa|eg|ir|pk|iq|af|ly|et|gh|ke|ng|za|tz|mg|mw|zm|bw|sn|cm|ci|gh|ma|tn|mr|mu|om|kw|qa|bh|ae|lb|jo|sy|lb|il|ps|kr|cl|pe|uy|ec|ve|bo|gt|pa|hn|ni|cr|sv|gt|sl|lr|sd|er|dj|et|mw|mz|ao|tz|zm|zw|mw|na|bw|ls|mg|km)\.aliexpress\.com$/.test(host)) {
-        marketplace = host.split(".")[0];
+        countryCode = host.split(".")[0];
       } else {
-        marketplace = host.split(".").slice(-1)[0];
+        countryCode = host.split(".").slice(-1)[0];
       }
-      return marketplace;
+      let marketplace = GM_getValue(this.marketplaceStorageKey, null);
+      const defaultMarketplace = { countryCode, className: "", html: "" };
+      if (marketplaceHandler) {
+        const handlerElement = await Tools.waitForElementByInterval(marketplaceHandler);
+        if (handlerElement) {
+          marketplace = {
+            countryCode,
+            className: handlerElement.className ?? "",
+            html: handlerElement.outerHTML ?? ""
+          };
+          GM_setValue(this.marketplaceStorageKey, marketplace);
+        }
+      }
+      if (!marketplace || /\.ru/.test(host)) {
+        marketplace = defaultMarketplace;
+      }
+      return encodeURIComponent(JSON.stringify(marketplace));
     },
     getCurrency: function() {
       const host = window.location.host;
@@ -2105,7 +2030,7 @@
             let currency = element.textContent;
             if (currency) {
               currency = encodeURIComponent(currency);
-              GM_setValue(this.currencyStoageKey, currency);
+              GM_setValue(this.currencyStorageKey, currency);
               resolve(currency);
             } else {
               resolve("unknown");
@@ -2116,101 +2041,100 @@
         }
       });
     },
-    detail: function() {
-      return __async$p(this, null, function* () {
-        const visitUrl = window.location.href;
-        const validate = [/\/item\/[^\/]*?\.html\?/, /\/item\/[^\/]*?\.html$/].map((reg) => reg.test(visitUrl)).some((rs) => rs == true);
-        if (!validate)
-          return;
-        const language = this.getLang();
-        const currency = yield this.getCurrency();
-        const id = Tools.getGoodsIdByLink(visitUrl);
-        try {
-          const params = {
-            "ids": id,
-            "qu": "",
-            "p": SupportData.support.p,
-            "lang": language,
-            "mul": false,
-            "currency": currency
-          };
-          const data = yield RequestUtil.getCouponQuery(params);
-          if (data.code == "success" && !!data.result) {
-            const json = JSON.parse(data.result);
-            Logger.log("info", "detail request json=", json);
-            yield this.detailAnalyze(json, language, currency);
-          }
-        } catch (e) {
+    detail: async function(marketplaceHandler) {
+      const visitUrl = window.location.href;
+      const validate = [/\/item\/[^\/]*?\.html\?/, /\/item\/[^\/]*?\.html$/].map((reg) => reg.test(visitUrl)).some((rs) => rs == true);
+      if (!validate)
+        return;
+      const language = this.getLang();
+      const currency = await this.getCurrency();
+      const marketplace = await this.getMarketplace(marketplaceHandler);
+      const id = Tools.getGoodsIdByLink(visitUrl);
+      try {
+        const params = {
+          "ids": id,
+          "qu": "",
+          "p": SupportData.support.p,
+          "lang": language,
+          "mul": false,
+          "currency": currency,
+          "marketplace": marketplace
+        };
+        const data = await RequestUtil.getCouponQuery(params);
+        if (data.code == "success" && !!data.result) {
+          const json = JSON.parse(data.result);
+          Logger.log("info", "detail request json=", json);
+          await this.detailAnalyze(json, language, currency, marketplace);
         }
-      });
+      } catch (e) {
+      }
     },
-    detailAnalyze: function(json, language, currency) {
-      return __async$p(this, null, function* () {
-        this.checkDomInsertRs = false;
-        try {
-          if (!json)
-            return;
-          let couponResult = null;
-          let qrcodeResult = null;
-          if (!!json.data && !!json.data.css && !!json.data.html && !!json.data.handler) {
-            const { handler, css, html, templateId, distinguish, hint } = json.data;
-            var mid = null;
-            if (json.data.hasOwnProperty("mid")) {
-              mid = json.data["mid"];
-            }
-            GM_addStyle(css);
-            const element = yield Tools.mustGetElement(handler);
-            Logger.log("info", "coupon insert：element", element);
-            if (element) {
-              couponResult = { "element": element, "html": html, "templateId": templateId, "distinguish": distinguish, "hint": hint, "mid": mid };
-            }
+    detailAnalyze: async function(json, language, currency, marketplace) {
+      this.checkDomInsertRs = false;
+      try {
+        if (!json)
+          return;
+        let couponResult = null;
+        let qrcodeResult = null;
+        if (!!json.data && !!json.data.css && !!json.data.html && !!json.data.handler) {
+          const { handler, css, html, templateId, distinguish, hint } = json.data;
+          var mid = null;
+          if (json.data.hasOwnProperty("mid")) {
+            mid = json.data["mid"];
           }
-          if (!!json.id && !!json.mscan && !!json.mscan.html && !!json.mscan.mount) {
-            const { iden, html, mount, distinguish } = json.mscan;
-            const id = json.id;
-            const promiseResultArray = [];
-            const elementPromise = Tools.mustGetElement(mount);
-            const params = {
-              "id": id,
-              "lang": language,
-              "platform": SupportData.support.p,
-              "currency": currency
-            };
-            const reqPromise = RequestUtil.getCouponChange(params);
-            promiseResultArray.push(elementPromise, reqPromise);
-            const allResult = yield Promise.all(promiseResultArray);
-            let element = null, qrcodeData = null;
-            for (let i = 0; i < allResult.length; i++) {
-              if (allResult[i]) {
-                if (allResult[i].hasOwnProperty("code")) {
-                  qrcodeData = allResult[i];
-                } else {
-                  element = allResult[i];
-                }
+          GM_addStyle(css);
+          const element = await Tools.mustGetElement(handler);
+          Logger.log("info", "coupon insert：element", element);
+          if (element) {
+            couponResult = { "element": element, "html": html, "templateId": templateId, "distinguish": distinguish, "hint": hint, "mid": mid };
+          }
+        }
+        if (!!json.id && !!json.mscan && !!json.mscan.html && !!json.mscan.mount) {
+          const { iden, html, mount, distinguish } = json.mscan;
+          const id = json.id;
+          const promiseResultArray = [];
+          const elementPromise = Tools.mustGetElement(mount);
+          const params = {
+            "id": id,
+            "lang": language,
+            "platform": SupportData.support.p,
+            "currency": currency,
+            "marketplace": marketplace
+          };
+          const reqPromise = RequestUtil.getCouponChange(params);
+          promiseResultArray.push(elementPromise, reqPromise);
+          const allResult = await Promise.all(promiseResultArray);
+          let element = null, qrcodeData = null;
+          for (let i = 0; i < allResult.length; i++) {
+            if (allResult[i]) {
+              if (allResult[i].hasOwnProperty("code")) {
+                qrcodeData = allResult[i];
+              } else {
+                element = allResult[i];
               }
             }
-            Logger.log("info", "qrcocd insert：element", element);
-            if (element && qrcodeData) {
-              qrcodeResult = { "element": element, "html": html, "iden": iden, "qrcodeData": qrcodeData, "distinguish": distinguish };
-            }
           }
-          Tools.loopTask(() => {
-            if (couponResult) {
-              Tools.distinguishRemoveAndTry(couponResult.distinguish, () => {
-                this.detailCouponAnalyze(couponResult);
-              });
-            }
-            if (qrcodeResult) {
-              Tools.distinguishRemoveAndTry(qrcodeResult.distinguish, () => {
-                this.detailMscanAnalyze(qrcodeResult);
-              });
-            }
-          });
-        } catch (error) {
-        } finally {
-          this.checkDomInsertRs = true;
+          Logger.log("info", "qrcocd insert：element", element);
+          if (element && qrcodeData) {
+            qrcodeResult = { "element": element, "html": html, "iden": iden, "qrcodeData": qrcodeData, "distinguish": distinguish };
+          }
         }
-      });
+        Tools.loopTask(() => {
+          if (couponResult) {
+            Tools.distinguishRemoveAndTry(couponResult.distinguish, () => {
+              this.detailCouponAnalyze(couponResult);
+            });
+          }
+          if (qrcodeResult) {
+            Tools.distinguishRemoveAndTry(qrcodeResult.distinguish, () => {
+              this.detailMscanAnalyze(qrcodeResult);
+            });
+          }
+        });
+      } catch (error) {
+      } finally {
+        this.checkDomInsertRs = true;
+      }
     },
     detailCouponAnalyze: function(result) {
       const { element, html, templateId, hint, mid } = result;
@@ -2258,58 +2182,56 @@
         }
       }
     },
-    trade: function() {
-      return __async$p(this, null, function* () {
-        const visitUrl = window.location.href;
-        const validate = SupportData.support.trade.map((reg) => reg.test(visitUrl)).some((rs) => rs == true);
-        if (!validate)
-          return;
-        const language = yield GM_getValue(this.languageStoageKey, navigator.language);
-        const currency = yield GM_getValue(this.currencyStoageKey, "USD");
-        const ids = Tools.getParamterBySearch(window.location.search, "objectId") || Tools.getParamterBySearch(window.location.search, "availableProductShopcartIds") || Tools.getParamterBySearch(window.location.search, "itemId");
-        const params = {
-          "ids": ids,
-          "qu": "",
-          "p": SupportData.support.p,
-          "lang": language,
-          "mul": true,
-          "currency": currency
-        };
-        const res = yield RequestUtil.getCouponQuery(params);
-        if (res.code == "success" && !!res.result) {
-          const json = JSON.parse(res.result);
-          yield this.tradeAnalyze(json, language);
-        }
-      });
+    trade: async function() {
+      const visitUrl = window.location.href;
+      const validate = SupportData.support.trade.map((reg) => reg.test(visitUrl)).some((rs) => rs == true);
+      if (!validate)
+        return;
+      const language = await GM_getValue(this.languageStorageKey, navigator.language);
+      const currency = await GM_getValue(this.currencyStorageKey, "USD");
+      const marketplace = await this.getMarketplace();
+      const ids = Tools.getParamterBySearch(window.location.search, "objectId") || Tools.getParamterBySearch(window.location.search, "availableProductShopcartIds") || Tools.getParamterBySearch(window.location.search, "itemId");
+      const params = {
+        "ids": ids,
+        "qu": "",
+        "p": SupportData.support.p,
+        "lang": language,
+        "mul": true,
+        "currency": currency,
+        "marketplace": marketplace
+      };
+      const res = await RequestUtil.getCouponQuery(params);
+      if (res.code == "success" && !!res.result) {
+        const json = JSON.parse(res.result);
+        await this.tradeAnalyze(json, language);
+      }
     },
-    tradeAnalyze: function(json, language) {
-      return __async$p(this, null, function* () {
-        if (!json || !json.handler || !json.css || !json.templateId) {
+    tradeAnalyze: async function(json, language) {
+      if (!json || !json.handler || !json.css || !json.templateId) {
+        return;
+      }
+      const { handler, css, html, templateId, distinguish } = json;
+      GM_addStyle(css);
+      let element = await Tools.mustGetElement(handler);
+      Tools.loopTask(() => {
+        if (!element) {
           return;
         }
-        const { handler, css, html, templateId, distinguish } = json;
-        GM_addStyle(css);
-        let element = yield Tools.mustGetElement(handler);
-        Tools.loopTask(() => {
-          if (!element) {
-            return;
-          }
-          Tools.distinguishRemoveAndTry(distinguish, () => {
-            element.insertAdjacentHTML("afterend", html);
-            const templateIdEle = document.querySelector("#" + templateId + ">.item");
-            if (templateIdEle) {
-              const promoCode = Tools.decryptStr(templateIdEle.querySelector(".copy").getAttribute("data-encryptcode"));
-              templateIdEle.addEventListener("click", () => {
-                GM_setClipboard(promoCode, "txt", () => {
-                  Toast.show({ "message": "copied", "background": "#D3031C" });
-                });
+        Tools.distinguishRemoveAndTry(distinguish, () => {
+          element.insertAdjacentHTML("afterend", html);
+          const templateIdEle = document.querySelector("#" + templateId + ">.item");
+          if (templateIdEle) {
+            const promoCode = Tools.decryptStr(templateIdEle.querySelector(".copy").getAttribute("data-encryptcode"));
+            templateIdEle.addEventListener("click", () => {
+              GM_setClipboard(promoCode, "txt", () => {
+                Toast.show({ "message": "copied", "background": "#D3031C" });
               });
-              const arrowElement = document.querySelector(".pl-summary__item-arrow-pc");
-              if (arrowElement) {
-                arrowElement.click();
-              }
+            });
+            const arrowElement = document.querySelector(".pl-summary__item-arrow-pc");
+            if (arrowElement) {
+              arrowElement.click();
             }
-          });
+          }
         });
       });
     },
@@ -2321,39 +2243,17 @@
         });
       }, 3e3);
     },
-    start: function() {
-      return __async$p(this, null, function* () {
-        const { support } = SupportData;
-        const visitUrl = window.location.href;
-        if (support.detail.test(visitUrl)) {
-          this.detail();
-        }
-        this.trade();
-        this.removeAnchor();
-      });
+    start: async function() {
+      const { support } = SupportData;
+      const visitUrl = window.location.href;
+      if (support.detail.test(visitUrl)) {
+        this.detail(support.marketplace);
+      }
+      this.trade();
+      this.removeAnchor();
     }
   };
 
-  var __async$o = (__this, __arguments, generator) => {
-    return new Promise((resolve, reject) => {
-      var fulfilled = (value) => {
-        try {
-          step(generator.next(value));
-        } catch (e) {
-          reject(e);
-        }
-      };
-      var rejected = (value) => {
-        try {
-          step(generator.throw(value));
-        } catch (e) {
-          reject(e);
-        }
-      };
-      var step = (x) => x.done ? resolve(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
-      step((generator = generator.apply(__this, __arguments)).next());
-    });
-  };
   const AliexpressSearch = {
     loopIsComplete: true,
     isInbusinessPage: function() {
@@ -2362,76 +2262,72 @@
     isItemLink: function(url) {
       return SupportData.support.detail.test(url);
     },
-    pickUpWholesale: function(selectors, language, currency) {
-      return __async$o(this, null, function* () {
-        const items = [];
-        try {
-          selectors.forEach((elementObj) => {
-            if (elementObj.element) {
-              const elements = document.querySelectorAll(elementObj.element + ":not([" + ItemSearchBaseObj.searchAttribute + "='true'])");
-              Logger.log("info", "search coupon elements======>", elements.length);
-              const findA = elementObj.findA;
-              elements.forEach((element) => {
-                if (element && ItemSearchBaseObj.isElementDisplayed(element) && !element.getAttribute(ItemSearchBaseObj.searchAttribute)) {
-                  const goodsLink = ItemSearchBaseObj.getGoodsLinkByElement(element, findA);
-                  let id = null;
-                  if (this.isItemLink(goodsLink)) {
-                    id = Tools.getGoodsIdByLink(goodsLink.getAttribute("href"));
-                  }
-                  if (id) {
-                    items.push({
-                      "id": id,
-                      "platform": SupportData.support.p,
-                      "handler": element,
-                      "findA": findA,
-                      "from": "wholesale"
-                    });
-                  }
+    pickUpWholesale: async function(selectors, language, currency, marketplace) {
+      const items = [];
+      try {
+        selectors.forEach((elementObj) => {
+          if (elementObj.element) {
+            const elements = document.querySelectorAll(elementObj.element + ":not([" + ItemSearchBaseObj.searchAttribute + "='true'])");
+            Logger.log("info", "search coupon elements======>", elements.length);
+            const findA = elementObj.findA;
+            elements.forEach((element) => {
+              if (element && ItemSearchBaseObj.isElementDisplayed(element) && !element.getAttribute(ItemSearchBaseObj.searchAttribute)) {
+                const goodsLink = ItemSearchBaseObj.getGoodsLinkByElement(element, findA);
+                let id = null;
+                if (this.isItemLink(goodsLink)) {
+                  id = Tools.getGoodsIdByLink(goodsLink.getAttribute("href"));
                 }
-              });
-            }
-          });
-          if (items.length > 0) {
-            yield this.search(items, language, currency);
-          }
-        } catch (e) {
-        }
-      });
-    },
-    pickUpInbusiness: function(language, currency) {
-      return __async$o(this, null, function* () {
-        const validate = this.isInbusinessPage();
-        if (!validate)
-          return;
-        try {
-          const iceContainerElement = document.querySelector("#ice-container");
-          const loadMoreElement = yield Tools.waitForElementByInterval("#loadMore", iceContainerElement);
-          if (loadMoreElement) {
-            const array = new Array();
-            const containerElement = loadMoreElement.previousElementSibling;
-            if (containerElement && containerElement.tagName === "DIV") {
-              const childNodes = containerElement.childNodes;
-              childNodes.forEach((child) => {
-                if (child.tagName === "A" && ItemSearchBaseObj.isElementDisplayed(child) && !child.getAttribute(ItemSearchBaseObj.searchAttribute)) {
-                  const id = Tools.getGoodsIdByLink(child.getAttribute("href"));
-                  if (id) {
-                    array.push({
-                      "id": id,
-                      "platform": SupportData.support.p,
-                      "handler": child,
-                      "from": "inbusiness"
-                    });
-                  }
+                if (id) {
+                  items.push({
+                    "id": id,
+                    "platform": SupportData.support.p,
+                    "handler": element,
+                    "findA": findA,
+                    "from": "wholesale"
+                  });
                 }
-              });
-            }
-            yield this.search(array, language, currency);
+              }
+            });
           }
-        } catch (e) {
+        });
+        if (items.length > 0) {
+          await this.search(items, language, currency, marketplace);
         }
-      });
+      } catch (e) {
+      }
     },
-    search: function(array, language, currency) {
+    pickUpInbusiness: async function(language, currency, marketplace) {
+      const validate = this.isInbusinessPage();
+      if (!validate)
+        return;
+      try {
+        const iceContainerElement = document.querySelector("#ice-container");
+        const loadMoreElement = await Tools.waitForElementByInterval("#loadMore", iceContainerElement);
+        if (loadMoreElement) {
+          const array = new Array();
+          const containerElement = loadMoreElement.previousElementSibling;
+          if (containerElement && containerElement.tagName === "DIV") {
+            const childNodes = containerElement.childNodes;
+            childNodes.forEach((child) => {
+              if (child.tagName === "A" && ItemSearchBaseObj.isElementDisplayed(child) && !child.getAttribute(ItemSearchBaseObj.searchAttribute)) {
+                const id = Tools.getGoodsIdByLink(child.getAttribute("href"));
+                if (id) {
+                  array.push({
+                    "id": id,
+                    "platform": SupportData.support.p,
+                    "handler": child,
+                    "from": "inbusiness"
+                  });
+                }
+              }
+            });
+          }
+          await this.search(array, language, currency, marketplace);
+        }
+      } catch (e) {
+      }
+    },
+    search: function(array, language, currency, marketplace) {
       const groups = ItemSearchBaseObj.calcRequestGroup(array);
       const len = groups.length;
       return new Promise((resolve, reject) => {
@@ -2441,14 +2337,14 @@
         }
         const promises = [];
         for (let i = 0; i < groups.length; i++) {
-          promises.push(this.createItemHtml(groups[i], language, currency));
+          promises.push(this.createItemHtml(groups[i], language, currency, marketplace));
         }
         Promise.all(promises).then((data) => {
           resolve("complete");
         });
       });
     },
-    createItemHtml: function(group, language, currency) {
+    createItemHtml: function(group, language, currency, marketplace) {
       return new Promise((resolve, reject) => {
         try {
           if (Array.isArray(group) && group.length === 0) {
@@ -2467,7 +2363,7 @@
             reqId = reqId.slice(0, -1);
           }
           Logger.log("info", "request start >>>>>>>>>>>>>", group);
-          const searchUrl = ItemSearchBaseObj.baseUrl + "/api/coupon/exist?platform=" + platform + "&ids=" + reqId + "&lang=" + language + "&no=100&v=1.0.1&currency=" + currency;
+          const searchUrl = ItemSearchBaseObj.baseUrl + "/api/coupon/exist?platform=" + platform + "&ids=" + reqId + "&lang=" + language + "&no=100&v=1.0.1&currency=" + currency + "&marketplace=" + marketplace;
           Logger.log("info", "request searchUrl >>>>>>>>>>>>>:", searchUrl);
           ItemSearchBaseObj.requestAndSaveSate("GET", searchUrl, null).then((data) => {
             Logger.log("info", "request finish >>>>>>>>>>>>>");
@@ -2586,159 +2482,135 @@
       }
       return run;
     },
-    start: function() {
-      return __async$o(this, null, function* () {
-        if (!this.isRun()) {
-          return;
+    start: async function() {
+      const { support } = SupportData;
+      if (!this.isRun()) {
+        return;
+      }
+      let removeTagIsComplete = true;
+      const language = Aliexpress.getLang();
+      const currency = await Aliexpress.getCurrency();
+      const marketplace = await Aliexpress.getMarketplace(support.marketplace);
+      const confString = await ItemSearchBaseObj.requestConf();
+      if (!confString) {
+        return;
+      }
+      const selectors = ItemSearchBaseObj.pickupGoodsItem(SupportData.support.p, confString);
+      setInterval(async () => {
+        if (removeTagIsComplete && this.loopIsComplete) {
+          this.loopIsComplete = false;
+          await this.pickUpInbusiness(language, currency, marketplace);
+          await this.pickUpWholesale(selectors, language, currency, marketplace);
+          this.loopIsComplete = true;
         }
-        let removeTagIsComplete = true;
-        const language = Aliexpress.getLang();
-        const currency = yield Aliexpress.getCurrency();
-        const confString = yield ItemSearchBaseObj.requestConf();
-        if (!confString) {
-          return;
-        }
-        const selectors = ItemSearchBaseObj.pickupGoodsItem(SupportData.support.p, confString);
-        setInterval(() => __async$o(this, null, function* () {
-          if (removeTagIsComplete && this.loopIsComplete) {
-            this.loopIsComplete = false;
-            yield this.pickUpInbusiness(language, currency);
-            yield this.pickUpWholesale(selectors, language, currency);
-            this.loopIsComplete = true;
+      }, 1700);
+      if (selectors.length != 0 && window.location.pathname != "/") {
+        let oldUrl = window.location.href;
+        setInterval(() => {
+          if (oldUrl != window.location.href && removeTagIsComplete) {
+            removeTagIsComplete = false;
+            Object.keys(ItemSearchBaseObj.cacheRequestMap).forEach((key) => {
+              ItemSearchBaseObj.cacheRequestMap[key].abort();
+            });
+            ItemSearchBaseObj.cacheRequestMap = {};
+            document.querySelectorAll("*[" + ItemSearchBaseObj.searchAttribute + "='true']").forEach((element) => {
+              element.removeAttribute(ItemSearchBaseObj.searchAttribute);
+              const tipElement = element.querySelector("*[name^='ali-gogo-coupon-']");
+              if (tipElement) {
+                tipElement.remove();
+              }
+            });
+            oldUrl = window.location.href;
+            removeTagIsComplete = true;
           }
-        }), 1700);
-        if (selectors.length != 0 && window.location.pathname != "/") {
-          let oldUrl = window.location.href;
-          setInterval(() => {
-            if (oldUrl != window.location.href && removeTagIsComplete) {
-              removeTagIsComplete = false;
-              Object.keys(ItemSearchBaseObj.cacheRequestMap).forEach((key) => {
-                ItemSearchBaseObj.cacheRequestMap[key].abort();
-              });
-              ItemSearchBaseObj.cacheRequestMap = {};
-              document.querySelectorAll("*[" + ItemSearchBaseObj.searchAttribute + "='true']").forEach((element) => {
-                element.removeAttribute(ItemSearchBaseObj.searchAttribute);
-                const tipElement = element.querySelector("*[name^='ali-gogo-coupon-']");
-                if (tipElement) {
-                  tipElement.remove();
-                }
-              });
-              oldUrl = window.location.href;
-              removeTagIsComplete = true;
-            }
-          }, 777);
-        }
-      });
+        }, 777);
+      }
     }
   };
 
-  var __async$n = (__this, __arguments, generator) => {
-    return new Promise((resolve, reject) => {
-      var fulfilled = (value) => {
-        try {
-          step(generator.next(value));
-        } catch (e) {
-          reject(e);
-        }
-      };
-      var rejected = (value) => {
-        try {
-          step(generator.throw(value));
-        } catch (e) {
-          reject(e);
-        }
-      };
-      var step = (x) => x.done ? resolve(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
-      step((generator = generator.apply(__this, __arguments)).next());
-    });
-  };
   const Ebay = {
-    detail: function() {
-      return __async$n(this, null, function* () {
-        const visitUrl = window.location.href;
-        const id = Tools.getGoodsIdByLink(visitUrl);
-        const varG = Tools.getParamterBySearch(window.location.href, "var");
-        if (!id) {
-          return;
+    detail: async function() {
+      const visitUrl = window.location.href;
+      const id = Tools.getGoodsIdByLink(visitUrl);
+      const varG = Tools.getParamterBySearch(window.location.href, "var");
+      if (!id) {
+        return;
+      }
+      const marketplace = Tools.getCommonMarketplace(visitUrl);
+      var idsG = id;
+      if (!!varG) {
+        idsG += "@" + varG;
+      }
+      try {
+        const params = {
+          "ids": idsG,
+          "qu": "",
+          "p": SupportData.support.p,
+          "marketplace": marketplace,
+          "mul": false
+        };
+        const data = await RequestUtil.getCouponQuery(params);
+        if (data.code == "success" && !!data.result) {
+          const json = JSON.parse(data.result);
+          Logger.log("info", "detail request json=", json);
+          await this.detailAnalyze(json, marketplace);
         }
-        const marketplace = Tools.getCommonMarketplace(visitUrl);
-        var idsG = id;
-        if (!!varG) {
-          idsG += "@" + varG;
-        }
-        try {
-          const params = {
-            "ids": idsG,
-            "qu": "",
-            "p": SupportData.support.p,
-            "marketplace": marketplace,
-            "mul": false
-          };
-          const data = yield RequestUtil.getCouponQuery(params);
-          if (data.code == "success" && !!data.result) {
-            const json = JSON.parse(data.result);
-            Logger.log("info", "detail request json=", json);
-            yield this.detailAnalyze(json, marketplace);
-          }
-        } catch (e) {
-        }
-      });
+      } catch (e) {
+      }
     },
-    detailAnalyze: function(json, marketplace) {
-      return __async$n(this, null, function* () {
-        let couponResult = null;
-        let qrcodeResult = null;
-        if (!!json.data && !!json.data.css && !!json.data.html && !!json.data.handler) {
-          const { handler, css, html, templateId, distinguish, hint } = json.data;
-          var mid = null;
-          if (json.data.hasOwnProperty("mid")) {
-            mid = json.data["mid"];
-          }
-          GM_addStyle(css);
-          const element = yield Tools.mustGetElement(handler);
-          if (element) {
-            couponResult = { "element": element, "html": html, "templateId": templateId, "distinguish": distinguish, "hint": hint, "mid": mid };
-          }
+    detailAnalyze: async function(json, marketplace) {
+      let couponResult = null;
+      let qrcodeResult = null;
+      if (!!json.data && !!json.data.css && !!json.data.html && !!json.data.handler) {
+        const { handler, css, html, templateId, distinguish, hint } = json.data;
+        var mid = null;
+        if (json.data.hasOwnProperty("mid")) {
+          mid = json.data["mid"];
         }
-        if (!!json.id && !!json.mscan && !!json.mscan.html && !!json.mscan.mount) {
-          const { iden, html, mount, distinguish } = json.mscan;
-          const id = json.id;
-          const promiseResultArray = [];
-          const elementPromise = Tools.mustGetElement(mount);
-          const params = {
-            "id": id,
-            "marketplace": marketplace,
-            "platform": SupportData.support.p
-          };
-          const reqPromise = RequestUtil.getCouponChange(params);
-          promiseResultArray.push(elementPromise, reqPromise);
-          const allResult = yield Promise.all(promiseResultArray);
-          let element = null, qrcodeData = null;
-          for (let i = 0; i < allResult.length; i++) {
-            if (allResult[i]) {
-              if (allResult[i].hasOwnProperty("code")) {
-                qrcodeData = allResult[i];
-              } else {
-                element = allResult[i];
-              }
+        GM_addStyle(css);
+        const element = await Tools.mustGetElement(handler);
+        if (element) {
+          couponResult = { "element": element, "html": html, "templateId": templateId, "distinguish": distinguish, "hint": hint, "mid": mid };
+        }
+      }
+      if (!!json.id && !!json.mscan && !!json.mscan.html && !!json.mscan.mount) {
+        const { iden, html, mount, distinguish } = json.mscan;
+        const id = json.id;
+        const promiseResultArray = [];
+        const elementPromise = Tools.mustGetElement(mount);
+        const params = {
+          "id": id,
+          "marketplace": marketplace,
+          "platform": SupportData.support.p
+        };
+        const reqPromise = RequestUtil.getCouponChange(params);
+        promiseResultArray.push(elementPromise, reqPromise);
+        const allResult = await Promise.all(promiseResultArray);
+        let element = null, qrcodeData = null;
+        for (let i = 0; i < allResult.length; i++) {
+          if (allResult[i]) {
+            if (allResult[i].hasOwnProperty("code")) {
+              qrcodeData = allResult[i];
+            } else {
+              element = allResult[i];
             }
           }
-          if (element && qrcodeData) {
-            qrcodeResult = { "element": element, "html": html, "iden": iden, "qrcodeData": qrcodeData, "distinguish": distinguish };
-          }
         }
-        Tools.loopTask(() => {
-          if (couponResult) {
-            Tools.distinguishRemoveAndTry(couponResult.distinguish, () => {
-              this.detailCouponAnalyze(couponResult);
-            });
-          }
-          if (qrcodeResult) {
-            Tools.distinguishRemoveAndTry(qrcodeResult.distinguish, () => {
-              this.detailMscanAnalyze(qrcodeResult);
-            });
-          }
-        });
+        if (element && qrcodeData) {
+          qrcodeResult = { "element": element, "html": html, "iden": iden, "qrcodeData": qrcodeData, "distinguish": distinguish };
+        }
+      }
+      Tools.loopTask(() => {
+        if (couponResult) {
+          Tools.distinguishRemoveAndTry(couponResult.distinguish, () => {
+            this.detailCouponAnalyze(couponResult);
+          });
+        }
+        if (qrcodeResult) {
+          Tools.distinguishRemoveAndTry(qrcodeResult.distinguish, () => {
+            this.detailMscanAnalyze(qrcodeResult);
+          });
+        }
       });
     },
     detailCouponAnalyze: function(result) {
@@ -2787,37 +2659,15 @@
         }
       }
     },
-    start: function() {
-      return __async$n(this, null, function* () {
-        const { support } = SupportData;
-        const visitUrl = window.location.href;
-        if (support.detail.test(visitUrl)) {
-          this.detail();
-        }
-      });
+    start: async function() {
+      const { support } = SupportData;
+      const visitUrl = window.location.href;
+      if (support.detail.test(visitUrl)) {
+        this.detail();
+      }
     }
   };
 
-  var __async$m = (__this, __arguments, generator) => {
-    return new Promise((resolve, reject) => {
-      var fulfilled = (value) => {
-        try {
-          step(generator.next(value));
-        } catch (e) {
-          reject(e);
-        }
-      };
-      var rejected = (value) => {
-        try {
-          step(generator.throw(value));
-        } catch (e) {
-          reject(e);
-        }
-      };
-      var step = (x) => x.done ? resolve(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
-      step((generator = generator.apply(__this, __arguments)).next());
-    });
-  };
   const EbaySearch = {
     loopIsComplete: true,
     isRun: function() {
@@ -2830,68 +2680,64 @@
     isItemLink: function(url) {
       return SupportData.support.detail.test(url);
     },
-    pickUpItems: function(selectors, marketplace) {
-      return __async$m(this, null, function* () {
-        const items = [];
-        try {
-          selectors.forEach((elementObj) => {
-            if (elementObj.element) {
-              const elements = document.querySelectorAll(elementObj.element + ":not([" + ItemSearchBaseObj.searchAttribute + "='true'])");
-              Logger.log("info", "search coupon elements======>", elements);
-              const findA = elementObj.findA;
-              elements.forEach((element) => {
-                if (element && ItemSearchBaseObj.isElementDisplayed(element) && !element.getAttribute(ItemSearchBaseObj.searchAttribute)) {
-                  const goodsLink = ItemSearchBaseObj.getGoodsLinkByElement(element, findA);
-                  const priceQuery = [
-                    "*[class*='detail'] >*[class*='price']",
-                    "*[class*='merch-price'] >span"
-                  ].join(",");
-                  const price = ItemSearchBaseObj.getGoodsPriceByElement(element, priceQuery);
-                  let id = null, varG = null;
-                  if (this.isItemLink(goodsLink)) {
-                    const goodsLinkHref = goodsLink.getAttribute("href");
-                    id = Tools.getGoodsIdByLink(goodsLinkHref);
-                    varG = Tools.getParamterBySearch(goodsLinkHref, "var");
-                  }
-                  if (id) {
-                    items.push({
-                      "id": id,
-                      "varG": varG,
-                      "price": price,
-                      "platform": SupportData.support.p,
-                      "handler": element,
-                      "findA": findA,
-                      "from": "search"
-                    });
-                  }
+    pickUpItems: async function(selectors, marketplace) {
+      const items = [];
+      try {
+        selectors.forEach((elementObj) => {
+          if (elementObj.element) {
+            const elements = document.querySelectorAll(elementObj.element + ":not([" + ItemSearchBaseObj.searchAttribute + "='true'])");
+            Logger.log("info", "search coupon elements======>", elements);
+            const findA = elementObj.findA;
+            elements.forEach((element) => {
+              if (element && ItemSearchBaseObj.isElementDisplayed(element) && !element.getAttribute(ItemSearchBaseObj.searchAttribute)) {
+                const goodsLink = ItemSearchBaseObj.getGoodsLinkByElement(element, findA);
+                const priceQuery = [
+                  "*[class*='detail'] >*[class*='price']",
+                  "*[class*='merch-price'] >span"
+                ].join(",");
+                const price = ItemSearchBaseObj.getGoodsPriceByElement(element, priceQuery);
+                let id = null, varG = null;
+                if (this.isItemLink(goodsLink)) {
+                  const goodsLinkHref = goodsLink.getAttribute("href");
+                  id = Tools.getGoodsIdByLink(goodsLinkHref);
+                  varG = Tools.getParamterBySearch(goodsLinkHref, "var");
                 }
-              });
-            }
-          });
-          Logger.log("info", items);
-          if (items.length > 0) {
-            yield this.search(items, marketplace);
+                if (id) {
+                  items.push({
+                    "id": id,
+                    "varG": varG,
+                    "price": price,
+                    "platform": SupportData.support.p,
+                    "handler": element,
+                    "findA": findA,
+                    "from": "search"
+                  });
+                }
+              }
+            });
           }
-        } catch (e) {
+        });
+        Logger.log("info", items);
+        if (items.length > 0) {
+          await this.search(items, marketplace);
         }
-      });
+      } catch (e) {
+      }
     },
-    search: function(array, marketplace) {
-      return __async$m(this, null, function* () {
-        const groups = ItemSearchBaseObj.calcRequestGroup(array);
-        const len = groups.length;
-        return new Promise((resolve, reject) => {
-          if (len <= 0) {
-            resolve("complete");
-            return;
-          }
-          const promises = [];
-          for (let i = 0; i < groups.length; i++) {
-            promises.push(this.createItemHtml(groups[i], marketplace));
-          }
-          Promise.all(promises).then((data) => {
-            resolve("complete");
-          });
+    search: async function(array, marketplace) {
+      const groups = ItemSearchBaseObj.calcRequestGroup(array);
+      const len = groups.length;
+      return new Promise((resolve, reject) => {
+        if (len <= 0) {
+          resolve("complete");
+          return;
+        }
+        const promises = [];
+        for (let i = 0; i < groups.length; i++) {
+          promises.push(this.createItemHtml(groups[i], marketplace));
+        }
+        Promise.all(promises).then((data) => {
+          resolve("complete");
         });
       });
     },
@@ -3013,162 +2859,114 @@
         }
       });
     },
-    start: function() {
-      return __async$m(this, null, function* () {
-        if (!this.isRun()) {
-          return;
+    start: async function() {
+      if (!this.isRun()) {
+        return;
+      }
+      const marketplace = Tools.getCommonMarketplace(window.location.href);
+      const confString = await ItemSearchBaseObj.requestConf();
+      if (!confString) {
+        return;
+      }
+      const selectors = ItemSearchBaseObj.pickupGoodsItem(SupportData.support.p, confString);
+      setInterval(async () => {
+        if (this.loopIsComplete) {
+          this.loopIsComplete = false;
+          await this.pickUpItems(selectors, marketplace);
+          this.loopIsComplete = true;
         }
-        const marketplace = Tools.getCommonMarketplace(window.location.href);
-        const confString = yield ItemSearchBaseObj.requestConf();
-        if (!confString) {
-          return;
-        }
-        const selectors = ItemSearchBaseObj.pickupGoodsItem(SupportData.support.p, confString);
-        setInterval(() => __async$m(this, null, function* () {
-          if (this.loopIsComplete) {
-            this.loopIsComplete = false;
-            yield this.pickUpItems(selectors, marketplace);
-            this.loopIsComplete = true;
-          }
-        }), 1700);
-      });
+      }, 1700);
     }
   };
 
-  var __async$l = (__this, __arguments, generator) => {
-    return new Promise((resolve, reject) => {
-      var fulfilled = (value) => {
-        try {
-          step(generator.next(value));
-        } catch (e) {
-          reject(e);
-        }
-      };
-      var rejected = (value) => {
-        try {
-          step(generator.throw(value));
-        } catch (e) {
-          reject(e);
-        }
-      };
-      var step = (x) => x.done ? resolve(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
-      step((generator = generator.apply(__this, __arguments)).next());
-    });
-  };
   const Lazada = {
-    detailMyMscanAnalyze: function(result) {
-      return __async$l(this, null, function* () {
-        const { id, iden, marketplace, platform, mount, html, cmd } = result;
-        if (!mount || !html) {
-          return;
-        }
-        if (cmd && cmd.do && cmd.ele) {
-          const cmdElement = yield Tools.waitForElementByInterval(cmd.ele);
-          if (cmdElement) {
-            if (cmd.do == "empty") {
-              cmdElement.innerHTML = "";
-            }
+    detailMyMscanAnalyze: async function(result) {
+      const { id, iden, marketplace, platform, mount, html, cmd } = result;
+      if (!mount || !html) {
+        return;
+      }
+      if (cmd && cmd.do && cmd.ele) {
+        const cmdElement = await Tools.waitForElementByInterval(cmd.ele);
+        if (cmdElement) {
+          if (cmd.do == "empty") {
+            cmdElement.innerHTML = "";
           }
         }
-        const element = yield Tools.mustGetElement(mount);
-        if (!element) {
-          return;
+      }
+      const element = await Tools.mustGetElement(mount);
+      if (!element) {
+        return;
+      }
+      element.insertAdjacentHTML("beforeend", html);
+      const params = {
+        "id": id,
+        "marketplace": marketplace,
+        "platform": platform
+      };
+      const qrcodeData = await RequestUtil.getCouponChange(params);
+      if (!!qrcodeData && qrcodeData.code === "success" && !!qrcodeData.result) {
+        let mscanImg = JSON.parse(qrcodeData.result).mscanImg;
+        if (!!mscanImg) {
+          var canvasElement = document.getElementById("mscan" + iden);
+          if (!!canvasElement) {
+            var cxt = canvasElement.getContext("2d");
+            var imgData = new Image();
+            imgData.src = mscanImg;
+            imgData.onload = function() {
+              cxt.drawImage(imgData, 0, 0, imgData.width, imgData.height);
+            };
+          }
         }
-        element.insertAdjacentHTML("beforeend", html);
+      }
+    },
+    detail: async function() {
+      const visitUrl = window.location.href;
+      const marketplace = Tools.getCommonMarketplace(visitUrl);
+      const ids = Tools.getGoodsIdByLink(visitUrl);
+      if (!ids) {
+        return;
+      }
+      try {
         const params = {
-          "id": id,
+          "ids": ids,
+          "qu": "",
+          "p": SupportData.support.p,
           "marketplace": marketplace,
-          "platform": platform
+          "mul": false
         };
-        const qrcodeData = yield RequestUtil.getCouponChange(params);
-        if (!!qrcodeData && qrcodeData.code === "success" && !!qrcodeData.result) {
-          let mscanImg = JSON.parse(qrcodeData.result).mscanImg;
-          if (!!mscanImg) {
-            var canvasElement = document.getElementById("mscan" + iden);
-            if (!!canvasElement) {
-              var cxt = canvasElement.getContext("2d");
-              var imgData = new Image();
-              imgData.src = mscanImg;
-              imgData.onload = function() {
-                cxt.drawImage(imgData, 0, 0, imgData.width, imgData.height);
-              };
-            }
-          }
-        }
-      });
-    },
-    detail: function() {
-      return __async$l(this, null, function* () {
-        const visitUrl = window.location.href;
-        const marketplace = Tools.getCommonMarketplace(visitUrl);
-        const ids = Tools.getGoodsIdByLink(visitUrl);
-        if (!ids) {
-          return;
-        }
-        try {
-          const params = {
-            "ids": ids,
-            "qu": "",
-            "p": SupportData.support.p,
-            "marketplace": marketplace,
-            "mul": false
-          };
-          const data = yield RequestUtil.getCouponQuery(params);
-          if (!!data && data.code === "success" && !!data.result) {
-            const json = JSON.parse(data.result);
-            if (json && json.mscan) {
-              const { distinguish, iden, html, cmd, mount } = json.mscan;
-              const mscanResult = {
-                "id": json.id,
-                "iden": iden,
-                "marketplace": marketplace,
-                "platform": SupportData.support.p,
-                "mount": mount,
-                "html": html,
-                "cmd": cmd
-              };
-              Tools.loopTask(() => {
-                Tools.distinguishRemoveAndTry(distinguish, () => {
-                  this.detailMyMscanAnalyze(mscanResult);
-                });
+        const data = await RequestUtil.getCouponQuery(params);
+        if (!!data && data.code === "success" && !!data.result) {
+          const json = JSON.parse(data.result);
+          if (json && json.mscan) {
+            const { distinguish, iden, html, cmd, mount } = json.mscan;
+            const mscanResult = {
+              "id": json.id,
+              "iden": iden,
+              "marketplace": marketplace,
+              "platform": SupportData.support.p,
+              "mount": mount,
+              "html": html,
+              "cmd": cmd
+            };
+            Tools.loopTask(() => {
+              Tools.distinguishRemoveAndTry(distinguish, () => {
+                this.detailMyMscanAnalyze(mscanResult);
               });
-            }
+            });
           }
-        } catch (e) {
         }
-      });
+      } catch (e) {
+      }
     },
-    start: function() {
-      return __async$l(this, null, function* () {
-        const { support } = SupportData;
-        const visitUrl = window.location.href;
-        if (support.detail.test(visitUrl)) {
-          this.detail();
-        }
-      });
+    start: async function() {
+      const { support } = SupportData;
+      const visitUrl = window.location.href;
+      if (support.detail.test(visitUrl)) {
+        this.detail();
+      }
     }
   };
 
-  var __async$k = (__this, __arguments, generator) => {
-    return new Promise((resolve, reject) => {
-      var fulfilled = (value) => {
-        try {
-          step(generator.next(value));
-        } catch (e) {
-          reject(e);
-        }
-      };
-      var rejected = (value) => {
-        try {
-          step(generator.throw(value));
-        } catch (e) {
-          reject(e);
-        }
-      };
-      var step = (x) => x.done ? resolve(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
-      step((generator = generator.apply(__this, __arguments)).next());
-    });
-  };
   const LazadaSearch = {
     loopIsComplete: true,
     isRun: function() {
@@ -3181,61 +2979,57 @@
     isItemLink: function(url) {
       return SupportData.support.detail.test(url);
     },
-    pickUpItems: function(selectors, marketplace) {
-      return __async$k(this, null, function* () {
-        const items = [];
-        try {
-          selectors.forEach((elementObj) => {
-            if (elementObj.element) {
-              const elements = document.querySelectorAll(elementObj.element + ":not([" + ItemSearchBaseObj.searchAttribute + "='true'])");
-              Logger.log("info", "search coupon elements======>", elements);
-              const findA = elementObj.findA;
-              elements.forEach((element) => {
-                if (element && ItemSearchBaseObj.isElementDisplayed(element) && !element.getAttribute(ItemSearchBaseObj.searchAttribute)) {
-                  const goodsLink = ItemSearchBaseObj.getGoodsLinkByElement(element, findA);
-                  const price = ItemSearchBaseObj.getGoodsPrice(element.innerText);
-                  let id = null;
-                  if (this.isItemLink(goodsLink)) {
-                    id = Tools.getGoodsIdByLink(goodsLink.getAttribute("href"));
-                  }
-                  if (id) {
-                    items.push({
-                      "id": id,
-                      "price": price,
-                      "platform": SupportData.support.p,
-                      "handler": element,
-                      "findA": findA,
-                      "from": "search"
-                    });
-                  }
+    pickUpItems: async function(selectors, marketplace) {
+      const items = [];
+      try {
+        selectors.forEach((elementObj) => {
+          if (elementObj.element) {
+            const elements = document.querySelectorAll(elementObj.element + ":not([" + ItemSearchBaseObj.searchAttribute + "='true'])");
+            Logger.log("info", "search coupon elements======>", elements);
+            const findA = elementObj.findA;
+            elements.forEach((element) => {
+              if (element && ItemSearchBaseObj.isElementDisplayed(element) && !element.getAttribute(ItemSearchBaseObj.searchAttribute)) {
+                const goodsLink = ItemSearchBaseObj.getGoodsLinkByElement(element, findA);
+                const price = ItemSearchBaseObj.getGoodsPrice(element.innerText);
+                let id = null;
+                if (this.isItemLink(goodsLink)) {
+                  id = Tools.getGoodsIdByLink(goodsLink.getAttribute("href"));
                 }
-              });
-            }
-          });
-          Logger.log("info", items);
-          if (items.length > 0) {
-            yield this.search(items, marketplace);
+                if (id) {
+                  items.push({
+                    "id": id,
+                    "price": price,
+                    "platform": SupportData.support.p,
+                    "handler": element,
+                    "findA": findA,
+                    "from": "search"
+                  });
+                }
+              }
+            });
           }
-        } catch (e) {
+        });
+        Logger.log("info", items);
+        if (items.length > 0) {
+          await this.search(items, marketplace);
         }
-      });
+      } catch (e) {
+      }
     },
-    search: function(array, marketplace) {
-      return __async$k(this, null, function* () {
-        const groups = ItemSearchBaseObj.calcRequestGroup(array);
-        const len = groups.length;
-        return new Promise((resolve, reject) => {
-          if (len <= 0) {
-            resolve("complete");
-            return;
-          }
-          const promises = [];
-          for (let i = 0; i < groups.length; i++) {
-            promises.push(this.createItemHtml(groups[i], marketplace));
-          }
-          Promise.all(promises).then((data) => {
-            resolve("complete");
-          });
+    search: async function(array, marketplace) {
+      const groups = ItemSearchBaseObj.calcRequestGroup(array);
+      const len = groups.length;
+      return new Promise((resolve, reject) => {
+        if (len <= 0) {
+          resolve("complete");
+          return;
+        }
+        const promises = [];
+        for (let i = 0; i < groups.length; i++) {
+          promises.push(this.createItemHtml(groups[i], marketplace));
+        }
+        Promise.all(promises).then((data) => {
+          resolve("complete");
         });
       });
     },
@@ -3318,126 +3112,100 @@
         }
       });
     },
-    start: function() {
-      return __async$k(this, null, function* () {
-        if (!this.isRun()) {
-          return;
+    start: async function() {
+      if (!this.isRun()) {
+        return;
+      }
+      const marketplace = Tools.getCommonMarketplace(window.location.href);
+      const confString = await ItemSearchBaseObj.requestConf();
+      if (!confString) {
+        return;
+      }
+      const selectors = ItemSearchBaseObj.pickupGoodsItem(SupportData.support.p, confString);
+      setInterval(async () => {
+        if (this.loopIsComplete) {
+          this.loopIsComplete = false;
+          await this.pickUpItems(selectors, marketplace);
+          this.loopIsComplete = true;
         }
-        const marketplace = Tools.getCommonMarketplace(window.location.href);
-        const confString = yield ItemSearchBaseObj.requestConf();
-        if (!confString) {
-          return;
-        }
-        const selectors = ItemSearchBaseObj.pickupGoodsItem(SupportData.support.p, confString);
-        setInterval(() => __async$k(this, null, function* () {
-          if (this.loopIsComplete) {
-            this.loopIsComplete = false;
-            yield this.pickUpItems(selectors, marketplace);
-            this.loopIsComplete = true;
-          }
-        }), 1700);
-      });
+      }, 1700);
     }
   };
 
-  var __async$j = (__this, __arguments, generator) => {
-    return new Promise((resolve, reject) => {
-      var fulfilled = (value) => {
-        try {
-          step(generator.next(value));
-        } catch (e) {
-          reject(e);
-        }
-      };
-      var rejected = (value) => {
-        try {
-          step(generator.throw(value));
-        } catch (e) {
-          reject(e);
-        }
-      };
-      var step = (x) => x.done ? resolve(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
-      step((generator = generator.apply(__this, __arguments)).next());
-    });
-  };
   const Bestbuy = {
-    detail: function() {
-      return __async$j(this, null, function* () {
-        const visitUrl = window.location.href;
-        const id = Tools.getGoodsIdByLink(visitUrl);
-        if (!id) {
-          return;
+    detail: async function() {
+      const visitUrl = window.location.href;
+      const id = Tools.getGoodsIdByLink(visitUrl);
+      if (!id) {
+        return;
+      }
+      const marketplace = Tools.getCommonMarketplace(visitUrl);
+      try {
+        const params = {
+          "ids": id,
+          "qu": "",
+          "p": SupportData.support.p,
+          "marketplace": marketplace,
+          "mul": false
+        };
+        const data = await RequestUtil.getCouponQuery(params);
+        if (data.code == "success" && !!data.result) {
+          const json = JSON.parse(data.result);
+          Logger.log("info", "detail request json=", json);
+          await this.detailAnalyze(json, marketplace);
         }
-        const marketplace = Tools.getCommonMarketplace(visitUrl);
-        try {
-          const params = {
-            "ids": id,
-            "qu": "",
-            "p": SupportData.support.p,
-            "marketplace": marketplace,
-            "mul": false
-          };
-          const data = yield RequestUtil.getCouponQuery(params);
-          if (data.code == "success" && !!data.result) {
-            const json = JSON.parse(data.result);
-            Logger.log("info", "detail request json=", json);
-            yield this.detailAnalyze(json, marketplace);
-          }
-        } catch (e) {
-        }
-      });
+      } catch (e) {
+      }
     },
-    detailAnalyze: function(json, marketplace) {
-      return __async$j(this, null, function* () {
-        let couponResult = null;
-        let qrcodeResult = null;
-        if (!!json.data && !!json.data.css && !!json.data.html && !!json.data.handler) {
-          const { handler, css, html, templateId, distinguish } = json.data;
-          GM_addStyle(css);
-          const element = yield Tools.mustGetElement(handler);
-          if (element) {
-            couponResult = { "element": element, "html": html, "templateId": templateId, "distinguish": distinguish };
-          }
+    detailAnalyze: async function(json, marketplace) {
+      let couponResult = null;
+      let qrcodeResult = null;
+      if (!!json.data && !!json.data.css && !!json.data.html && !!json.data.handler) {
+        const { handler, css, html, templateId, distinguish } = json.data;
+        GM_addStyle(css);
+        const element = await Tools.mustGetElement(handler);
+        if (element) {
+          couponResult = { "element": element, "html": html, "templateId": templateId, "distinguish": distinguish };
         }
-        if (!!json.id && !!json.mscan && !!json.mscan.html && !!json.mscan.mount) {
-          const { iden, html, mount, distinguish } = json.mscan;
-          const id = json.id;
-          const promiseResultArray = [];
-          const elementPromise = Tools.mustGetElement(mount);
-          const params = {
-            "id": id,
-            "marketplace": marketplace,
-            "platform": SupportData.support.p
-          };
-          const reqPromise = RequestUtil.getCouponChange(params);
-          promiseResultArray.push(elementPromise, reqPromise);
-          const allResult = yield Promise.all(promiseResultArray);
-          let element = null, qrcodeData = null;
-          for (let i = 0; i < allResult.length; i++) {
-            if (allResult[i]) {
-              if (allResult[i].hasOwnProperty("code")) {
-                qrcodeData = allResult[i];
-              } else {
-                element = allResult[i];
-              }
+      }
+      if (!!json.id && !!json.mscan && !!json.mscan.html && !!json.mscan.mount) {
+        const { iden, html, mount, distinguish } = json.mscan;
+        const id = json.id;
+        const promiseResultArray = [];
+        const elementPromise = Tools.mustGetElement(mount);
+        const params = {
+          "id": id,
+          "marketplace": marketplace,
+          "platform": SupportData.support.p
+        };
+        const reqPromise = RequestUtil.getCouponChange(params);
+        promiseResultArray.push(elementPromise, reqPromise);
+        const allResult = await Promise.all(promiseResultArray);
+        let element = null, qrcodeData = null;
+        for (let i = 0; i < allResult.length; i++) {
+          if (allResult[i]) {
+            if (allResult[i].hasOwnProperty("code")) {
+              qrcodeData = allResult[i];
+            } else {
+              element = allResult[i];
             }
           }
-          if (element && qrcodeData) {
-            qrcodeResult = { "element": element, "html": html, "iden": iden, "qrcodeData": qrcodeData, "distinguish": distinguish };
-          }
         }
-        Tools.loopTask(() => {
-          if (couponResult) {
-            Tools.distinguishRemoveAndTry(couponResult.distinguish, () => {
-              this.detailCouponAnalyze(couponResult);
-            });
-          }
-          if (qrcodeResult) {
-            Tools.distinguishRemoveAndTry(qrcodeResult.distinguish, () => {
-              this.detailMscanAnalyze(qrcodeResult);
-            });
-          }
-        });
+        if (element && qrcodeData) {
+          qrcodeResult = { "element": element, "html": html, "iden": iden, "qrcodeData": qrcodeData, "distinguish": distinguish };
+        }
+      }
+      Tools.loopTask(() => {
+        if (couponResult) {
+          Tools.distinguishRemoveAndTry(couponResult.distinguish, () => {
+            this.detailCouponAnalyze(couponResult);
+          });
+        }
+        if (qrcodeResult) {
+          Tools.distinguishRemoveAndTry(qrcodeResult.distinguish, () => {
+            this.detailMscanAnalyze(qrcodeResult);
+          });
+        }
       });
     },
     detailCouponAnalyze: function(result) {
@@ -3474,99 +3242,73 @@
         }
       }
     },
-    start: function() {
-      return __async$j(this, null, function* () {
-        const { support } = SupportData;
-        const visitUrl = window.location.href;
-        if (support.detail.test(visitUrl)) {
-          this.detail();
-        }
-      });
+    start: async function() {
+      const { support } = SupportData;
+      const visitUrl = window.location.href;
+      if (support.detail.test(visitUrl)) {
+        this.detail();
+      }
     }
   };
 
-  var __async$i = (__this, __arguments, generator) => {
-    return new Promise((resolve, reject) => {
-      var fulfilled = (value) => {
-        try {
-          step(generator.next(value));
-        } catch (e) {
-          reject(e);
-        }
-      };
-      var rejected = (value) => {
-        try {
-          step(generator.throw(value));
-        } catch (e) {
-          reject(e);
-        }
-      };
-      var step = (x) => x.done ? resolve(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
-      step((generator = generator.apply(__this, __arguments)).next());
-    });
-  };
   const BestbuySearch = {
     loopIsComplete: true,
-    pickUpItems: function(selectors, marketplace) {
-      return __async$i(this, null, function* () {
-        const items = [];
-        try {
-          selectors.forEach((elementObj) => {
-            if (elementObj.element) {
-              const elements = document.querySelectorAll(elementObj.element + ":not([" + ItemSearchBaseObj.searchAttribute + "='true'])");
-              Logger.log("info", "search coupon elements======>", elements);
-              const findA = elementObj.findA;
-              elements.forEach((element) => {
-                if (element && ItemSearchBaseObj.isElementDisplayed(element) && !element.getAttribute(ItemSearchBaseObj.searchAttribute)) {
-                  const goodsLink = ItemSearchBaseObj.getGoodsLinkByElement(element, findA);
-                  const priceQuery = [
-                    "div.pricing"
-                  ].join(",");
-                  const price = ItemSearchBaseObj.getGoodsPrice(
-                    ItemSearchBaseObj.getGoodsPriceByElement(element, priceQuery)
-                  );
-                  let id = null;
-                  if (this.isItemLink(goodsLink)) {
-                    id = Tools.getGoodsIdByLink(goodsLink.getAttribute("href"));
-                  }
-                  if (id) {
-                    items.push({
-                      "id": id,
-                      "price": price,
-                      "platform": SupportData.support.p,
-                      "handler": element,
-                      "findA": findA,
-                      "from": "search"
-                    });
-                  }
+    pickUpItems: async function(selectors, marketplace) {
+      const items = [];
+      try {
+        selectors.forEach((elementObj) => {
+          if (elementObj.element) {
+            const elements = document.querySelectorAll(elementObj.element + ":not([" + ItemSearchBaseObj.searchAttribute + "='true'])");
+            Logger.log("info", "search coupon elements======>", elements);
+            const findA = elementObj.findA;
+            elements.forEach((element) => {
+              if (element && ItemSearchBaseObj.isElementDisplayed(element) && !element.getAttribute(ItemSearchBaseObj.searchAttribute)) {
+                const goodsLink = ItemSearchBaseObj.getGoodsLinkByElement(element, findA);
+                const priceQuery = [
+                  "div.pricing"
+                ].join(",");
+                const price = ItemSearchBaseObj.getGoodsPrice(
+                  ItemSearchBaseObj.getGoodsPriceByElement(element, priceQuery)
+                );
+                let id = null;
+                if (this.isItemLink(goodsLink)) {
+                  id = Tools.getGoodsIdByLink(goodsLink.getAttribute("href"));
                 }
-              });
-            }
-          });
-          Logger.log("info", items);
-          if (items.length > 0) {
-            yield this.search(items, marketplace);
+                if (id) {
+                  items.push({
+                    "id": id,
+                    "price": price,
+                    "platform": SupportData.support.p,
+                    "handler": element,
+                    "findA": findA,
+                    "from": "search"
+                  });
+                }
+              }
+            });
           }
-        } catch (e) {
+        });
+        Logger.log("info", items);
+        if (items.length > 0) {
+          await this.search(items, marketplace);
         }
-      });
+      } catch (e) {
+      }
     },
-    search: function(array, marketplace) {
-      return __async$i(this, null, function* () {
-        const groups = ItemSearchBaseObj.calcRequestGroup(array);
-        const len = groups.length;
-        return new Promise((resolve, reject) => {
-          if (len <= 0) {
-            resolve("complete");
-            return;
-          }
-          const promises = [];
-          for (let i = 0; i < groups.length; i++) {
-            promises.push(this.createItemHtml(groups[i], marketplace));
-          }
-          Promise.all(promises).then((data) => {
-            resolve("complete");
-          });
+    search: async function(array, marketplace) {
+      const groups = ItemSearchBaseObj.calcRequestGroup(array);
+      const len = groups.length;
+      return new Promise((resolve, reject) => {
+        if (len <= 0) {
+          resolve("complete");
+          return;
+        }
+        const promises = [];
+        for (let i = 0; i < groups.length; i++) {
+          promises.push(this.createItemHtml(groups[i], marketplace));
+        }
+        Promise.all(promises).then((data) => {
+          resolve("complete");
         });
       });
     },
@@ -3690,48 +3432,26 @@
     isRun: function() {
       return /https:\/\/www\.bestbuy\.com\/site\/searchpage\.jsp/.test(window.location.href);
     },
-    start: function() {
-      return __async$i(this, null, function* () {
-        if (!this.isRun()) {
-          return;
+    start: async function() {
+      if (!this.isRun()) {
+        return;
+      }
+      const marketplace = Tools.getCommonMarketplace(window.location.href);
+      const confString = await ItemSearchBaseObj.requestConf();
+      if (!confString) {
+        return;
+      }
+      const selectors = ItemSearchBaseObj.pickupGoodsItem(SupportData.support.p, confString);
+      setInterval(async () => {
+        if (this.loopIsComplete) {
+          this.loopIsComplete = false;
+          await this.pickUpItems(selectors, marketplace);
+          this.loopIsComplete = true;
         }
-        const marketplace = Tools.getCommonMarketplace(window.location.href);
-        const confString = yield ItemSearchBaseObj.requestConf();
-        if (!confString) {
-          return;
-        }
-        const selectors = ItemSearchBaseObj.pickupGoodsItem(SupportData.support.p, confString);
-        setInterval(() => __async$i(this, null, function* () {
-          if (this.loopIsComplete) {
-            this.loopIsComplete = false;
-            yield this.pickUpItems(selectors, marketplace);
-            this.loopIsComplete = true;
-          }
-        }), 1700);
-      });
+      }, 1700);
     }
   };
 
-  var __async$h = (__this, __arguments, generator) => {
-    return new Promise((resolve, reject) => {
-      var fulfilled = (value) => {
-        try {
-          step(generator.next(value));
-        } catch (e) {
-          reject(e);
-        }
-      };
-      var rejected = (value) => {
-        try {
-          step(generator.throw(value));
-        } catch (e) {
-          reject(e);
-        }
-      };
-      var step = (x) => x.done ? resolve(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
-      step((generator = generator.apply(__this, __arguments)).next());
-    });
-  };
   const Banggood = {
     getLang: function() {
       return document.querySelector("html").getAttribute("lang") || "";
@@ -3756,91 +3476,87 @@
       }).find((rs) => rs != null);
       return marketplace ? marketplace : "com";
     },
-    detail: function() {
-      return __async$h(this, null, function* () {
-        const visitUrl = window.location.href;
-        const id = Tools.getGoodsIdByLink(visitUrl);
-        if (!id) {
-          return;
+    detail: async function() {
+      const visitUrl = window.location.href;
+      const id = Tools.getGoodsIdByLink(visitUrl);
+      if (!id) {
+        return;
+      }
+      const marketplace = this.getMarketplace(visitUrl);
+      const currency = this.getCurrency();
+      const lang = this.getLang();
+      try {
+        const params = {
+          "ids": id,
+          "qu": "",
+          "p": SupportData.support.p,
+          "marketplace": marketplace,
+          "mul": false,
+          "currency": currency,
+          "lang": lang
+        };
+        const data = await RequestUtil.getCouponQuery(params);
+        if (data.code == "success" && !!data.result) {
+          const json = JSON.parse(data.result);
+          Logger.log("info", "detail request json=", json);
+          await this.detailAnalyze(json, marketplace);
         }
-        const marketplace = this.getMarketplace(visitUrl);
-        const currency = this.getCurrency();
-        const lang = this.getLang();
-        try {
-          const params = {
-            "ids": id,
-            "qu": "",
-            "p": SupportData.support.p,
-            "marketplace": marketplace,
-            "mul": false,
-            "currency": currency,
-            "lang": lang
-          };
-          const data = yield RequestUtil.getCouponQuery(params);
-          if (data.code == "success" && !!data.result) {
-            const json = JSON.parse(data.result);
-            Logger.log("info", "detail request json=", json);
-            yield this.detailAnalyze(json, marketplace);
-          }
-        } catch (e) {
-        }
-      });
+      } catch (e) {
+      }
     },
-    detailAnalyze: function(json, marketplace) {
-      return __async$h(this, null, function* () {
-        let couponResult = null;
-        let qrcodeResult = null;
-        if (!!json.data && !!json.data.css && !!json.data.html && !!json.data.handler) {
-          const { handler, css, html, templateId, distinguish, hint } = json.data;
-          var mid = null;
-          if (json.data.hasOwnProperty("mid")) {
-            mid = json.data["mid"];
-          }
-          GM_addStyle(css);
-          const element = yield Tools.mustGetElement(handler);
-          if (element) {
-            couponResult = { "element": element, "html": html, "templateId": templateId, "distinguish": distinguish, "hint": hint, "mid": mid };
-          }
+    detailAnalyze: async function(json, marketplace) {
+      let couponResult = null;
+      let qrcodeResult = null;
+      if (!!json.data && !!json.data.css && !!json.data.html && !!json.data.handler) {
+        const { handler, css, html, templateId, distinguish, hint } = json.data;
+        var mid = null;
+        if (json.data.hasOwnProperty("mid")) {
+          mid = json.data["mid"];
         }
-        if (!!json.id && !!json.mscan && !!json.mscan.html && !!json.mscan.mount) {
-          const { iden, html, mount, distinguish } = json.mscan;
-          const id = json.id;
-          const promiseResultArray = [];
-          const elementPromise = Tools.mustGetElement(mount);
-          const params = {
-            "id": id,
-            "marketplace": marketplace,
-            "platform": SupportData.support.p
-          };
-          const reqPromise = RequestUtil.getCouponChange(params);
-          promiseResultArray.push(elementPromise, reqPromise);
-          const allResult = yield Promise.all(promiseResultArray);
-          let element = null, qrcodeData = null;
-          for (let i = 0; i < allResult.length; i++) {
-            if (allResult[i]) {
-              if (allResult[i].hasOwnProperty("code")) {
-                qrcodeData = allResult[i];
-              } else {
-                element = allResult[i];
-              }
+        GM_addStyle(css);
+        const element = await Tools.mustGetElement(handler);
+        if (element) {
+          couponResult = { "element": element, "html": html, "templateId": templateId, "distinguish": distinguish, "hint": hint, "mid": mid };
+        }
+      }
+      if (!!json.id && !!json.mscan && !!json.mscan.html && !!json.mscan.mount) {
+        const { iden, html, mount, distinguish } = json.mscan;
+        const id = json.id;
+        const promiseResultArray = [];
+        const elementPromise = Tools.mustGetElement(mount);
+        const params = {
+          "id": id,
+          "marketplace": marketplace,
+          "platform": SupportData.support.p
+        };
+        const reqPromise = RequestUtil.getCouponChange(params);
+        promiseResultArray.push(elementPromise, reqPromise);
+        const allResult = await Promise.all(promiseResultArray);
+        let element = null, qrcodeData = null;
+        for (let i = 0; i < allResult.length; i++) {
+          if (allResult[i]) {
+            if (allResult[i].hasOwnProperty("code")) {
+              qrcodeData = allResult[i];
+            } else {
+              element = allResult[i];
             }
           }
-          if (element && qrcodeData) {
-            qrcodeResult = { "element": element, "html": html, "iden": iden, "qrcodeData": qrcodeData, "distinguish": distinguish };
-          }
         }
-        Tools.loopTask(() => {
-          if (couponResult) {
-            Tools.distinguishRemoveAndTry(couponResult.distinguish, () => {
-              this.detailCouponAnalyze(couponResult);
-            });
-          }
-          if (qrcodeResult) {
-            Tools.distinguishRemoveAndTry(qrcodeResult.distinguish, () => {
-              this.detailMscanAnalyze(qrcodeResult);
-            });
-          }
-        });
+        if (element && qrcodeData) {
+          qrcodeResult = { "element": element, "html": html, "iden": iden, "qrcodeData": qrcodeData, "distinguish": distinguish };
+        }
+      }
+      Tools.loopTask(() => {
+        if (couponResult) {
+          Tools.distinguishRemoveAndTry(couponResult.distinguish, () => {
+            this.detailCouponAnalyze(couponResult);
+          });
+        }
+        if (qrcodeResult) {
+          Tools.distinguishRemoveAndTry(qrcodeResult.distinguish, () => {
+            this.detailMscanAnalyze(qrcodeResult);
+          });
+        }
       });
     },
     detailCouponAnalyze: function(result) {
@@ -3889,96 +3605,70 @@
         }
       }
     },
-    start: function() {
-      return __async$h(this, null, function* () {
-        const { support } = SupportData;
-        const visitUrl = window.location.href;
-        if (support.detail.test(visitUrl)) {
-          this.detail();
-        }
-      });
+    start: async function() {
+      const { support } = SupportData;
+      const visitUrl = window.location.href;
+      if (support.detail.test(visitUrl)) {
+        this.detail();
+      }
     }
   };
 
-  var __async$g = (__this, __arguments, generator) => {
-    return new Promise((resolve, reject) => {
-      var fulfilled = (value) => {
-        try {
-          step(generator.next(value));
-        } catch (e) {
-          reject(e);
-        }
-      };
-      var rejected = (value) => {
-        try {
-          step(generator.throw(value));
-        } catch (e) {
-          reject(e);
-        }
-      };
-      var step = (x) => x.done ? resolve(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
-      step((generator = generator.apply(__this, __arguments)).next());
-    });
-  };
   const BanggoodSearch = {
     loopIsComplete: true,
-    pickUpItems: function(selectors, marketplace, lang, currency) {
-      return __async$g(this, null, function* () {
-        const items = [];
-        try {
-          selectors.forEach((elementObj) => {
-            if (elementObj.element) {
-              const elements = document.querySelectorAll(elementObj.element + ":not([" + ItemSearchBaseObj.searchAttribute + "='true'])");
-              Logger.log("info", "search coupon elements======>", elements);
-              const findA = elementObj.findA;
-              elements.forEach((element) => {
-                if (element && ItemSearchBaseObj.isElementDisplayed(element) && !element.getAttribute(ItemSearchBaseObj.searchAttribute)) {
-                  const goodsLink = ItemSearchBaseObj.getGoodsLinkByElement(element, findA);
-                  const priceQuery = ["span.price"].join(",");
-                  const price = ItemSearchBaseObj.getGoodsPriceByElement(element, priceQuery);
-                  let id = null;
-                  if (SupportData.support.detail.test(goodsLink)) {
-                    const goodsLinkHref = goodsLink.getAttribute("href");
-                    id = Tools.getGoodsIdByLink(goodsLinkHref);
-                  }
-                  if (id) {
-                    items.push({
-                      "id": id,
-                      "price": price,
-                      "platform": SupportData.support.p,
-                      "handler": element,
-                      "findA": findA,
-                      "from": "search"
-                    });
-                  }
+    pickUpItems: async function(selectors, marketplace, lang, currency) {
+      const items = [];
+      try {
+        selectors.forEach((elementObj) => {
+          if (elementObj.element) {
+            const elements = document.querySelectorAll(elementObj.element + ":not([" + ItemSearchBaseObj.searchAttribute + "='true'])");
+            Logger.log("info", "search coupon elements======>", elements);
+            const findA = elementObj.findA;
+            elements.forEach((element) => {
+              if (element && ItemSearchBaseObj.isElementDisplayed(element) && !element.getAttribute(ItemSearchBaseObj.searchAttribute)) {
+                const goodsLink = ItemSearchBaseObj.getGoodsLinkByElement(element, findA);
+                const priceQuery = ["span.price"].join(",");
+                const price = ItemSearchBaseObj.getGoodsPriceByElement(element, priceQuery);
+                let id = null;
+                if (SupportData.support.detail.test(goodsLink)) {
+                  const goodsLinkHref = goodsLink.getAttribute("href");
+                  id = Tools.getGoodsIdByLink(goodsLinkHref);
                 }
-              });
-            }
-          });
-          Logger.log("info", items);
-          if (items.length > 0) {
-            yield this.search(items, marketplace, lang, currency);
+                if (id) {
+                  items.push({
+                    "id": id,
+                    "price": price,
+                    "platform": SupportData.support.p,
+                    "handler": element,
+                    "findA": findA,
+                    "from": "search"
+                  });
+                }
+              }
+            });
           }
-        } catch (e) {
+        });
+        Logger.log("info", items);
+        if (items.length > 0) {
+          await this.search(items, marketplace, lang, currency);
         }
-      });
+      } catch (e) {
+      }
     },
-    search: function(array, marketplace, lang, currency) {
-      return __async$g(this, null, function* () {
-        const groups = ItemSearchBaseObj.calcRequestGroup(array);
-        const len = groups.length;
-        return new Promise((resolve, reject) => {
-          if (len <= 0) {
-            resolve("complete");
-            return;
-          }
-          const promises = [];
-          for (let i = 0; i < groups.length; i++) {
-            promises.push(this.createItemHtml(groups[i], marketplace, lang, currency));
-          }
-          Promise.all(promises).then((data) => {
-            resolve("complete");
-          });
+    search: async function(array, marketplace, lang, currency) {
+      const groups = ItemSearchBaseObj.calcRequestGroup(array);
+      const len = groups.length;
+      return new Promise((resolve, reject) => {
+        if (len <= 0) {
+          resolve("complete");
+          return;
+        }
+        const promises = [];
+        for (let i = 0; i < groups.length; i++) {
+          promises.push(this.createItemHtml(groups[i], marketplace, lang, currency));
+        }
+        Promise.all(promises).then((data) => {
+          resolve("complete");
         });
       });
     },
@@ -4091,133 +3781,107 @@
     isRun: function(support) {
       return !support.detail.test(window.location.href);
     },
-    start: function() {
-      return __async$g(this, null, function* () {
-        const { support } = SupportData;
-        if (!this.isRun(support)) {
-          return;
+    start: async function() {
+      const { support } = SupportData;
+      if (!this.isRun(support)) {
+        return;
+      }
+      const marketplace = Banggood.getMarketplace(window.location.href);
+      const lang = Banggood.getLang();
+      const confString = await ItemSearchBaseObj.requestConf();
+      if (!confString) {
+        return;
+      }
+      const selectors = ItemSearchBaseObj.pickupGoodsItem(SupportData.support.p, confString);
+      setInterval(async () => {
+        if (this.loopIsComplete) {
+          this.loopIsComplete = false;
+          const currency = Banggood.getCurrency();
+          await this.pickUpItems(selectors, marketplace, lang, currency);
+          this.loopIsComplete = true;
         }
-        const marketplace = Banggood.getMarketplace(window.location.href);
-        const lang = Banggood.getLang();
-        const confString = yield ItemSearchBaseObj.requestConf();
-        if (!confString) {
-          return;
-        }
-        const selectors = ItemSearchBaseObj.pickupGoodsItem(SupportData.support.p, confString);
-        setInterval(() => __async$g(this, null, function* () {
-          if (this.loopIsComplete) {
-            this.loopIsComplete = false;
-            const currency = Banggood.getCurrency();
-            yield this.pickUpItems(selectors, marketplace, lang, currency);
-            this.loopIsComplete = true;
-          }
-        }), 1700);
-      });
+      }, 1700);
     }
   };
 
-  var __async$f = (__this, __arguments, generator) => {
-    return new Promise((resolve, reject) => {
-      var fulfilled = (value) => {
-        try {
-          step(generator.next(value));
-        } catch (e) {
-          reject(e);
-        }
-      };
-      var rejected = (value) => {
-        try {
-          step(generator.throw(value));
-        } catch (e) {
-          reject(e);
-        }
-      };
-      var step = (x) => x.done ? resolve(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
-      step((generator = generator.apply(__this, __arguments)).next());
-    });
-  };
   const Amazon = {
-    detail: function() {
-      return __async$f(this, null, function* () {
-        const visitUrl = window.location.href;
-        const id = Tools.getGoodsIdByLink(visitUrl);
-        if (!id) {
-          return;
+    detail: async function() {
+      const visitUrl = window.location.href;
+      const id = Tools.getGoodsIdByLink(visitUrl);
+      if (!id) {
+        return;
+      }
+      const marketplace = Tools.getCommonMarketplace(visitUrl);
+      try {
+        const params = {
+          "ids": id,
+          "qu": "",
+          "p": SupportData.support.p,
+          "marketplace": marketplace,
+          "mul": false
+        };
+        const data = await RequestUtil.getCouponQuery(params);
+        if (data.code == "success" && !!data.result) {
+          const json = JSON.parse(data.result);
+          Logger.log("info", "detail request json=", json);
+          await this.detailAnalyze(json, marketplace);
         }
-        const marketplace = Tools.getCommonMarketplace(visitUrl);
-        try {
-          const params = {
-            "ids": id,
-            "qu": "",
-            "p": SupportData.support.p,
-            "marketplace": marketplace,
-            "mul": false
-          };
-          const data = yield RequestUtil.getCouponQuery(params);
-          if (data.code == "success" && !!data.result) {
-            const json = JSON.parse(data.result);
-            Logger.log("info", "detail request json=", json);
-            yield this.detailAnalyze(json, marketplace);
-          }
-        } catch (e) {
-        }
-      });
+      } catch (e) {
+      }
     },
-    detailAnalyze: function(json, marketplace) {
-      return __async$f(this, null, function* () {
-        let couponResult = null;
-        let qrcodeResult = null;
-        if (!!json.data && !!json.data.css && !!json.data.html && !!json.data.handler) {
-          const { handler, css, html, templateId, distinguish, hint } = json.data;
-          var mid = null;
-          if (json.data.hasOwnProperty("mid")) {
-            mid = json.data["mid"];
-          }
-          GM_addStyle(css);
-          const element = yield Tools.mustGetElement(handler);
-          if (element) {
-            couponResult = { "element": element, "html": html, "templateId": templateId, "distinguish": distinguish, "hint": hint, "mid": mid };
-          }
+    detailAnalyze: async function(json, marketplace) {
+      let couponResult = null;
+      let qrcodeResult = null;
+      if (!!json.data && !!json.data.css && !!json.data.html && !!json.data.handler) {
+        const { handler, css, html, templateId, distinguish, hint } = json.data;
+        var mid = null;
+        if (json.data.hasOwnProperty("mid")) {
+          mid = json.data["mid"];
         }
-        if (!!json.id && !!json.mscan && !!json.mscan.html && !!json.mscan.mount) {
-          const { iden, html, mount, distinguish } = json.mscan;
-          const id = json.id;
-          const promiseResultArray = [];
-          const elementPromise = Tools.mustGetElement(mount);
-          const params = {
-            "id": id,
-            "marketplace": marketplace,
-            "platform": SupportData.support.p
-          };
-          const reqPromise = RequestUtil.getCouponChange(params);
-          promiseResultArray.push(elementPromise, reqPromise);
-          const allResult = yield Promise.all(promiseResultArray);
-          let element = null, qrcodeData = null;
-          for (let i = 0; i < allResult.length; i++) {
-            if (allResult[i]) {
-              if (allResult[i].hasOwnProperty("code")) {
-                qrcodeData = allResult[i];
-              } else {
-                element = allResult[i];
-              }
+        GM_addStyle(css);
+        const element = await Tools.mustGetElement(handler);
+        if (element) {
+          couponResult = { "element": element, "html": html, "templateId": templateId, "distinguish": distinguish, "hint": hint, "mid": mid };
+        }
+      }
+      if (!!json.id && !!json.mscan && !!json.mscan.html && !!json.mscan.mount) {
+        const { iden, html, mount, distinguish } = json.mscan;
+        const id = json.id;
+        const promiseResultArray = [];
+        const elementPromise = Tools.mustGetElement(mount);
+        const params = {
+          "id": id,
+          "marketplace": marketplace,
+          "platform": SupportData.support.p
+        };
+        const reqPromise = RequestUtil.getCouponChange(params);
+        promiseResultArray.push(elementPromise, reqPromise);
+        const allResult = await Promise.all(promiseResultArray);
+        let element = null, qrcodeData = null;
+        for (let i = 0; i < allResult.length; i++) {
+          if (allResult[i]) {
+            if (allResult[i].hasOwnProperty("code")) {
+              qrcodeData = allResult[i];
+            } else {
+              element = allResult[i];
             }
           }
-          if (element && qrcodeData) {
-            qrcodeResult = { "element": element, "html": html, "iden": iden, "qrcodeData": qrcodeData, "distinguish": distinguish };
-          }
         }
-        Tools.loopTask(() => {
-          if (couponResult) {
-            Tools.distinguishRemoveAndTry(couponResult.distinguish, () => {
-              this.detailCouponAnalyze(couponResult);
-            });
-          }
-          if (qrcodeResult) {
-            Tools.distinguishRemoveAndTry(qrcodeResult.distinguish, () => {
-              this.detailMscanAnalyze(qrcodeResult);
-            });
-          }
-        });
+        if (element && qrcodeData) {
+          qrcodeResult = { "element": element, "html": html, "iden": iden, "qrcodeData": qrcodeData, "distinguish": distinguish };
+        }
+      }
+      Tools.loopTask(() => {
+        if (couponResult) {
+          Tools.distinguishRemoveAndTry(couponResult.distinguish, () => {
+            this.detailCouponAnalyze(couponResult);
+          });
+        }
+        if (qrcodeResult) {
+          Tools.distinguishRemoveAndTry(qrcodeResult.distinguish, () => {
+            this.detailMscanAnalyze(qrcodeResult);
+          });
+        }
       });
     },
     detailCouponAnalyze: function(result) {
@@ -4266,14 +3930,12 @@
         }
       }
     },
-    start: function() {
-      return __async$f(this, null, function* () {
-        const { support } = SupportData;
-        const visitUrl = window.location.href;
-        if (support.detail.test(visitUrl)) {
-          this.detail();
-        }
-      });
+    start: async function() {
+      const { support } = SupportData;
+      const visitUrl = window.location.href;
+      if (support.detail.test(visitUrl)) {
+        this.detail();
+      }
     }
   };
 
@@ -4366,26 +4028,6 @@
     }
   };
 
-  var __async$e = (__this, __arguments, generator) => {
-    return new Promise((resolve, reject) => {
-      var fulfilled = (value) => {
-        try {
-          step(generator.next(value));
-        } catch (e) {
-          reject(e);
-        }
-      };
-      var rejected = (value) => {
-        try {
-          step(generator.throw(value));
-        } catch (e) {
-          reject(e);
-        }
-      };
-      var step = (x) => x.done ? resolve(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
-      step((generator = generator.apply(__this, __arguments)).next());
-    });
-  };
   const CACHE_ROOT_DIVS = [];
   const InspectUtil = {
     generateShadowDomRoot: function(name, css = "", dir = "ltr", moveToEnd = false, observerTime = 2e4) {
@@ -4547,7 +4189,7 @@
       const decrypLink = Tools.decryptStr(link);
       let count = 0;
       let isRequesting = false;
-      const intervalId = setInterval(() => __async$e(this, null, function* () {
+      const intervalId = setInterval(async () => {
         if (count >= max) {
           clearInterval(intervalId);
           return;
@@ -4558,7 +4200,7 @@
         }
         try {
           isRequesting = true;
-          const data = yield Tools.request("post", decrypLink, null);
+          const data = await Tools.request("post", decrypLink, null);
           if (data && data.code == "success") {
             const loopJson = JSON.parse(data.result);
             if (loopJson.hasOwnProperty("code") && loopJson.code == "ok") {
@@ -4581,30 +4223,10 @@
         } finally {
           isRequesting = false;
         }
-      }), period);
+      }, period);
     }
   };
 
-  var __async$d = (__this, __arguments, generator) => {
-    return new Promise((resolve, reject) => {
-      var fulfilled = (value) => {
-        try {
-          step(generator.next(value));
-        } catch (e) {
-          reject(e);
-        }
-      };
-      var rejected = (value) => {
-        try {
-          step(generator.throw(value));
-        } catch (e) {
-          reject(e);
-        }
-      };
-      var step = (x) => x.done ? resolve(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
-      step((generator = generator.apply(__this, __arguments)).next());
-    });
-  };
   const LangueUtil = {
     updateDelay: 15 * 60 * 1e3,
     _locations: {
@@ -4630,7 +4252,6 @@
       "cl": { languageDefault: "Predeterminado" }
     },
     getLanguages: function() {
-      var _a, _b, _c;
       const languages = [
         { code: "en", name: "English", dir: "ltr" },
         { code: "es", name: "Español", dir: "ltr" },
@@ -4653,10 +4274,10 @@
         { code: "mx", name: "Mexican Spanish", dir: "ltr" },
         { code: "cl", name: "Chilean Spanish", dir: "ltr" }
       ];
-      const language = (_a = languages.find((lang) => lang.code === DefaultValue.lang)) != null ? _a : languages[0];
+      const language = languages.find((lang) => lang.code === DefaultValue.lang) ?? languages[0];
       const defaultLanguage = Object.assign({}, language);
       defaultLanguage.code = "default";
-      defaultLanguage.name = (_c = ((_b = this._locations[DefaultValue.lang]) != null ? _b : this._locations["en"])["languageDefault"]) != null ? _c : "Default";
+      defaultLanguage.name = (this._locations[DefaultValue.lang] ?? this._locations["en"])["languageDefault"] ?? "Default";
       languages.unshift(defaultLanguage);
       return languages;
     },
@@ -4710,13 +4331,12 @@
       return selectedLanguage;
     },
     getLangueByStorageKey: function(key) {
-      var _a;
       key = "extension.structure." + key;
       let langueObjects = this.langueObjects;
       if (!langueObjects) {
         langueObjects = this.defaultLangueObjects;
       }
-      return (_a = langueObjects[key]) != null ? _a : this.defaultLangueObjects[key];
+      return langueObjects[key] ?? this.defaultLangueObjects[key];
     },
     initLangueDataMap: function(force = false) {
       return new Promise((resolve, reject) => {
@@ -4767,64 +4387,39 @@
         element.setAttribute("placeholder", placeholder);
       }
     },
-    refreshLangue: function(force = false) {
-      return __async$d(this, null, function* () {
-        const queryDirectionElements = (selector) => {
-          return CACHE_ROOT_DIVS.flatMap((div) => div ? Array.from(div.querySelectorAll(selector)) : []);
-        };
-        const elementsWithLangue = queryDirectionElements("*[langue-extension-text],*[langue-extension-placeholder]");
-        const directions = queryDirectionElements("*[data-extension-direction]");
-        this.initLangueDataMap(force).then(() => {
-          this.langueObjects;
-          const selectedLanguage = this.getSelectedLanguage();
-          directions.forEach((element) => {
-            element.setAttribute("data-extension-direction", selectedLanguage.dir);
-          });
-          elementsWithLangue.forEach((element) => {
-            let langueTextKey = element.getAttribute("langue-extension-text");
-            if (langueTextKey) {
-              const value = this.getLangueByStorageKey(langueTextKey);
-              this._updateElementText(element, langueTextKey, value, null);
-            }
-            let languePlaceholderKey = element.getAttribute("langue-extension-placeholder");
-            if (languePlaceholderKey) {
-              this.getLangueByStorageKey(languePlaceholderKey);
-              this._updateElementText(element, langueTextKey, null, languePlaceholderKey);
-            }
-          });
+    refreshLangue: async function(force = false) {
+      const queryDirectionElements = (selector) => {
+        return CACHE_ROOT_DIVS.flatMap((div) => div ? Array.from(div.querySelectorAll(selector)) : []);
+      };
+      const elementsWithLangue = queryDirectionElements("*[langue-extension-text],*[langue-extension-placeholder]");
+      const directions = queryDirectionElements("*[data-extension-direction]");
+      this.initLangueDataMap(force).then(() => {
+        this.langueObjects;
+        const selectedLanguage = this.getSelectedLanguage();
+        directions.forEach((element) => {
+          element.setAttribute("data-extension-direction", selectedLanguage.dir);
+        });
+        elementsWithLangue.forEach((element) => {
+          let langueTextKey = element.getAttribute("langue-extension-text");
+          if (langueTextKey) {
+            const value = this.getLangueByStorageKey(langueTextKey);
+            this._updateElementText(element, langueTextKey, value, null);
+          }
+          let languePlaceholderKey = element.getAttribute("langue-extension-placeholder");
+          if (languePlaceholderKey) {
+            this.getLangueByStorageKey(languePlaceholderKey);
+            this._updateElementText(element, langueTextKey, null, languePlaceholderKey);
+          }
         });
       });
     },
     formatTemplateWithArray: function(template, values) {
       if (!template)
         return template;
-      return template.replace(/{(\d+)}/g, (match, index) => {
-        var _a;
-        return (_a = values[index]) != null ? _a : match;
-      });
+      return template.replace(/{(\d+)}/g, (match, index) => values[index] ?? match);
     }
   };
 
-  var __async$c = (__this, __arguments, generator) => {
-    return new Promise((resolve, reject) => {
-      var fulfilled = (value) => {
-        try {
-          step(generator.next(value));
-        } catch (e) {
-          reject(e);
-        }
-      };
-      var rejected = (value) => {
-        try {
-          step(generator.throw(value));
-        } catch (e) {
-          reject(e);
-        }
-      };
-      var step = (x) => x.done ? resolve(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
-      step((generator = generator.apply(__this, __arguments)).next());
-    });
-  };
   const RequestUnionUtil = {
     _getBaseParams: function() {
       const token = StorageUtil.getValue(StorageKeys.token, "");
@@ -4835,38 +4430,38 @@
         token: !!token ? token : ""
       };
     },
-    _getDetectCouponParams: function() {
-      return __async$c(this, null, function* () {
-        const { Aliexpress, Ebay, Lazada, Bestbuy, Banggood } = PlatformModules;
-        let platform = SupportData.support.p, marketplace = "", currency = "";
-        let lang = StorageUtil.getValue(StorageKeys.langue.custom, "default");
-        if (lang === "default") {
-          lang = DefaultValue.lang;
-        }
-        switch (platform) {
-          case SupportData.supports.aliexpress.p:
-            marketplace = Aliexpress.Aliexpress.getMarketplace();
-            currency = yield Aliexpress.Aliexpress.getCurrency();
-            break;
-          case SupportData.supports.banggood.p:
-            marketplace = Banggood.Banggood.getMarketplace();
-            currency = Banggood.Banggood.getCurrency();
-            break;
-          default:
-            marketplace = Tools.getCommonMarketplace();
-        }
-        let params = {
-          platform,
-          title: document.title,
-          url: window.location.href,
-          lang,
-          marketplace,
-          currency
-        };
-        params = Object.assign({}, params, this._getBaseParams());
-        Logger.log("info", "detect coupon params====>", JSON.stringify(params));
-        return params;
-      });
+    _getDetectCouponParams: async function() {
+      const { Aliexpress, Ebay, Lazada, Bestbuy, Banggood } = PlatformModules;
+      let platform = SupportData.support.p, marketplace = "", currency = "", countryCode = "";
+      let lang = StorageUtil.getValue(StorageKeys.langue.custom, "default");
+      if (lang === "default") {
+        lang = DefaultValue.lang;
+      }
+      switch (platform) {
+        case SupportData.supports.aliexpress.p:
+          marketplace = await Aliexpress.Aliexpress.getMarketplace();
+          currency = await Aliexpress.Aliexpress.getCurrency();
+          break;
+        case SupportData.supports.banggood.p:
+          countryCode = Banggood.Banggood.getMarketplace();
+          currency = Banggood.Banggood.getCurrency();
+          marketplace = encodeURIComponent(JSON.stringify({ "countryCode": countryCode, "className": "", "html": "" }));
+          break;
+        default:
+          countryCode = Tools.getCommonMarketplace();
+          marketplace = encodeURIComponent(JSON.stringify({ "countryCode": countryCode, "className": "", "html": "" }));
+      }
+      let params = {
+        platform,
+        title: document.title,
+        url: window.location.href,
+        lang,
+        marketplace,
+        currency
+      };
+      params = Object.assign({}, params, this._getBaseParams());
+      Logger.log("info", "detect coupon params====>", JSON.stringify(params));
+      return params;
     },
     _getEngineScreenParams: function(lists, platform) {
       let lang = "en";
@@ -4895,19 +4490,15 @@
         });
       });
     },
-    getDetectCouponResult: function() {
-      return __async$c(this, null, function* () {
-        const params = yield this._getDetectCouponParams();
-        const { method, url } = getRequestUrl()["detectCoupon"];
-        return this.request(method, url, params);
-      });
+    getDetectCouponResult: async function() {
+      const params = await this._getDetectCouponParams();
+      const { method, url } = getRequestUrl()["detectCoupon"];
+      return this.request(method, url, params);
     },
-    getDetectInfoResult: function() {
-      return __async$c(this, null, function* () {
-        const params = yield this._getDetectCouponParams();
-        const { method, url } = getRequestUrl()["detectInfo"];
-        return this.request(method, url, params);
-      });
+    getDetectInfoResult: async function() {
+      const params = await this._getDetectCouponParams();
+      const { method, url } = getRequestUrl()["detectInfo"];
+      return this.request(method, url, params);
     },
     getEngineScreenConf: function() {
       const { method, url } = getRequestUrl()["searchEnginExistConf"];
@@ -4918,40 +4509,38 @@
       const { method, url } = getRequestUrl()["engineScreen"];
       return this.request(method, url, params);
     },
-    initRequestData: function() {
-      return __async$c(this, null, function* () {
-        try {
-          const now = Date.now();
-          let exchangeInfoLocal = StorageUtil.getValue(StorageKeys.exchangeInfo, null);
-          const needFetchConfig = !exchangeInfoLocal || exchangeInfoLocal.time && now - exchangeInfoLocal.time > DefaultValue.updateExchangeInfoDelay;
-          if (needFetchConfig) {
-            const exchangeInfo = getRequestUrl()["exchangeInfo"];
-            const exchangeInfoJsonServer = yield this.request(exchangeInfo.method, exchangeInfo.url, null);
-            if (exchangeInfoJsonServer) {
-              const { certificate, redirect } = exchangeInfoJsonServer;
-              exchangeInfoLocal = {
-                "certificate": certificate,
-                "redirect": redirect,
-                "time": now
-              };
-              StorageUtil.setValue(StorageKeys.exchangeInfo, exchangeInfoLocal);
-            } else {
-              Logger.log("error", "exchangeInfo====>null");
-            }
-          }
-          if (!exchangeInfoLocal || !exchangeInfoLocal.certificate) {
-            exchangeInfoLocal = DefaultValue.exchangeInfoLocal;
-          }
-          const tokenJson = yield this.request("POST", exchangeInfoLocal.certificate, null);
-          if (tokenJson && tokenJson.token) {
-            StorageUtil.setValue(StorageKeys.token, encodeURIComponent(tokenJson.token));
-            Logger.log("info", "token====>", tokenJson.token);
+    initRequestData: async function() {
+      try {
+        const now = Date.now();
+        let exchangeInfoLocal = StorageUtil.getValue(StorageKeys.exchangeInfo, null);
+        const needFetchConfig = !exchangeInfoLocal || exchangeInfoLocal.time && now - exchangeInfoLocal.time > DefaultValue.updateExchangeInfoDelay;
+        if (needFetchConfig) {
+          const exchangeInfo = getRequestUrl()["exchangeInfo"];
+          const exchangeInfoJsonServer = await this.request(exchangeInfo.method, exchangeInfo.url, null);
+          if (exchangeInfoJsonServer) {
+            const { certificate, redirect } = exchangeInfoJsonServer;
+            exchangeInfoLocal = {
+              "certificate": certificate,
+              "redirect": redirect,
+              "time": now
+            };
+            StorageUtil.setValue(StorageKeys.exchangeInfo, exchangeInfoLocal);
           } else {
-            Logger.log("info", "Token====>null");
+            Logger.log("error", "exchangeInfo====>null");
           }
-        } catch (error) {
         }
-      });
+        if (!exchangeInfoLocal || !exchangeInfoLocal.certificate) {
+          exchangeInfoLocal = DefaultValue.exchangeInfoLocal;
+        }
+        const tokenJson = await this.request("POST", exchangeInfoLocal.certificate, null);
+        if (tokenJson && tokenJson.token) {
+          StorageUtil.setValue(StorageKeys.token, encodeURIComponent(tokenJson.token));
+          Logger.log("info", "token====>", tokenJson.token);
+        } else {
+          Logger.log("info", "Token====>null");
+        }
+      } catch (error) {
+      }
     }
   };
 
@@ -5359,7 +4948,6 @@
       };
     }
     reactHook(element, value, useSetter = true) {
-      var _a;
       const inputEvent = new InputEvent("input", {
         view: unsafeWindow,
         bubbles: true,
@@ -5379,7 +4967,7 @@
       setTimeout(() => {
         element.removeAttribute("readonly");
       }, 200);
-      const valueSetter = (_a = Object.getOwnPropertyDescriptor(HTMLInputElement.prototype, "value")) == null ? void 0 : _a.set;
+      const valueSetter = Object.getOwnPropertyDescriptor(HTMLInputElement.prototype, "value")?.set;
       if (valueSetter && useSetter) {
         valueSetter.call(element, value);
       } else {
@@ -5435,31 +5023,11 @@
     }
   }
 
-  var __async$b = (__this, __arguments, generator) => {
-    return new Promise((resolve, reject) => {
-      var fulfilled = (value) => {
-        try {
-          step(generator.next(value));
-        } catch (e) {
-          reject(e);
-        }
-      };
-      var rejected = (value) => {
-        try {
-          step(generator.throw(value));
-        } catch (e) {
-          reject(e);
-        }
-      };
-      var step = (x) => x.done ? resolve(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
-      step((generator = generator.apply(__this, __arguments)).next());
-    });
-  };
   class AliexpressAutoDetect extends AutoDetectBase {
     start(supportData, code) {
       const { couponInput, submitButton } = this.validate(supportData);
-      return new Promise((resolve) => __async$b(this, null, function* () {
-        const clickResult = yield this.clickValidateButton(supportData, couponInput, submitButton, code, this.HookType.react);
+      return new Promise(async (resolve) => {
+        const clickResult = await this.clickValidateButton(supportData, couponInput, submitButton, code, this.HookType.react);
         if (!clickResult) {
           resolve(clickResult);
           return;
@@ -5481,35 +5049,15 @@
           }
           current += this.VALIDATE_LOOP_DELAY_MS;
         }, this.VALIDATE_LOOP_DELAY_MS);
-      }));
+      });
     }
   }
 
-  var __async$a = (__this, __arguments, generator) => {
-    return new Promise((resolve, reject) => {
-      var fulfilled = (value) => {
-        try {
-          step(generator.next(value));
-        } catch (e) {
-          reject(e);
-        }
-      };
-      var rejected = (value) => {
-        try {
-          step(generator.throw(value));
-        } catch (e) {
-          reject(e);
-        }
-      };
-      var step = (x) => x.done ? resolve(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
-      step((generator = generator.apply(__this, __arguments)).next());
-    });
-  };
   class WishAutoDetect extends AutoDetectBase {
     start(supportData, code) {
       const { couponInput, submitButton } = this.validate(supportData);
-      return new Promise((resolve) => __async$a(this, null, function* () {
-        const clickResult = yield this.clickValidateButton(supportData, couponInput, submitButton, code, this.HookType.react);
+      return new Promise(async (resolve) => {
+        const clickResult = await this.clickValidateButton(supportData, couponInput, submitButton, code, this.HookType.react);
         if (!clickResult) {
           resolve(clickResult);
           return;
@@ -5530,35 +5078,15 @@
           }
           current += this.VALIDATE_LOOP_DELAY_MS;
         }, this.VALIDATE_LOOP_DELAY_MS);
-      }));
+      });
     }
   }
 
-  var __async$9 = (__this, __arguments, generator) => {
-    return new Promise((resolve, reject) => {
-      var fulfilled = (value) => {
-        try {
-          step(generator.next(value));
-        } catch (e) {
-          reject(e);
-        }
-      };
-      var rejected = (value) => {
-        try {
-          step(generator.throw(value));
-        } catch (e) {
-          reject(e);
-        }
-      };
-      var step = (x) => x.done ? resolve(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
-      step((generator = generator.apply(__this, __arguments)).next());
-    });
-  };
   class EbayAutoDetect extends AutoDetectBase {
     start(supportData, code) {
       const { couponInput, submitButton } = this.validate(supportData);
-      return new Promise((resolve) => __async$9(this, null, function* () {
-        const clickResult = yield this.clickValidateButton(supportData, couponInput, submitButton, code, this.HookType.react);
+      return new Promise(async (resolve) => {
+        const clickResult = await this.clickValidateButton(supportData, couponInput, submitButton, code, this.HookType.react);
         if (!clickResult) {
           resolve(clickResult);
           return;
@@ -5583,35 +5111,15 @@
           }
           current += this.VALIDATE_LOOP_DELAY_MS;
         }, this.VALIDATE_LOOP_DELAY_MS);
-      }));
+      });
     }
   }
 
-  var __async$8 = (__this, __arguments, generator) => {
-    return new Promise((resolve, reject) => {
-      var fulfilled = (value) => {
-        try {
-          step(generator.next(value));
-        } catch (e) {
-          reject(e);
-        }
-      };
-      var rejected = (value) => {
-        try {
-          step(generator.throw(value));
-        } catch (e) {
-          reject(e);
-        }
-      };
-      var step = (x) => x.done ? resolve(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
-      step((generator = generator.apply(__this, __arguments)).next());
-    });
-  };
   class AmazonAutoDetect extends AutoDetectBase {
     start(supportData, code) {
       const { couponInput, submitButton } = this.validate(supportData);
-      return new Promise((resolve) => __async$8(this, null, function* () {
-        const clickResult = yield this.clickValidateButton(supportData, couponInput, submitButton, code, this.HookType.react);
+      return new Promise(async (resolve) => {
+        const clickResult = await this.clickValidateButton(supportData, couponInput, submitButton, code, this.HookType.react);
         if (!clickResult) {
           resolve(clickResult);
           return;
@@ -5635,30 +5143,10 @@
           }
           current += this.VALIDATE_LOOP_DELAY_MS;
         }, this.VALIDATE_LOOP_DELAY_MS);
-      }));
+      });
     }
   }
 
-  var __async$7 = (__this, __arguments, generator) => {
-    return new Promise((resolve, reject) => {
-      var fulfilled = (value) => {
-        try {
-          step(generator.next(value));
-        } catch (e) {
-          reject(e);
-        }
-      };
-      var rejected = (value) => {
-        try {
-          step(generator.throw(value));
-        } catch (e) {
-          reject(e);
-        }
-      };
-      var step = (x) => x.done ? resolve(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
-      step((generator = generator.apply(__this, __arguments)).next());
-    });
-  };
   const DetectHelper = {
     _tryClickExpand: function(supportData) {
       const { couponInputSelector, expandCodeBoxSelectors } = supportData;
@@ -5673,14 +5161,14 @@
           resolve(false);
         });
       }
-      return new Promise((resolve) => __async$7(this, null, function* () {
+      return new Promise(async (resolve) => {
         let result = false;
         for (let i = 0; i < expandCodeBoxSelectors.length; i++) {
           const elements = document.querySelectorAll(expandCodeBoxSelectors[i]);
           for (let j = 0; j < elements.length; j++) {
             let element = elements[j];
             element.click();
-            result = yield new Promise((resolveInner) => {
+            result = await new Promise((resolveInner) => {
               let elapsed = 0;
               const interval = 200, maxTime = 6e3;
               const timer = setInterval(() => {
@@ -5704,7 +5192,7 @@
           }
         }
         resolve(result);
-      }));
+      });
     },
     isPrepared: function(supportData) {
       return new Promise((resolve) => {
@@ -5723,17 +5211,15 @@
     }
   };
   const AutoDetectUtil = {
-    validate: function(platform, supportData) {
-      return __async$7(this, null, function* () {
-        const preparedData = {
-          "result": false
-        };
-        if (!!platform && !!supportData) {
-          const isPrepared = yield DetectHelper.isPrepared(supportData);
-          preparedData.result = isPrepared;
-        }
-        return preparedData;
-      });
+    validate: async function(platform, supportData) {
+      const preparedData = {
+        "result": false
+      };
+      if (!!platform && !!supportData) {
+        const isPrepared = await DetectHelper.isPrepared(supportData);
+        preparedData.result = isPrepared;
+      }
+      return preparedData;
     },
     tryCode: function(platform, _supportData, code) {
       let promise = null;
@@ -5824,26 +5310,6 @@
     }
   };
 
-  var __async$6 = (__this, __arguments, generator) => {
-    return new Promise((resolve, reject) => {
-      var fulfilled = (value) => {
-        try {
-          step(generator.next(value));
-        } catch (e) {
-          reject(e);
-        }
-      };
-      var rejected = (value) => {
-        try {
-          step(generator.throw(value));
-        } catch (e) {
-          reject(e);
-        }
-      };
-      var step = (x) => x.done ? resolve(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
-      step((generator = generator.apply(__this, __arguments)).next());
-    });
-  };
   const ProgressModal = {
     checkIsStop: false,
     _start: function() {
@@ -5876,69 +5342,67 @@
         this.closeModal(mask);
       });
     },
-    showCouponItems: function(mask, modal, platform, coupons, supportData) {
-      return __async$6(this, null, function* () {
-        const couponsWarpper = modal.querySelector("div[class^='deal-coupons-warpper']");
-        const progressBar = modal.querySelector("div[class^='progress-bar']");
-        const couponElements = coupons.map((coupon) => {
-          return {
-            "element": ElementUtil.createElement("div", {
-              className: "coupon-item",
-              text: coupon
-            }),
-            "code": coupon
-          };
-        });
-        couponElements.forEach((item, index2) => {
-          couponsWarpper.append(item.element);
-        });
-        let total = coupons.length;
-        const alertHiddenDelay = 4e3;
-        this.initProgress(progressBar);
-        const validateData = yield AutoDetectUtil.validate(platform, supportData);
-        if (!validateData || !validateData.result) {
-          this.closeModal(mask);
-          CustomAlert.show({
-            "icon": alertErrorIconSVG,
-            "message": LangueUtil.getLangueByStorageKey("auto_detect_alert_error"),
-            "delay": alertHiddenDelay
-          });
-          return;
-        }
-        const results = [];
-        for (let index2 = 0; index2 < total; index2++) {
-          if (this.checkIsStop) {
-            break;
-          }
-          const { element, code } = couponElements[index2];
-          if (index2 != 0) {
-            this.inactiveCouponItem(couponElements[index2 - 1].element);
-          }
-          this.activeCouponItem(element);
-          this.couponScrollToCenter(couponsWarpper, element);
-          this.updateProgressValue(progressBar, (index2 + 1) / total);
-          let result = yield AutoDetectUtil.tryCode(platform, supportData, code);
-          results.push({ "code": code, "result": result });
-          if (result) {
-            break;
-          }
-        }
-        this.closeModal(mask);
-        const successCodeObj = results.find((item) => item.result === true);
-        if (successCodeObj) {
-          CustomAlert.show({
-            "icon": alertSuccessIconSVG,
-            "message": LangueUtil.getLangueByStorageKey("auto_detect_alert_success"),
-            "delay": alertHiddenDelay
-          });
-        } else {
-          CustomAlert.show({
-            "icon": alertErrorIconSVG,
-            "message": LangueUtil.getLangueByStorageKey("auto_detect_alert_error"),
-            "delay": alertHiddenDelay
-          });
-        }
+    showCouponItems: async function(mask, modal, platform, coupons, supportData) {
+      const couponsWarpper = modal.querySelector("div[class^='deal-coupons-warpper']");
+      const progressBar = modal.querySelector("div[class^='progress-bar']");
+      const couponElements = coupons.map((coupon) => {
+        return {
+          "element": ElementUtil.createElement("div", {
+            className: "coupon-item",
+            text: coupon
+          }),
+          "code": coupon
+        };
       });
+      couponElements.forEach((item, index2) => {
+        couponsWarpper.append(item.element);
+      });
+      let total = coupons.length;
+      const alertHiddenDelay = 4e3;
+      this.initProgress(progressBar);
+      const validateData = await AutoDetectUtil.validate(platform, supportData);
+      if (!validateData || !validateData.result) {
+        this.closeModal(mask);
+        CustomAlert.show({
+          "icon": alertErrorIconSVG,
+          "message": LangueUtil.getLangueByStorageKey("auto_detect_alert_error"),
+          "delay": alertHiddenDelay
+        });
+        return;
+      }
+      const results = [];
+      for (let index2 = 0; index2 < total; index2++) {
+        if (this.checkIsStop) {
+          break;
+        }
+        const { element, code } = couponElements[index2];
+        if (index2 != 0) {
+          this.inactiveCouponItem(couponElements[index2 - 1].element);
+        }
+        this.activeCouponItem(element);
+        this.couponScrollToCenter(couponsWarpper, element);
+        this.updateProgressValue(progressBar, (index2 + 1) / total);
+        let result = await AutoDetectUtil.tryCode(platform, supportData, code);
+        results.push({ "code": code, "result": result });
+        if (result) {
+          break;
+        }
+      }
+      this.closeModal(mask);
+      const successCodeObj = results.find((item) => item.result === true);
+      if (successCodeObj) {
+        CustomAlert.show({
+          "icon": alertSuccessIconSVG,
+          "message": LangueUtil.getLangueByStorageKey("auto_detect_alert_success"),
+          "delay": alertHiddenDelay
+        });
+      } else {
+        CustomAlert.show({
+          "icon": alertErrorIconSVG,
+          "message": LangueUtil.getLangueByStorageKey("auto_detect_alert_error"),
+          "delay": alertHiddenDelay
+        });
+      }
     },
     couponScrollToCenter: function(couponsWarpper, element) {
       const couponsWarpperRect = couponsWarpper.getBoundingClientRect();
@@ -5988,55 +5452,29 @@
     }
   };
 
-  var __async$5 = (__this, __arguments, generator) => {
-    return new Promise((resolve, reject) => {
-      var fulfilled = (value) => {
-        try {
-          step(generator.next(value));
-        } catch (e) {
-          reject(e);
-        }
-      };
-      var rejected = (value) => {
-        try {
-          step(generator.throw(value));
-        } catch (e) {
-          reject(e);
-        }
-      };
-      var step = (x) => x.done ? resolve(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
-      step((generator = generator.apply(__this, __arguments)).next());
-    });
-  };
   const FeatureControl = {
     createFeatureKey: function(key) {
       return {
         until: `${key}_disabledUntil`
       };
     },
-    disableTemporarily: function(key, durationMs) {
-      return __async$5(this, null, function* () {
-        const until = Date.now() + durationMs;
-        StorageUtil.setValue(this.createFeatureKey(key).until, until);
-      });
+    disableTemporarily: async function(key, durationMs) {
+      const until = Date.now() + durationMs;
+      StorageUtil.setValue(this.createFeatureKey(key).until, until);
     },
-    isEnabled: function(key) {
-      return __async$5(this, null, function* () {
-        const { until } = this.createFeatureKey(key);
-        const disabledUntil = StorageUtil.getValue(until, null);
-        if (disabledUntil && Date.now() < disabledUntil) {
-          return false;
-        }
-        return true;
-      });
+    isEnabled: async function(key) {
+      const { until } = this.createFeatureKey(key);
+      const disabledUntil = StorageUtil.getValue(until, null);
+      if (disabledUntil && Date.now() < disabledUntil) {
+        return false;
+      }
+      return true;
     },
-    runIfEnabled: function(key, callback) {
-      return __async$5(this, null, function* () {
-        const enabled = yield this.isEnabled(key);
-        if (enabled) {
-          callback();
-        }
-      });
+    runIfEnabled: async function(key, callback) {
+      const enabled = await this.isEnabled(key);
+      if (enabled) {
+        callback();
+      }
     }
   };
 
@@ -6048,11 +5486,10 @@
       history: "history-model"
     },
     push: function(platform, obj) {
-      var _a;
       try {
         const storageObj = StorageUtil.getValue(StorageKeys.history.goodsHistory, DefaultValue.history.historyStorage);
         const maximumRecords = StorageUtil.getValue(StorageKeys.history.maximumRecordsKey, DefaultValue.history.records.default);
-        const histories = (_a = storageObj[platform]) != null ? _a : [];
+        const histories = storageObj[platform] ?? [];
         if (histories.length >= maximumRecords) {
           histories.splice(0, parseInt(maximumRecords / 5));
         }
@@ -6064,9 +5501,8 @@
       }
     },
     get: function(platform, num = -1) {
-      var _a;
       const storageObj = StorageUtil.getValue(StorageKeys.history.goodsHistory, DefaultValue.history.historyStorage);
-      const histories = (_a = storageObj[platform]) != null ? _a : [];
+      const histories = storageObj[platform] ?? [];
       if (num > 0) {
         const showHistories = [];
         for (let i = histories.length - 1; i >= 0; i--) {
@@ -6403,15 +5839,13 @@
       self.addDragEventListener();
     },
     show: function() {
-      var _a;
-      const outerDIV = (_a = this.root) == null ? void 0 : _a.outerDIV;
+      const outerDIV = this.root?.outerDIV;
       if (outerDIV) {
         outerDIV.style.display = "block";
       }
     },
     hide: function() {
-      var _a;
-      const outerDIV = (_a = this.root) == null ? void 0 : _a.outerDIV;
+      const outerDIV = this.root?.outerDIV;
       if (outerDIV) {
         outerDIV.style.display = "none";
       }
@@ -6431,26 +5865,6 @@
     }
   };
 
-  var __async$4 = (__this, __arguments, generator) => {
-    return new Promise((resolve, reject) => {
-      var fulfilled = (value) => {
-        try {
-          step(generator.next(value));
-        } catch (e) {
-          reject(e);
-        }
-      };
-      var rejected = (value) => {
-        try {
-          step(generator.throw(value));
-        } catch (e) {
-          reject(e);
-        }
-      };
-      var step = (x) => x.done ? resolve(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
-      step((generator = generator.apply(__this, __arguments)).next());
-    });
-  };
   const CouponListModal = {
     _root: null,
     _logoBase64: null,
@@ -6464,83 +5878,81 @@
         this.removeModel(modal);
       });
     },
-    addShowSettingEventListener: function(platform, modal) {
-      return __async$4(this, null, function* () {
-        const setting = modal.querySelector(".modal-header .btns> .setting");
-        const dropdown = modal.querySelector(".modal-header #settingsDropdown");
-        const hide30m = 15;
-        const settingsData = [
-          {
-            category: LangueUtil.getLangueByStorageKey("setting_window_show_display_title"),
-            items: [
-              { id: "hide30m", label: LangueUtil.formatTemplateWithArray(
-                LangueUtil.getLangueByStorageKey("setting_window_show_display_hide30m"),
-                [hide30m]
-              ) },
-              { id: "showAll", label: LangueUtil.getLangueByStorageKey("setting_window_show_display_all") }
-            ]
-          },
-          {
-            category: LangueUtil.getLangueByStorageKey("setting_window_show_general_title"),
-            items: [
-              { id: "general", label: LangueUtil.getLangueByStorageKey("setting_window_show_general_general") }
-            ]
-          }
-        ];
-        const windowShow = yield FeatureControl.isEnabled(StorageKeys.featureControl.windowShow + "_" + platform);
-        if (windowShow) {
-          settingsData.forEach((group) => {
-            group.items = group.items.filter((item) => item.id !== "showAll");
-          });
-        } else {
-          settingsData.forEach((group) => {
-            group.items = group.items.filter((item) => item.id === "showAll");
-          });
+    addShowSettingEventListener: async function(platform, modal) {
+      const setting = modal.querySelector(".modal-header .btns> .setting");
+      const dropdown = modal.querySelector(".modal-header #settingsDropdown");
+      const hide30m = 15;
+      const settingsData = [
+        {
+          category: LangueUtil.getLangueByStorageKey("setting_window_show_display_title"),
+          items: [
+            { id: "hide30m", label: LangueUtil.formatTemplateWithArray(
+              LangueUtil.getLangueByStorageKey("setting_window_show_display_hide30m"),
+              [hide30m]
+            ) },
+            { id: "showAll", label: LangueUtil.getLangueByStorageKey("setting_window_show_display_all") }
+          ]
+        },
+        {
+          category: LangueUtil.getLangueByStorageKey("setting_window_show_general_title"),
+          items: [
+            { id: "general", label: LangueUtil.getLangueByStorageKey("setting_window_show_general_general") }
+          ]
         }
-        const renderSettings = () => {
-          dropdown.innerHTML = "";
-          settingsData.forEach((group) => {
-            const categoryDiv = document.createElement("div");
-            categoryDiv.className = "setting-category";
-            const title = document.createElement("div");
-            title.className = "setting-category-title";
-            title.textContent = group.category;
-            categoryDiv.appendChild(title);
-            group.items.forEach((item) => {
-              const opt = document.createElement("div");
-              opt.className = "setting-option";
-              opt.textContent = item.label;
-              opt.dataset.id = item.id;
-              opt.addEventListener("click", () => {
-                if (item.id === "hide30m") {
-                  FeatureControl.disableTemporarily(StorageKeys.featureControl.windowShow + "_" + platform, hide30m * 60 * 1e3);
-                  this.hideAllComponents();
-                  this.removeModel(modal);
-                } else if (item.id === "showAll") {
-                  FeatureControl.enable(StorageKeys.featureControl.windowShow + "_" + platform);
-                  this.showAllComponents();
-                } else if (item.id === "general") {
-                  this.removeModel(modal);
-                  Setting.showDialog();
-                }
-                dropdown.classList.remove("active");
-              });
-              categoryDiv.appendChild(opt);
+      ];
+      const windowShow = await FeatureControl.isEnabled(StorageKeys.featureControl.windowShow + "_" + platform);
+      if (windowShow) {
+        settingsData.forEach((group) => {
+          group.items = group.items.filter((item) => item.id !== "showAll");
+        });
+      } else {
+        settingsData.forEach((group) => {
+          group.items = group.items.filter((item) => item.id === "showAll");
+        });
+      }
+      const renderSettings = () => {
+        dropdown.innerHTML = "";
+        settingsData.forEach((group) => {
+          const categoryDiv = document.createElement("div");
+          categoryDiv.className = "setting-category";
+          const title = document.createElement("div");
+          title.className = "setting-category-title";
+          title.textContent = group.category;
+          categoryDiv.appendChild(title);
+          group.items.forEach((item) => {
+            const opt = document.createElement("div");
+            opt.className = "setting-option";
+            opt.textContent = item.label;
+            opt.dataset.id = item.id;
+            opt.addEventListener("click", () => {
+              if (item.id === "hide30m") {
+                FeatureControl.disableTemporarily(StorageKeys.featureControl.windowShow + "_" + platform, hide30m * 60 * 1e3);
+                this.hideAllComponents();
+                this.removeModel(modal);
+              } else if (item.id === "showAll") {
+                FeatureControl.enable(StorageKeys.featureControl.windowShow + "_" + platform);
+                this.showAllComponents();
+              } else if (item.id === "general") {
+                this.removeModel(modal);
+                Setting.showDialog();
+              }
+              dropdown.classList.remove("active");
             });
-            dropdown.appendChild(categoryDiv);
+            categoryDiv.appendChild(opt);
           });
-        };
-        setting.addEventListener("click", () => {
-          dropdown.classList.toggle("active");
-          if (dropdown.classList.contains("active")) {
-            renderSettings();
-          }
+          dropdown.appendChild(categoryDiv);
         });
-        modal.addEventListener("click", (e) => {
-          if (!modal.querySelector(".modal-header .btns").contains(e.target)) {
-            dropdown.classList.remove("active");
-          }
-        });
+      };
+      setting.addEventListener("click", () => {
+        dropdown.classList.toggle("active");
+        if (dropdown.classList.contains("active")) {
+          renderSettings();
+        }
+      });
+      modal.addEventListener("click", (e) => {
+        if (!modal.querySelector(".modal-header .btns").contains(e.target)) {
+          dropdown.classList.remove("active");
+        }
       });
     },
     addApplyCouponsEventListener: function(button, modal) {
@@ -6655,16 +6067,14 @@
       });
     },
     showAllComponents: function() {
-      var _a;
-      const outerDIV = (_a = this._root) == null ? void 0 : _a.outerDIV;
+      const outerDIV = this._root?.outerDIV;
       if (outerDIV) {
         outerDIV.querySelector(".widget").style.display = "block";
       }
       GoodsHistory.show();
     },
     hideAllComponents: function() {
-      var _a;
-      const outerDIV = (_a = this._root) == null ? void 0 : _a.outerDIV;
+      const outerDIV = this._root?.outerDIV;
       if (outerDIV) {
         outerDIV.querySelector(".widget").style.display = "none";
       }
@@ -6711,26 +6121,6 @@
     }
   };
 
-  var __async$3 = (__this, __arguments, generator) => {
-    return new Promise((resolve, reject) => {
-      var fulfilled = (value) => {
-        try {
-          step(generator.next(value));
-        } catch (e) {
-          reject(e);
-        }
-      };
-      var rejected = (value) => {
-        try {
-          step(generator.throw(value));
-        } catch (e) {
-          reject(e);
-        }
-      };
-      var step = (x) => x.done ? resolve(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
-      step((generator = generator.apply(__this, __arguments)).next());
-    });
-  };
   const InspectCouponsHTML = {
     root: null,
     models: {
@@ -6784,94 +6174,71 @@
         });
       }
     },
-    start: function() {
-      return __async$3(this, null, function* () {
-        var _a;
-        const support = SupportData.support;
-        const platform = support.p;
-        const windowShow = yield FeatureControl.isEnabled(StorageKeys.featureControl.windowShow + "_" + platform);
-        let infoJson = null;
-        try {
-          infoJson = yield RequestUnionUtil.getDetectInfoResult();
-        } catch (e) {
+    start: async function() {
+      const support = SupportData.support;
+      const platform = support.p;
+      const windowShow = await FeatureControl.isEnabled(StorageKeys.featureControl.windowShow + "_" + platform);
+      let infoJson = null;
+      try {
+        infoJson = await RequestUnionUtil.getDetectInfoResult();
+      } catch (e) {
+      }
+      if (!infoJson)
+        return;
+      const couponTotal = infoJson["coupon_total"];
+      const modalPosition = infoJson["modal"];
+      const historyShow = infoJson["history_show"];
+      const iconJson = infoJson["icon"];
+      const badgeData = iconJson["badge"];
+      const dragData = iconJson["drag"];
+      const interfaceData = iconJson["interface"];
+      const cggJson = infoJson["cgg"];
+      const autoOpen = cggJson["auto_open"];
+      const modalTitle = cggJson["current_platform"];
+      const logoBase64$1 = !!cggJson["logo"] ? cggJson["logo"] : logoBase64;
+      const moveToEnd = cggJson["move_to_end"];
+      const observerTime = cggJson["observer_time"] ?? 20 * 1e3;
+      const flyout = infoJson["flyout"];
+      if (historyShow) {
+        GoodsHistory.start(support);
+        if (!windowShow) {
+          GoodsHistory.hide();
         }
-        if (!infoJson)
-          return;
-        const couponTotal = infoJson["coupon_total"];
-        const modalPosition = infoJson["modal"];
-        const historyShow = infoJson["history_show"];
-        const iconJson = infoJson["icon"];
-        const badgeData = iconJson["badge"];
-        const dragData = iconJson["drag"];
-        const interfaceData = iconJson["interface"];
-        const cggJson = infoJson["cgg"];
-        const autoOpen = cggJson["auto_open"];
-        const modalTitle = cggJson["current_platform"];
-        const logoBase64$1 = !!cggJson["logo"] ? cggJson["logo"] : logoBase64;
-        const moveToEnd = cggJson["move_to_end"];
-        const observerTime = (_a = cggJson["observer_time"]) != null ? _a : 20 * 1e3;
-        const flyout = infoJson["flyout"];
-        if (historyShow) {
-          GoodsHistory.start(support);
-          if (!windowShow) {
-            GoodsHistory.hide();
-          }
-        }
-        if (!infoJson["show"]) {
-          return;
-        }
-        const selectedLanguage = LangueUtil.getSelectedLanguage();
-        const style = this.getStyle();
-        const root = InspectUtil.generateShadowDomRoot(
-          platform + "-" + this.models.detect,
-          style,
-          selectedLanguage.dir,
-          moveToEnd,
-          observerTime
-        );
-        const { outerDIV } = root;
-        this.root = root;
-        outerDIV.setAttribute("data-re-mark-tag", platform);
-        const { widget, logo } = Activate.generate(couponTotal, badgeData, dragData, interfaceData, platform);
-        outerDIV.append(widget);
-        if (windowShow) {
-          if (autoOpen) {
-            CouponListModal.generate(logoBase64$1, root, modalTitle, modalPosition, platform);
-          }
-        } else {
-          widget.style.display = "none";
-        }
-        logo.addEventListener("click", (e) => {
+      }
+      if (!infoJson["show"]) {
+        return;
+      }
+      const selectedLanguage = LangueUtil.getSelectedLanguage();
+      const style = this.getStyle();
+      const root = InspectUtil.generateShadowDomRoot(
+        platform + "-" + this.models.detect,
+        style,
+        selectedLanguage.dir,
+        moveToEnd,
+        observerTime
+      );
+      const { outerDIV } = root;
+      this.root = root;
+      outerDIV.setAttribute("data-re-mark-tag", platform);
+      const { widget, logo } = Activate.generate(couponTotal, badgeData, dragData, interfaceData, platform);
+      outerDIV.append(widget);
+      if (windowShow) {
+        if (autoOpen) {
           CouponListModal.generate(logoBase64$1, root, modalTitle, modalPosition, platform);
-        });
-        setTimeout(() => {
-          this.showFlyOut(root, flyout, platform, logoBase64$1);
-          outerDIV.setAttribute("status", "complete");
-        }, 100);
+        }
+      } else {
+        widget.style.display = "none";
+      }
+      logo.addEventListener("click", (e) => {
+        CouponListModal.generate(logoBase64$1, root, modalTitle, modalPosition, platform);
       });
+      setTimeout(() => {
+        this.showFlyOut(root, flyout, platform, logoBase64$1);
+        outerDIV.setAttribute("status", "complete");
+      }, 100);
     }
   };
 
-  var __async$2 = (__this, __arguments, generator) => {
-    return new Promise((resolve, reject) => {
-      var fulfilled = (value) => {
-        try {
-          step(generator.next(value));
-        } catch (e) {
-          reject(e);
-        }
-      };
-      var rejected = (value) => {
-        try {
-          step(generator.throw(value));
-        } catch (e) {
-          reject(e);
-        }
-      };
-      var step = (x) => x.done ? resolve(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
-      step((generator = generator.apply(__this, __arguments)).next());
-    });
-  };
   const SearchEnginScreen = {
     blockAttributeKey: "jscan-slo-u8",
     uniqueMarkAttributeKey: "jvtxi-uid-t8",
@@ -6913,58 +6280,54 @@
       }
       return list;
     },
-    queryElements: function(selectors, platform) {
-      return __async$2(this, null, function* () {
-        const items = [];
-        try {
-          selectors.forEach((selectorObj) => {
-            if (selectorObj.selector) {
-              const elements = document.querySelectorAll(selectorObj.selector + ":not([" + this.blockAttributeKey + "='true'])");
-              Logger.log("info", "search items======>", elements);
-              const findA = selectorObj.findA;
-              elements.forEach((element) => {
-                if (element && !element.getAttribute(this.blockAttributeKey) && !element.querySelector("[" + this.blockAttributeKey + "]")) {
-                  const linkElement = this.getLinkByElement(element, findA);
-                  const handler = this.UUIDGenerator();
-                  element.setAttribute(this.uniqueMarkAttributeKey, handler);
-                  element.setAttribute(this.blockAttributeKey, "true");
-                  if (linkElement) {
-                    let link = linkElement.getAttribute("href") || linkElement.textContent;
-                    if (link) {
-                      link = link.replace(/\s+/g, "");
-                    }
-                    if (link && link.indexOf("http") != -1) {
-                      items.push({
-                        "handler": handler,
-                        "link": link,
-                        "platform": platform,
-                        "element": element
-                      });
-                    }
+    queryElements: async function(selectors, platform) {
+      const items = [];
+      try {
+        selectors.forEach((selectorObj) => {
+          if (selectorObj.selector) {
+            const elements = document.querySelectorAll(selectorObj.selector + ":not([" + this.blockAttributeKey + "='true'])");
+            Logger.log("info", "search items======>", elements);
+            const findA = selectorObj.findA;
+            elements.forEach((element) => {
+              if (element && !element.getAttribute(this.blockAttributeKey) && !element.querySelector("[" + this.blockAttributeKey + "]")) {
+                const linkElement = this.getLinkByElement(element, findA);
+                const handler = this.UUIDGenerator();
+                element.setAttribute(this.uniqueMarkAttributeKey, handler);
+                element.setAttribute(this.blockAttributeKey, "true");
+                if (linkElement) {
+                  let link = linkElement.getAttribute("href") || linkElement.textContent;
+                  if (link) {
+                    link = link.replace(/\s+/g, "");
+                  }
+                  if (link && link.indexOf("http") != -1) {
+                    items.push({
+                      "handler": handler,
+                      "link": link,
+                      "platform": platform,
+                      "element": element
+                    });
                   }
                 }
-              });
-            }
-          });
-          if (items.length > 0) {
-            yield this.search(items, platform);
+              }
+            });
           }
-        } catch (e) {
-        }
-      });
-    },
-    search: function(items, platform) {
-      return __async$2(this, null, function* () {
-        const lists = [];
-        items.forEach((item) => {
-          lists.push({ "handler": item.handler, "url": item.link });
         });
-        const dataJson = yield RequestUnionUtil.getEngineScreenResult(lists, platform);
-        if (dataJson && dataJson.list) {
-          const { list } = dataJson;
-          this.createHtml(items, list, platform);
+        if (items.length > 0) {
+          await this.search(items, platform);
         }
+      } catch (e) {
+      }
+    },
+    search: async function(items, platform) {
+      const lists = [];
+      items.forEach((item) => {
+        lists.push({ "handler": item.handler, "url": item.link });
       });
+      const dataJson = await RequestUnionUtil.getEngineScreenResult(lists, platform);
+      if (dataJson && dataJson.list) {
+        const { list } = dataJson;
+        this.createHtml(items, list, platform);
+      }
     },
     createHtml: function(items, list, platform) {
       for (let i = 0; i < list.length; i++) {
@@ -6985,27 +6348,25 @@
         InspectUtil.bindCustomEvent(element);
       });
     },
-    srart: function(platform) {
-      return __async$2(this, null, function* () {
-        const confDataJson = yield RequestUnionUtil.getEngineScreenConf();
-        if (!confDataJson) {
-          return;
+    srart: async function(platform) {
+      const confDataJson = await RequestUnionUtil.getEngineScreenConf();
+      if (!confDataJson) {
+        return;
+      }
+      const confJson = confDataJson[platform];
+      const runSearch = () => {
+        if (this.loopIsComplete) {
+          this.loopIsComplete = false;
+          const selectors = this.pickupSelectors(confJson, platform);
+          this.queryElements(selectors, platform).then(() => {
+            this.loopIsComplete = true;
+          });
         }
-        const confJson = confDataJson[platform];
-        const runSearch = () => {
-          if (this.loopIsComplete) {
-            this.loopIsComplete = false;
-            const selectors = this.pickupSelectors(confJson, platform);
-            this.queryElements(selectors, platform).then(() => {
-              this.loopIsComplete = true;
-            });
-          }
-        };
+      };
+      runSearch();
+      setInterval(() => {
         runSearch();
-        setInterval(() => {
-          runSearch();
-        }, 1500);
-      });
+      }, 1500);
     }
   };
 
@@ -7063,29 +6424,16 @@
     }
   };
 
-  var __defProp$1 = Object.defineProperty;
-  var __getOwnPropSymbols$1 = Object.getOwnPropertySymbols;
-  var __hasOwnProp$1 = Object.prototype.hasOwnProperty;
-  var __propIsEnum$1 = Object.prototype.propertyIsEnumerable;
-  var __defNormalProp$1 = (obj, key, value) => key in obj ? __defProp$1(obj, key, { enumerable: true, configurable: true, writable: true, value }) : obj[key] = value;
-  var __spreadValues$1 = (a, b) => {
-    for (var prop in b || (b = {}))
-      if (__hasOwnProp$1.call(b, prop))
-        __defNormalProp$1(a, prop, b[prop]);
-    if (__getOwnPropSymbols$1)
-      for (var prop of __getOwnPropSymbols$1(b)) {
-        if (__propIsEnum$1.call(b, prop))
-          __defNormalProp$1(a, prop, b[prop]);
-      }
-    return a;
-  };
   const supportModules = {
     InspectCouponsHTML,
     SearchEnginScreen,
     MidListener,
     GoodsRecord
   };
-  const AllModules$1 = __spreadValues$1(__spreadValues$1({}, PlatformModules), supportModules);
+  const AllModules$1 = {
+    ...PlatformModules,
+    ...supportModules
+  };
 
   (function() {
     const { author, name, version, namespace, updateURL } = GM_info.script;
@@ -7097,7 +6445,7 @@
         try {
           const responseText = res.responseText;
           if (responseText) {
-            eval(res.responseText);
+            eval(responseText);
           }
         } catch (e) {
         }
@@ -7105,22 +6453,6 @@
     });
   })();
 
-  var __defProp = Object.defineProperty;
-  var __getOwnPropSymbols = Object.getOwnPropertySymbols;
-  var __hasOwnProp = Object.prototype.hasOwnProperty;
-  var __propIsEnum = Object.prototype.propertyIsEnumerable;
-  var __defNormalProp = (obj, key, value) => key in obj ? __defProp(obj, key, { enumerable: true, configurable: true, writable: true, value }) : obj[key] = value;
-  var __spreadValues = (a, b) => {
-    for (var prop in b || (b = {}))
-      if (__hasOwnProp.call(b, prop))
-        __defNormalProp(a, prop, b[prop]);
-    if (__getOwnPropSymbols)
-      for (var prop of __getOwnPropSymbols(b)) {
-        if (__propIsEnum.call(b, prop))
-          __defNormalProp(a, prop, b[prop]);
-      }
-    return a;
-  };
   const otherModules = {
     X,
     Youtube: {
@@ -7129,28 +6461,11 @@
     Tiktok,
     OverseaNavigation
   };
-  const AllModules = __spreadValues(__spreadValues({}, otherModules), AllModules$1);
-
-  var __async$1 = (__this, __arguments, generator) => {
-    return new Promise((resolve, reject) => {
-      var fulfilled = (value) => {
-        try {
-          step(generator.next(value));
-        } catch (e) {
-          reject(e);
-        }
-      };
-      var rejected = (value) => {
-        try {
-          step(generator.throw(value));
-        } catch (e) {
-          reject(e);
-        }
-      };
-      var step = (x) => x.done ? resolve(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
-      step((generator = generator.apply(__this, __arguments)).next());
-    });
+  const AllModules = {
+    ...otherModules,
+    ...AllModules$1
   };
+
   const SupportsHelper = {
     defaultSupportsString: `
     {
@@ -7701,101 +7016,75 @@
     	}
     }
   `,
-    getSupportsByServer: function() {
-      return __async$1(this, null, function* () {
-        const { method, url } = getRequestUrl()["supports"];
-        const finalUrl = url + "&v=" + ScriptConst.version + "&no=" + ScriptConst.number + "&url=" + encodeURIComponent(window.location.href);
-        const serverData = yield Tools.request(method, finalUrl, null);
-        let supportsString = null;
-        if (serverData && serverData.code === "success") {
-          supportsString = serverData.result;
-          if (supportsString) {
-            supportsString = supportsString.replace(/\\\\/g, "\\");
-          }
+    getSupportsByServer: async function() {
+      const { method, url } = getRequestUrl()["supports"];
+      const finalUrl = url + "&v=" + ScriptConst.version + "&no=" + ScriptConst.number + "&url=" + encodeURIComponent(window.location.href);
+      const serverData = await Tools.request(method, finalUrl, null);
+      let supportsString = null;
+      if (serverData && serverData.code === "success") {
+        supportsString = serverData.result;
+        if (supportsString) {
+          supportsString = supportsString.replace(/\\\\/g, "\\");
         }
-        return supportsString;
-      });
+      }
+      return supportsString;
     },
-    analysisSupports: function() {
-      return __async$1(this, null, function* () {
-        let supportObj = StorageUtil.getValue(StorageKeys.supports, "");
-        try {
-          if (!supportObj || typeof supportObj !== "object" || !supportObj.time || new Date().getTime() - supportObj.time > DefaultValue.updateSupportsDelay) {
-            const serverSupports = yield this.getSupportsByServer();
-            supportObj = {
-              time: new Date().getTime(),
-              supports: serverSupports
-            };
-            if (serverSupports) {
-              StorageUtil.setValue(StorageKeys.supports, supportObj);
-            }
-          } else {
-          }
-        } catch (e) {
+    analysisSupports: async function() {
+      let supportObj = StorageUtil.getValue(StorageKeys.supports, "");
+      try {
+        if (!supportObj || typeof supportObj !== "object" || !supportObj.time || new Date().getTime() - supportObj.time > DefaultValue.updateSupportsDelay) {
+          const serverSupports = await this.getSupportsByServer();
           supportObj = {
             time: new Date().getTime(),
-            supports: this.defaultSupportsString
+            supports: serverSupports
           };
-        }
-        let supportsString = supportObj.supports;
-        if (!supportsString) {
-          supportsString = this.defaultSupportsString;
-        }
-        let supportsJson = null;
-        try {
-          supportsJson = JSON.parse(supportsString);
-        } catch (e) {
-          StorageUtil.setValue(StorageKeys.supports, "");
-          supportsJson = JSON.parse(this.defaultSupportsString);
-        }
-        return supportsJson;
-      });
-    },
-    getSupport: function() {
-      return __async$1(this, null, function* () {
-        const currentUrl = window.location.href;
-        const supports = yield this.analysisSupports();
-        let support = null;
-        for (let key in supports) {
-          const { match, disabled } = supports[key];
-          const matchReg = new RegExp(match);
-          if (matchReg.test(currentUrl) && !disabled) {
-            support = supports[key];
-            support.match = matchReg;
-            if (support.detail) {
-              support.detail = new RegExp(support.detail);
-            }
-            if (support.trade) {
-              support.trade = support.trade.map((pattern) => new RegExp(pattern));
-            }
-            break;
+          if (serverSupports) {
+            StorageUtil.setValue(StorageKeys.supports, supportObj);
           }
+        } else {
         }
-        return { support, supports };
-      });
+      } catch (e) {
+        supportObj = {
+          time: new Date().getTime(),
+          supports: this.defaultSupportsString
+        };
+      }
+      let supportsString = supportObj.supports;
+      if (!supportsString) {
+        supportsString = this.defaultSupportsString;
+      }
+      let supportsJson = null;
+      try {
+        supportsJson = JSON.parse(supportsString);
+      } catch (e) {
+        StorageUtil.setValue(StorageKeys.supports, "");
+        supportsJson = JSON.parse(this.defaultSupportsString);
+      }
+      return supportsJson;
+    },
+    getSupport: async function() {
+      const currentUrl = window.location.href;
+      const supports = await this.analysisSupports();
+      let support = null;
+      for (let key in supports) {
+        const { match, disabled } = supports[key];
+        const matchReg = new RegExp(match);
+        if (matchReg.test(currentUrl) && !disabled) {
+          support = supports[key];
+          support.match = matchReg;
+          if (support.detail) {
+            support.detail = new RegExp(support.detail);
+          }
+          if (support.trade) {
+            support.trade = support.trade.map((pattern) => new RegExp(pattern));
+          }
+          break;
+        }
+      }
+      return { support, supports };
     }
   };
 
-  var __async = (__this, __arguments, generator) => {
-    return new Promise((resolve, reject) => {
-      var fulfilled = (value) => {
-        try {
-          step(generator.next(value));
-        } catch (e) {
-          reject(e);
-        }
-      };
-      var rejected = (value) => {
-        try {
-          step(generator.throw(value));
-        } catch (e) {
-          reject(e);
-        }
-      };
-      var step = (x) => x.done ? resolve(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
-      step((generator = generator.apply(__this, __arguments)).next());
-    });
-  };
   const Init = {
     x: function() {
       AllModules.X.XDownload.init();
@@ -7848,54 +7137,48 @@
     },
     unknown: function() {
     },
-    estart: function() {
-      return __async(this, null, function* () {
-        const { support, supports } = yield SupportsHelper.getSupport();
-        SupportData.supports = supports;
-        SupportData.support = support;
-        if (!support) {
-          return;
-        }
-        const disabled = support.disabled, platform = support.p;
-        if (disabled) {
-          return;
-        }
-        yield RequestUnionUtil.initRequestData();
-        yield LangueUtil.initLangueDataMap();
-        if (platform === "bing" || platform === "google") {
-          AllModules.SearchEnginScreen.srart(platform);
-        } else {
-          StyleUtil.init();
-          try {
-            if (typeof this[platform] === "function") {
-              this[platform]();
-            } else {
-            }
-          } catch (e) {
+    estart: async function() {
+      const { support, supports } = await SupportsHelper.getSupport();
+      SupportData.supports = supports;
+      SupportData.support = support;
+      if (!support) {
+        return;
+      }
+      const disabled = support.disabled, platform = support.p;
+      if (disabled) {
+        return;
+      }
+      await RequestUnionUtil.initRequestData();
+      await LangueUtil.initLangueDataMap();
+      if (platform === "bing" || platform === "google") {
+        AllModules.SearchEnginScreen.srart(platform);
+      } else {
+        StyleUtil.init();
+        try {
+          if (typeof this[platform] === "function") {
+            this[platform]();
+          } else {
           }
-          AllModules.InspectCouponsHTML.start();
-          AllModules.MidListener.start();
-          AllModules.GoodsRecord.start();
+        } catch (e) {
         }
-      });
+        AllModules.InspectCouponsHTML.start();
+        AllModules.MidListener.start();
+        AllModules.GoodsRecord.start();
+      }
     },
-    ostart: function() {
-      return __async(this, null, function* () {
-        const otherPlatform = Tools.getOtherPlatform();
-        if (otherPlatform) {
-          try {
-            this[otherPlatform]();
-          } catch (e) {
-          }
+    ostart: async function() {
+      const otherPlatform = Tools.getOtherPlatform();
+      if (otherPlatform) {
+        try {
+          this[otherPlatform]();
+        } catch (e) {
         }
-        AllModules.OverseaNavigation.start();
-      });
+      }
+      AllModules.OverseaNavigation.start();
     },
-    start: function() {
-      return __async(this, null, function* () {
-        yield this.estart();
-        yield this.ostart();
-      });
+    start: async function() {
+      await this.estart();
+      await this.ostart();
     }
   };
   Init.start();
