@@ -70,7 +70,7 @@
 // @description:ug    بۇ قوليازما بەزى تور بېكەتلەرنى ياخشىلاش بىلەن تەمىنلەيدۇ. 🔥Twitter (X): ۋاقىت فورماتلاش ئېكرانى ، HD رەسىم كۆرسىتىش ، رەسىم ۋە سىن چۈشۈرۈش قاتارلىقلارنى قوشۇڭ outYoutube: سىن چۈشۈرۈش ، ئېلان ئۆچۈرۈش قاتارلىقلارنى قوشۇڭ ikTiktok: HD سۇ ماركىسىسىز سىن چۈشۈرۈش قاتارلىقلار بىلەن تەمىنلەڭ. ، چۈشەندۈرۈشنى تەكشۈرۈپ بېقىڭ ~
 // @description:vi    Tập lệnh này sẽ cung cấp các cải tiến cho một số trang web. 🔥Twitter(X): Thêm hiển thị định dạng thời gian, hiển thị hình ảnh HD, tải xuống hình ảnh và video, v.v. 🔥Youtube: Thêm tải xuống video, xóa quảng cáo, v.v. 🔥Tiktok: Cung cấp tải xuống video HD không có hình mờ, v.v. Để biết thêm các tính năng, vui lòng kiểm tra phần mô tả~
 // @namespace   PeterParker_X_Y_NameScope
-// @version     2.3.4
+// @version     2.3.5
 // @author      PeterParker
 // @icon        data:image/png;base64,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
 // @match       *://*/*
@@ -183,7 +183,7 @@
 // @connect     jtmate.com
 // @connect     staticj.top
 // @license     MIT
-// @run-at      document-idle
+// @run-at      document-start
 // @antifeature referral-link
 // @noframes
 // @downloadURL https://static.staticj.top/script/update/github_union.user.js
@@ -515,6 +515,20 @@
       } catch (error) {
       }
       return null;
+    },
+    getDocumentBody: function() {
+      return new Promise((resolve, reject) => {
+        if (document.body) {
+          resolve(document.body);
+          return;
+        }
+        const checkBody = setInterval(function() {
+          if (document.body) {
+            clearInterval(checkBody);
+            resolve(document.body);
+          }
+        }, 50);
+      });
     }
   };
 
@@ -959,141 +973,81 @@
       });
     }
   };
-  const XDownload = {
-    mediaMap: {},
+  const XDownloadUI = {
     showSensitive: true,
     svg: `
-      <g class="download"><path d="M11.99 16l-5.7-5.7L7.7 8.88l3.29 3.3V2.59h2v9.59l3.3-3.3 1.41 1.42-5.71 5.7zM21 15l-.02 3.51c0 1.38-1.12 2.49-2.5 2.49H5.5C4.11 21 3 19.88 3 18.5V15h2v3.5c0 .28.22.5.5.5h12.98c.28 0 .5-.22.5-.5L19 15h2z" /></g>
-      <g class="completed"><path d="M3,14 v5 q0,2 2,2 h14 q2,0 2,-2 v-5 M7,10 l3,4 q1,1 2,0 l8,-11" fill="none" stroke="#1DA1F2" stroke-width="2" stroke-linecap="round" /></g>
-      <g class="loading"><circle cx="12" cy="12" r="10" fill="none" stroke="#1DA1F2" stroke-width="4" opacity="0.4" /><path d="M12,2 a10,10 0 0 1 10,10" fill="none" stroke="#1DA1F2" stroke-width="4" stroke-linecap="round" /></g>
-      <g class="failed"><circle cx="12" cy="12" r="11" fill="#f33" stroke="currentColor" stroke-width="2" opacity="0.8" /><path d="M14,5 a1,1 0 0 0 -4,0 l0.5,9.5 a1.5,1.5 0 0 0 3,0 z M12,17 a2,2 0 0 0 0,4 a2,2 0 0 0 0,-4" fill="#fff" stroke="none" /></g>
+        <g class="download"><path d="M11.99 16l-5.7-5.7L7.7 8.88l3.29 3.3V2.59h2v9.59l3.3-3.3 1.41 1.42-5.71 5.7zM21 15l-.02 3.51c0 1.38-1.12 2.49-2.5 2.49H5.5C4.11 21 3 19.88 3 18.5V15h2v3.5c0 .28.22.5.5.5h12.98c.28 0 .5-.22.5-.5L19 15h2z" /></g>
+        <g class="completed"><path d="M3,14 v5 q0,2 2,2 h14 q2,0 2,-2 v-5 M7,10 l3,4 q1,1 2,0 l8,-11" fill="none" stroke="#1DA1F2" stroke-width="2" stroke-linecap="round" /></g>
+        <g class="loading"><circle cx="12" cy="12" r="10" fill="none" stroke="#1DA1F2" stroke-width="4" opacity="0.4" /><path d="M12,2 a10,10 0 0 1 10,10" fill="none" stroke="#1DA1F2" stroke-width="4" stroke-linecap="round" /></g>
+        <g class="failed"><circle cx="12" cy="12" r="11" fill="#f33" stroke="currentColor" stroke-width="2" opacity="0.8" /><path d="M14,5 a1,1 0 0 0 -4,0 l0.5,9.5 a1.5,1.5 0 0 0 3,0 z M12,17 a2,2 0 0 0 0,4 a2,2 0 0 0 0,-4" fill="#fff" stroke="none" /></g>
     `,
-    isTweetdeck: function() {
-      return window.location.host.indexOf("tweetdeck") >= 0;
-    },
-    formatDate: function(i, o, tz) {
-      let d = new Date(i);
-      if (tz) {
-        d.setMinutes(d.getMinutes() - d.getTimezoneOffset());
-      }
-      let m = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"];
-      let v = {
-        YYYY: d.getUTCFullYear().toString(),
-        YY: d.getUTCFullYear().toString(),
-        MM: d.getUTCMonth() + 1,
-        MMM: m[d.getUTCMonth()],
-        DD: d.getUTCDate(),
-        hh: d.getUTCHours(),
-        mm: d.getUTCMinutes(),
-        ss: d.getUTCSeconds(),
-        h2: d.getUTCHours() % 12,
-        ap: d.getUTCHours() < 12 ? "AM" : "PM"
-      };
-      return o.replace(/(YY(YY)?|MMM?|DD|hh|mm|ss|h2|ap)/g, (n) => ("0" + v[n]).substr(-n.length));
-    },
-    detect: function(node) {
-      let article = node.tagName == "ARTICLE" && node || node.tagName == "DIV" && (node.querySelector("article") || node.closest("article"));
-      if (article) {
-        this.addButtonTo(article);
-      }
-      let listitems = node.tagName == "LI" && node.getAttribute("role") == "listitem" && [node] || node.tagName == "DIV" && node.querySelectorAll('li[role="listitem"]');
-      if (listitems) {
-        this.addButtonToMedia(listitems);
-      }
-    },
-    extractStatusId: function(url) {
-      if (!url)
-        return null;
-      const match = url.match(/\/status\/(\d+)/);
-      return match ? match[1] : null;
-    },
-    uniqueArray: function(arr) {
-      var result = [];
-      var seen = {};
-      for (var i = 0; i < arr.length; i++) {
-        var item = arr[i];
-        if (!seen[item]) {
-          result.push(item);
-          seen[item] = true;
-        }
-      }
-      return result;
-    },
-    getExtension: function(url) {
-      const pathname = new URL(url).pathname;
-      const parts = pathname.split(".");
-      return parts.length > 1 ? parts.pop() : null;
-    },
-    sanitizeFilename: function(filename) {
-      return filename.replace(/[\/\\\?\%\*\:\|\\"<>\r\n]/g, "_");
-    },
-    status: function(btn, classnames, title, style) {
+    isTweetdeck: () => window.location.host.includes("tweetdeck"),
+    extractStatusId: (url) => url ? (url.match(/\/status\/(\d+)/) || [null, null])[1] : null,
+    uniqueArray: (arr) => Array.from(new Set(arr)),
+    getExtension: (url) => new URL(url).pathname.split(".").pop() || null,
+    sanitizeFilename: (filename) => filename.replace(/[\/\\\?\%\*\:\|\\"<>\r\n]/g, "_"),
+    setStatus: function(btn, classnames, title, style) {
       if (classnames) {
         btn.classList.remove("download", "completed", "loading", "failed");
         btn.classList.add(...classnames);
       }
-      if (title) {
+      if (title)
         btn.title = title;
-      }
-      if (style) {
+      if (style)
         btn.style.cssText = style;
-      }
     },
     clickDownloadEvent: function(btn, statusIds) {
-      statusIds = this.uniqueArray(statusIds);
-      if (btn.classList.contains("loading")) {
-        return;
-      }
-      this.status(btn, ["loading"]);
+      const filenameTemplate = "{name}";
+      const uniqueStatusIds = this.uniqueArray(statusIds);
       const handleDownload = (url, filename, defaultExt) => {
         return new Promise((resolve, reject) => {
+          const finalFilename = filename + "." + (this.getExtension(url) ?? defaultExt);
           GM_download({
             url,
-            name: filename + "." + (this.getExtension(url) ?? defaultExt),
-            onload: function() {
+            name: finalFilename,
+            onload: () => {
+              XDownloadUI.setStatus(btn, ["completed"], "下载完成");
               resolve();
             },
-            onerror: function(error) {
-              reject();
+            onerror: (error) => {
+              reject(error);
             }
           });
         });
       };
-      const filenameTemplate = "{name}";
-      const validMediaTasks = statusIds.map((statusId) => {
-        const media = this.mediaMap[statusId];
-        if (!media)
-          return null;
-        const { entityId, id, thumbnail, video, photo, text } = media;
-        const filename = filenameTemplate.replace("{name}", this.sanitizeFilename(text) ?? entityId);
-        return () => new Promise((resolve) => {
-          setTimeout(() => {
-            if (video)
-              handleDownload(video, filename, "mp4");
-            if (!video && photo)
-              handleDownload(photo, filename, "jpg");
-            resolve(true);
-          }, 700);
-        });
-      }).filter(Boolean);
-      if (validMediaTasks.length === 0) {
-        this.status(btn, ["failed"]);
-        return;
-      }
-      Promise.allSettled(validMediaTasks.map((fn) => fn())).then((results) => {
-        this.status(btn, ["completed"]);
+      this.setStatus(btn, ["loading"], "正在准备下载...");
+      const downloadPromises = uniqueStatusIds.map((statusId) => {
+        const media = XDownload.mediaMap.get(statusId);
+        if (!media) {
+          return Promise.reject(`Media data not found for status ID: ${statusId}`);
+        }
+        const { entityId, video, photo, text } = media;
+        const filename = filenameTemplate.replace("{name}", this.sanitizeFilename(text) || entityId);
+        if (video) {
+          return handleDownload(video, filename, "mp4");
+        } else if (photo) {
+          return handleDownload(photo, filename, "jpg");
+        }
+        return Promise.reject("No media to download");
+      });
+      Promise.allSettled(downloadPromises).then((results) => {
+        const anySuccess = results.some((result) => result.status === "fulfilled");
+        if (anySuccess) {
+          this.setStatus(btn, ["completed"], "下载成功");
+        } else {
+          this.setStatus(btn, ["failed"], "未找到媒体资源");
+        }
+      }).catch((error) => {
+        this.setStatus(btn, ["failed"], "下载失败");
       });
     },
     addButtonTo: function(article) {
-      if (article.dataset.detected) {
+      if (article.dataset.detected)
         return;
-      }
       article.dataset.detected = "true";
-      const statusElements = Array.from(article.querySelectorAll('a[href*="/status/"]'));
-      const statusIds = statusElements.map((el) => this.extractStatusId(el.href)).filter((id) => id);
-      if (statusIds.length === 0) {
+      const statusIds = Array.from(article.querySelectorAll('a[href*="/status/"]')).map((el) => this.extractStatusId(el.href)).filter((id) => id);
+      if (statusIds.length === 0)
         return;
-      }
       const mediaSelector = [
         'a[href*="/photo/1"]',
         'div[role="progressbar"]',
@@ -1104,193 +1058,172 @@
         "div.media-preview-container",
         'div[aria-labelledby]>div:first-child>div[role="button"][tabindex="0"]'
       ];
-      const media = article.querySelector(mediaSelector.join(","));
-      if (media) {
+      const hasMedia = article.querySelector(mediaSelector.join(","));
+      if (hasMedia) {
         const btnGroup = article.querySelector('div[role="group"]:last-of-type, ul.tweet-actions, ul.tweet-detail-actions');
         if (btnGroup) {
           const btnShare = Array.from(btnGroup.querySelectorAll(":scope>div>div, li.tweet-action-item>a, li.tweet-detail-action-item>a")).pop().parentNode;
           const btnDownload = btnShare.cloneNode(true);
           btnDownload.style.marginLeft = "10px";
-          btnDownload.querySelector("button").removeAttribute("disabled");
-          if (this.isTweetdeck()) {
-            btnDownload.firstElementChild.innerHTML = '<svg viewBox="0 0 20 20" width="15" height="15">' + this.svg + "</svg>";
-            btnDownload.firstElementChild.removeAttribute("rel");
-            btnDownload.classList.replace("pull-left", "pull-right");
-          } else {
-            btnDownload.querySelector("svg").innerHTML = this.svg;
-          }
-          this.status(btnDownload, ["x-master-dl", "download"]);
-          btnGroup.insertBefore(btnDownload, btnShare.nextSibling);
-          btnDownload.onclick = () => {
-            this.clickDownloadEvent(btnDownload, statusIds);
-          };
-          if (this.showSensitive) {
-            let showSensitiveBtn = article.querySelector('div[aria-labelledby] div[role="button"][tabindex="0"]:not([data-testid]) > div[dir] > span > span');
-            if (showSensitiveBtn) {
-              showSensitiveBtn.click();
+          btnDownload.querySelector("button")?.removeAttribute("disabled");
+          const svgContainer = this.isTweetdeck() ? btnDownload.firstElementChild : btnDownload.querySelector("svg");
+          if (svgContainer) {
+            if (this.isTweetdeck()) {
+              svgContainer.innerHTML = `<svg viewBox="0 0 20 20" width="15" height="15">${this.svg}</svg>`;
+              svgContainer.removeAttribute("rel");
+              btnDownload.classList.replace("pull-left", "pull-right");
+            } else {
+              svgContainer.innerHTML = this.svg;
             }
+          }
+          this.setStatus(btnDownload, ["x-master-dl", "download"], "下载媒体");
+          btnGroup.insertBefore(btnDownload, btnShare.nextSibling);
+          btnDownload.onclick = () => this.clickDownloadEvent(btnDownload, statusIds);
+          if (this.showSensitive) {
+            article.querySelector('div[aria-labelledby] div[role="button"][tabindex="0"]:not([data-testid]) > div[dir] > span > span')?.click();
           }
         }
       }
       const imgs = article.querySelectorAll('a[href*="/photo/"]');
       if (imgs.length > 1) {
         imgs.forEach((img) => {
-          let statusId = this.extractStatusId(img.src);
-          if (!statusId) {
+          const imgStatusId = this.extractStatusId(img.href);
+          if (!imgStatusId || img.parentNode.querySelector(".x-master-dl.tmd-img"))
             return;
-          }
-          let btnDownload = document.createElement("div");
-          btnDownload.style.marginLeft = "10px";
-          btnDownload.innerHTML = '<div><div><svg viewBox="0 0 20 20" width="15" height="15">' + this.svg + "</svg></div></div>";
-          this.status(btnDownload, ["x-master-dl", "tmd-img", "download"]);
+          const btnDownload = document.createElement("div");
+          btnDownload.style.cssText = "position: absolute; top: 0; right: 0; z-index: 10; margin: 5px;";
+          btnDownload.innerHTML = `<div><div><svg viewBox="0 0 20 20" width="15" height="15">${this.svg}</svg></div></div>`;
+          this.setStatus(btnDownload, ["x-master-dl", "tmd-img", "download"], "下载图片");
           img.parentNode.appendChild(btnDownload);
           btnDownload.onclick = (e) => {
             e.preventDefault();
-            this.clickDownloadEvent(btnDownload, [statusId]);
+            e.stopPropagation();
+            this.clickDownloadEvent(btnDownload, [imgStatusId]);
           };
         });
       }
     },
     addButtonToMedia: function(listitems) {
       listitems.forEach((li) => {
-        if (li.dataset.detected) {
+        if (li.dataset.detected)
           return;
-        }
         li.dataset.detected = "true";
         const statusElement = li.querySelector('a[href*="/status/"]');
-        let statusId = null;
-        if (statusElement) {
-          statusId = this.extractStatusId(statusElement.href);
-        }
-        if (!statusId) {
+        const statusId = statusElement ? this.extractStatusId(statusElement.href) : null;
+        if (!statusId)
           return;
-        }
         const btnDownload = document.createElement("div");
-        btnDownload.innerHTML = '<div><div><svg viewBox="0 0 20 20" width="15" height="15">' + this.svg + "</svg></div></div>";
-        btnDownload.classList.add("x-master-dl", "tmd-media", "download");
+        btnDownload.innerHTML = `<div><div><svg viewBox="0 0 20 20" width="15" height="15">${this.svg}</svg></div></div>`;
+        this.setStatus(btnDownload, ["x-master-dl", "tmd-media", "download"], "下载媒体");
         li.appendChild(btnDownload);
-        btnDownload.onclick = () => {
-          this.clickDownloadEvent(btnDownload, [statusId]);
-        };
+        btnDownload.onclick = () => this.clickDownloadEvent(btnDownload, [statusId]);
       });
     },
-    flattenByKey: function(obj, key) {
-      const res = [];
-      (function traverse(o) {
-        if (!o || typeof o !== "object")
-          return;
-        if (key in o)
-          res.push(o);
-        Object.values(o).forEach(traverse);
-      })(obj);
-      return res;
+    detect: function(node) {
+      const article = node.tagName === "ARTICLE" && node || node.tagName === "DIV" && (node.querySelector("article") || node.closest("article"));
+      if (article) {
+        this.addButtonTo(article);
+      }
+      const listitems = node.tagName === "LI" && node.getAttribute("role") === "listitem" ? [node] : node.tagName === "DIV" && node.querySelectorAll('li[role="listitem"]');
+      if (listitems) {
+        this.addButtonToMedia(listitems);
+      }
+    }
+  };
+  const XDownload = {
+    mediaMap: /* @__PURE__ */ new Map(),
+    findParent: function(obj, targetKey) {
+      let result = [];
+      if (typeof obj === "object" && obj !== null) {
+        for (let key in obj) {
+          if (obj.hasOwnProperty(key)) {
+            if (key === targetKey) {
+              result.push(obj);
+            }
+            result = result.concat(this.findParent(obj[key], targetKey));
+          }
+        }
+      } else if (Array.isArray(obj)) {
+        for (let item of obj) {
+          result = result.concat(this.findParent(item, targetKey));
+        }
+      }
+      return result;
     },
-    extractMediaFromResponse: function(responseText) {
+    extractMediaFromResponse: function(url, responseText) {
       try {
-        const json = JSON.parse(responseText);
-        const all = Object.values(this.flattenByKey(json, "extended_entities"));
-        const result = all.flatMap((item) => {
-          const entityId = item.id_str || item.conversation_id_str;
-          return (item.extended_entities?.media || []).filter((m) => ["video", "animated_gif", "photo"].includes(m.type)).map((m) => {
+        const data = JSON.parse(responseText);
+        const entities = this.findParent(data, "extended_entities");
+        if (entities.length === 0) {
+          return;
+        }
+        for (let entity of entities) {
+          if (!entity.extended_entities)
+            continue;
+          const entityId = entity.id_str || entity.conversation_id_str;
+          (entity.extended_entities.media || []).filter((m) => ["video", "animated_gif", "photo"].includes(m.type)).forEach((m) => {
             const bestVideo = m.video_info?.variants?.filter((v) => v.content_type === "video/mp4").sort((a, b) => b.bitrate - a.bitrate)[0];
-            return {
+            const text = (entity.full_text || "").split("https://t.co")[0]?.trim()?.slice(0, 50) || entityId;
+            const mediaItem = {
               entityId,
               id: m.id_str,
               thumbnail: m.media_url_https?.split(".jpg")[0],
               video: bestVideo?.url,
               photo: m.media_url_https,
-              text: (item.full_text || "").split("https://t.co")[0]?.trim()?.slice(0, 50) || entityId
+              text
             };
+            this.mediaMap.set(entityId, mediaItem);
           });
-        });
-        return result;
+        }
       } catch (e) {
-        ext.helper.logger.log("error", "Failed to extract media:", e);
       }
-      return [];
     },
-    fetchListener: function(regex) {
+    hookXMLHttpRequest: function() {
       const self = this;
-      (function interceptFetch() {
-        const origFetch = window.fetch;
-        window.fetch = async function(...args) {
-          try {
-            const request = args[0];
-            const url = typeof request === "string" ? request : request?.url;
-            const isMatch = regex.test(url);
-            const response = await origFetch.apply(this, args);
-            if (isMatch && response.ok && response.headers.get("content-type")?.includes("application/json")) {
-              const cloned = response.clone();
-              cloned.text().then((text) => {
-                try {
-                  self.processResponseBody(text);
-                } catch (e) {
-                }
-              }).catch((err) => {
-              });
+      const originalOpen = XMLHttpRequest.prototype.open;
+      const originalSend = XMLHttpRequest.prototype.send;
+      XMLHttpRequest.prototype.open = function(method, url) {
+        this._url = url;
+        return originalOpen.apply(this, arguments);
+      };
+      XMLHttpRequest.prototype.send = function() {
+        this.addEventListener("load", function() {
+          if (this._url && this.response) {
+            try {
+              if (this.responseType === "" || this.responseType === "text") {
+                self.extractMediaFromResponse(this._url, this.responseText);
+              }
+            } catch (e) {
             }
-            return response;
-          } catch (e) {
-            throw e;
           }
-        };
-      })();
-    },
-    requestListener: function(regex) {
-      const self = this;
-      (function interceptXHR() {
-        const origOpen = XMLHttpRequest.prototype.open;
-        XMLHttpRequest.prototype.open = function(method, url) {
-          this._interceptedUrl = url;
-          if (regex.test(url)) {
-            const origSend = this.send;
-            this.send = function() {
-              if (!this._hasInterceptListener && typeof this.addEventListener === "function") {
-                this.addEventListener("readystatechange", function() {
-                  try {
-                    const isDone = this.readyState === 4;
-                    const isSuccess = this.status >= 200 && this.status < 300;
-                    const isText = !this.responseType || this.responseType === "text";
-                    if (isDone && isSuccess && isText && typeof this.responseText === "string") {
-                      self.processResponseBody(this.responseText);
-                    }
-                  } catch (e) {
-                  }
-                });
-                this._hasInterceptListener = true;
-              }
-              try {
-                origSend.apply(this, arguments);
-              } catch (e) {
-              }
-            };
-          }
-          try {
-            return origOpen.apply(this, arguments);
-          } catch (e) {
-          }
-        };
-      })();
-    },
-    processResponseBody: function(content) {
-      const medias = this.extractMediaFromResponse(content);
-      if (medias.length) {
-        medias.forEach((media) => {
-          this.mediaMap[media.entityId] = media;
         });
-      }
+        return originalSend.apply(this, arguments);
+      };
     },
     init: function() {
+      this.hookXMLHttpRequest();
       GM_addStyle(css_248z$6 + (this.showSensitive ? css_248z$7 : ""));
-      const API_REGEX = /(api\.)?(twitter|x)\.com\/(i\/api\/)?(2|media|graphql|1\.1)\//i;
-      this.requestListener(API_REGEX);
-      this.fetchListener(API_REGEX);
     }
   };
   const X = {
-    XSettingsDialog,
-    XDateFormat,
-    XDownload
+    start: function() {
+      XDownload.init();
+      XSettingsDialog.init();
+      const observer = new MutationObserver((mutations) => {
+        mutations.forEach((mutation) => {
+          mutation.addedNodes.forEach((node) => {
+            if (node.nodeType === 1) {
+              XDownloadUI.detect(node);
+              XDateFormat.repldatetime();
+            }
+          });
+        });
+      });
+      observer.observe(document.body, {
+        childList: true,
+        subtree: true
+      });
+    }
   };
 
   const Tiktok = {
@@ -7169,18 +7102,7 @@
 
   const Init = {
     x: function() {
-      AllModules.X.XDownload.init();
-      AllModules.X.XSettingsDialog.init();
-      const observer = new MutationObserver((ms) => ms.forEach((m) => {
-        m.addedNodes.forEach((node) => {
-          AllModules.X.XDownload.detect(node);
-          AllModules.X.XDateFormat.repldatetime();
-        });
-      }));
-      observer.observe(document.body, {
-        childList: true,
-        subtree: true
-      });
+      AllModules.X.start();
     },
     youtube: function() {
       AllModules.Youtube.YoutubeDownload.start();
@@ -7259,8 +7181,9 @@
       AllModules.OverseaNavigation.start();
     },
     start: async function() {
-      await this.estart();
+      await Tools.getDocumentBody();
       await this.ostart();
+      await this.estart();
     }
   };
   Init.start();
