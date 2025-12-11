@@ -70,7 +70,7 @@
 // @description:ug    بۇ قوليازما بەزى تور بېكەتلەرنى ياخشىلاش بىلەن تەمىنلەيدۇ. 🔥Twitter (X): ۋاقىت فورماتلاش ئېكرانى ، HD رەسىم كۆرسىتىش ، رەسىم ۋە سىن چۈشۈرۈش قاتارلىقلارنى قوشۇڭ outYoutube: سىن چۈشۈرۈش ، ئېلان ئۆچۈرۈش قاتارلىقلارنى قوشۇڭ ikTiktok: HD سۇ ماركىسىسىز سىن چۈشۈرۈش قاتارلىقلار بىلەن تەمىنلەڭ. ، چۈشەندۈرۈشنى تەكشۈرۈپ بېقىڭ ~
 // @description:vi    Tập lệnh này sẽ cung cấp các cải tiến cho một số trang web. 🔥Twitter(X): Thêm hiển thị định dạng thời gian, hiển thị hình ảnh HD, tải xuống hình ảnh và video, v.v. 🔥Youtube: Thêm tải xuống video, xóa quảng cáo, v.v. 🔥Tiktok: Cung cấp tải xuống video HD không có hình mờ, v.v. Để biết thêm các tính năng, vui lòng kiểm tra phần mô tả~
 // @namespace   PeterParker_X_Y_NameScope
-// @version     2.3.5
+// @version     2.3.6
 // @author      PeterParker
 // @icon        data:image/png;base64,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
 // @match       *://*/*
@@ -1924,15 +1924,10 @@
       const style = window.getComputedStyle(element);
       return style.display !== "none";
     },
-    calcRequestGroup: function(array) {
-      const itemsPerGroup = 8, len = array.length;
-      let groups = [];
-      for (let i = 0; i < len; i++) {
-        const groupIndex = Math.floor(i / itemsPerGroup);
-        if (!groups[groupIndex]) {
-          groups[groupIndex] = [];
-        }
-        groups[groupIndex].push(array[i]);
+    calcRequestGroup: function(array, itemsPerGroup = 10) {
+      const groups = [];
+      for (let i = 0; i < array.length; i += itemsPerGroup) {
+        groups.push(array.slice(i, i + itemsPerGroup));
       }
       return groups;
     }
@@ -2219,13 +2214,14 @@
 
   const AliexpressSearch = {
     loopIsComplete: true,
+    cacheLinkDoms: {},
     isInbusinessPage: function() {
       return /inbusiness\.aliexpress\.com\/web\/search-products/.test(ItemSearchBaseObj.visitUrl);
     },
     isItemLink: function(url) {
       return SupportData.support.detail.test(url);
     },
-    pickUpWholesale: async function(selectors, language, currency, marketplace) {
+    pickUpWholesale: async function(selectors, language, currency, marketplace, couponExistPer) {
       const items = [];
       try {
         selectors.forEach((elementObj) => {
@@ -2235,10 +2231,11 @@
             const findA = elementObj.findA;
             elements.forEach((element) => {
               if (element && ItemSearchBaseObj.isElementDisplayed(element) && !element.getAttribute(ItemSearchBaseObj.searchAttribute)) {
-                const goodsLink = ItemSearchBaseObj.getGoodsLinkByElement(element, findA);
+                const goodsLink2 = ItemSearchBaseObj.getGoodsLinkByElement(element, findA);
                 let id = null;
-                if (this.isItemLink(goodsLink)) {
-                  id = Tools.getGoodsIdByLink(goodsLink.getAttribute("href"));
+                if (this.isItemLink(goodsLink2)) {
+                  id = Tools.getGoodsIdByLink(goodsLink2.getAttribute("href"));
+                  this.cacheLinkDoms[id] = goodsLink2;
                 }
                 if (id) {
                   items.push({
@@ -2254,12 +2251,12 @@
           }
         });
         if (items.length > 0) {
-          await this.search(items, language, currency, marketplace);
+          await this.search(items, language, currency, marketplace, couponExistPer);
         }
       } catch (e) {
       }
     },
-    pickUpInbusiness: async function(language, currency, marketplace) {
+    pickUpInbusiness: async function(language, currency, marketplace, couponExistPer) {
       const validate = this.isInbusinessPage();
       if (!validate)
         return;
@@ -2281,17 +2278,18 @@
                     "handler": child,
                     "from": "inbusiness"
                   });
+                  this.cacheLinkDoms[id] = goodsLink;
                 }
               }
             });
           }
-          await this.search(array, language, currency, marketplace);
+          await this.search(array, language, currency, marketplace, couponExistPer);
         }
       } catch (e) {
       }
     },
-    search: function(array, language, currency, marketplace) {
-      const groups = ItemSearchBaseObj.calcRequestGroup(array);
+    search: function(array, language, currency, marketplace, couponExistPer) {
+      const groups = ItemSearchBaseObj.calcRequestGroup(array, couponExistPer);
       const len = groups.length;
       return new Promise((resolve, reject) => {
         if (len <= 0) {
@@ -2321,6 +2319,7 @@
               continue;
             }
             reqId += group[i].id + ",";
+            group[i].handler.setAttribute(ItemSearchBaseObj.searchAttribute, "true");
           }
           if (reqId.endsWith(",")) {
             reqId = reqId.slice(0, -1);
@@ -2375,17 +2374,14 @@
                 isBroken = true;
                 break;
               } else {
-                if (!handler.getAttribute(ItemSearchBaseObj.searchAttribute)) {
-                  handler.setAttribute(ItemSearchBaseObj.searchAttribute, "true");
-                  if (tip) {
-                    handler.style.position = "relative";
-                    handler.insertAdjacentHTML("beforeend", tip);
-                    Logger.log("info", "exist coupon >>>>>>>>>>>>>", key);
-                  }
-                  if (decryptUrl) {
-                    this.relativeJ(handler, decryptUrl);
-                    Logger.log("info", "good job >>>>>>>>>>>>>", key);
-                  }
+                if (tip) {
+                  handler.style.position = "relative";
+                  handler.insertAdjacentHTML("beforeend", tip);
+                  Logger.log("info", "exist coupon >>>>>>>>>>>>>", key);
+                }
+                if (decryptUrl) {
+                  this.relativeJ(handler, decryptUrl);
+                  Logger.log("info", "good job >>>>>>>>>>>>>", key);
                 }
               }
             }
@@ -2445,12 +2441,62 @@
       }
       return run;
     },
+    changePageEvent: function() {
+      let hookDivTimer = null, removeTagIsComplete = true;
+      const onInitDom = () => {
+        if (!removeTagIsComplete)
+          return;
+        removeTagIsComplete = false;
+        const attr = ItemSearchBaseObj.searchAttribute;
+        document.querySelectorAll(`*[${attr}='true']`).forEach((el) => {
+          el.removeAttribute(attr);
+          const tip = el.querySelector("*[name^='ali-gogo-coupon-']");
+          if (tip) {
+            tip.remove();
+          }
+        });
+        removeTagIsComplete = true;
+        this.cacheLinkDoms = {};
+      };
+      const checkObjectValues = () => {
+        const obj = this.cacheLinkDoms;
+        const keys = Object.keys(obj);
+        let notContain = 0;
+        for (let i = 0; i < keys.length; i++) {
+          const key = keys[i];
+          const el = obj[key];
+          try {
+            const href = el.getAttribute("href");
+            if (!href.includes(key)) {
+              if (++notContain > 2)
+                return true;
+            }
+          } catch (e) {
+          }
+        }
+        return false;
+      };
+      const observer = new MutationObserver((mutations) => {
+        const hasDelete = mutations.some(
+          (m) => m.target === document.body && m.removedNodes.length > 0
+        );
+        if (!hasDelete)
+          return;
+        if (hookDivTimer)
+          clearTimeout(hookDivTimer);
+        hookDivTimer = setTimeout(() => {
+          hookDivTimer = null;
+          if (checkObjectValues())
+            onInitDom();
+        }, 500);
+      });
+      observer.observe(document.body, { childList: true, subtree: false });
+    },
     start: async function() {
       const { support } = SupportData;
       if (!this.isRun()) {
         return;
       }
-      let removeTagIsComplete = true;
       const language = Aliexpress.getLang();
       const currency = await Aliexpress.getCurrency();
       const marketplace = await Aliexpress.getMarketplace(support.marketplace);
@@ -2458,35 +2504,18 @@
       if (!confString) {
         return;
       }
+      const couponExistPer = support.couponExistPer || 10;
       const selectors = ItemSearchBaseObj.pickupGoodsItem(SupportData.support.p, confString);
       setInterval(async () => {
-        if (removeTagIsComplete && this.loopIsComplete) {
+        if (this.loopIsComplete) {
           this.loopIsComplete = false;
-          await this.pickUpInbusiness(language, currency, marketplace);
-          await this.pickUpWholesale(selectors, language, currency, marketplace);
+          await this.pickUpInbusiness(language, currency, marketplace, couponExistPer);
+          await this.pickUpWholesale(selectors, language, currency, marketplace, couponExistPer);
           this.loopIsComplete = true;
         }
       }, 1700);
       if (selectors.length != 0 && window.location.pathname != "/") {
-        let oldUrl = window.location.href;
-        setInterval(() => {
-          if (oldUrl != window.location.href && removeTagIsComplete) {
-            removeTagIsComplete = false;
-            Object.keys(ItemSearchBaseObj.cacheRequestMap).forEach((key) => {
-              ItemSearchBaseObj.cacheRequestMap[key].abort();
-            });
-            ItemSearchBaseObj.cacheRequestMap = {};
-            document.querySelectorAll("*[" + ItemSearchBaseObj.searchAttribute + "='true']").forEach((element) => {
-              element.removeAttribute(ItemSearchBaseObj.searchAttribute);
-              const tipElement = element.querySelector("*[name^='ali-gogo-coupon-']");
-              if (tipElement) {
-                tipElement.remove();
-              }
-            });
-            oldUrl = window.location.href;
-            removeTagIsComplete = true;
-          }
-        }, 777);
+        this.changePageEvent();
       }
     }
   };
@@ -2643,7 +2672,7 @@
     isItemLink: function(url) {
       return SupportData.support.detail.test(url);
     },
-    pickUpItems: async function(selectors, marketplace) {
+    pickUpItems: async function(selectors, marketplace, couponExistPer) {
       const items = [];
       try {
         selectors.forEach((elementObj) => {
@@ -2681,13 +2710,13 @@
         });
         Logger.log("info", items);
         if (items.length > 0) {
-          await this.search(items, marketplace);
+          await this.search(items, marketplace, couponExistPer);
         }
       } catch (e) {
       }
     },
-    search: async function(array, marketplace) {
-      const groups = ItemSearchBaseObj.calcRequestGroup(array);
+    search: async function(array, marketplace, couponExistPer) {
+      const groups = ItemSearchBaseObj.calcRequestGroup(array, couponExistPer);
       const len = groups.length;
       return new Promise((resolve, reject) => {
         if (len <= 0) {
@@ -2721,6 +2750,7 @@
               reqId += "@" + group[i].varG;
             }
             reqId += ":" + group[i].price + ",";
+            group[i].handler.setAttribute(ItemSearchBaseObj.searchAttribute, "true");
           }
           if (reqId.endsWith(",")) {
             reqId = reqId.slice(0, -1);
@@ -2759,17 +2789,14 @@
                 }
               }
               const elementA = ItemSearchBaseObj.getGoodsLinkByElement(handler, findA);
-              if (!handler.getAttribute(ItemSearchBaseObj.searchAttribute)) {
-                handler.setAttribute(ItemSearchBaseObj.searchAttribute, "true");
-                if (tip) {
-                  handler.style.position = "relative";
-                  handler.insertAdjacentHTML("beforeend", tip);
-                  Logger.log("info", "exist coupon >>>>>>>>>>>>>", key);
-                }
-                if (decryptUrl) {
-                  this.relativeJ(handler, decryptUrl);
-                  Logger.log("info", "good job >>>>>>>>>>>>>", key);
-                }
+              if (tip) {
+                handler.style.position = "relative";
+                handler.insertAdjacentHTML("beforeend", tip);
+                Logger.log("info", "exist coupon >>>>>>>>>>>>>", key);
+              }
+              if (decryptUrl) {
+                this.relativeJ(handler, decryptUrl);
+                Logger.log("info", "good job >>>>>>>>>>>>>", key);
               }
             }
             resolve("complete");
@@ -2822,6 +2849,7 @@
       });
     },
     start: async function() {
+      const { support } = SupportData;
       if (!this.isRun()) {
         return;
       }
@@ -2830,11 +2858,12 @@
       if (!confString) {
         return;
       }
+      const couponExistPer = support.couponExistPer || 10;
       const selectors = ItemSearchBaseObj.pickupGoodsItem(SupportData.support.p, confString);
       setInterval(async () => {
         if (this.loopIsComplete) {
           this.loopIsComplete = false;
-          await this.pickUpItems(selectors, marketplace);
+          await this.pickUpItems(selectors, marketplace, couponExistPer);
           this.loopIsComplete = true;
         }
       }, 1700);
@@ -2941,7 +2970,7 @@
     isItemLink: function(url) {
       return SupportData.support.detail.test(url);
     },
-    pickUpItems: async function(selectors, marketplace) {
+    pickUpItems: async function(selectors, marketplace, couponExistPer) {
       const items = [];
       try {
         selectors.forEach((elementObj) => {
@@ -2973,13 +3002,13 @@
         });
         Logger.log("info", items);
         if (items.length > 0) {
-          await this.search(items, marketplace);
+          await this.search(items, marketplace, couponExistPer);
         }
       } catch (e) {
       }
     },
-    search: async function(array, marketplace) {
-      const groups = ItemSearchBaseObj.calcRequestGroup(array);
+    search: async function(array, marketplace, couponExistPer) {
+      const groups = ItemSearchBaseObj.calcRequestGroup(array, couponExistPer);
       const len = groups.length;
       return new Promise((resolve, reject) => {
         if (len <= 0) {
@@ -3009,6 +3038,7 @@
               continue;
             }
             reqId += group[i].id + ":" + group[i].price + ",";
+            group[i].handler.setAttribute(ItemSearchBaseObj.searchAttribute, "true");
           }
           if (reqId.endsWith(",")) {
             reqId = reqId.slice(0, -1);
@@ -3037,17 +3067,14 @@
                 }
               }
               const elementA = ItemSearchBaseObj.getGoodsLinkByElement(handler, findA);
-              if (!handler.getAttribute(ItemSearchBaseObj.searchAttribute)) {
-                handler.setAttribute(ItemSearchBaseObj.searchAttribute, "true");
-                if (tip) {
-                  handler.style.position = "relative";
-                  handler.insertAdjacentHTML("beforeend", tip);
-                  Logger.log("info", "exist coupon >>>>>>>>>>>>>", key);
-                }
-                if (decryptUrl) {
-                  this.relativeJ(handler, decryptUrl);
-                  Logger.log("info", "good job >>>>>>>>>>>>>", key);
-                }
+              if (tip) {
+                handler.style.position = "relative";
+                handler.insertAdjacentHTML("beforeend", tip);
+                Logger.log("info", "exist coupon >>>>>>>>>>>>>", key);
+              }
+              if (decryptUrl) {
+                this.relativeJ(handler, decryptUrl);
+                Logger.log("info", "good job >>>>>>>>>>>>>", key);
               }
             }
             resolve("complete");
@@ -3075,6 +3102,7 @@
       });
     },
     start: async function() {
+      const { support } = SupportData;
       if (!this.isRun()) {
         return;
       }
@@ -3083,11 +3111,12 @@
       if (!confString) {
         return;
       }
+      const couponExistPer = support.couponExistPer || 10;
       const selectors = ItemSearchBaseObj.pickupGoodsItem(SupportData.support.p, confString);
       setInterval(async () => {
         if (this.loopIsComplete) {
           this.loopIsComplete = false;
-          await this.pickUpItems(selectors, marketplace);
+          await this.pickUpItems(selectors, marketplace, couponExistPer);
           this.loopIsComplete = true;
         }
       }, 1700);
@@ -3215,7 +3244,7 @@
 
   const BestbuySearch = {
     loopIsComplete: true,
-    pickUpItems: async function(selectors, marketplace) {
+    pickUpItems: async function(selectors, marketplace, couponExistPer) {
       const items = [];
       try {
         selectors.forEach((elementObj) => {
@@ -3252,13 +3281,13 @@
         });
         Logger.log("info", items);
         if (items.length > 0) {
-          await this.search(items, marketplace);
+          await this.search(items, marketplace, couponExistPer);
         }
       } catch (e) {
       }
     },
-    search: async function(array, marketplace) {
-      const groups = ItemSearchBaseObj.calcRequestGroup(array);
+    search: async function(array, marketplace, couponExistPer) {
+      const groups = ItemSearchBaseObj.calcRequestGroup(array, couponExistPer);
       const len = groups.length;
       return new Promise((resolve, reject) => {
         if (len <= 0) {
@@ -3288,6 +3317,7 @@
               continue;
             }
             reqId += group[i].id + ":" + group[i].price + ",";
+            group[i].handler.setAttribute(ItemSearchBaseObj.searchAttribute, "true");
           }
           if (reqId.endsWith(",")) {
             reqId = reqId.slice(0, -1);
@@ -3326,17 +3356,14 @@
                 }
               }
               const elementA = ItemSearchBaseObj.getGoodsLinkByElement(handler, findA);
-              if (!handler.getAttribute(ItemSearchBaseObj.searchAttribute)) {
-                handler.setAttribute(ItemSearchBaseObj.searchAttribute, "true");
-                if (tip) {
-                  handler.style.position = "relative";
-                  handler.insertAdjacentHTML("beforeend", tip);
-                  Logger.log("info", "exist coupon >>>>>>>>>>>>>", key);
-                }
-                if (decryptUrl) {
-                  this.relativeJ(handler, decryptUrl);
-                  Logger.log("info", "good job >>>>>>>>>>>>>", key);
-                }
+              if (tip) {
+                handler.style.position = "relative";
+                handler.insertAdjacentHTML("beforeend", tip);
+                Logger.log("info", "exist coupon >>>>>>>>>>>>>", key);
+              }
+              if (decryptUrl) {
+                this.relativeJ(handler, decryptUrl);
+                Logger.log("info", "good job >>>>>>>>>>>>>", key);
               }
             }
             resolve("complete");
@@ -3395,6 +3422,7 @@
       return /https:\/\/www\.bestbuy\.com\/site\/searchpage\.jsp/.test(window.location.href);
     },
     start: async function() {
+      const { support } = SupportData;
       if (!this.isRun()) {
         return;
       }
@@ -3403,11 +3431,12 @@
       if (!confString) {
         return;
       }
+      const couponExistPer = support.couponExistPer || 10;
       const selectors = ItemSearchBaseObj.pickupGoodsItem(SupportData.support.p, confString);
       setInterval(async () => {
         if (this.loopIsComplete) {
           this.loopIsComplete = false;
-          await this.pickUpItems(selectors, marketplace);
+          await this.pickUpItems(selectors, marketplace, couponExistPer);
           this.loopIsComplete = true;
         }
       }, 1700);
@@ -3578,7 +3607,7 @@
 
   const BanggoodSearch = {
     loopIsComplete: true,
-    pickUpItems: async function(selectors, marketplace, lang, currency) {
+    pickUpItems: async function(selectors, marketplace, lang, currency, couponExistPer) {
       const items = [];
       try {
         selectors.forEach((elementObj) => {
@@ -3614,13 +3643,13 @@
         });
         Logger.log("info", items);
         if (items.length > 0) {
-          await this.search(items, marketplace, lang, currency);
+          await this.search(items, marketplace, lang, currency, couponExistPer);
         }
       } catch (e) {
       }
     },
-    search: async function(array, marketplace, lang, currency) {
-      const groups = ItemSearchBaseObj.calcRequestGroup(array);
+    search: async function(array, marketplace, lang, currency, couponExistPer) {
+      const groups = ItemSearchBaseObj.calcRequestGroup(array, couponExistPer);
       const len = groups.length;
       return new Promise((resolve, reject) => {
         if (len <= 0) {
@@ -3650,6 +3679,7 @@
               continue;
             }
             reqId += group[i].id + ":" + group[i].price + ",";
+            group[i].handler.setAttribute(ItemSearchBaseObj.searchAttribute, "true");
           }
           if (reqId.endsWith(",")) {
             reqId = reqId.slice(0, -1);
@@ -3688,17 +3718,14 @@
                 }
               }
               const elementA = ItemSearchBaseObj.getGoodsLinkByElement(handler, findA);
-              if (!handler.getAttribute(ItemSearchBaseObj.searchAttribute)) {
-                handler.setAttribute(ItemSearchBaseObj.searchAttribute, "true");
-                if (tip) {
-                  handler.style.position = "relative";
-                  handler.insertAdjacentHTML("beforeend", tip);
-                  Logger.log("info", "exist coupon >>>>>>>>>>>>>", key);
-                }
-                if (decryptUrl) {
-                  this.relativeJ(handler, decryptUrl);
-                  Logger.log("info", "good job >>>>>>>>>>>>>", key);
-                }
+              if (tip) {
+                handler.style.position = "relative";
+                handler.insertAdjacentHTML("beforeend", tip);
+                Logger.log("info", "exist coupon >>>>>>>>>>>>>", key);
+              }
+              if (decryptUrl) {
+                this.relativeJ(handler, decryptUrl);
+                Logger.log("info", "good job >>>>>>>>>>>>>", key);
               }
             }
             resolve("complete");
@@ -3756,12 +3783,13 @@
       if (!confString) {
         return;
       }
+      const couponExistPer = support.couponExistPer || 10;
       const selectors = ItemSearchBaseObj.pickupGoodsItem(SupportData.support.p, confString);
       setInterval(async () => {
         if (this.loopIsComplete) {
           this.loopIsComplete = false;
           const currency = Banggood.getCurrency();
-          await this.pickUpItems(selectors, marketplace, lang, currency);
+          await this.pickUpItems(selectors, marketplace, lang, currency, couponExistPer);
           this.loopIsComplete = true;
         }
       }, 1700);
@@ -6336,7 +6364,7 @@
         InspectUtil.bindCustomEvent(element);
       });
     },
-    srart: async function(platform) {
+    start: async function(platform) {
       const confDataJson = await RequestUnionUtil.getEngineScreenConf();
       if (!confDataJson) {
         return;
@@ -7155,7 +7183,7 @@
       await RequestUnionUtil.initRequestData();
       await LangueUtil.initLangueDataMap();
       if (platform === "bing" || platform === "google") {
-        AllModules.SearchEnginScreen.srart(platform);
+        AllModules.SearchEnginScreen.start(platform);
       } else {
         StyleUtil.init();
         try {
