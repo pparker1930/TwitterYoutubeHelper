@@ -70,7 +70,7 @@
 // @description:ug    بۇ قوليازما بەزى تور بېكەتلەرنى ياخشىلاش بىلەن تەمىنلەيدۇ. 🔥Twitter (X): ۋاقىت فورماتلاش ئېكرانى ، HD رەسىم كۆرسىتىش ، رەسىم ۋە سىن چۈشۈرۈش قاتارلىقلارنى قوشۇڭ outYoutube: سىن چۈشۈرۈش ، ئېلان ئۆچۈرۈش قاتارلىقلارنى قوشۇڭ ikTiktok: HD سۇ ماركىسىسىز سىن چۈشۈرۈش قاتارلىقلار بىلەن تەمىنلەڭ. ، چۈشەندۈرۈشنى تەكشۈرۈپ بېقىڭ ~
 // @description:vi    Tập lệnh này sẽ cung cấp các cải tiến cho một số trang web. 🔥Twitter(X): Thêm hiển thị định dạng thời gian, hiển thị hình ảnh HD, tải xuống hình ảnh và video, v.v. 🔥Youtube: Thêm tải xuống video, xóa quảng cáo, v.v. 🔥Tiktok: Cung cấp tải xuống video HD không có hình mờ, v.v. Để biết thêm các tính năng, vui lòng kiểm tra phần mô tả~
 // @namespace   PeterParker_X_Y_NameScope
-// @version     2.3.6
+// @version     2.3.7
 // @author      PeterParker
 // @icon        data:image/png;base64,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
 // @match       *://*/*
@@ -141,37 +141,6 @@
 // @include     /^https:\/\/([\w-]+\.)?ajio\.[\w.-]+([/?#].*)?$/
 // @include     /^https:\/\/([\w-]+\.)?flipkart\.[\w.-]+([/?#].*)?$/
 // @include     /^https:\/\/([\w-]+\.)?myntra\.[\w.-]+([/?#].*)?$/
-// @include     /^https:\/\/([\w-]+\.)?cex\.[\w.-]+([/?#].*)?$/
-// @include     /^https:\/\/([\w-]+\.)?changelly\.[\w.-]+([/?#].*)?$/
-// @include     /^https:\/\/([\w-]+\.)?kucoin\.[\w.-]+([/?#].*)?$/
-// @include     /^https:\/\/([\w-]+\.)?paxful\.[\w.-]+([/?#].*)?$/
-// @include     /^https:\/\/([\w-]+\.)?htx\.[\w.-]+([/?#].*)?$/
-// @include     /^https:\/\/([\w-]+\.)?mexc\.[\w.-]+([/?#].*)?$/
-// @include     /^https:\/\/([\w-]+\.)?coinmama\.[\w.-]+([/?#].*)?$/
-// @include     /^https:\/\/([\w-]+\.)?gate\.[\w.-]+([/?#].*)?$/
-// @include     /^https:\/\/([\w-]+\.)?bitget\.[\w.-]+([/?#].*)?$/
-// @include     /^https:\/\/([\w-]+\.)?freebitco\.[\w.-]+([/?#].*)?$/
-// @include     /^https:\/\/([\w-]+\.)?bybit\.[\w.-]+([/?#].*)?$/
-// @include     /^https:\/\/([\w-]+\.)?crypto\.[\w.-]+([/?#].*)?$/
-// @include     /^https:\/\/([\w-]+\.)?okx\.[\w.-]+([/?#].*)?$/
-// @include     /^https:\/\/([\w-]+\.)?coinbase\.[\w.-]+([/?#].*)?$/
-// @include     /^https:\/\/([\w-]+\.)?binance\.[\w.-]+([/?#].*)?$/
-// @include     /^https:\/\/([\w-]+\.)?wazirx\.[\w.-]+([/?#].*)?$/
-// @include     /^https:\/\/([\w-]+\.)?coindcx\.[\w.-]+([/?#].*)?$/
-// @include     /^https:\/\/([\w-]+\.)?zebpay\.[\w.-]+([/?#].*)?$/
-// @include     /^https:\/\/([\w-]+\.)?bitbns\.[\w.-]+([/?#].*)?$/
-// @include     /^https:\/\/([\w-]+\.)?cloudways\.[\w.-]+([/?#].*)?$/
-// @include     /^https:\/\/([\w-]+\.)?getresponse\.[\w.-]+([/?#].*)?$/
-// @include     /^https:\/\/([\w-]+\.)?bandwagonhost\.[\w.-]+([/?#].*)?$/
-// @include     /^https:\/\/([\w-]+\.)?moosend\.[\w.-]+([/?#].*)?$/
-// @include     /^https:\/\/([\w-]+\.)?domainracer\.[\w.-]+([/?#].*)?$/
-// @include     /^https:\/\/([\w-]+\.)?namesilo\.[\w.-]+([/?#].*)?$/
-// @include     /^https:\/\/([\w-]+\.)?digitalocean\.[\w.-]+([/?#].*)?$/
-// @include     /^https:\/\/([\w-]+\.)?virmach\.[\w.-]+([/?#].*)?$/
-// @include     /^https:\/\/([\w-]+\.)?vultr\.[\w.-]+([/?#].*)?$/
-// @include     /^https:\/\/([\w-]+\.)?kraken\.[\w.-]+([/?#].*)?$/
-// @include     /^https?:\/\/(www\.)?google\.[a-z]{2,3}(\.[a-z]{2})?\/search\?/
-// @include     /^https?:\/\/(?:www|cn)?\.?bing\.com\/search\?.*/
 // @include     *://www.jtmate.com/mid/merge**
 // @exclude     *://accounts.youtube.com/*
 // @exclude     *://www.youtube.com/live_chat_replay*
@@ -206,7 +175,7 @@
 
   
   /*!
-  * Copyright (c) 2024 - 2025, PeterParker. All rights reserved.
+  * Copyright (c) 2024 - 2026, PeterParker. All rights reserved.
   *
   * Permission is hereby granted, free of charge, to any person obtaining a copy
   * of this software and associated documentation files (the "Software"), to deal
@@ -234,7 +203,13 @@
   var css_248z$6 = ".x-master-dl{margin-left:12px;order:99}.x-master-dl:hover>div>div>div>div{color:#1da1f2}.x-master-dl:hover>div>div>div>div>div{background-color:#1da1f21a}.x-master-dl:active>div>div>div>div>div{background-color:#1da1f233}.x-master-dl:hover svg{color:#1da1f2}.x-master-dl:hover div:first-child:not(:last-child){background-color:#1da1f21a}.x-master-dl:active div:first-child:not(:last-child){background-color:#1da1f233}.x-master-dl.tmd-media{position:absolute;right:0}.x-master-dl.tmd-media>div{border-radius:99px;display:flex;margin:2px}.x-master-dl.tmd-media>div>div{color:#fff;display:flex;margin:6px}.x-master-dl.tmd-media:hover>div{background-color:#fff9}.x-master-dl.tmd-media:hover>div>div{color:#1da1f2}.x-master-dl.tmd-media:not(:hover)>div>div{filter:drop-shadow(0 0 1px #000)}.x-master-dl g{display:none}.x-master-dl.completed g.completed,.x-master-dl.download g.download,.x-master-dl.failed g.failed,.x-master-dl.loading g.loading{display:unset}.x-master-dl.loading svg{animation:spin 1s linear infinite}.x-master-dl.download g.download{color:#1da1f2}.tmd-btn{background-color:#1da1f2;border-radius:99px;color:#fff;padding:0 20px}.tmd-btn,.tmd-tag{display:inline-block}.tmd-tag{background-color:#fff;border:1px solid #1da1f2;border-radius:10px;color:#1da1f2;font-weight:700;margin:5px;padding:0 10px}.tmd-btn:hover{background-color:#1da1f2e6}.tmd-tag:hover{background-color:#1da1f21a}.tmd-notifier{background:#fff;border:1px solid #ccc;border-radius:8px;bottom:16px;color:#000;display:none;left:16px;padding:4px;position:fixed}.tmd-notifier.running{align-items:center;display:flex}.tmd-notifier label{align-items:center;display:inline-flex;margin:0 8px}.tmd-notifier label:before{background-position:50%;background-repeat:no-repeat;content:\" \";height:16px;width:32px}.tmd-notifier label:first-child:before{background-image:url(\"data:image/svg+xml;charset=utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%2216%22 height=%2216%22 viewBox=%220 0 24 24%22><path d=%22M3,14 v5 q0,2 2,2 h14 q2,0 2,-2 v-5 M7,10 l4,4 q1,1 2,0 l4,-4 M12,3 v11%22 fill=%22none%22 stroke=%22%23666%22 stroke-width=%222%22 stroke-linecap=%22round%22 /></svg>\")}.tmd-notifier label:nth-child(2):before{background-image:url(\"data:image/svg+xml;charset=utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%2216%22 height=%2216%22 viewBox=%220 0 24 24%22><path d=%22M12,2 a1,1 0 0 1 0,20 a1,1 0 0 1 0,-20 M12,5 v7 h6%22 fill=%22none%22 stroke=%22%23999%22 stroke-width=%222%22 stroke-linejoin=%22round%22 stroke-linecap=%22round%22 /></svg>\")}.tmd-notifier label:nth-child(3):before{background-image:url(\"data:image/svg+xml;charset=utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%2216%22 height=%2216%22 viewBox=%220 0 24 24%22><path d=%22M12,0 a2,2 0 0 0 0,24 a2,2 0 0 0 0,-24%22 fill=%22%23f66%22 stroke=%22none%22 /><path d=%22M14.5,5 a1,1 0 0 0 -5,0 l0.5,9 a1,1 0 0 0 4,0 z M12,17 a2,2 0 0 0 0,5 a2,2 0 0 0 0,-5%22 fill=%22%23fff%22 stroke=%22none%22 /></svg>\")}.x-master-dl.tmd-img{bottom:0;display:none!important;position:absolute;right:0}.x-master-dl.tmd-img>div{background-color:#fff9;border-radius:99px;display:flex;margin:2px}.x-master-dl.tmd-img>div>div{color:#fff!important;display:flex;margin:6px}.x-master-dl.tmd-img:not(:hover)>div>div{filter:drop-shadow(0 0 1px #000)}.x-master-dl.tmd-img:hover>div>div{color:#1da1f2}.tmd-img.completed,.tmd-img.failed,.tmd-img.loading,:hover>.x-master-dl.tmd-img{display:block!important}.tweet-detail-action-item{width:20%!important}@keyframes spin{0%{transform:rotate(0deg)}to{transform:rotate(1turn)}}";
 
   const ScriptConst = {
-    "lang": (navigator.language || navigator.userLanguage || "").slice(0, 2).toLowerCase() || "en",
+    "lang": (() => {
+      const navLang = navigator.language || navigator.userLanguage || "en";
+      if (navLang.startsWith("zh")) {
+        return navLang === "zh-CN" || navLang === "zh-TW" ? navLang : "zh-CN";
+      }
+      return navLang.slice(0, 2).toLowerCase() || "en";
+    })(),
     "isDev": false,
     "isDebug": false,
     "version": "1.0.1",
@@ -245,6 +220,7 @@
   const PlatformConst = {
     "x": { "p": "x", "match": /twitter|x\.com$/ },
     "youtube": { "p": "youtube", "match": /youtube\.com$/ },
+    "google": { "p": "google", "match": /google\.com$/ },
     "tiktok": { "p": "tiktok", "match": /www\.tiktok\.com/ },
     "cobalt": { "p": "cobalt", "match": /cobalt\.tools/ }
   };
@@ -434,45 +410,26 @@
       return container.contains(element);
     },
     mustGetElement: async function(handler) {
-      const getElements = async (handler2) => {
-        const promiseArray = [];
-        const handlers = handler2.split("@");
-        for (let i = 0; i < handlers.length; i++) {
-          const eleName = handlers[i];
-          if (!eleName) {
-            continue;
-          }
-          if (eleName == "body") {
-            promiseArray.push(
-              new Promise((resolve, reject) => {
-                resolve(document.body);
-              })
-            );
-          } else if (eleName == "html") {
-            promiseArray.push(
-              new Promise((resolve, reject) => {
-                resolve(document.html);
-              })
-            );
-          } else {
-            promiseArray.push(this.waitForElementByInterval(eleName, document.body, true, 10, 1500));
-          }
-        }
-        let element2 = await Promise.race(promiseArray);
-        return element2;
+      const getElements = async (h) => {
+        const names = h.split("@").filter((s) => s.length);
+        const promises = names.map((eleName) => {
+          if (eleName === "body")
+            return Promise.resolve(document.body);
+          if (eleName === "html")
+            return Promise.resolve(document.documentElement);
+          return this.waitForElementByInterval(eleName, document.body, true, 10, 1500);
+        });
+        return promises.length ? Promise.race(promises) : null;
       };
       let element = await getElements(handler);
-      return new Promise((resolve, reject) => {
-        if (element) {
-          resolve(element);
-          return;
-        }
-        const waitInterval = setInterval(() => {
-          element = getElements(handler);
-          if (element) {
+      if (element)
+        return element;
+      return new Promise((resolve) => {
+        const waitInterval = setInterval(async () => {
+          const el = await getElements(handler);
+          if (el) {
             clearInterval(waitInterval);
-            resolve(element);
-            return;
+            resolve(el);
           }
         }, 2e3);
       });
@@ -581,7 +538,7 @@
   };
 
   const language = {
-    "zh": {
+    "zh-CN": {
       "dateFormat": {
         "week": ["日", "一", "二", "三", "四", "五", "六"]
       },
@@ -595,6 +552,22 @@
         "settings": "设置",
         "titleDateFormat": "时间格式设置：",
         "buttonClose": "关闭"
+      }
+    },
+    "zh-TW": {
+      "dateFormat": {
+        "week": ["日", "一", "二", "三", "四", "五", "六"]
+      },
+      "download": {
+        "download": "下載",
+        "completed": "下載完成",
+        "tip": "點擊下載視頻",
+        "preparing": "正在準備下載（如果失敗，請手動操作）"
+      },
+      "menuCommand": {
+        "settings": "設定",
+        "titleDateFormat": "時間格式設定：",
+        "buttonClose": "關閉"
       }
     },
     "en": {
@@ -4226,26 +4199,27 @@
   const LangueUtil = {
     updateDelay: 15 * 60 * 1e3,
     _locations: {
-      "en": { languageDefault: "Default" },
-      "es": { languageDefault: "Predeterminado" },
-      "ar": { languageDefault: "افتراضي" },
-      "fr": { languageDefault: "Par défaut" },
-      "pt": { languageDefault: "Padrão" },
-      "ru": { languageDefault: "По умолчанию" },
-      "ja": { languageDefault: "デフォルト" },
-      "de": { languageDefault: "Standard" },
-      "ko": { languageDefault: "기본" },
-      "it": { languageDefault: "Predefinito" },
-      "id": { languageDefault: "Default" },
-      "tr": { languageDefault: "Varsayılan" },
-      "pl": { languageDefault: "Domyślnie" },
-      "uk": { languageDefault: "Типово" },
-      "nl": { languageDefault: "Standaard" },
-      "vi": { languageDefault: "Mặc định" },
-      "ms": { languageDefault: "Lalai" },
-      "th": { languageDefault: "ค่าเริ่มต้น" },
-      "mx": { languageDefault: "Predeterminado" },
-      "cl": { languageDefault: "Predeterminado" }
+      "en": { "languageDefault": "Follow Browser" },
+      "es": { "languageDefault": "Seguir el navegador" },
+      "ar": { "languageDefault": "اتباع المتصفح" },
+      "fr": { "languageDefault": "Suivre le navigateur" },
+      "pt": { "languageDefault": "Seguir o navegador" },
+      "ru": { "languageDefault": "Следовать браузеру" },
+      "ja": { "languageDefault": "ブラウザに従う" },
+      "de": { "languageDefault": "Dem Browser folgen" },
+      "ko": { "languageDefault": "브라우저 따르기" },
+      "it": { "languageDefault": "Segui il browser" },
+      "id": { "languageDefault": "Ikuti browser" },
+      "tr": { "languageDefault": "Tarayıcıyı takip et" },
+      "pl": { "languageDefault": "Podążaj za przeglądarką" },
+      "uk": { "languageDefault": "Слідувати браузеру" },
+      "nl": { "languageDefault": "Volg browser" },
+      "vi": { "languageDefault": "Theo trình duyệt" },
+      "ms": { "languageDefault": "Ikut pelayar" },
+      "th": { "languageDefault": "ตามเบราว์เซอร์" },
+      "mx": { "languageDefault": "Seguir el navegador" },
+      "zh-CN": { "languageDefault": "跟随浏览器" },
+      "zh-TW": { "languageDefault": "跟隨瀏覽器" }
     },
     getLanguages: function() {
       const languages = [
@@ -4268,7 +4242,9 @@
         { code: "ms", name: "Bahasa Melayu", dir: "ltr" },
         { code: "th", name: "ไทย", dir: "ltr" },
         { code: "mx", name: "Mexican Spanish", dir: "ltr" },
-        { code: "cl", name: "Chilean Spanish", dir: "ltr" }
+        { code: "cl", name: "Chilean Spanish", dir: "ltr" },
+        { code: "zh-CN", name: "中文（简体）", dir: "ltr" },
+        { code: "zh-TW", name: "中文（繁體）", dir: "ltr" }
       ];
       const language = languages.find((lang) => lang.code === DefaultValue.lang) ?? languages[0];
       const defaultLanguage = Object.assign({}, language);
@@ -4342,6 +4318,7 @@
         if (now - langueObjects.time >= this.updateDelay || now === langueObjects.time || langueObjects.lang != lang || force) {
           try {
             const requestsBase = getRequestUrl()["getLangue"];
+            Logger.log("info", "lang=======>", requestsBase.method, requestsBase.url, { "lang": lang });
             Tools.request(requestsBase.method, requestsBase.url, { "lang": lang }, { "Content-Type": "application/json;charset=UTF-8" }, 5 * 1e3).then((serverLangueJson) => {
               if (serverLangueJson.code === "success") {
                 const serverLangueObjects = JSON.parse(serverLangueJson.result);
@@ -5474,7 +5451,7 @@
     }
   };
 
-  var css_248z = ".history-panel-wrapper{box-sizing:border-box;position:fixed;z-index:2147483646}.history-panel-wrapper svg.icon-i87i-svg path{fill:var(--color-modeal-header-icon)!important}.history-panel-wrapper svg.icon-i87i-svg:hover path{fill:var(--color-modeal-header-icon-hover)!important}.history-panel-wrapper>.history-panel-aside-main{background-color:#fff;border:1px solid #ebebeb;border-radius:5px;bottom:70px;box-shadow:2px 2px 5px #b6bdc5;height:400px;overflow-x:hidden;overflow-y:auto;position:absolute;right:0;width:400px}.history-panel-wrapper>.history-panel-aside-main>.panel-aside-main-inner{display:flex;flex-direction:column;height:100%;width:100%}.history-panel-aside-main .panel-aside-main-header{align-items:center;background-color:var(--color-modeal-header-background);border-bottom:1px solid #ebe6e6;box-sizing:border-box;display:flex;height:var(--size-height-modeal-header);justify-content:space-between;padding:0 var(--size-padding-horizontal-modeal-header)}.history-panel-aside-main .panel-aside-main-header>.logo-header{align-items:center;display:flex;justify-content:center}.history-panel-aside-main .panel-aside-main-header>.logo-header>svg{height:var(--size-height-modeal-icon)!important;width:var(--size-height-modeal-icon)!important}.history-panel-aside-main .panel-aside-main-header>.title-header{flex:1;font-size:var(--size-font-modeal-header-title);font-weight:700;padding-left:10px}.history-panel-aside-main .panel-aside-main-header .btns-header{display:flex;flex-direction:row}.history-panel-aside-main .panel-aside-main-header .btns-header .close,.history-panel-aside-main .panel-aside-main-header .btns-header .setting{align-items:center;cursor:pointer;display:flex;justify-content:center;width:var(--size-height-modeal-operat-icon)}.history-panel-aside-main .panel-aside-main-content{background-color:var(--color-modeal-content-background);flex:1;overflow:auto}.history-panel-aside-main .panel-aside-main-item{margin:5px 0;padding:5px}.history-panel-aside-main .panel-aside-main-item .item-title{color:#b6b6b6;font-size:13px;font-weight:500;padding:5px 0;text-align:center}.history-panel-aside-main .panel-aside-main-item .item-container{display:flex;flex-flow:wrap;flex-direction:row;justify-content:flex-start}.history-panel-aside-main .histories-box-review_item{margin:5px 0;overflow:hidden;width:33.3333%}.history-panel-aside-main .histories-box-review_item>a{background-color:#fff!important;border:1px solid #ccc!important;border-radius:5px!important;box-sizing:initial!important;display:block!important;margin:0 auto!important;position:relative!important;width:110px!important}.history-panel-aside-main .histories-box-review_item>a>.review-shadow{border:2px solid red;border-radius:5px;bottom:0;display:none;left:0;position:absolute;right:0;text-align:center;top:0;z-index:99}.history-panel-aside-main .histories-box-review_item>a>.review-shadow .delete-btn{background-color:red;border-radius:3px;color:#fff;font-size:13px;height:15px;line-height:10px;position:absolute;right:0;text-align:center;top:0;width:15px}.history-panel-aside-main .histories-box-review_item>a>.review-img{border-radius:5px 5px 0 0;height:110px;overflow:hidden;width:110px}.history-panel-aside-main .histories-box-review_item>a>.review-img>img{width:100%!important}.history-panel-aside-main .histories-box-review_item>a>.review-text{color:#000!important;font-size:13px!important;overflow:hidden!important;padding:5px!important;text-align:center!important;text-decoration:underline!important;text-overflow:ellipsis!important;white-space:nowrap!important}.history-panel-wrapper>.history-panel-aside-body{background-color:#fafafa;border-radius:5px;box-shadow:1px 1px 2px #b6bdc5;direction:ltr!important;display:flex;height:60px;overflow:hidden}.history-panel-wrapper>.history-panel-aside-body>div{align-items:center!important;display:flex!important;justify-content:center!important}.history-panel-aside-body .goods-expand{cursor:pointer;width:20px!important}.history-panel-aside-body .goods-expand svg{transition:transform .3s!important}.history-panel-aside-body .goods-review{flex-direction:row;transition:all .5s ease-in-out;width:auto}.history-panel-aside-body .goods-review-item{border-radius:4px;cursor:pointer;height:45px;line-height:45px;margin:0 5px;overflow:hidden;position:relative;width:45px}.history-panel-aside-body .goods-review-item>a{display:block!important;height:100%!important;width:100%!important}.history-panel-aside-body .goods-review-item>a>.review-shadow{background-color:#3d9ba433;bottom:0;display:none;left:0;position:absolute;right:0;text-align:center;top:0;z-index:99}.history-panel-aside-body .goods-review-item>a>.review-shadow img{width:15px!important}.history-panel-aside-body .goods-review-item img{width:100%!important}.history-panel-aside-body .history-box-expand{cursor:pointer;flex-direction:column;margin:0 10px;text-align:center}.history-panel-aside-body .history-box-expand svg{height:33px!important;width:33px!important}.history-panel-aside-body .history-box-expand label{font-size:12px!important;font-weight:700!important}.history-panel-aside-body .wrapper-drag-handle{box-shadow:0 3px 3px -2px #0003,0 3px 4px 0 #00000024,0 1px 8px 0 #0000001f;cursor:move;width:20px!important}";
+  var css_248z = ".history-panel-wrapper{box-sizing:border-box;position:fixed;z-index:2147483646}.history-panel-wrapper svg.icon-i87i-svg path{fill:var(--color-modeal-header-icon)!important}.history-panel-wrapper svg.icon-i87i-svg:hover path{fill:var(--color-modeal-header-icon-hover)!important}.history-panel-wrapper>.history-panel-aside-main{background-color:#fff;border:1px solid #ebebeb;border-radius:5px;bottom:70px;box-shadow:2px 2px 5px #b6bdc5;height:400px;overflow-x:hidden;overflow-y:auto;position:absolute;right:0;width:400px}.history-panel-wrapper>.history-panel-aside-main>.panel-aside-main-inner{display:flex;flex-direction:column;height:100%;width:100%}.history-panel-aside-main .panel-aside-main-header{align-items:center;background-color:var(--color-modeal-header-background);border-bottom:1px solid #ebe6e6;box-sizing:border-box;display:flex;height:var(--size-height-modeal-header);justify-content:space-between;padding:0 var(--size-padding-horizontal-modeal-header)}.history-panel-aside-main .panel-aside-main-header>.logo-header{align-items:center;display:flex;justify-content:center}.history-panel-aside-main .panel-aside-main-header>.logo-header>svg{height:var(--size-height-modeal-icon)!important;width:var(--size-height-modeal-icon)!important}.history-panel-aside-main .panel-aside-main-header>.title-header{flex:1;font-size:var(--size-font-modeal-header-title);font-weight:700;padding-left:10px}.history-panel-aside-main .panel-aside-main-header .btns-header{display:flex;flex-direction:row}.history-panel-aside-main .panel-aside-main-header .btns-header .close,.history-panel-aside-main .panel-aside-main-header .btns-header .setting{align-items:center;cursor:pointer;display:flex;justify-content:center;width:var(--size-height-modeal-operat-icon)}.history-panel-aside-main .panel-aside-main-content{background-color:var(--color-modeal-content-background);flex:1;overflow-x:hidden;overflow-y:auto}.history-panel-aside-main .panel-aside-main-content::-webkit-scrollbar{width:2px}.history-panel-aside-main .panel-aside-main-content::-webkit-scrollbar-track{background:#0000}.history-panel-aside-main .panel-aside-main-content::-webkit-scrollbar-thumb{background-color:#969696;border-radius:2px}.history-panel-aside-main .panel-aside-main-item{margin:5px 0;padding:5px}.history-panel-aside-main .panel-aside-main-item .item-title{color:#b6b6b6;font-size:13px;font-weight:500;padding:5px 0;text-align:center}.history-panel-aside-main .panel-aside-main-item .item-container{display:flex;flex-flow:wrap;flex-direction:row;justify-content:flex-start}.history-panel-aside-main .histories-box-review_item{margin:5px 0;overflow:hidden;width:33.3333%}.history-panel-aside-main .histories-box-review_item>a{background-color:#fff!important;border:1px solid #ccc!important;border-radius:5px!important;box-sizing:initial!important;display:block!important;margin:0 auto!important;position:relative!important;width:110px!important}.history-panel-aside-main .histories-box-review_item>a>.review-shadow{border:2px solid red;border-radius:5px;bottom:0;display:none;left:0;position:absolute;right:0;text-align:center;top:0;z-index:99}.history-panel-aside-main .histories-box-review_item>a>.review-shadow .delete-btn{background-color:red;border-radius:3px;color:#fff;font-size:13px;height:15px;line-height:10px;position:absolute;right:0;text-align:center;top:0;width:15px}.history-panel-aside-main .histories-box-review_item>a>.review-img{border-radius:5px 5px 0 0;height:110px;overflow:hidden;width:110px}.history-panel-aside-main .histories-box-review_item>a>.review-img>img{width:100%!important}.history-panel-aside-main .histories-box-review_item>a>.review-text{color:#000!important;font-size:13px!important;overflow:hidden!important;padding:5px!important;text-align:center!important;text-decoration:underline!important;text-overflow:ellipsis!important;white-space:nowrap!important}.history-panel-wrapper>.history-panel-aside-body{background-color:#fafafa;border-radius:5px;box-shadow:1px 1px 2px #b6bdc5;direction:ltr!important;display:flex;height:60px;overflow:hidden}.history-panel-wrapper>.history-panel-aside-body>div{align-items:center!important;display:flex!important;justify-content:center!important}.history-panel-aside-body .goods-expand{cursor:pointer;width:20px!important}.history-panel-aside-body .goods-expand svg{transition:transform .3s!important}.history-panel-aside-body .goods-review{flex-direction:row;transition:all .5s ease-in-out;width:auto}.history-panel-aside-body .goods-review-item{border-radius:4px;cursor:pointer;height:45px;line-height:45px;margin:0 5px;overflow:hidden;position:relative;width:45px}.history-panel-aside-body .goods-review-item>a{display:block!important;height:100%!important;width:100%!important}.history-panel-aside-body .goods-review-item>a>.review-shadow{background-color:#3d9ba433;bottom:0;display:none;left:0;position:absolute;right:0;text-align:center;top:0;z-index:99}.history-panel-aside-body .goods-review-item>a>.review-shadow img{width:15px!important}.history-panel-aside-body .goods-review-item img{width:100%!important}.history-panel-aside-body .history-box-expand{cursor:pointer;flex-direction:column;margin:0 10px;text-align:center}.history-panel-aside-body .history-box-expand svg{height:33px!important;width:33px!important}.history-panel-aside-body .history-box-expand label{font-size:12px!important;font-weight:700!important}.history-panel-aside-body .wrapper-drag-handle{box-shadow:0 3px 3px -2px #0003,0 3px 4px 0 #00000024,0 1px 8px 0 #0000001f;cursor:move;width:20px!important}";
 
   const GoodsHistory = {
     root: null,
@@ -6416,13 +6393,13 @@
       const id = Tools.getGoodsIdByLink(href);
       if (title && price && cover) {
         Promise.all([
-          Tools.waitForElementByInterval(price, document.body, false),
-          Tools.waitForElementByInterval(cover, document.body, true)
+          Tools.waitForElementByInterval(cover, document.body, true),
+          Tools.waitForElementByInterval(price, document.body, false, 10, 5e3)
         ]).then((elements) => {
-          const priceElement = elements[0];
-          const coverElement = elements[1];
+          const coverElement = elements[0];
+          const priceElement = elements[1];
           const titleElement = document.querySelector(title);
-          if (coverElement && priceElement) {
+          if (coverElement) {
             var imgSrc = "";
             if (coverElement.tagName == "IMG") {
               imgSrc = coverElement.getAttribute("data-src") || coverElement.getAttribute("data-url") || coverElement.getAttribute("src");
@@ -6512,551 +6489,113 @@
   const SupportsHelper = {
     defaultSupportsString: `
     {
-        "jtmMid":{
-            "p":"jtmMid",
-            "match": "www\\\\.jtmate\\\\.com\\\\/mid",
-            "record":{
-                "disabled":true
-            },
-            "disabled":false
-        },
-        "aliexpress": {
-            "p": "aliexpress",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?aliexpress\\\\.[a-z]{2,}(\\\\.[a-z]{2,})*(\\\\/.*)?",
-            "detail": "\\\\/item\\\\/[^.\\\\/]+\\\\.html",
-            "trade": ["\\\\/trade\\\\/confirm\\\\.html", "\\\\/checkout\\\\?"],
-            "record":{
-                "elements":{
-                    "title":"h1[data-pl='product-title'], h1[class*='HazeProductDescription_HazeProductDescription__smallText_']",
-                    "price":"span.product-price-value, div[class*='currentPriceText'], div[class*='HazeProductPrice_SnowPrice__container']>div",
-                    "cover":"div[class*='slider--img'] >img, div[class*='__previewItem__'] picture[class*='Picture__container']>source"
-                },
-                "disabled":false
-            },
-            "disabled":false
-        },
-        "lazada":{
-            "p": "lazada",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?lazada\\\\.[\\\\w.-]+([/?#].*)?$",
-            "detail": "\\\\/products\\\\/.*-i\\\\d+.*\\\\.html",
-            "trade":[],
-            "record":{
-                "elements":{
-    				"title":"h1[class*='pdp-mod-product-badge-title']",
-                    "price":"div[class*='product-current-price-container'],div[class*='product-price-content-salePrice'],.pdp-product-price",
-                    "cover":"div[class*='gallery-preview-panel'] >img:last-child, .gallery-preview-panel__content >img:last-child"
-                },
-                "disabled":false
-            },
-            "disabled":false
-        },
-        "banggood":{
-            "p": "banggood",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?banggood\\\\.[\\\\w.-]+([/?#].*)?$",
-            "detail":"\\\\/.*-p-\\\\d+\\\\.html",
-            "trade":[],
-            "record":{
-                "elements":{
-                    "title":".product-title-text",
-                    "price":".newbie-price",
-                    "cover":"a.p-img >img"
-                },
-                "disabled":false
-            },
-            "disabled":false
-        },
-        "ebay": {
-            "p": "ebay",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?ebay\\\\.[\\\\w.-]+([/?#].*)?$",
-            "detail":"\\\\/itm\\\\/\\\\d+",
-            "trade":[],
-            "record":{
-                "elements":{
-                    "title":".x-item-title__mainTitle",
-                    "price":".x-price-primary >span",
-                    "cover":".ux-image-grid-item >img, .ux-image-carousel-item >img"
-                },
-                "disabled":false
-            },
-            "disabled":false
-        },
-        "bestbuy": {
-            "p": "bestbuy",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?bestbuy\\\\.[\\\\w.-]+([/?#].*)?$",
-            "detail":"\\\\/site\\\\/.*\\\\/\\\\d+\\\\.p",
-            "trade":[],
-            "record":{
-                "elements":{
-                    "title":".sm:text-title-sm",
-                    "price":"*[class*='_price_']",
-                    "cover":"*[class*='displayingImage'] img"
-                },
-                "disabled":true
-            },
-            "disabled":false
-        },
-        "shopee": {
-            "p": "shopee",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?shopee\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record":{
-                "disabled":true
-            },
-            "disabled":false
-        },
-        "wish": {
-            "p": "wish",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?wish\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record":{
-                "disabled":true
-            },
-            "disabled":false
-        },
-        "amazon": {
-            "p": "amazon",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?amazon\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record":{
-                "disabled":true
-            },
-            "disabled":false
-        },
-        "abritel": {
-            "p": "abritel",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?abritel\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "adidas": {
-            "p": "adidas",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?adidas\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "advertiser": {
-            "p": "advertiser",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?advertiser\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "agoda": {
-            "p": "agoda",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?agoda\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "bookabach": {
-            "p": "bookabach",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?bookabach\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "booking": {
-            "p": "booking",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?booking\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "etsy": {
-            "p": "etsy",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?etsy\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "fewodirekt": {
-            "p": "fewodirekt",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?fewo-direkt\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "hotels": {
-            "p": "hotels",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?hotels\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "hoteis": {
-            "p": "hoteis",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?hoteis\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "hoteles": {
-            "p": "hoteles",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?hoteles\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "magazineluiza": {
-            "p": "magazineluiza",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?magazineluiza\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "meesho": {
-            "p": "meesho",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?meesho\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "mercadolibre": {
-            "p": "mercadolibre",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?mercadolibre\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "namshi": {
-            "p": "namshi",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?namshi\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "nike": {
-            "p": "nike",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?nike\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "sivvi": {
-            "p": "sivvi",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?sivvi\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "skyscanner": {
-            "p": "skyscanner",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?skyscanner\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "stayz": {
-            "p": "stayz",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?stayz\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "target": {
-            "p": "target",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?target\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "tripadvisor": {
-            "p": "tripadvisor",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?tripadvisor\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "vrbo": {
-            "p": "vrbo",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?vrbo\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "wayfair": {
-            "p": "wayfair",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?wayfair\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "wotif": {
-            "p": "wotif",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?wotif\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "airbaltic": {
-            "p": "airbaltic",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?airbaltic\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "alibaba": {
-            "p": "alibaba",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?alibaba\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "allegro": {
-            "p": "allegro",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?allegro\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "daraz": {
-            "p": "daraz",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?daraz\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "edureka": {
-            "p": "edureka",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?edureka\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "expedia": {
-            "p": "expedia",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?expedia\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "noon": {
-            "p": "noon",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?noon\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "ozon": {
-            "p": "ozon",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?ozon\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "pictarine": {
-            "p": "pictarine",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?pictarine\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "rakuten": {
-            "p": "rakuten",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?rakuten\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "ranavat": {
-            "p": "ranavat",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?ranavat\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "samsung": {
-            "p": "samsung",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?samsung\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "shein": {
-            "p": "shein",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?shein\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "suiteness": {
-            "p": "suiteness",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?suiteness\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "temu": {
-            "p": "temu",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?temu\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "ticketmaster": {
-            "p": "ticketmaster",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?ticketmaster\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "treatwell": {
-            "p": "treatwell",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?treatwell\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "trip": {
-            "p": "trip",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?trip\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "walmart": {
-            "p": "walmart",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?walmart\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "wildberries": {
-            "p": "wildberries",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?wildberries\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "wilson": {
-            "p": "wilson",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?wilson\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "wilsonsleather": {
-            "p": "wilsonsleather",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?wilsonsleather\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "zalando": {
-            "p": "zalando",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?zalando\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "ajio": {
-            "p": "ajio",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?ajio\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "flipkart": {
-            "p": "flipkart",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?flipkart\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "myntra": {
-            "p": "myntra",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?myntra\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "cex": {
-            "p": "cex",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?cex\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "changelly": {
-            "p": "changelly",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?changelly\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "kucoin": {
-            "p": "kucoin",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?kucoin\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "paxful": {
-            "p": "paxful",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?paxful\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "htx": {
-            "p": "htx",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?htx\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "mexc": {
-            "p": "mexc",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?mexc\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "bybit": {
-            "p": "bybit",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?bybit\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "gate": {
-            "p": "gate",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?gate\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "coinmama": {
-            "p": "coinmama",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?coinmama\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "gate": {
-            "p": "gate",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?gate\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "bitget": {
-            "p": "bitget",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?bitget\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "freebitco": {
-            "p": "freebitco",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?freebitco\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "bybit": {
-            "p": "bybit",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?bybit\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "crypto": {
-            "p": "crypto",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?crypto\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "okx": {
-            "p": "okx",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?okx\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "coinbase": {
-            "p": "coinbase",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?coinbase\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "binance": {
-            "p": "binance",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?binance\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "wazirx": {
-            "p": "wazirx",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?wazirx\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "coindcx": {
-            "p": "coindcx",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?coindcx\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "zebpay": {
-            "p": "zebpay",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?zebpay\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-        "bitbns": {
-            "p": "bitbns",
-            "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?bitbns\\\\.[\\\\w.-]+([/?#].*)?$",
-            "record": { "disabled": true },
-            "disabled": false
-        },
-    	"google":{
-    		"p": "google",
-    		"match": "^https?:\\\\/\\\\/(www\\\\.)?google\\\\.[a-z]{2,3}(\\\\.[a-z]{2})?\\\\/search\\\\?",
-    		"record": { "disabled": true },
-    		"disabled": false
-    	},
-    	"bing":{
-    		"p": "bing",
-    		"match": "^https?:\\\\/\\\\/(?:www|cn)?\\\\.?bing\\\\.com\\\\/search\\\\?.*",
-    		"record": { "disabled": true },
-    		"disabled": false
-    	}
+      "jtmMid":{
+          "p":"jtmMid",
+          "match": "www\\\\.jtmate\\\\.com\\\\/mid",
+          "record":{
+              "disabled":true
+          },
+          "disabled":false
+      },
+      "aliexpress": {
+          "p": "aliexpress",
+          "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?aliexpress\\\\.[a-z]{2,}(\\\\.[a-z]{2,})*(\\\\/.*)?",
+          "detail": "\\\\/item\\\\/[^.\\\\/]+\\\\.html",
+          "trade": ["\\\\/trade\\\\/confirm\\\\.html", "\\\\/checkout\\\\?"],
+          "record":{
+              "elements":{
+                  "title":"h1[data-pl='product-title'], h1[class*='HazeProductDescription_HazeProductDescription__smallText_']",
+                  "price":"span.product-price-value, div[class*='currentPriceText'], div[class*='HazeProductPrice_SnowPrice__container']>div",
+                  "cover":"div[class*='slider--img'] >img, div[class*='__previewItem__'] picture[class*='Picture__container']>source"
+              },
+              "disabled":false
+          },
+          "disabled":false
+      },
+      "lazada":{
+          "p": "lazada",
+          "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?lazada\\\\.[\\\\w.-]+([/?#].*)?$",
+          "detail": "\\\\/products\\\\/.*-i\\\\d+.*\\\\.html",
+          "trade":[],
+          "record":{
+              "elements":{
+          "title":"h1[class*='pdp-mod-product-badge-title']",
+                  "price":"div[class*='product-current-price-container'],div[class*='product-price-content-salePrice'],.pdp-product-price",
+                  "cover":"div[class*='gallery-preview-panel'] >img:last-child, .gallery-preview-panel__content >img:last-child"
+              },
+              "disabled":false
+          },
+          "disabled":false
+      },
+      "banggood":{
+          "p": "banggood",
+          "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?banggood\\\\.[\\\\w.-]+([/?#].*)?$",
+          "detail":"\\\\/.*-p-\\\\d+\\\\.html",
+          "trade":[],
+          "record":{
+              "elements":{
+                  "title":".product-title-text",
+                  "price":".newbie-price",
+                  "cover":"a.p-img >img"
+              },
+              "disabled":false
+          },
+          "disabled":false
+      },
+      "ebay": {
+          "p": "ebay",
+          "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?ebay\\\\.[\\\\w.-]+([/?#].*)?$",
+          "detail":"\\\\/itm\\\\/\\\\d+",
+          "trade":[],
+          "record":{
+              "elements":{
+                  "title":".x-item-title__mainTitle",
+                  "price":".x-price-primary >span",
+                  "cover":".ux-image-grid-item >img, .ux-image-carousel-item >img"
+              },
+              "disabled":false
+          },
+          "disabled":false
+      },
+      "bestbuy": {
+          "p": "bestbuy",
+          "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?bestbuy\\\\.[\\\\w.-]+([/?#].*)?$",
+          "detail":"\\\\/site\\\\/.*\\\\/\\\\d+\\\\.p",
+          "trade":[],
+          "record":{
+              "elements":{
+                  "title":".sm:text-title-sm",
+                  "price":"*[class*='_price_']",
+                  "cover":"*[class*='displayingImage'] img"
+              },
+              "disabled":true
+          },
+          "disabled":false
+      },
+      "shopee": {
+          "p": "shopee",
+          "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?shopee\\\\.[\\\\w.-]+([/?#].*)?$",
+          "record":{
+              "disabled":true
+          },
+          "disabled":false
+      },
+      "wish": {
+          "p": "wish",
+          "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?wish\\\\.[\\\\w.-]+([/?#].*)?$",
+          "record":{
+              "disabled":true
+          },
+          "disabled":false
+      },
+      "amazon": {
+          "p": "amazon",
+          "match": "^https:\\\\/\\\\/([\\\\w-]+\\\\.)?amazon\\\\.[\\\\w.-]+([/?#].*)?$",
+          "record":{
+              "disabled":true
+          },
+          "disabled":false
+      }
     }
   `,
     getSupportsByServer: async function() {
